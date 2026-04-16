@@ -1,0 +1,127 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { concepts, chapters } from '../../data/chapters';
+
+const categoryMap: Record<string, typeof concepts> = {};
+for (const c of concepts) {
+  if (!categoryMap[c.category]) categoryMap[c.category] = [];
+  categoryMap[c.category].push(c);
+}
+---
+
+<Layout title="核心概念">
+  <div class="container" style="padding-top:48px; padding-bottom:80px;">
+    <div class="page-header">
+      <p class="section-title">理论体系</p>
+      <h1 class="section-heading">核心概念</h1>
+      <p style="color:var(--color-text-secondary); font-size:16px; margin-top:12px; max-width:560px; line-height:1.7;">
+        5hows 以欧式几何结构写就，从公理出发逐步推演。以下是贯穿全书的关键概念与术语。
+      </p>
+    </div>
+
+    {Object.entries(categoryMap).map(([category, items]) => (
+      <div class="concept-section">
+        <h2 class="concept-category">{category}</h2>
+        <div class="concepts-grid">
+          {items.map(c => (
+            <div class="concept-card">
+              <h3 class="concept-card__title">{c.title}</h3>
+              <p class="concept-card__desc">{c.description}</p>
+              <div class="concept-card__links">
+                <span class="links-label">出现于：</span>
+                {c.relatedChapters.map(chId => {
+                  const ch = chapters.find(x => x.id === chId);
+                  return ch ? (
+                    <a href={ch.status === 'restricted' ? '#' : `/chapters/${ch.slug}`} class="concept-link">
+                      {ch.title}
+                    </a>
+                  ) : null;
+                })}
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    ))}
+  </div>
+</Layout>
+
+<style>
+  .page-header { margin-bottom: 48px; }
+
+  .concept-section { margin-bottom: 48px; }
+
+  .concept-category {
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--color-text-muted);
+    margin-bottom: 16px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  .concepts-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 12px;
+  }
+
+  .concept-card {
+    padding: 20px;
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+    transition: all 0.15s;
+  }
+
+  .concept-card:hover {
+    box-shadow: var(--shadow-sm);
+    border-color: #9ca3af;
+  }
+
+  .concept-card__title {
+    font-size: 17px;
+    font-weight: 700;
+    letter-spacing: -0.3px;
+    margin-bottom: 8px;
+  }
+
+  .concept-card__desc {
+    font-size: 14px;
+    color: var(--color-text-secondary);
+    line-height: 1.7;
+    margin-bottom: 14px;
+  }
+
+  .concept-card__links {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    flex-wrap: wrap;
+  }
+
+  .links-label {
+    font-size: 12px;
+    color: var(--color-text-muted);
+  }
+
+  .concept-link {
+    padding: 2px 8px;
+    border-radius: 100px;
+    font-size: 12px;
+    font-weight: 500;
+    background: var(--color-border-subtle);
+    color: var(--color-text-secondary);
+    border: 1px solid var(--color-border);
+    text-decoration: none;
+    transition: all 0.1s;
+  }
+
+  .concept-link:hover {
+    background: var(--color-text);
+    color: white;
+    border-color: var(--color-text);
+  }
+</style>

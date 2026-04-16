@@ -1,0 +1,179 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { chapters } from '../../data/chapters';
+
+const mainChapters = chapters.filter(c => c.type === 'main');
+const extraChapters = chapters.filter(c => c.type !== 'main');
+---
+
+<Layout title="全部章节">
+  <div class="container" style="padding-top:48px; padding-bottom:80px;">
+    <div class="page-header">
+      <p class="section-title">内容导览</p>
+      <h1 class="section-heading">全部章节</h1>
+      <p style="color:var(--color-text-secondary); font-size:16px; margin-top:12px; max-width:560px; line-height:1.7;">
+        5hows 系列包含 7 个怎样 + 1 个系列简介。根据你的路径选择对应的章节。
+      </p>
+    </div>
+
+    <div class="chapters-list">
+      {chapters.map((ch) => (
+        <a
+          href={ch.status === 'restricted' ? '#' : `/chapters/${ch.slug}`}
+          class={`list-card ${ch.status === 'restricted' ? 'list-card--locked' : ''}`}
+          style={`--ch-color: ${ch.color};`}
+        >
+          <div class="list-card__num">{ch.number !== null ? ch.number : '·'}</div>
+          <div class="list-card__body">
+            <h2 class="list-card__title">{ch.title}</h2>
+            <p class="list-card__sub">{ch.subtitle}</p>
+            <p class="list-card__desc">{ch.description}</p>
+            <div class="list-card__meta">
+              {ch.status === 'restricted' ? (
+                <span class="badge badge--locked">传与有缘，不公开</span>
+              ) : (
+                <>
+                  <span class="badge">{ch.pages > 0 ? `${ch.pages} 书页` : '正文提取'}</span>
+                  <span class="badge">{ch.publishDate}</span>
+                  <span class="badge">{ch.type === 'main' ? '主系列' : ch.type === 'extra' ? '番外篇' : '开笔篇'}</span>
+                </>
+              )}
+            </div>
+          </div>
+          {ch.status !== 'restricted' && (
+            <div class="list-card__arrow">→</div>
+          )}
+        </a>
+      ))}
+    </div>
+  </div>
+</Layout>
+
+<style>
+  .page-header {
+    margin-bottom: 40px;
+  }
+
+  .chapters-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    max-width: 800px;
+  }
+
+  .list-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 24px;
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-lg);
+    text-decoration: none;
+    color: inherit;
+    transition: all 0.2s;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .list-card::before {
+    content: '';
+    position: absolute;
+    left: 0; top: 0; bottom: 0;
+    width: 4px;
+    background: var(--ch-color);
+    opacity: 0;
+    transition: opacity 0.2s;
+  }
+
+  .list-card:hover {
+    transform: translateX(4px);
+    box-shadow: var(--shadow-md);
+    border-color: var(--ch-color);
+  }
+
+  .list-card:hover::before { opacity: 1; }
+
+  .list-card--locked {
+    opacity: 0.55;
+    cursor: not-allowed;
+  }
+
+  .list-card--locked:hover {
+    transform: none;
+    box-shadow: none;
+  }
+
+  .list-card__num {
+    flex-shrink: 0;
+    width: 48px;
+    height: 48px;
+    border-radius: 12px;
+    background: var(--ch-color);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: -1px;
+  }
+
+  .list-card__body { flex: 1; }
+
+  .list-card__title {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: -0.4px;
+    margin-bottom: 4px;
+  }
+
+  .list-card__sub {
+    font-size: 13px;
+    color: var(--color-text-muted);
+    font-style: italic;
+    margin-bottom: 10px;
+  }
+
+  .list-card__desc {
+    font-size: 15px;
+    color: var(--color-text-secondary);
+    line-height: 1.7;
+    margin-bottom: 14px;
+  }
+
+  .list-card__meta {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+  }
+
+  .badge {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 100px;
+    font-size: 12px;
+    font-weight: 500;
+    background: var(--color-border-subtle);
+    color: var(--color-text-secondary);
+    border: 1px solid var(--color-border);
+  }
+
+  .badge--locked {
+    background: #fef3c7;
+    color: #92400e;
+    border-color: #fde68a;
+  }
+
+  .list-card__arrow {
+    flex-shrink: 0;
+    font-size: 22px;
+    color: var(--color-text-muted);
+    align-self: center;
+    transition: transform 0.2s;
+  }
+
+  .list-card:hover .list-card__arrow {
+    transform: translateX(4px);
+  }
+</style>

@@ -1,0 +1,103 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="关于">
+  <div class="container" style="padding-top:48px; padding-bottom:80px;">
+    <div style="max-width:720px;">
+      <p class="section-title">关于本站</p>
+      <h1 class="section-heading">5hows 知识库</h1>
+
+      <div class="prose" style="margin-top:32px;">
+        <h2>关于 5hows</h2>
+        <p>
+          5hows（五个怎样）是数之谜@RynW1988 在公众号「The House Claimed」上发布的一部人生技术手册。
+          写成于 2025年4月，以欧式几何的逻辑结构展开：首先有公理（"人类是有未来的"），然后定理，再到推论。
+        </p>
+        <p>
+          作者将人分为两类：愿意给世界端盘儿菜的<strong>厉害的人</strong>，以及选择了不端的<strong>不厉害的人</strong>。
+          5hows 针对两条路径分别给出了发育线：
+        </p>
+        <ul>
+          <li><strong>不厉害路线</strong>：how0 → how1 → how2 → how3（从第一桶金到永续财富自由）</li>
+          <li><strong>厉害路线</strong>：how0 → how4 → how5 → how3（给世界端盘儿菜）</li>
+        </ul>
+
+        <h2>关于本站</h2>
+        <p>
+          本站将 5hows 系列整理为结构化的知识库，包含章节全文、核心概念解释和知识图谱，便于阅读和探索。
+        </p>
+        <p>
+          本站为内容展示与个人学习用途，版权归原作者数之谜@RynW1988所有。
+          如需转载或商业使用，请联系原公众号「The House Claimed」。
+        </p>
+
+        <h2>关于内容质量</h2>
+        <p>
+          各章节内容已对照 PDF 原文完成人工校对与颜色标注，尽量还原作者原始排版意图。
+          如仍有疏漏，欢迎反馈。
+        </p>
+
+        <h2>关于作者框架</h2>
+        <p>
+          本作的披露原则是：在避免错误尺度上尽量审慎，在误差允许尺度内尽量多讲。
+          作者对创作本作名利无所求，不希望因苛求完美而降低传播价值。
+        </p>
+      </div>
+
+      <div class="about-card" style="margin-top:40px;">
+        <div class="about-card__label">原始来源</div>
+        <div class="about-card__item">
+          <span class="about-label">公众号</span>
+          <span>The House Claimed</span>
+        </div>
+        <div class="about-card__item">
+          <span class="about-label">作者署名</span>
+          <span>数之谜@RynW1988</span>
+        </div>
+        <div class="about-card__item">
+          <span class="about-label">写作完成</span>
+          <span>2025年4月</span>
+        </div>
+        <div class="about-card__item">
+          <span class="about-label">最新更新</span>
+          <span>2026年3月（第7篇开笔）</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</Layout>
+
+<style>
+  .about-card {
+    background: var(--color-border-subtle);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-lg);
+    padding: 24px;
+  }
+
+  .about-card__label {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--color-text-muted);
+    margin-bottom: 16px;
+  }
+
+  .about-card__item {
+    display: flex;
+    gap: 16px;
+    padding: 10px 0;
+    border-bottom: 1px solid var(--color-border);
+    font-size: 14px;
+  }
+
+  .about-card__item:last-child { border-bottom: none; }
+
+  .about-label {
+    color: var(--color-text-muted);
+    width: 80px;
+    flex-shrink: 0;
+  }
+</style>
