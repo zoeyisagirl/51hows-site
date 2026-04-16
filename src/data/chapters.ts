@@ -51,7 +51,7 @@ export const chapters: Chapter[] = [
     publishDate: '2025-07-24',
     type: 'main',
     pages: 0,
-    status: 'available',
+    status: 'restricted',
     slug: 'how2',
     color: '#f59e0b',
     tags: ['上岸', 'W₁', 'W₂'],
