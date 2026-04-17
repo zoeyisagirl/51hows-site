@@ -13,6 +13,11 @@ const { title, locale = 'zh', t, class: className, ...rest } = Astro.props;
 // Auto-get dictionary if not provided
 const dict = t ?? getDictionary(locale);
 const langAttr = locale === 'en' ? 'en' : 'zh-CN';
+
+// Language switch URL: swap locale prefix in current path
+const targetLocale = locale === 'zh' ? 'en' : 'zh';
+const currentPath = Astro.url.pathname.replace(/^\/(zh|en)/, '') || '/';
+const langHref = `/${targetLocale}${currentPath}`;
 ---
 
 <!doctype html>
@@ -42,7 +47,7 @@ const langAttr = locale === 'en' ? 'en' : 'zh-CN';
           <a href={`/${locale}/chapters`} class="nav__link">{dict.nav.chapters}</a>
           <a href={`/${locale}/concepts`} class="nav__link">{dict.nav.concepts}</a>
           <a href={`/${locale}/about`} class="nav__link">{dict.nav.about}</a>
-          <a href={locale === 'zh' ? '/en' + Astro.url.pathname : '/zh' + Astro.url.pathname.replace(/^\/en/, '')} class="nav__link nav__link--lang">{dict.nav.switchLang}</a>
+          <a href={langHref} class="nav__link nav__link--lang">{dict.nav.switchLang}</a>
         </div>
         <button class="nav__hamburger" id="hamburger" aria-label={dict.nav.menu}>
           <span></span><span></span><span></span>
