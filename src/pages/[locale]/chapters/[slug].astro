@@ -6,6 +6,13 @@ import type { GetStaticPaths } from 'astro';
 import { readFileSync, existsSync } from 'node:fs';
 import { join } from 'node:path';
 
+// Tag translation mapping for tags that are not standalone concepts
+const tagEnMap: Record<string, string> = {
+  '厉害/不厉害': 'Elite / Non-Elite',
+  '发育线': 'Development Track',
+  '人生哲学': 'Core Philosophy',
+};
+
 export function getStaticPaths() {
   const paths: { params: { locale: string; slug: string }; props: { chapter: (typeof chapters)[0]; locale: Locale } }[] = [];
   for (const ch of chapters.filter(c => c.status === 'available')) {
@@ -200,9 +207,10 @@ function renderInline(text: string): string {
         </div>
         <div class="chapter-header__tags">
           {chapter.tags.map(tg => {
-            // Try to find matching concept for English translation
             const concept = concepts.find(c => c.id === tg || c.title === tg);
-            const label = locale === 'en' && concept?.titleEn ? concept.titleEn : tg;
+            const label = locale === 'en'
+              ? (concept?.titleEn || tagEnMap[tg] || tg)
+              : tg;
             return <span class="tag">{label}</span>;
           })}
         </div>
