@@ -1,6 +1,6 @@
 ---
 import Layout from '../../../layouts/Layout.astro';
-import { chapters } from '../../../data/chapters';
+import { chapters, concepts } from '../../../data/chapters';
 import { getDictionary, type Locale } from '../../../i18n';
 import type { GetStaticPaths } from 'astro';
 import { readFileSync, existsSync } from 'node:fs';
@@ -199,9 +199,12 @@ function renderInline(text: string): string {
           </div>
         </div>
         <div class="chapter-header__tags">
-          {chapter.tags.map(tg => (
-            <span class="tag">{tg}</span>
-          ))}
+          {chapter.tags.map(tg => {
+            // Try to find matching concept for English translation
+            const concept = concepts.find(c => c.id === tg || c.title === tg);
+            const label = locale === 'en' && concept?.titleEn ? concept.titleEn : tg;
+            return <span class="tag">{label}</span>;
+          })}
         </div>
       </div>
     </div>
