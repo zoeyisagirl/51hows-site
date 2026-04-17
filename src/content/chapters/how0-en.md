@@ -5,10 +5,10 @@ author: "数之谜@RynW1988"
 ---
 
 
-:> <span style="color:#2E86C1">***5hows or RynW4+1***</span>
-:> <span style="color:#2E86C1">*Reasons and Examples*</span>
-:> <span style="color:#2E86C1">*by 数之谜@RynW1988*</span>
-:> <span style="color:#2E86C1">*2025.04*</span>
+> <span style="color:#2E86C1">***5hows or RynW4+1***</span>
+> <span style="color:#2E86C1">*Reasons and Examples*</span>
+> <span style="color:#2E86C1">*by 数之谜@RynW1988*</span>
+> <span style="color:#2E86C1">*2025.04*</span>
 
 ---
 
@@ -34,7 +34,7 @@ author: "数之谜@RynW1988"
 
 ---
 
-:> **<span style="color:#8B2C2C">Author's Note:</span>**
+> **<span style="color:#8B2C2C">Author's Note:</span>**
 > 
 > 
 > ***<span style="color:#8B2C2C">"Those will and grace,</span>***
@@ -77,10 +77,10 @@ author: "数之谜@RynW1988"
 
 # 0. How to Truly Live
 
-:> *<span style="color:#2E86C1">Lifetime is a theme park pass — you always try to visit more parks than most</span>*
-:> *<span style="color:#2E86C1">by 数之谜@RynW1988</span>*
+> *<span style="color:#2E86C1">Lifetime is a theme park pass — you always try to visit more parks than most</span>*
+> *<span style="color:#2E86C1">by 数之谜@RynW1988</span>*
 
-:> It is generally held that life's pursuit is reaching places and states never before attained, whether materially or spiritually. Each achievement and experience can be viewed as a different theme park.
+> It is generally held that life's pursuit is reaching places and states never before attained, whether materially or spiritually. Each achievement and experience can be viewed as a different theme park.
 
 ## 0.0 Research Purpose and Scope of 5hows
 
@@ -90,16 +90,16 @@ author: "数之谜@RynW1988"
 
 <span style="color:#2E86C1">*0.0.1.2 The author is a mathematics competition enthusiast. This work unfolds as much as possible in Euclidean geometric structure (hereinafter "geometric style"). This is possible because although 5hows is a social science work, it is not entirely narrative and experience-based — to a considerable extent, it is argumentation and science.*</span>
 
-:> **0.0.2 Color coding explanation**
-:> *Thanks to Editor C / Art Editor 数之谜@Chaney*
-:> a. Body text / statements in black
-:> b. <span style="color:#C0392B">*Axioms / theorems in red*</span>
-:> c. <span style="color:#2E86C1">*Explanations / supplements in blue italics*</span>
-:> d. <span style="color:#E67E22">*Corollaries / conclusions in orange*</span>
-:> e. <span style="color:#27AE60">*Facts / data / news in green (due to information locality and author limitations, not all evidence sources are cited)*</span>
-:> f. <span style="color:#8E44AD">*Conjectures / hypotheses, and emotional / commentary / hearsay / anecdotes / metaphors / analogies — popularized and literary expressions — in purple*</span>
-:> g. <span style="color:#7F8C8D">==Theoretical innovations in silver-gray with highlight==</span>
-:> h. **Bold indicates an important proposition or one the author finds interesting**
+> **0.0.2 Color coding explanation**
+> *Thanks to Editor C / Art Editor 数之谜@Chaney*
+> a. Body text / statements in black
+> b. <span style="color:#C0392B">*Axioms / theorems in red*</span>
+> c. <span style="color:#2E86C1">*Explanations / supplements in blue italics*</span>
+> d. <span style="color:#E67E22">*Corollaries / conclusions in orange*</span>
+> e. <span style="color:#27AE60">*Facts / data / news in green (due to information locality and author limitations, not all evidence sources are cited)*</span>
+> f. <span style="color:#8E44AD">*Conjectures / hypotheses, and emotional / commentary / hearsay / anecdotes / metaphors / analogies — popularized and literary expressions — in purple*</span>
+> g. <span style="color:#7F8C8D">==Theoretical innovations in silver-gray with highlight==</span>
+> h. **Bold indicates an important proposition or one the author finds interesting**
 
 ## 0.1 Status Evaluation and Some Assumptions of 5hows
 
@@ -113,7 +113,7 @@ author: "数之谜@RynW1988"
 
 <span style="color:#C0392B">**0.1.3 This work contains a high proportion of theoretical innovation (including complete Chapters 2, 3, and 5), discussion of The Elite's world, and important restatements of predecessors' thoughts (Chapters 1 and 4)**</span>
 
-:> <span style="color:#7F8C8D">**0.1.3.1 Theoretical innovations will be highlighted in gray**</span>
+> <span style="color:#7F8C8D">**0.1.3.1 Theoretical innovations will be highlighted in gray**</span>
 
 0.1.3.2 Human nature is stable; little change from the Two Jin dynasties to modern times.
 
@@ -128,40 +128,40 @@ author: "数之谜@RynW1988"
 
 <span style="color:#27AE60">**0.1.4.2 Due to information locality and author limitations, this work does not cite all evidence sources**</span>
 
-:> <span style="color:#7F8C8D">**0.1.5 Floating ranges, error margins, causally true propositions, example principles**</span>
-:> Although this work is structured as geometrically as possible, it remains a social science work with a non-negligible proportion of errors and mistakes
-:>
-:> <span style="color:#C0392B">**0.1.5.1 Dimensionless quantities in this work default to ±e⁻¹ floating range**</span>
-:> <span style="color:#2E86C1">*Floating in growth-ratio terms; (a, b) means amplitude (1+b)/(1+a); e≈2.7, e⁻¹≈37%, same below*</span>
-:>
-:> <span style="color:#C0392B">**0.1.5.2 Dimensioned quantities default to ±(e-1)/(e+1)=46% floating range**</span>
-:> <span style="color:#2E86C1">*i.e., amplitude e-fold; empirically wealth follows an e power-law distribution; if the author can provide better estimates, they will be specified separately*</span>
-:>
-:> <span style="color:#C0392B">**0.1.5.3 Floating range is a stronger property, not weaker. That is, within this range, the logic elucidated by this work does not completely fail, and remains the principal contradiction among relevant factors**</span>
-:> <span style="color:#2E86C1">*Propositions satisfying this property are called "causally true propositions" (归因真命题), distinguished from strictly true propositions. Their complement is called "causally false propositions"*</span>
-:> <span style="color:#2E86C1">*The difference between causally true and strictly true propositions is called "error." Causally false propositions are called "mistakes."*</span>
-:>
-:> <span style="color:#C0392B">**0.1.5.4 This work's disclosure principle: be as prudent as possible on avoiding mistakes, say as much as possible within error tolerance**</span>
-:> a. **Most narratives can be regarded as causally true (mistakes are of course unavoidable)**
-:> b. **If a proposition is not strictly true but highly likely causally true, this work tends toward disclosure rather than concealment**
-:>    <span style="color:#2E86C1">*The author seeks no fame or profit from this work and does not wish to reduce dissemination value by demanding perfection*</span>
-:>
-:> 0.1.5.5 For searchable and 2020s-pop-culture-relevant content, only keywords are given
-:>    <span style="color:#2E86C1">*Due to popularization nature and author level, accuracy of numbers is not guaranteed; direction/magnitude is approximately correct*</span>
-:>
-:> 0.1.5.6 For sharper viewpoints and facts, no more than three concise examples are provided
-:>    <span style="color:#2E86C1">*For various reasons, this can only guarantee approximate correctness; please use falsehood to cultivate truth (借假修真)*</span>
-:>    <span style="color:#2E86C1">*Proper nouns in most examples will be omitted,不影响逻辑展开*</span>
+> <span style="color:#7F8C8D">**0.1.5 Floating ranges, error margins, causally true propositions, example principles**</span>
+> Although this work is structured as geometrically as possible, it remains a social science work with a non-negligible proportion of errors and mistakes
+>
+> <span style="color:#C0392B">**0.1.5.1 Dimensionless quantities in this work default to ±e⁻¹ floating range**</span>
+> <span style="color:#2E86C1">*Floating in growth-ratio terms; (a, b) means amplitude (1+b)/(1+a); e≈2.7, e⁻¹≈37%, same below*</span>
+>
+> <span style="color:#C0392B">**0.1.5.2 Dimensioned quantities default to ±(e-1)/(e+1)=46% floating range**</span>
+> <span style="color:#2E86C1">*i.e., amplitude e-fold; empirically wealth follows an e power-law distribution; if the author can provide better estimates, they will be specified separately*</span>
+>
+> <span style="color:#C0392B">**0.1.5.3 Floating range is a stronger property, not weaker. That is, within this range, the logic elucidated by this work does not completely fail, and remains the principal contradiction among relevant factors**</span>
+> <span style="color:#2E86C1">*Propositions satisfying this property are called "causally true propositions" (归因真命题), distinguished from strictly true propositions. Their complement is called "causally false propositions"*</span>
+> <span style="color:#2E86C1">*The difference between causally true and strictly true propositions is called "error." Causally false propositions are called "mistakes."*</span>
+>
+> <span style="color:#C0392B">**0.1.5.4 This work's disclosure principle: be as prudent as possible on avoiding mistakes, say as much as possible within error tolerance**</span>
+> a. **Most narratives can be regarded as causally true (mistakes are of course unavoidable)**
+> b. **If a proposition is not strictly true but highly likely causally true, this work tends toward disclosure rather than concealment**
+>    <span style="color:#2E86C1">*The author seeks no fame or profit from this work and does not wish to reduce dissemination value by demanding perfection*</span>
+>
+> 0.1.5.5 For searchable and 2020s-pop-culture-relevant content, only keywords are given
+>    <span style="color:#2E86C1">*Due to popularization nature and author level, accuracy of numbers is not guaranteed; direction/magnitude is approximately correct*</span>
+>
+> 0.1.5.6 For sharper viewpoints and facts, no more than three concise examples are provided
+>    <span style="color:#2E86C1">*For various reasons, this can only guarantee approximate correctness; please use falsehood to cultivate truth (借假修真)*</span>
+>    <span style="color:#2E86C1">*Proper nouns in most examples will be omitted,不影响逻辑展开*</span>
 
-:> <span style="color:#C0392B">**0.1.6 Most major logical chains in this work are "if and only if"**</span>
-:>
-:> <span style="color:#7F8C8D">*0.1.6.0 Thanks to the excellent Editor D, converses of many propositions were scrutinized by them*</span>
-:>
-:> <span style="color:#C0392B">**0.1.6.1 Converses of most propositions in this work are causally true**</span>
-:>
-:> 0.1.6.2 In other words, this work has both the function of "following these steps will likely succeed" and "not following these steps will likely fail" — thus serving both as an operation manual and a pitfall-avoidance guide
-:>
-:> <span style="color:#8E44AD">**0.1.6.3 Furthermore, if you happen not to want to become wealthy / make things happen, this work can also serve as a mirror. Watching others pursue wealth and action through this work's lens is full of game-like fun**</span>
+> <span style="color:#C0392B">**0.1.6 Most major logical chains in this work are "if and only if"**</span>
+>
+> <span style="color:#7F8C8D">*0.1.6.0 Thanks to the excellent Editor D, converses of many propositions were scrutinized by them*</span>
+>
+> <span style="color:#C0392B">**0.1.6.1 Converses of most propositions in this work are causally true**</span>
+>
+> 0.1.6.2 In other words, this work has both the function of "following these steps will likely succeed" and "not following these steps will likely fail" — thus serving both as an operation manual and a pitfall-avoidance guide
+>
+> <span style="color:#8E44AD">**0.1.6.3 Furthermore, if you happen not to want to become wealthy / make things happen, this work can also serve as a mirror. Watching others pursue wealth and action through this work's lens is full of game-like fun**</span>
 
 **0.1.7 This work does not engage in value discussions**
 
@@ -185,14 +185,14 @@ author: "数之谜@RynW1988"
 
 0.2.1.2 Achieving extraordinary financial status is a park played by even fewer.
 
-:> <span style="color:#E67E22">**0.2.2 Some believe parks requiring longer warm-up periods offer deeper satisfaction and fresher experiences**</span>
-:>
-:> **0.2.2.1 Statistically, those with this preference tend to sustain influence longer**
-:>    <span style="color:#27AE60">*Yan Xishan actually built Shanxi very well, spending heavily on education — "produced Bo Yibo in letters, Xu Xiangqian in arms"*</span>
-:>    <span style="color:#27AE60">*But his influence faded quickly because compared to others, his ambitions were slightly lower*</span>
-:>    <span style="color:#2E86C1">*Traditional phrasing: "A scholar must be resolute and broad-minded, for his burden is heavy and his road is long"*</span>
-:>
-:> **0.2.2.2 They have strong delayed gratification tendencies. They want to experience more distant / less crowded parks**
+> <span style="color:#E67E22">**0.2.2 Some believe parks requiring longer warm-up periods offer deeper satisfaction and fresher experiences**</span>
+>
+> **0.2.2.1 Statistically, those with this preference tend to sustain influence longer**
+>    <span style="color:#27AE60">*Yan Xishan actually built Shanxi very well, spending heavily on education — "produced Bo Yibo in letters, Xu Xiangqian in arms"*</span>
+>    <span style="color:#27AE60">*But his influence faded quickly because compared to others, his ambitions were slightly lower*</span>
+>    <span style="color:#2E86C1">*Traditional phrasing: "A scholar must be resolute and broad-minded, for his burden is heavy and his road is long"*</span>
+>
+> **0.2.2.2 They have strong delayed gratification tendencies. They want to experience more distant / less crowded parks**
 
 <span style="color:#E67E22">**0.2.3 Making money is a form of practice, a way to understand the world. When you achieve financial extraordinarity, new levels will unfold before you, and you'll receive extraordinary game quests**</span>
 
@@ -236,23 +236,23 @@ author: "数之谜@RynW1988"
 
 <span style="color:#E67E22">**0.3.7.4 Because this flow creates value/improves efficiency, it is irresistible**</span>
 
-:> ## 0.4 What to Shoulder?
-:>
-:> 0.4.1 The 2020s version answer: Serve Original Dishes to the World
-:>
-:> <span style="color:#C0392B">**0.4.1.1 "Serve Original Dishes" means making original contributions on humanity's knowledge/efficiency/thought/culture convex hull**</span>
-:>
-:> 0.4.1.2 This metaphor is used because: First, it consumes resources; Second, as The Cook, you give maximum effort to create wok hei and beauty for the world; Third, you enjoy the process and leave a deeply personal signature; <span style="color:#27AE60">**Fourth, in memory of an old leader who was a fellow Northeasterner**</span>
-:>
-:> 0.4.1.3 A math competition sample of The Elite is The Code, see Appendix "The Code"
-:>    <span style="color:#2E86C1">*"The Code" was originally created by elders of the math competition public group — "What does someone look like who has served original dishes in math competition?"*</span>
-:>
-:> 0.4.1.4 Some examples of original contributions:
-:> - a. <span style="color:#2E86C1">*As scientist discovering is OK, as engineer inventing is OK, as organizer restructuring is OK, starting/guarding a business is OK, charity/public service is OK, artistic creation is OK, thought innovation is OK, institutional progress is also OK*</span>
-:> - b. <span style="color:#2E86C1">*Multiple categories above are of course OK too — can be seen as playing multiple parks*</span>
-:>    <span style="color:#27AE60">**Cai Lun, Howard Hughes, Hedy Lamarr, Ford, Musk…**</span>
-:> - c. **Below we take tech entrepreneurship as an example; other domains follow the same principles**
-:>    <span style="color:#27AE60">**Ne Zha 2 is also innovation, a treasure of productivity explosion**</span>
+> ## 0.4 What to Shoulder?
+>
+> 0.4.1 The 2020s version answer: Serve Original Dishes to the World
+>
+> <span style="color:#C0392B">**0.4.1.1 "Serve Original Dishes" means making original contributions on humanity's knowledge/efficiency/thought/culture convex hull**</span>
+>
+> 0.4.1.2 This metaphor is used because: First, it consumes resources; Second, as The Cook, you give maximum effort to create wok hei and beauty for the world; Third, you enjoy the process and leave a deeply personal signature; <span style="color:#27AE60">**Fourth, in memory of an old leader who was a fellow Northeasterner**</span>
+>
+> 0.4.1.3 A math competition sample of The Elite is The Code, see Appendix "The Code"
+>    <span style="color:#2E86C1">*"The Code" was originally created by elders of the math competition public group — "What does someone look like who has served original dishes in math competition?"*</span>
+>
+> 0.4.1.4 Some examples of original contributions:
+> - a. <span style="color:#2E86C1">*As scientist discovering is OK, as engineer inventing is OK, as organizer restructuring is OK, starting/guarding a business is OK, charity/public service is OK, artistic creation is OK, thought innovation is OK, institutional progress is also OK*</span>
+> - b. <span style="color:#2E86C1">*Multiple categories above are of course OK too — can be seen as playing multiple parks*</span>
+>    <span style="color:#27AE60">**Cai Lun, Howard Hughes, Hedy Lamarr, Ford, Musk…**</span>
+> - c. **Below we take tech entrepreneurship as an example; other domains follow the same principles**
+>    <span style="color:#27AE60">**Ne Zha 2 is also innovation, a treasure of productivity explosion**</span>
 
 **0.4.2 In the 2020s, AI creates over 70% of new productivity; the most important AI talents across the Pacific are predominantly Chinese**
 
@@ -299,45 +299,45 @@ author: "数之谜@RynW1988"
 
 **0.4.6 Interview with Top Chinese Mathematicians: "What Is Important Mathematics?" "How to Tell If You're Suited for Math Research?"**
 
-:> <span style="color:#2E86C1">*R: In the math world, how are resources allocated? What is important mathematics?*</span>
-:>
-:> <span style="color:#2E86C1">*M: Personally I lean toward important mathematics being profound, touching aspects of humanity — akin to why da Vinci is a master artist*</span>
-:>
-:> <span style="color:#2E86C1">*R: Taking art as analogy: art has schools (historical inheritance, like discussions you mention), clients (market demand, e.g., architecture), and development (some masters consider certain directions important)*</span>
-:>
-:> <span style="color:#2E86C1">*M: Same for math. One is basic curiosity; one is client demand*</span>
-:>
-:> <span style="color:#2E86C1">*R: Two common concerns:*
-:> <span style="color:#2E86C1">*a. Pure math has insufficient total resources, low fault tolerance for talent*</span>
-:> <span style="color:#2E86C1">*b. Given limited resources, informatics has sharp market-demand orientation. Returning to art analogy: math research should focus on school inheritance / master opinions / client taste*</span>
-:>
-:> <span style="color:#2E86C1">*M:*
-:> <span style="color:#2E86C1">*a. Yes. Develop good taste, do what you consider important, fight for resources — most people are reasonable*</span>
-:> <span style="color:#2E86C1">*b. Productivity advancement direction likely spawns good mathematics too, say quantum computing*</span>
-:>
-:> <span style="color:#2E86C1">*R: How to tell if you're suited for math research?*</span>
-:>
-:> <span style="color:#2E86C1">*M:*
-:> <span style="color:#2E86C1">*a. Once you have this awareness, you'll figure it out. One: read mathematician bios/interviews/biographies — see if you admire them, like their lives. Recommended: Contemporary Mathematical Elite / Contemporary Math Masters; Two: only know by doing*</span>
-:> <span style="color:#2E86C1">*b. Attached: two interviews that deeply influenced me:*
-:>    <span style="color:#2E86C1">*https://publications.ias.edu/sites/default/files/interview-ubc-2009-rpl.pdf*</span>
-:>    <span style="color:#2E86C1">*https://www.ams.org/journals/notices/201904/rnoti-p494.pdf*</span>
+> <span style="color:#2E86C1">*R: In the math world, how are resources allocated? What is important mathematics?*</span>
+>
+> <span style="color:#2E86C1">*M: Personally I lean toward important mathematics being profound, touching aspects of humanity — akin to why da Vinci is a master artist*</span>
+>
+> <span style="color:#2E86C1">*R: Taking art as analogy: art has schools (historical inheritance, like discussions you mention), clients (market demand, e.g., architecture), and development (some masters consider certain directions important)*</span>
+>
+> <span style="color:#2E86C1">*M: Same for math. One is basic curiosity; one is client demand*</span>
+>
+> <span style="color:#2E86C1">*R: Two common concerns:*
+> <span style="color:#2E86C1">*a. Pure math has insufficient total resources, low fault tolerance for talent*</span>
+> <span style="color:#2E86C1">*b. Given limited resources, informatics has sharp market-demand orientation. Returning to art analogy: math research should focus on school inheritance / master opinions / client taste*</span>
+>
+> <span style="color:#2E86C1">*M:*
+> <span style="color:#2E86C1">*a. Yes. Develop good taste, do what you consider important, fight for resources — most people are reasonable*</span>
+> <span style="color:#2E86C1">*b. Productivity advancement direction likely spawns good mathematics too, say quantum computing*</span>
+>
+> <span style="color:#2E86C1">*R: How to tell if you're suited for math research?*</span>
+>
+> <span style="color:#2E86C1">*M:*
+> <span style="color:#2E86C1">*a. Once you have this awareness, you'll figure it out. One: read mathematician bios/interviews/biographies — see if you admire them, like their lives. Recommended: Contemporary Mathematical Elite / Contemporary Math Masters; Two: only know by doing*</span>
+> <span style="color:#2E86C1">*b. Attached: two interviews that deeply influenced me:*
+>    <span style="color:#2E86C1">*https://publications.ias.edu/sites/default/files/interview-ubc-2009-rpl.pdf*</span>
+>    <span style="color:#2E86C1">*https://www.ams.org/journals/notices/201904/rnoti-p494.pdf*</span>
 
-:> **0.4.6 From here, our discussion splits into the Non-Elite track and The Elite track**
-:> <span style="color:#2E86C1">*This work is also called RynW4+1. "Chapter 0: How to Truly Live" is hereinafter how0 or "Ch.0", etc.*</span>
-:>
-:> **0.4.6.0 If you:**
-:> - a. <span style="color:#C0392B">**Are willing to serve an original dish to the world — you are one of The Elite**</span>
-:> - b. <span style="color:#C0392B">**Are unwilling — you are (choosing to be) Non-Elite**</span>
-:> - c. <span style="color:#C0392B">**This work contains no value judgment on this point. Different life choices receive different 5hows routes**</span>
-:> - d. <span style="color:#7F8C8D">*Core reason for distinction: core drivers differ between tracks, requiring separate discussion. Specifically:*</span>
-:>
-:> <span style="color:#7F8C8D">0.4.6.1 Non-Elites need to master how 1 / how 2 more urgently</span>
-:>
-:> <span style="color:#7F8C8D">0.4.6.2 The Elite need to master how 4 / how 5 more urgently</span>
-:>
-:> <span style="color:#7F8C8D">0.4.6.3 Everyone needs how 3</span>
-:>    <span style="color:#C0392B">**We begin with the Non-Elite version**</span>
+> **0.4.6 From here, our discussion splits into the Non-Elite track and The Elite track**
+> <span style="color:#2E86C1">*This work is also called RynW4+1. "Chapter 0: How to Truly Live" is hereinafter how0 or "Ch.0", etc.*</span>
+>
+> **0.4.6.0 If you:**
+> - a. <span style="color:#C0392B">**Are willing to serve an original dish to the world — you are one of The Elite**</span>
+> - b. <span style="color:#C0392B">**Are unwilling — you are (choosing to be) Non-Elite**</span>
+> - c. <span style="color:#C0392B">**This work contains no value judgment on this point. Different life choices receive different 5hows routes**</span>
+> - d. <span style="color:#7F8C8D">*Core reason for distinction: core drivers differ between tracks, requiring separate discussion. Specifically:*</span>
+>
+> <span style="color:#7F8C8D">0.4.6.1 Non-Elites need to master how 1 / how 2 more urgently</span>
+>
+> <span style="color:#7F8C8D">0.4.6.2 The Elite need to master how 4 / how 5 more urgently</span>
+>
+> <span style="color:#7F8C8D">0.4.6.3 Everyone needs how 3</span>
+>    <span style="color:#C0392B">**We begin with the Non-Elite version**</span>
 
 ---
 
@@ -347,42 +347,42 @@ author: "数之谜@RynW1988"
 
 0.5.1 Investment cannot be used for generating first bucket of gold ("investable capital at scale," hereinafter W₀, other aliases follow)
 
-:> **0.5.2 Since ancient times, the official method is providing services. "Providing services" means:**
-:>
-:> <span style="color:#2E86C1">*0.5.2.1 You made a contribution to an important person (hereinafter M, other aliases follow)*</span>
-:>
-:> <span style="color:#2E86C1">*0.5.2.2 This contribution was so important that M would not replace you upon completion (this is a high standard)*</span>
-:>
-:> 0.5.3 Though your ability may be small, your value to M is large. M casually tosses you something — now you have W₀
-:>
-:> <span style="color:#2E86C1">*0.5.3.1 Self-starting works too but requires risking loss-of-capital risk*</span>
-:>
-:> <span style="color:#2E86C1">*0.5.3.2 If the冒险 succeeds, you can begin applying 5hows*</span>
-:>    <span style="color:#8E44AD">**HK TV drama trope: being M's assistant (arranging travel, booking tickets) for years; before marriage/having kids, M usually gives a code word — since early HK stock manipulation was rampant, sometimes (in dramas) this actually works**</span>
+> **0.5.2 Since ancient times, the official method is providing services. "Providing services" means:**
+>
+> <span style="color:#2E86C1">*0.5.2.1 You made a contribution to an important person (hereinafter M, other aliases follow)*</span>
+>
+> <span style="color:#2E86C1">*0.5.2.2 This contribution was so important that M would not replace you upon completion (this is a high standard)*</span>
+>
+> 0.5.3 Though your ability may be small, your value to M is large. M casually tosses you something — now you have W₀
+>
+> <span style="color:#2E86C1">*0.5.3.1 Self-starting works too but requires risking loss-of-capital risk*</span>
+>
+> <span style="color:#2E86C1">*0.5.3.2 If the冒险 succeeds, you can begin applying 5hows*</span>
+>    <span style="color:#8E44AD">**HK TV drama trope: being M's assistant (arranging travel, booking tickets) for years; before marriage/having kids, M usually gives a code word — since early HK stock manipulation was rampant, sometimes (in dramas) this actually works**</span>
 
 <span style="color:#C0392B">**0.5.4 Thus the first bucket of gold is not a "market deal" but an "off-market deal" — no universal solution / academic value**</span>
 
-:> **0.5.5 M won't pay attention to me. What to do?**
-:>
-:> 0.5.5.1 You don't need equivalent resources to make M need you
-:>
-:> a. Extremely low probability you do — this is a widespread fallacy
-:> b. In fact, meeting M's daily needs has a standard — colloquially, sitting in the "first three rows" of meetings
-:>    <span style="color:#2E86C1">*Specifically: if M has a request and tells A, and A handles it directly — then A is qualified front-row material*</span>
-:>    <span style="color:#2E86C1">*Conversely, if B says "ask C to handle this" — B is disqualified. Long-term, C is better adapted; B handling it wastes efficiency*</span>
-:>
-:> <span style="color:#C0392B">**0.5.5.2 Stable expectations from M suffice**</span>
-:>
-:> - a. <span style="color:#C0392B">**M expectation one: insider / one of us**</span>
-:>    <span style="color:#2E86C1">*"Us" can be broadly defined: childhood friends / alumni / spouse's high school classmates / ex-colleague's spouse all work</span>
-:>    <span style="color:#2E86C1">*Core: has bottom line, doesn't pull surprises*</span>
-:>    <span style="color:#2E86C1">*By the way, this is the core social value of HYPSM/Tsinghua-PKU/Fudan-SJTU-ZJU alumni status — no less than e⁻¹*</span>
-:> - b. <span style="color:#C0392B">**M expectation two: upright character**</span>
-:>    <span style="color:#2E86C1">*They're busy working, not purely freeloading; what they work on has positive externalities for M*</span>
-:>    <span style="color:#2E86C1">*Due to uncommon/invisible nature of M's needs, positive-externality work generally isn't universal technical skill*</span>
-:>    <span style="color:#2E86C1">*Cambridge visiting scholar / Singapore family office / Swiss skiing / Dubai ground handling / Japanese medical care / Nobel laureate interview / authentic iron-pot stew…*</span>
-:> - c. <span style="color:#C0392B">**M expectation three: stable context**</span>
-:>    <span style="color:#2E86C1">*Meeting regularly builds rapport. Golf buddies / card buddies / fishing buddies, hiking together / marathon / book club / Maotai tasting…*</span>
+> **0.5.5 M won't pay attention to me. What to do?**
+>
+> 0.5.5.1 You don't need equivalent resources to make M need you
+>
+> a. Extremely low probability you do — this is a widespread fallacy
+> b. In fact, meeting M's daily needs has a standard — colloquially, sitting in the "first three rows" of meetings
+>    <span style="color:#2E86C1">*Specifically: if M has a request and tells A, and A handles it directly — then A is qualified front-row material*</span>
+>    <span style="color:#2E86C1">*Conversely, if B says "ask C to handle this" — B is disqualified. Long-term, C is better adapted; B handling it wastes efficiency*</span>
+>
+> <span style="color:#C0392B">**0.5.5.2 Stable expectations from M suffice**</span>
+>
+> - a. <span style="color:#C0392B">**M expectation one: insider / one of us**</span>
+>    <span style="color:#2E86C1">*"Us" can be broadly defined: childhood friends / alumni / spouse's high school classmates / ex-colleague's spouse all work</span>
+>    <span style="color:#2E86C1">*Core: has bottom line, doesn't pull surprises*</span>
+>    <span style="color:#2E86C1">*By the way, this is the core social value of HYPSM/Tsinghua-PKU/Fudan-SJTU-ZJU alumni status — no less than e⁻¹*</span>
+> - b. <span style="color:#C0392B">**M expectation two: upright character**</span>
+>    <span style="color:#2E86C1">*They're busy working, not purely freeloading; what they work on has positive externalities for M*</span>
+>    <span style="color:#2E86C1">*Due to uncommon/invisible nature of M's needs, positive-externality work generally isn't universal technical skill*</span>
+>    <span style="color:#2E86C1">*Cambridge visiting scholar / Singapore family office / Swiss skiing / Dubai ground handling / Japanese medical care / Nobel laureate interview / authentic iron-pot stew…*</span>
+> - c. <span style="color:#C0392B">**M expectation three: stable context**</span>
+>    <span style="color:#2E86C1">*Meeting regularly builds rapport. Golf buddies / card buddies / fishing buddies, hiking together / marathon / book club / Maotai tasting…*</span>
 
 ---
 
@@ -406,15 +406,15 @@ author: "数之谜@RynW1988"
 
 <span style="color:#2E86C1">*Director Jiaozi (of Ne Zha 2) studied medicine originally.*</span>
 
-:> <span style="color:#C0392B">**0.6.2 Why doesn't the Elite track discuss W₀? Because The Elite don't need it**</span>
-:>
-:> 0.6.2.1 The Elite create original contributions; when and how much these are valued depends on world demand emergence and change
-:> - a. <span style="color:#2E86C1">*This is uncertain — in 2504, card game company annual revenue tens of billions, previously unimaginable*</span>
-:>
-:> 0.6.2.2 Later you'll learn investment has a limit return rate GR_m=20%
-:> - a. <span style="color:#2E86C1">**This essentially comes from world demand for money (and the limit of rich people playing it). The world doesn't need money that badly**</span>
-:>
-:> 0.6.2.3 The Elite answer only to their own learning curves. After original convex-hull contribution, as long as intersection with world demand (including future demand) is non-empty, monetary value surges — no academic law governs this.
+> <span style="color:#C0392B">**0.6.2 Why doesn't the Elite track discuss W₀? Because The Elite don't need it**</span>
+>
+> 0.6.2.1 The Elite create original contributions; when and how much these are valued depends on world demand emergence and change
+> - a. <span style="color:#2E86C1">*This is uncertain — in 2504, card game company annual revenue tens of billions, previously unimaginable*</span>
+>
+> 0.6.2.2 Later you'll learn investment has a limit return rate GR_m=20%
+> - a. <span style="color:#2E86C1">**This essentially comes from world demand for money (and the limit of rich people playing it). The world doesn't need money that badly**</span>
+>
+> 0.6.2.3 The Elite answer only to their own learning curves. After original convex-hull contribution, as long as intersection with world demand (including future demand) is non-empty, monetary value surges — no academic law governs this.
 
 **0.6.3 I Made an Original Contribution Intersecting With World Demand — How Do I Know How Big It Can Get?**
 
@@ -466,9 +466,9 @@ author: "数之谜@RynW1988"
 - b. **The Elite inspire and encourage each other**
    <span style="color:#17A2B8">*"Stuck in Shanghai on a rainy night, late-night snack with an old flame after years out of touch. Neither of us changed — including weight and his resolve to diet. We collaborated on many things in college: basically I started he finished, pair programming I talked he coded, weird bugs he stayed up I slept. His startup on a bizarre venture taught me lots; I shared my brewing bizarre plan for him to critique. Ended perfectly with three questions about each other's past and future." — Zhang Yiming*</span>
 
-:> <span style="color:#2E86C1">*This work will quote him multiple times; hereinafter YM or 一鸣. His quotes appear in <span style="color:#17A2B8">teal</span>*</span>
+> <span style="color:#2E86C1">*This work will quote him multiple times; hereinafter YM or 一鸣. His quotes appear in <span style="color:#17A2B8">teal</span>*</span>
 
-:> **0.7.2.3 Direct corollary: since university is the flattest social venue, before you find answers to big questions (The Passion? Who to build with? To what extent?), why not water two extra years in university?**
+> **0.7.2.3 Direct corollary: since university is the flattest social venue, before you find answers to big questions (The Passion? Who to build with? To what extent?), why not water two extra years in university?**
 
 **0.7.3 How to Learn Making Things Happen (see how 4 for details)**
 
@@ -488,17 +488,17 @@ author: "数之谜@RynW1988"
 
 <span style="color:#2E86C1">*For example, read "Ziyang Telegram" (General Su Yu): "how to write requests" — tried 100 times, works 100 times, counts as a minor principle*</span>
 
-:> **0.7.3.4 Textbooks, history, biographies/interviews/quotes of figures, and milestone papers — these four rank equally as best mentors**
-:>
-:> <span style="color:#C0392B">**0.7.3.5 Those planning great deeds should start learning how early**</span>
-:>
-:> <span style="color:#C0392B">**Of course jumping straight into great deeds isn't bad either — saves learning many long-term-useless skills**</span>
-:>
-:> - a. Making things happen requires early practice; sweeping a room vs. sweeping the world share some skills and differ in others
-:> - b. If you can outsource the overlapping parts, you really can just learn to sweep the world
-:>   <span style="color:#2E86C1">*The difference set cannot be outsourced. History proves repeatedly: resource stitching cannot sweep the world*</span>
-:> - c. If failure 4-6 times precedes success, best to fail 1-2 times during university
-:>   <span style="color:#2E86C1">*YM founded four startups and worked twice before ByteDance*</span>
+> **0.7.3.4 Textbooks, history, biographies/interviews/quotes of figures, and milestone papers — these four rank equally as best mentors**
+>
+> <span style="color:#C0392B">**0.7.3.5 Those planning great deeds should start learning how early**</span>
+>
+> <span style="color:#C0392B">**Of course jumping straight into great deeds isn't bad either — saves learning many long-term-useless skills**</span>
+>
+> - a. Making things happen requires early practice; sweeping a room vs. sweeping the world share some skills and differ in others
+> - b. If you can outsource the overlapping parts, you really can just learn to sweep the world
+>   <span style="color:#2E86C1">*The difference set cannot be outsourced. History proves repeatedly: resource stitching cannot sweep the world*</span>
+> - c. If failure 4-6 times precedes success, best to fail 1-2 times during university
+>   <span style="color:#2E86C1">*YM founded four startups and worked twice before ByteDance*</span>
 
 **0.7.4 Three Examples of The Elite at Age 20**
 
@@ -517,111 +517,111 @@ author: "数之谜@RynW1988"
 - <span style="color:#27AE60">*a. Observed real motivation: "as big as possible"; expected to IPO within three years*</span>
 - <span style="color:#27AE60">*b. Two years ago when author hadn't retired yet, first words upon meeting: "let's not discuss anything at the hundred-million level — meaningless"*</span>
 
-:> ### 0.8 After Being Recognized as Exceptionally Elite — Then What?
-:>
-:> **0.8.1 Many share the same destination: building an ideal nation**
-:>    <span style="color:#2E86C1">*As known, everyone exerts influence within some spacetime neighborhood — no need for excessive scale or duration*</span>
-:>
-:> **0.8.2 An Ideal Nation**
-:>    <span style="color:#2E86C1">*Still using math competition domain as example*</span>
-:>
-:> **0.8.2.1 In the 2020s world, 14-16 year-old top-tier geniuses (hereinafter FYG) are charged tuition rather than sponsored**
-:>
-:> **0.8.2.2 FYG at ages 22-25 do the selecting rather than being selected**
-:>
-:> <span style="color:#C0392B">**0.8.2.3 Massive inefficiency exists here**</span>
-:>
-:> **0.8.2.4 Envision an ideal nation:**
-:> a. FYGs meet each other at ages 14-16, form some consensus, receive soft commitments of effective support
-:> b. Effective support is needed because humans have mundane desires; once values are conditioned by "mundane supply-demand," transcendent pursuit becomes harder to form
-:> c. <span style="color:#8E44AD">**FYG failing to form transcendent pursuit is disadvantageous to all humanity**</span>
-:>
-:> <span style="color:#C0392B">**0.8.2.5 The greater the vision, the less picky about startup conditions, and the less shortage of sponsors**</span>
-:>    <span style="color:#2E86C1">*New-generation sponsors have minimal ego and seek no personal return*</span>
-:>    <span style="color:#2E86C1">*New-generation sponsors universally believe: viewed from Mars, benefiting Earth suffices*</span>
-:>
-:> <span style="color:#7F8C8D">**0.8.3 Current State of the Ideal Nation**</span>
-:>
-:> 0.8.3.1 For FYG aged 14-16, beyond loving the motherland, possible consensuses include loving math and loving play
-:>
-:> 0.8.3.2 In the 2020s, many Elite have founded private universities
+> ### 0.8 After Being Recognized as Exceptionally Elite — Then What?
+>
+> **0.8.1 Many share the same destination: building an ideal nation**
+>    <span style="color:#2E86C1">*As known, everyone exerts influence within some spacetime neighborhood — no need for excessive scale or duration*</span>
+>
+> **0.8.2 An Ideal Nation**
+>    <span style="color:#2E86C1">*Still using math competition domain as example*</span>
+>
+> **0.8.2.1 In the 2020s world, 14-16 year-old top-tier geniuses (hereinafter FYG) are charged tuition rather than sponsored**
+>
+> **0.8.2.2 FYG at ages 22-25 do the selecting rather than being selected**
+>
+> <span style="color:#C0392B">**0.8.2.3 Massive inefficiency exists here**</span>
+>
+> **0.8.2.4 Envision an ideal nation:**
+> a. FYGs meet each other at ages 14-16, form some consensus, receive soft commitments of effective support
+> b. Effective support is needed because humans have mundane desires; once values are conditioned by "mundane supply-demand," transcendent pursuit becomes harder to form
+> c. <span style="color:#8E44AD">**FYG failing to form transcendent pursuit is disadvantageous to all humanity**</span>
+>
+> <span style="color:#C0392B">**0.8.2.5 The greater the vision, the less picky about startup conditions, and the less shortage of sponsors**</span>
+>    <span style="color:#2E86C1">*New-generation sponsors have minimal ego and seek no personal return*</span>
+>    <span style="color:#2E86C1">*New-generation sponsors universally believe: viewed from Mars, benefiting Earth suffices*</span>
+>
+> <span style="color:#7F8C8D">**0.8.3 Current State of the Ideal Nation**</span>
+>
+> 0.8.3.1 For FYG aged 14-16, beyond loving the motherland, possible consensuses include loving math and loving play
+>
+> 0.8.3.2 In the 2020s, many Elite have founded private universities
 
 ---
 
 ## Appendix: The Track
 
-:> ### Popularization and Monetization Progress of This Work's Chapters
-:> *The Track*
-:>
-:> ---
-:>
-:> This series attempts to discuss two propositions: "How the Non-Elite Goes from First Bucket of Gold to Sustainable Wealth Freedom" and "How The Elite Serves Original Dishes to the World" (unit: 2020s RMB)
-:>
-:> **I. W_ir\* → 1.5 million / hereinafter W₀\*\***
-:>    *Not covered; lacks universal technique*
-:>
-:> **II. W₀ → 30 million / hereinafter W₁**
-:>    *Non-Elite "Chapter 1: How to Manage Wealth"*
-:>
-:> **III. W₁ → 300 million / hereinafter W_p**
-:>    *Non-Elite "Chapter 2: How to Reach the Shore"*
-:>
-:> **IV. Elite W_p → 7 billion / hereinafter W_H**
-:>    <span style="color:#C0392B">**Non-Elites cannot accomplish**</span>
-:>    *Elite "Chapter 4: How to Make Things Happen", Elite "Chapter 5: How to Predict the Future"*
-:>
-:> **V. Non-Elite W_p Position Maintenance**
-:>    *"Chapter 3: How to Maintain Position": H1 Financial Security & H2 Maintaining Dignity*
-:>
-:> **IV. Elite W_p and W_H Position Maintenance**
-:>    *"Chapter 3: How to Maintain Position": H2 Maintaining Dignity*
-:>
-:> ━━━━━━━━━━━━━━━━━━━━━
-:>
-:> <span style="color:#7F8C8D">*\*W_ir (ir for irrelevant) means*</span>
-:> <span style="color:#7F8C8D">*a. Above this wealth threshold, optimal methods for achieving financial goals (hereinafter "methods/心法") begin to take effect*</span>
-:> <span style="color:#7F8C8D">*b. Below this threshold, no methods are needed for optimal results*</span>
-:> <span style="color:#7F8C8D">*c. Throughout history, there have been outstanding and great individuals with zero wealth*</span>
-:>    <span style="color:#2E86C1">*Master Hong Yi died penniless — did not diminish the immortality of "Farewell"*</span>
-:> <span style="color:#7F8C8D">*\*\* For reading fluency, W₀ and the person holding W₀ are not distinguished; same convention applies below. Related conventions will be restated later.*
+> ### Popularization and Monetization Progress of This Work's Chapters
+> *The Track*
+>
+> ---
+>
+> This series attempts to discuss two propositions: "How the Non-Elite Goes from First Bucket of Gold to Sustainable Wealth Freedom" and "How The Elite Serves Original Dishes to the World" (unit: 2020s RMB)
+>
+> **I. W_ir\* → 1.5 million / hereinafter W₀\*\***
+>    *Not covered; lacks universal technique*
+>
+> **II. W₀ → 30 million / hereinafter W₁**
+>    *Non-Elite "Chapter 1: How to Manage Wealth"*
+>
+> **III. W₁ → 300 million / hereinafter W_p**
+>    *Non-Elite "Chapter 2: How to Reach the Shore"*
+>
+> **IV. Elite W_p → 7 billion / hereinafter W_H**
+>    <span style="color:#C0392B">**Non-Elites cannot accomplish**</span>
+>    *Elite "Chapter 4: How to Make Things Happen", Elite "Chapter 5: How to Predict the Future"*
+>
+> **V. Non-Elite W_p Position Maintenance**
+>    *"Chapter 3: How to Maintain Position": H1 Financial Security & H2 Maintaining Dignity*
+>
+> **IV. Elite W_p and W_H Position Maintenance**
+>    *"Chapter 3: How to Maintain Position": H2 Maintaining Dignity*
+>
+> ━━━━━━━━━━━━━━━━━━━━━
+>
+> <span style="color:#7F8C8D">*\*W_ir (ir for irrelevant) means*</span>
+> <span style="color:#7F8C8D">*a. Above this wealth threshold, optimal methods for achieving financial goals (hereinafter "methods/心法") begin to take effect*</span>
+> <span style="color:#7F8C8D">*b. Below this threshold, no methods are needed for optimal results*</span>
+> <span style="color:#7F8C8D">*c. Throughout history, there have been outstanding and great individuals with zero wealth*</span>
+>    <span style="color:#2E86C1">*Master Hong Yi died penniless — did not diminish the immortality of "Farewell"*</span>
+> <span style="color:#7F8C8D">*\*\* For reading fluency, W₀ and the person holding W₀ are not distinguished; same convention applies below. Related conventions will be restated later.*
 
 ---
 
 ## Appendix: Elite Math Competition Sample — The Code
 
-:> ### 意志范儿
-:> *The Code*
-:>
-:> ---
-:>
-:> **0. Academic honesty**
-:> a. If you know it, say you know; don't claim ignorance
-:> b. If you don't know it, say you don't know; don't claim knowledge
-:>
-:> **1. Pursue to the extreme**
-:> a. Grapple with problems that interest you; give maximum effort; never give up halfway
-:> b. What you produce — you must personally believe it's correct; never rely on others for verification
-:>
-:> **2. Strongest willpower**
-:> a. Ignore all inevitable inconveniences encountered while pursuing item 1
-:> b. Never let weak character kill a viable idea
-:>
-:> **3. Elegant and universal**
-:> a. If your conclusion is factually correct, ensure you can apply it, remember it, and deploy it under exam conditions
-:> b. Generally requires the result to be in the most natural, simplest, most elegant form
-:>
-:> **4. Originality with courage**
-:> a. Dare to pioneer new frameworks
-:> b. Dare to produce previously unknown results and structures within new frameworks
-:>
-:> ━━━━━━━━━━━━━━━━━━━━━
-:>
-:> <span style="color:#8E44AD">**[Hidden tier — agreement not required. Note: outstanding stands for stand-out; hidden tier is core source for many great minds]**</span>
-:>
-:> **5. Open and curious**
-:> a. If you discover a good method, first thought should be "find an expert and explain it clearly" (Feynman technique)
-:>    Rather than "this is secret knowledge, guard it tightly"
-:> b. If you hear someone has a good method, first thought should be "I must learn this, can't miss it" (emulate the worthy)
-:>    Rather than "this is my territory, block it first / nobody can beat my guru / wait for official verdict"
-:>
-:> ━━━━━━━━━━━━━━━━━━━━━
+> ### 意志范儿
+> *The Code*
+>
+> ---
+>
+> **0. Academic honesty**
+> a. If you know it, say you know; don't claim ignorance
+> b. If you don't know it, say you don't know; don't claim knowledge
+>
+> **1. Pursue to the extreme**
+> a. Grapple with problems that interest you; give maximum effort; never give up halfway
+> b. What you produce — you must personally believe it's correct; never rely on others for verification
+>
+> **2. Strongest willpower**
+> a. Ignore all inevitable inconveniences encountered while pursuing item 1
+> b. Never let weak character kill a viable idea
+>
+> **3. Elegant and universal**
+> a. If your conclusion is factually correct, ensure you can apply it, remember it, and deploy it under exam conditions
+> b. Generally requires the result to be in the most natural, simplest, most elegant form
+>
+> **4. Originality with courage**
+> a. Dare to pioneer new frameworks
+> b. Dare to produce previously unknown results and structures within new frameworks
+>
+> ━━━━━━━━━━━━━━━━━━━━━
+>
+> <span style="color:#8E44AD">**[Hidden tier — agreement not required. Note: outstanding stands for stand-out; hidden tier is core source for many great minds]**</span>
+>
+> **5. Open and curious**
+> a. If you discover a good method, first thought should be "find an expert and explain it clearly" (Feynman technique)
+>    Rather than "this is secret knowledge, guard it tightly"
+> b. If you hear someone has a good method, first thought should be "I must learn this, can't miss it" (emulate the worthy)
+>    Rather than "this is my territory, block it first / nobody can beat my guru / wait for official verdict"
+>
+> ━━━━━━━━━━━━━━━━━━━━━
