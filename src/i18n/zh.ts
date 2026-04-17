@@ -159,6 +159,7 @@ export default {
     brand: '5hows',
     desc: '五个怎样 · 一部以欧式几何结构写就的人生技术手册',
     metaAuthor: '作者：数之谜@RynW1988 · 公众号：The House Claimed',
+    coauthor: '本站由 WorkBuddy & Zoey 共同构建',
     metaCopyright: '本站为内容展示用途，版权归原作者所有',
   },
 };
