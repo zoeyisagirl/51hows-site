@@ -27,8 +27,8 @@ const nodes: GraphNode[] = [
     size: c.pages > 15 ? 20 : c.pages > 10 ? 16 : 13,
   })),
   ...concepts.map(c => ({
-    id: c.id, label: c.title, type: 'concept' as const,
-    color: '#6b7280', size: 10,
+    id: c.id, label: locale === 'en' && c.titleEn ? c.titleEn : c.title,
+    type: 'concept' as const, color: '#6b7280', size: 10,
   })),
 ];
 
