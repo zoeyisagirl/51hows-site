@@ -29,12 +29,12 @@ for (const c of concepts) {
 
     {Object.entries(categoryMap).map(([category, items]) => (
       <div class="concept-section">
-        <h2 class="concept-category">{category}</h2>
+        <h2 class="concept-category">{locale === 'en' && items[0]?.categoryEn ? items[0].categoryEn : category}</h2>
         <div class="concepts-grid">
           {items.map(c => (
             <div class="concept-card">
-              <h3 class="concept-card__title">{c.title}</h3>
-              <p class="concept-card__desc">{c.description}</p>
+              <h3 class="concept-card__title">{locale === 'en' && c.titleEn ? c.titleEn : c.title}</h3>
+              <p class="concept-card__desc">{locale === 'en' && c.descriptionEn ? c.descriptionEn : c.description}</p>
               <div class="concept-card__links">
                 <span class="links-label">{t.conceptsPage.appearsIn}</span>
                 {c.relatedChapters.map(chId => {

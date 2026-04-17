@@ -157,9 +157,9 @@ const totalPages = chapters.reduce((sum, c) => sum + c.pages, 0);
       <div class="concepts-grid">
         {concepts.map((c) => (
           <a href={`/${locale}/concepts`} class="concept-card">
-            <div class="concept-card__category">{c.category}</div>
-            <h4 class="concept-card__title">{c.title}</h4>
-            <p class="concept-card__desc">{c.description}</p>
+            <div class="concept-card__category">{locale === 'en' && c.categoryEn ? c.categoryEn : c.category}</div>
+            <h4 class="concept-card__title">{locale === 'en' && c.titleEn ? c.titleEn : c.title}</h4>
+            <p class="concept-card__desc">{locale === 'en' && c.descriptionEn ? c.descriptionEn : c.description}</p>
             <div class="concept-card__chapters">
               {c.relatedChapters.map(ch => {
                 const chapter = chapters.find(x => x.id === ch);
@@ -188,8 +188,8 @@ const totalPages = chapters.reduce((sum, c) => sum + c.pages, 0);
             <div class="timeline-item__dot"></div>
             <div class="timeline-item__date">{ev.date}</div>
             <div class="timeline-item__content">
-              <h4 class="timeline-item__title">{ev.title}</h4>
-              <p class="timeline-item__desc">{ev.description}</p>
+              <h4 class="timeline-item__title">{locale === 'en' && ev.titleEn ? ev.titleEn : ev.title}</h4>
+              <p class="timeline-item__desc">{locale === 'en' && ev.descriptionEn ? ev.descriptionEn : ev.description}</p>
             </div>
           </div>
         ))}
