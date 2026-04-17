@@ -3,7 +3,7 @@ import Layout from '../../../layouts/Layout.astro';
 import { chapters } from '../../../data/chapters';
 import { getDictionary, type Locale } from '../../../i18n';
 import type { GetStaticPaths } from 'astro';
-import { readFileSync } from 'node:fs';
+import { readFileSync, existsSync } from 'node:fs';
 import { join } from 'node:path';
 
 export function getStaticPaths() {
@@ -18,14 +18,18 @@ export function getStaticPaths() {
 const { chapter, locale } = Astro.props;
 const t = getDictionary(locale);
 
-// Read from content/chapters directory
+// Read from content/chapters directory — prefer localized version
 const contentDir = join(process.cwd(), 'src/content/chapters');
-const filePath = join(contentDir, `${chapter.id}.md`);
+const enFilePath = join(contentDir, `${chapter.id}-en.md`);
+const zhFilePath = join(contentDir, `${chapter.id}.md`);
+const filePath = (locale === 'en') && existsSync(enFilePath) ? enFilePath : zhFilePath;
 let rawContent = '';
 try {
   rawContent = readFileSync(filePath, 'utf-8');
 } catch (e) {
-  rawContent = '';
+  // Fallback: try the other locale's file
+  const fallbackPath = filePath === enFilePath ? zhFilePath : enFilePath;
+  try { rawContent = readFileSync(fallbackPath, 'utf-8'); } catch (_) { rawContent = ''; }
 }
 
 // Parse markdown content with semantic blocks
