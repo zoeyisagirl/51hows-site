@@ -1,19 +1,24 @@
 ---
-import Layout from '../../layouts/Layout.astro';
-import { chapters } from '../../data/chapters';
+import Layout from '../../../layouts/Layout.astro';
+import { chapters } from '../../../data/chapters';
+import { getDictionary, type Locale } from '../../../i18n';
 import type { GetStaticPaths } from 'astro';
 import { readFileSync } from 'node:fs';
 import { join } from 'node:path';
 
-export const getStaticPaths = (() => {
-  return chapters
-    .filter(ch => ch.status === 'available')
-    .map(ch => ({ params: { slug: ch.slug }, props: { chapter: ch } }));
-}) satisfies GetStaticPaths;
+export function getStaticPaths() {
+  const paths: { params: { locale: string; slug: string }; props: { chapter: (typeof chapters)[0]; locale: Locale } }[] = [];
+  for (const ch of chapters.filter(c => c.status === 'available')) {
+    paths.push({ params: { locale: 'zh', slug: ch.slug }, props: { chapter: ch, locale: 'zh' as Locale } });
+    paths.push({ params: { locale: 'en', slug: ch.slug }, props: { chapter: ch, locale: 'en' as Locale } });
+  }
+  return paths;
+}
 
-const { chapter } = Astro.props;
+const { chapter, locale } = Astro.props;
+const t = getDictionary(locale);
 
-// Read from content/chapters directory (relative to project root)
+// Read from content/chapters directory
 const contentDir = join(process.cwd(), 'src/content/chapters');
 const filePath = join(contentDir, `${chapter.id}.md`);
 let rawContent = '';
@@ -30,12 +35,10 @@ interface ContentBlock {
   children?: ContentBlock[];
 }
 
-// Parse color blocks from text (strips leading > if inside blockquote)
 function parseColorBlocks(text: string, insideBlockquote = false): ContentBlock[] {
   const blocks: ContentBlock[] = [];
-  // Pattern: :::type\n...\n::: or >:::type\n...\n>:::
   const blockPattern = /^(?:>)?:::(theorem|supplement|corollary|fact|guess|innovation)\s*\n([\s\S]*?)(?:>)?:::/gm;
-  
+
   const matches: Array<{type: string, content: string, start: number, end: number}> = [];
   let match;
   while ((match = blockPattern.exec(text)) !== null) {
@@ -46,13 +49,13 @@ function parseColorBlocks(text: string, insideBlockquote = false): ContentBlock[
       end: match.index + match[0].length
     });
   }
-  
+
   if (matches.length === 0) {
     const cleaned = insideBlockquote ? text.replace(/^>\s?/gm, '').trim() : text.trim();
     if (cleaned) blocks.push({ type: 'text', content: cleaned });
     return blocks;
   }
-  
+
   let lastIndex = 0;
   for (const m of matches) {
     if (m.start > lastIndex) {
@@ -64,51 +67,43 @@ function parseColorBlocks(text: string, insideBlockquote = false): ContentBlock[
     blocks.push({ type: m.type as ContentBlock['type'], content: cleanContent });
     lastIndex = m.end;
   }
-  
+
   if (lastIndex < text.length) {
     const after = text.slice(lastIndex).trim();
     const cleaned = insideBlockquote ? after.replace(/^>\s?/gm, '').trim() : after;
     if (cleaned) blocks.push({ type: 'text', content: cleaned });
   }
-  
+
   return blocks;
 }
 
 function parseContent(text: string): ContentBlock[] {
   const blocks: ContentBlock[] = [];
-  
-  // First, detect blockquote groups (consecutive lines starting with >)
-  // Split into: blockquote sections and non-blockquote sections
   const lines = text.split('\n');
   let i = 0;
-  
+
   while (i < lines.length) {
     const line = lines[i];
-    
-    if (line.match(/^>\s?/)) {
-      // Start of a blockquote (includes lines like >:::theorem)
+
+    if (line.match(/^\>\s?/)) {
       const bqLines: string[] = [];
-      while (i < lines.length && (lines[i].match(/^>\s?/) || lines[i].match(/^:::/) || lines[i] === ':::' || lines[i] === '::')) {
+      while (i < lines.length && (lines[i].match(/^\>\s?/) || lines[i].match(/^:::/) || lines[i] === ':::' || lines[i] === '::')) {
         bqLines.push(lines[i]);
         i++;
       }
       const bqText = bqLines.join('\n');
-      // Parse color blocks inside the blockquote
       const children = parseColorBlocks(bqText, true);
       blocks.push({ type: 'blockquote', content: bqText, children });
     } else if (line.match(/^:::/) || line === ':::' || line === '::') {
-      // Color block marker — collect it and following content
-      i++; // skip
+      i++;
     } else {
-      // Regular text — collect until next blockquote or color marker
       const textLines: string[] = [];
-      while (i < lines.length && !lines[i].match(/^>\s?/) && !lines[i].match(/^:::/)) {
+      while (i < lines.length && !lines[i].match(/^\>\s?/) && !lines[i].match(/^:::/)) {
         textLines.push(lines[i]);
         i++;
       }
       const textChunk = textLines.join('\n').trim();
       if (textChunk && !textChunk.startsWith('<!--') && textChunk !== '---') {
-        // Parse color blocks within regular text too
         const colorBlocks = parseColorBlocks(textChunk, false);
         blocks.push(...colorBlocks);
       } else if (textChunk === '---') {
@@ -116,11 +111,10 @@ function parseContent(text: string): ContentBlock[] {
       }
     }
   }
-  
+
   return blocks;
 }
 
-// Parse pages from content (split by <!-- Page X -->)
 interface Page {
   num: string;
   content: string;
@@ -129,13 +123,10 @@ interface Page {
 
 const pages: Page[] = [];
 if (rawContent) {
-  // Remove frontmatter
   const withoutFrontmatter = rawContent.replace(/^---[\s\S]*?---\n/, '');
-  // Split by page comments
   const pageSections = withoutFrontmatter.split(/<!-- Page (\d+) -->/).filter(s => s.trim());
-  
+
   if (pageSections.length > 1 && /<!-- Page \d+ -->/.test(withoutFrontmatter)) {
-    // Has explicit page markers — use them
     for (let i = 0; i < pageSections.length; i += 2) {
       const pageNum = pageSections[i] || `${Math.floor(i/2) + 1}`;
       const pageContent = pageSections[i + 1] || '';
@@ -149,37 +140,22 @@ if (rawContent) {
       }
     }
   } else {
-    // No page markers — treat entire content as one page
     const blocks = parseContent(withoutFrontmatter);
     if (blocks.length > 0) {
-      pages.push({
-        num: '01',
-        content: withoutFrontmatter.trim(),
-        blocks
-      });
+      pages.push({ num: '01', content: withoutFrontmatter.trim(), blocks });
     }
   }
 }
 
-// Find prev/next
 const available = chapters.filter(c => c.status === 'available');
 const idx = available.findIndex(c => c.id === chapter.id);
 const prev = idx > 0 ? available[idx - 1] : null;
 const next = idx < available.length - 1 ? available[idx + 1] : null;
 
-// Semantic type labels
-const typeLabels: Record<string, string> = {
-  theorem: '公理 / 定理',
-  supplement: '解释 / 补充',
-  corollary: '推论 / 核心推论',
-  fact: '事实 / 数据',
-  guess: '猜想 / 评论',
-  innovation: '理论创新'
-};
+// Use localized type labels
+const typeLabels = t.typeLabels;
 
-// Inline markdown renderer (server-side)
 function renderInline(text: string): string {
-  // Strip leading > blockquote markers (already handled by block parser)
   const cleaned = text.replace(/^>\s?/gm, '');
   return cleaned
     .replace(/==(.+?)==/g, '<mark class="highlight-mark">$1</mark>')
@@ -193,34 +169,34 @@ function renderInline(text: string): string {
 }
 ---
 
-<Layout title={chapter.title}>
+<Layout title={locale === 'en' && chapter.titleEn ? chapter.titleEn : chapter.title} locale={locale} t={t}>
   <div class="chapter-page">
     <!-- Chapter header -->
     <div class="chapter-header" style={`--ch-color: ${chapter.color};`}>
       <div class="container">
         <div class="chapter-header__breadcrumb">
-          <a href="/">首页</a>
+          <a href={`/${locale}`}>{t.chapterDetail.breadcrumbHome}</a>
           <span>/</span>
-          <a href="/chapters">全部章节</a>
+          <a href={`/${locale}/chapters`}>{t.chapterDetail.breadcrumbChapters}</a>
           <span>/</span>
-          <span>{chapter.title}</span>
+          <span>{locale === 'en' && chapter.titleEn ? chapter.titleEn : chapter.title}</span>
         </div>
         <div class="chapter-header__body">
           <div class="chapter-header__num">{chapter.number ?? '·'}</div>
           <div class="chapter-header__info">
-            <h1 class="chapter-header__title">{chapter.title}</h1>
+            <h1 class="chapter-header__title">{locale === 'en' && chapter.titleEn ? chapter.titleEn : chapter.title}</h1>
             <p class="chapter-header__subtitle">{chapter.subtitle}</p>
-            <p class="chapter-header__desc">{chapter.description}</p>
+            <p class="chapter-header__desc">{locale === 'en' && chapter.descriptionEn ? chapter.descriptionEn : chapter.description}</p>
             <div class="chapter-header__meta">
               <span class="meta-badge">{chapter.publishDate}</span>
-              <span class="meta-badge">{pages.length} 页</span>
-              <span class="meta-badge">{chapter.type === 'extra' ? '番外篇' : chapter.type === 'intro' ? '开笔篇' : '主系列'}</span>
+              <span class="meta-badge">{t.chapterDetail.pagesLabel.replace('{count}', String(pages.length))}</span>
+              <span class="meta-badge">{chapter.type === 'extra' ? t.chapterDetail.extraChapter : chapter.type === 'intro' ? t.chapterDetail.introChapter : t.chapterDetail.mainSeries}</span>
             </div>
           </div>
         </div>
         <div class="chapter-header__tags">
-          {chapter.tags.map(t => (
-            <span class="tag">{t}</span>
+          {chapter.tags.map(tg => (
+            <span class="tag">{tg}</span>
           ))}
         </div>
       </div>
@@ -230,14 +206,14 @@ function renderInline(text: string): string {
     <div class="color-legend">
       <div class="container">
         <div class="color-legend__inner">
-          <span class="color-legend__label">配色说明</span>
+          <span class="color-legend__label">{t.chapterDetail.colorLegend}</span>
           <div class="color-legend__items">
-            <span class="legend-item legend-item--theorem">公理/定理</span>
-            <span class="legend-item legend-item--supplement">解释/补充</span>
-            <span class="legend-item legend-item--corollary">推论/结论</span>
-            <span class="legend-item legend-item--fact">事实/数据</span>
-            <span class="legend-item legend-item--guess">猜想/评论</span>
-            <span class="legend-item legend-item--innovation">理论创新</span>
+            <span class="legend-item legend-item--theorem">{t.chapterDetail.legendTheorem}</span>
+            <span class="legend-item legend-item--supplement">{t.chapterDetail.legendSupplement}</span>
+            <span class="legend-item legend-item--corollary">{t.chapterDetail.legendCorollary}</span>
+            <span class="legend-item legend-item--fact">{t.chapterDetail.legendFact}</span>
+            <span class="legend-item legend-item--guess">{t.chapterDetail.legendGuess}</span>
+            <span class="legend-item legend-item--innovation">{t.chapterDetail.legendInnovation}</span>
           </div>
         </div>
       </div>
@@ -247,12 +223,12 @@ function renderInline(text: string): string {
       <!-- TOC sidebar -->
       <aside class="chapter-toc">
         <div class="toc-inner">
-          <div class="toc-title">目录</div>
+          <div class="toc-title">{t.chapterDetail.tocTitle}</div>
           <ul class="toc-list">
             {pages.map((p, i) => (
               <li>
                 <a href={`#page-${p.num}`} class="toc-item">
-                  第 {p.num} 页
+                  {t.chapterDetail.tocPage.replace('{num}', p.num)}
                 </a>
               </li>
             ))}
@@ -266,44 +242,36 @@ function renderInline(text: string): string {
           pages.map((page) => (
             <div id={`page-${page.num}`} class="page-block">
               <div class="page-block__header">
-                <span class="page-num">第 {page.num} 页</span>
+                <span class="page-num">{t.chapterDetail.pageHeader.replace('{num}', page.num)}</span>
               </div>
               <div class="page-block__body">
                 {page.blocks.map(block => {
                     if (block.type === 'text') {
-                    // Render text: handle headings and paragraphs
                     const lines = block.content.split('\n');
                     return lines.map(line => {
                       const trimmed = line.trim();
                       if (!trimmed) return null;
-                      // Markdown heading
                       if (/^#{1,4}\s/.test(trimmed)) {
                         const level = trimmed.match(/^(#{1,4})\s/)[1].length;
                         const headingText = trimmed.replace(/^#{1,4}\s/, '');
                         const Tag = `h${level}` as 'h1' | 'h2' | 'h3' | 'h4';
                         return <Tag class={level <= 2 ? 'content-heading' : 'content-subheading'} set:html={renderInline(headingText)} />;
                       }
-                      // Horizontal rule
                       if (trimmed === '---') {
                         return <hr class="content-hr" />;
                       }
-                      // Section numbering (e.g. "6.1 怎样生涯三连")
                       if (/^\d+\.\d+[a-z]?\.\d+/.test(trimmed)) {
                         return <h4 class="content-subheading" set:html={renderInline(trimmed)} />;
                       }
-                      if (/^\d+\.\d+[a-z]?/.test(trimmed) && !/^\d+\.\d+[a-z]?\.\d/.test(trimmed)) {
+                      if (/^\d+\.[a-z]?/.test(trimmed) && !/^\d+\.\d+[a-z]?\.\d/.test(trimmed)) {
                         return <h3 class="content-heading" set:html={renderInline(trimmed)} />;
                       }
-                      // Regular paragraph (preserve original numbering like a. b. c.)
-                      // Q&A lines
                       if (/^[QA]:\s/i.test(trimmed)) {
                         return <p class="content-paragraph" style="font-weight:600;" set:html={renderInline(trimmed)} />;
                       }
                       return <p class="content-paragraph" set:html={renderInline(trimmed)} />;
                     });
                   } else if (block.type === 'blockquote') {
-                    // Render blockquote with possible colored children inside
-                    // Headings (###) should be rendered OUTSIDE the blockquote
                     const children = block.children || [];
                     return (
                       <>
@@ -346,7 +314,6 @@ function renderInline(text: string): string {
                       </>
                     );
                   } else {
-                    // Semantic color block — render inline with color, no card wrapper
                     const paras = block.content.split('\n').filter(l => l.trim());
                     return paras.map(line => {
                       const trimmed = line.trim();
@@ -360,22 +327,22 @@ function renderInline(text: string): string {
           ))
         ) : (
           <div class="empty-state">
-            <p>内容加载中，或文件暂不可用。</p>
+            <p>{t.chapterDetail.emptyState}</p>
           </div>
         )}
 
         <!-- Nav -->
         <nav class="chapter-nav">
           {prev ? (
-            <a href={`/chapters/${prev.slug}`} class="chapter-nav__item chapter-nav__item--prev">
-              <span class="chapter-nav__label">← 上一篇</span>
-              <span class="chapter-nav__title">{prev.title}</span>
+            <a href={`/${locale}/chapters/${prev.slug}`} class="chapter-nav__item chapter-nav__item--prev">
+              <span class="chapter-nav__label">{t.chapterDetail.prevChapter}</span>
+              <span class="chapter-nav__title">{locale === 'en' && prev.titleEn ? prev.titleEn : prev.title}</span>
             </a>
           ) : <div />}
           {next ? (
-            <a href={`/chapters/${next.slug}`} class="chapter-nav__item chapter-nav__item--next">
-              <span class="chapter-nav__label">下一篇 →</span>
-              <span class="chapter-nav__title">{next.title}</span>
+            <a href={`/${locale}/chapters/${next.slug}`} class="chapter-nav__item chapter-nav__item--next">
+              <span class="chapter-nav__label">{t.chapterDetail.nextChapter}</span>
+              <span class="chapter-nav__title">{locale === 'en' && next.titleEn ? next.titleEn : next.title}</span>
             </a>
           ) : <div />}
         </nav>
@@ -537,7 +504,6 @@ function renderInline(text: string): string {
     border: 1px solid rgba(231, 76, 60, 0.2);
   }
 
-  /* Supplement - blue italic */
   .legend-item--supplement {
     background: rgba(52, 152, 219, 0.1);
     color: #2980b9;

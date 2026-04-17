@@ -1,0 +1,72 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { getDictionary, type Locale } from '../../i18n';
+
+export function getStaticPaths() {
+  return [
+    { params: { locale: 'zh' } },
+    { params: { locale: 'en' } },
+  ];
+}
+
+const { locale } = Astro.params as { locale: Locale };
+const t = getDictionary(locale);
+const a = t.aboutPage;
+---
+
+<Layout title={a.heading} locale={locale} t={t}>
+  <div class="container" style="padding-top:48px; padding-bottom:80px;">
+    <div style="max-width:720px;">
+      <p class="section-title">{a.sectionTitle}</p>
+      <h1 class="section-heading">{a.heading}</h1>
+
+      <div class="prose" style="margin-top:32px;">
+        <h2>{a.h1About}</h2>
+        <p>{a.p1About}</p>
+        <p>{a.p2About}</p>
+        <ul>
+          <li><strong>{a.routeRegular}</strong></li>
+          <li><strong>{a.routeElite}</strong></li>
+        </ul>
+
+        <h2>{a.h2Site}</h2>
+        <p>{a.p1Site}</p>
+        <p>{a.p2Site}</p>
+
+        <h2>{a.h2Quality}</h2>
+        <p>{a.pQuality}</p>
+
+        <h2>{a.h2Framework}</h2>
+        <p>{a.pFramework}</p>
+      </div>
+
+      <div class="about-card" style="margin-top:40px;">
+        <div class="about-card__label">{a.sourceLabel}</div>
+        <div class="about-card__item">
+          <span class="about-label">{a.sourceAccount}</span>
+          <span>{a.sourceAccountValue}</span>
+        </div>
+        <div class="about-card__item">
+          <span class="about-label">{a.sourceAuthor}</span>
+          <span>{a.sourceAuthorValue}</span>
+        </div>
+        <div class="about-card__item">
+          <span class="about-label">{a.sourceWritten}</span>
+          <span>{a.sourceWrittenValue}</span>
+        </div>
+        <div class="about-card__item">
+          <span class="about-label">{a.sourceUpdated}</span>
+          <span>{a.sourceUpdatedValue}</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</Layout>
+
+<style>
+  .about-card { background: var(--color-border-subtle); border: 1px solid var(--color-border); border-radius: var(--radius-lg); padding: 24px; }
+  .about-card__label { font-size: 11px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--color-text-muted); margin-bottom: 16px; }
+  .about-card__item { display: flex; gap: 16px; padding: 10px 0; border-bottom: 1px solid var(--color-border); font-size: 14px; }
+  .about-card__item:last-child { border-bottom: none; }
+  .about-label { color: var(--color-text-muted); width: 80px; flex-shrink: 0; }
+</style>

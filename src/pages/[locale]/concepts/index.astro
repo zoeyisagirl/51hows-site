@@ -1,6 +1,14 @@
 ---
-import Layout from '../../layouts/Layout.astro';
-import { concepts, chapters } from '../../data/chapters';
+import Layout from '../../../layouts/Layout.astro';
+import { concepts, chapters } from '../../../data/chapters';
+import { getDictionary, type Locale } from '../../../i18n';
+
+export function getStaticPaths() {
+  return [{ params: { locale: 'zh' } }, { params: { locale: 'en' } }];
+}
+
+const { locale } = Astro.params as { locale: Locale };
+const t = getDictionary(locale);
 
 const categoryMap: Record<string, typeof concepts> = {};
 for (const c of concepts) {
@@ -9,13 +17,13 @@ for (const c of concepts) {
 }
 ---
 
-<Layout title="核心概念">
+<Layout title={t.conceptsPage.heading} locale={locale} t={t}>
   <div class="container" style="padding-top:48px; padding-bottom:80px;">
     <div class="page-header">
-      <p class="section-title">理论体系</p>
-      <h1 class="section-heading">核心概念</h1>
+      <p class="section-title">{t.conceptsPage.sectionTitle}</p>
+      <h1 class="section-heading">{t.conceptsPage.heading}</h1>
       <p style="color:var(--color-text-secondary); font-size:16px; margin-top:12px; max-width:560px; line-height:1.7;">
-        5hows 以欧式几何结构写就，从公理出发逐步推演。以下是贯穿全书的关键概念与术语。
+        {t.conceptsPage.description}
       </p>
     </div>
 
@@ -28,12 +36,12 @@ for (const c of concepts) {
               <h3 class="concept-card__title">{c.title}</h3>
               <p class="concept-card__desc">{c.description}</p>
               <div class="concept-card__links">
-                <span class="links-label">出现于：</span>
+                <span class="links-label">{t.conceptsPage.appearsIn}</span>
                 {c.relatedChapters.map(chId => {
                   const ch = chapters.find(x => x.id === chId);
                   return ch ? (
-                    <a href={ch.status === 'restricted' ? '#' : `/chapters/${ch.slug}`} class="concept-link">
-                      {ch.title}
+                    <a href={ch.status === 'restricted' ? '#' : `/${locale}/chapters/${ch.slug}`} class="concept-link">
+                      {locale === 'en' && ch.titleEn ? ch.titleEn : ch.title}
                     </a>
                   ) : null;
                 })}

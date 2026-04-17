@@ -1,21 +1,31 @@
 ---
 import type { HTMLAttributes } from 'astro/types';
+import { getDictionary, type Locale, type Translations } from '../i18n';
 
 interface Props extends HTMLAttributes<'div'> {
   title?: string;
+  locale?: Locale;
+  t?: Translations;
 }
 
-const { title, class: className, ...rest } = Astro.props;
+const { title, locale = 'zh', t, class: className, ...rest } = Astro.props;
+
+// Auto-get dictionary if not provided
+const dict = t ?? getDictionary(locale);
+const langAttr = locale === 'en' ? 'en' : 'zh-CN';
 ---
 
 <!doctype html>
-<html lang="zh-CN">
+<html lang={langAttr}>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="5hows — 五个怎样。怎样理财、怎样上岸、怎样保级、怎样搞事和怎样预测未来。一部以欧式几何结构写就的人生技术手册。" />
+    <meta name="description" content={locale === 'en'
+      ? '5hows — Five Hows. A life technical manual in Euclidean geometric structure.'
+      : '5hows — 五个怎样。怎样理财、怎样上岸、怎样保级、怎样搞事和怎样预测未来。一部以欧式几何结构写就的人生技术手册。'
+    } />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <title>{title ? `${title} — 5hows` : '5hows · 五个怎样'}</title>
+    <title>{title ? `${title} — 5hows` : (locale === 'en' ? '5hows · Five Hows' : '5hows · 五个怎样')}</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet" />
@@ -23,17 +33,18 @@ const { title, class: className, ...rest } = Astro.props;
   <body>
     <nav class="nav">
       <div class="nav__inner">
-        <a href="/" class="nav__brand">
-          <span class="nav__logo">5hows</span>
-          <span class="nav__tagline">五个怎样</span>
+        <a href={`/${locale}`} class="nav__brand">
+          <span class="nav__logo">{dict.nav.brand}</span>
+          <span class="nav__tagline">{dict.nav.tagline}</span>
         </a>
         <div class="nav__links">
-          <a href="/graph" class="nav__link">知识图谱</a>
-          <a href="/chapters" class="nav__link">开始阅读</a>
-          <a href="/concepts" class="nav__link">核心概念</a>
-          <a href="/about" class="nav__link">关于</a>
+          <a href={`/${locale}/graph`} class="nav__link">{dict.nav.graph}</a>
+          <a href={`/${locale}/chapters`} class="nav__link">{dict.nav.chapters}</a>
+          <a href={`/${locale}/concepts`} class="nav__link">{dict.nav.concepts}</a>
+          <a href={`/${locale}/about`} class="nav__link">{dict.nav.about}</a>
+          <a href={locale === 'zh' ? '/en' + Astro.url.pathname : '/zh' + Astro.url.pathname.replace(/^\/en/, '')} class="nav__link nav__link--lang">{dict.nav.switchLang}</a>
         </div>
-        <button class="nav__hamburger" id="hamburger" aria-label="菜单">
+        <button class="nav__hamburger" id="hamburger" aria-label={dict.nav.menu}>
           <span></span><span></span><span></span>
         </button>
       </div>
@@ -46,12 +57,12 @@ const { title, class: className, ...rest } = Astro.props;
     <footer class="footer">
       <div class="footer__inner">
         <div class="footer__brand">
-          <span class="footer__logo">5hows</span>
-          <p class="footer__desc">五个怎样 · 一部以欧式几何结构写就的人生技术手册</p>
+          <span class="footer__logo">{dict.footer.brand}</span>
+          <p class="footer__desc">{dict.footer.desc}</p>
         </div>
         <div class="footer__meta">
-          <p>作者：数之谜@RynW1988 · 公众号：The House Claimed</p>
-          <p>本站为内容展示用途，版权归原作者所有</p>
+          <p>{dict.footer.metaAuthor}</p>
+          <p>{dict.footer.metaCopyright}</p>
         </div>
       </div>
     </footer>
@@ -175,6 +186,18 @@ const { title, class: className, ...rest } = Astro.props;
     background: var(--color-border-subtle);
   }
 
+  .nav__link--lang {
+    font-weight: 700;
+    color: var(--color-accent);
+    border: 1px solid var(--color-accent);
+    opacity: 0.8;
+  }
+
+  .nav__link--lang:hover {
+    opacity: 1;
+    background: rgba(99,102,241,0.08);
+  }
+
   .nav__hamburger {
     display: none;
     flex-direction: column;
@@ -225,7 +248,7 @@ const { title, class: className, ...rest } = Astro.props;
   .footer__meta {
     text-align: right;
     font-size: 13px;
-    color: var(--color-text-muted);
+    color: var(--color-muted);
     line-height: 1.8;
   }
 

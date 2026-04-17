@@ -2,8 +2,10 @@ export interface Chapter {
   id: string;
   number: number | null;
   title: string;
+  titleEn?: string;
   subtitle: string;
   description: string;
+  descriptionEn?: string;
   publishDate: string;
   type: 'main' | 'extra' | 'intro';
   pages: number;
@@ -18,8 +20,10 @@ export const chapters: Chapter[] = [
     id: 'how0',
     number: 0,
     title: '怎样真正活过',
+    titleEn: 'How to Truly Live',
     subtitle: 'How to truly live',
     description: 'Lifetime 是一张主题乐园通票，你 always 试图多玩几个园儿。探讨厉害的人与不厉害的人的发育线，以及赚钱的终极意义——给世界端盘儿菜。',
+    descriptionEn: 'Lifetime is a theme park pass — you always try to visit more parks. Explore the development paths of the elite and non-elite, and the ultimate meaning of wealth — serving original dishes to the world.',
     publishDate: '2025-07-28',
     type: 'main',
     pages: 14,
@@ -32,8 +36,10 @@ export const chapters: Chapter[] = [
     id: 'how1',
     number: 1,
     title: '怎样理财',
+    titleEn: 'How to Manage Wealth',
     subtitle: 'How to manage wealth',
     description: '从第一桶金到永续财富自由的路径。讨论 W₀（约3000万）的实现逻辑，以及不厉害的人如何通过价值投资实现财务自由。',
+    descriptionEn: 'The path from first bucket of gold to perpetual financial freedom. Discusses the logic behind W₀ (~30M RMB) and how the non-elite can achieve financial freedom through value investing.',
     publishDate: '2025-07-24',
     type: 'main',
     pages: 20,
@@ -46,8 +52,10 @@ export const chapters: Chapter[] = [
     id: 'how2',
     number: 2,
     title: '怎样上岸',
+    titleEn: 'How to Reach the Shore',
     subtitle: 'How to reach the shore',
     description: '从 W₁ 到 W₂（约3亿）的路径。传与有缘，公众号不贴。',
+    descriptionEn: 'The path from W₁ to W₂ (~300M RMB). Restricted content, not publicly posted.',
     publishDate: '2025-07-24',
     type: 'main',
     pages: 0,
@@ -60,8 +68,10 @@ export const chapters: Chapter[] = [
     id: 'how3',
     number: 3,
     title: '怎样保级',
+    titleEn: 'How to Maintain Position',
     subtitle: 'How to maintain your position',
     description: '上岸之后人人都要学的课题。财富的保全不仅仅是投资的问题，更是一种生活方式和认知框架。',
+    descriptionEn: 'A mandatory subject after reaching the shore. Wealth preservation is not just an investment issue — it is a lifestyle and cognitive framework.',
     publishDate: '2025-07-24',
     type: 'main',
     pages: 12,
@@ -74,8 +84,10 @@ export const chapters: Chapter[] = [
     id: 'how4',
     number: 4,
     title: '怎样搞事',
+    titleEn: 'How to Make Things Happen',
     subtitle: 'How to make things happen',
     description: '厉害的人的专属课题。从0到1的创业逻辑，梦幻队长理论，以及给世界端盘儿菜的具体路径。',
+    descriptionEn: 'The exclusive subject for the elite. The startup logic from 0 to 1, the Dream Captain theory, and the concrete path to serving original dishes to the world.',
     publishDate: '2025-07-24',
     type: 'main',
     pages: 14,
@@ -88,8 +100,10 @@ export const chapters: Chapter[] = [
     id: 'how5',
     number: 5,
     title: '怎样预测未来',
+    titleEn: 'How to Predict the Future',
     subtitle: 'How to predict the future',
     description: '厉害的人的第二专属课题。理解历史规律与技术趋势，在人类知识凸包的前沿做出判断。',
+    descriptionEn: "The elite's second exclusive subject. Understanding historical patterns and technological trends, and making judgments at the frontier of humanity's knowledge convex hull.",
     publishDate: '2025-07-24',
     type: 'main',
     pages: 19,
@@ -102,8 +116,10 @@ export const chapters: Chapter[] = [
     id: 'how6',
     number: 6,
     title: '怎样 Anything',
+    titleEn: 'How to Do Anything',
     subtitle: 'How to do anything',
     description: '番外篇。二流技术的汇集——怎样失恋、怎样赢、怎样选专业……以及更多。既然是 Anything，话题无穷无尽。',
+    descriptionEn: 'Extra chapter. A collection of second-tier techniques — how to get over a breakup, how to win, how to choose a major, and more. Since it is "Anything", topics are endless.',
     publishDate: '2025-07-24',
     type: 'extra',
     pages: 23,

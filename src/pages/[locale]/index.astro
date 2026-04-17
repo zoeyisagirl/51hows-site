@@ -1,0 +1,359 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { getDictionary, type Locale } from '../../i18n';
+import { chapters, concepts, timeline } from '../../data/chapters';
+
+export function getStaticPaths() {
+  return [
+    { params: { locale: 'zh' } },
+    { params: { locale: 'en' } },
+  ];
+}
+
+const { locale } = Astro.params as { locale: Locale };
+const t = getDictionary(locale);
+
+const mainChapters = chapters.filter(c => c.type === 'main' || c.type === 'extra');
+const introChapter = chapters.find(c => c.type === 'intro');
+const availableCount = chapters.filter(c => c.status === 'available').length;
+const totalPages = chapters.reduce((sum, c) => sum + c.pages, 0);
+---
+
+<Layout locale={locale} t={t}>
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero__badge">{t.hero.badge}</div>
+      <h1 class="hero__title">
+        {t.hero.title1}<br/>
+        {t.hero.title2}<br/>
+        {t.hero.title3}
+      </h1>
+      <p class="hero__desc">{t.hero.desc}</p>
+      <div class="hero__author">
+        <span class="author-label">{t.hero.authorLabel}</span>
+        <span class="author-name">{t.hero.authorName}</span>
+        <span class="author-sep">·</span>
+        <span class="author-channel">{t.hero.authorChannel}</span>
+      </div>
+      <div class="hero__actions">
+        <a href={`/${locale}/chapters`} class="btn btn--primary">{t.hero.ctaRead}</a>
+        <a href={`/${locale}/graph`} class="btn btn--secondary">{t.hero.ctaGraph}</a>
+      </div>
+      <div class="hero__stats">
+        <div class="stat">
+          <div class="stat__num">8</div>
+          <div class="stat__label">{t.hero.statsArticles}</div>
+        </div>
+        <div class="stat__divider"></div>
+        <div class="stat">
+          <div class="stat__num">{availableCount}</div>
+          <div class="stat__label">{t.hero.statsAvailable}</div>
+        </div>
+        <div class="stat__divider"></div>
+        <div class="stat">
+          <div class="stat__num">{totalPages}</div>
+          <div class="stat__label">{t.hero.statsPages}</div>
+        </div>
+        <div class="stat__divider"></div>
+        <div class="stat">
+          <div class="stat__num">{concepts.length}</div>
+          <div class="stat__label">{t.hero.statsConcepts}</div>
+        </div>
+      </div>
+    </div>
+    <div class="hero__axiom">
+      <div class="container">
+        <span class="axiom-label">{t.hero.axiomLabel}</span>
+        <span class="axiom-text">{t.hero.axiomText}</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Chapters Grid -->
+  <section class="section">
+    <div class="container">
+      <p class="section-title">{t.content.sectionTitle}</p>
+      <h2 class="section-heading">{t.content.heading}</h2>
+      <p class="chapters-desc">{t.content.description}</p>
+
+      <div class="track-banner">
+        <div class="track track--regular">
+          <div class="track__label">{t.content.trackRegular}</div>
+          <div class="track__tags">
+            <span>how 0</span><span>→</span>
+            <span>how 1</span><span>→</span>
+            <span>how 2</span><span>→</span>
+            <span>how 3</span>
+          </div>
+          <p class="track__desc">{t.content.trackRegularDesc}</p>
+        </div>
+        <div class="track track--elite">
+          <div class="track__label">{t.content.trackElite}</div>
+          <div class="track__tags">
+            <span>how 0</span><span>→</span>
+            <span>how 4</span><span>→</span>
+            <span>how 5</span><span>→</span>
+            <span>how 3</span>
+          </div>
+          <p class="track__desc">{t.content.trackEliteDesc}</p>
+        </div>
+      </div>
+
+      <div class="chapters-grid">
+        {mainChapters.map((ch) => (
+          <a
+            href={ch.status === 'restricted' ? '#' : `/${locale}/chapters/${ch.slug}`}
+            class={`chapter-card ${ch.status === 'restricted' ? 'chapter-card--locked' : ''}`}
+            style={`--ch-color: ${ch.color};`}
+          >
+            <div class="chapter-card__num">
+              {ch.number !== null ? ch.number : '·'}
+            </div>
+            <div class="chapter-card__body">
+              <h3 class="chapter-card__title">{locale === 'en' && ch.titleEn ? ch.titleEn : ch.title}</h3>
+              <p class="chapter-card__sub">{ch.subtitle}</p>
+              <p class="chapter-card__desc">{locale === 'en' && ch.descriptionEn ? ch.descriptionEn : ch.description}</p>
+              <div class="chapter-card__meta">
+                {ch.status === 'restricted' ? (
+                  <span class="badge badge--locked">{t.content.lockedBadge}</span>
+                ) : (
+                  <>
+                    <span class="badge">{t.content.pagesBadge.replace('{pages}', String(ch.pages))}</span>
+                    <span class="badge">{ch.publishDate}</span>
+                  </>
+                )}
+              </div>
+            </div>
+            {ch.status !== 'restricted' && (
+              <div class="chapter-card__arrow">→</div>
+            )}
+          </a>
+        ))}
+      </div>
+
+      {introChapter && (
+        <a href={`/${locale}/chapters/${introChapter.slug}`} class="intro-card" style={`--ch-color: ${introChapter.color};`}>
+          <div class="intro-card__left">
+            <div class="intro-card__label">{t.content.introBadge}</div>
+            <h3 class="intro-card__title">{locale === 'en' && introChapter.titleEn ? introChapter.titleEn : introChapter.title}</h3>
+            <p class="intro-card__desc">{locale === 'en' && introChapter.descriptionEn ? introChapter.descriptionEn : introChapter.description}</p>
+          </div>
+          <div class="intro-card__right">
+            <div class="intro-card__date">{introChapter.publishDate}</div>
+            <div class="intro-card__arrow">→</div>
+          </div>
+        </a>
+      )}
+    </div>
+  </section>
+
+  <!-- Concepts -->
+  <section class="section section--alt">
+    <div class="container">
+      <p class="section-title">{t.conceptsSection.sectionTitle}</p>
+      <h2 class="section-heading">{t.conceptsSection.heading}</h2>
+      <p class="chapters-desc">{t.conceptsSection.description}</p>
+      <div class="concepts-grid">
+        {concepts.map((c) => (
+          <a href={`/${locale}/concepts`} class="concept-card">
+            <div class="concept-card__category">{c.category}</div>
+            <h4 class="concept-card__title">{c.title}</h4>
+            <p class="concept-card__desc">{c.description}</p>
+            <div class="concept-card__chapters">
+              {c.relatedChapters.map(ch => {
+                const chapter = chapters.find(x => x.id === ch);
+                return chapter ? (
+                  <span class="concept-chapter-tag">{locale === 'en' && chapter.titleEn ? chapter.titleEn : chapter.title}</span>
+                ) : null;
+              })}
+            </div>
+          </a>
+        ))}
+      </div>
+      <div class="concepts-cta">
+        <a href={`/${locale}/concepts`} class="btn btn--outline">{t.content.viewAllConcepts}</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Timeline -->
+  <section class="section">
+    <div class="container">
+      <p class="section-title">{t.timeline.sectionTitle}</p>
+      <h2 class="section-heading">{t.timeline.heading}</h2>
+      <div class="timeline">
+        {timeline.map((ev, i) => (
+          <div class="timeline-item">
+            <div class="timeline-item__dot"></div>
+            <div class="timeline-item__date">{ev.date}</div>
+            <div class="timeline-item__content">
+              <h4 class="timeline-item__title">{ev.title}</h4>
+              <p class="timeline-item__desc">{ev.description}</p>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Quote -->
+  <section class="section section--dark">
+    <div class="container">
+      <blockquote class="big-quote">
+        <p>"{t.quote}"</p>
+        <footer>— {t.quoteAuthor}</footer>
+      </blockquote>
+    </div>
+  </section>
+</Layout>
+
+<style>
+  .hero {
+    padding: 80px 0 0;
+    border-bottom: 1px solid var(--color-border);
+  }
+  .hero__badge {
+    display: inline-block;
+    padding: 4px 12px;
+    border: 1px solid var(--color-border);
+    border-radius: 100px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    color: var(--color-text-secondary);
+    margin-bottom: 24px;
+  }
+  .hero__title {
+    font-size: clamp(32px, 5vw, 56px);
+    font-weight: 700;
+    letter-spacing: -1.5px;
+    line-height: 1.15;
+    color: var(--color-text);
+    margin-bottom: 24px;
+  }
+  .hero__desc {
+    font-size: 18px;
+    line-height: 1.7;
+    color: var(--color-text-secondary);
+    max-width: 600px;
+    margin-bottom: 20px;
+  }
+  .hero__author {
+    display: flex; align-items: center; gap: 8px;
+    font-size: 14px; color: var(--color-text-muted); margin-bottom: 32px;
+  }
+  .author-label { font-weight: 500; color: var(--color-text-secondary); }
+  .author-name, .author-channel { font-weight: 500; }
+  .hero__actions {
+    display: flex; align-items: center; gap: 12px;
+    margin-bottom: 48px; flex-wrap: wrap;
+  }
+  .btn {
+    display: inline-flex; align-items: center;
+    padding: 10px 20px; border-radius: var(--radius-md);
+    font-size: 15px; font-weight: 600; cursor: pointer;
+    transition: all 0.15s; border: none; text-decoration: none;
+  }
+  .btn--primary { background: var(--color-text); color: white; }
+  .btn--primary:hover { background: #374151; transform: translateY(-1px); box-shadow: var(--shadow-md); }
+  .btn--secondary { background: var(--color-surface); color: var(--color-text); border: 1px solid var(--color-border); }
+  .btn--secondary:hover { background: var(--color-border-subtle); transform: translateY(-1px); }
+  .btn--outline { background: transparent; color: var(--color-text); border: 1px solid var(--color-border); }
+  .btn--outline:hover { background: var(--color-border-subtle); }
+  .hero__stats {
+    display: flex; align-items: center; gap: 0;
+    padding: 24px 0; border-top: 1px solid var(--color-border-subtle); flex-wrap: wrap;
+  }
+  .stat { padding: 0 32px 0 0; flex: 0 0 auto; }
+  .stat:first-child { padding-left: 0; }
+  .stat__num { font-size: 28px; font-weight: 700; letter-spacing: -1px; color: var(--color-text); font-variant-numeric: tabular-nums; }
+  .stat__label { font-size: 13px; color: var(--color-text-muted); margin-top: 2px; }
+  .stat__divider { width: 1px; height: 40px; background: var(--color-border); margin: 0 32px 0 0; flex-shrink: 0; }
+  .hero__axiom { margin-top: 48px; padding: 16px 0; border-top: 1px solid var(--color-border); background: var(--color-border-subtle); }
+  .hero__axiom .container { display: flex; align-items: center; gap: 12px; }
+  .axiom-label { font-size: 11px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--color-text-muted); flex-shrink: 0; }
+  .axiom-text { font-size: 14px; font-weight: 500; color: var(--color-text-secondary); font-style: italic; }
+
+  .section--alt { background: var(--color-border-subtle); }
+
+  .chapters-desc { font-size: 16px; color: var(--color-text-secondary); max-width: 640px; margin-top: 12px; margin-bottom: 32px; line-height: 1.7; }
+  .track-banner { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 32px; }
+  .track { padding: 16px 20px; border-radius: var(--radius-md); border: 1px solid var(--color-border); }
+  .track--elite { background: #fafafa; border-color: #e5e7eb; }
+  .track__label { font-size: 11px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--color-text-muted); margin-bottom: 8px; }
+  .track__tags { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; margin-bottom: 8px; }
+  .track__tags span { font-size: 13px; font-weight: 600; color: var(--color-text); }
+  .track__tags span:nth-child(even) { color: var(--color-text-muted); font-weight: 400; }
+  .track__desc { font-size: 13px; color: var(--color-text-secondary); }
+
+  .chapters-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 16px; margin-bottom: 16px; }
+  .chapter-card {
+    position: relative; display: flex; gap: 16px; align-items: flex-start;
+    padding: 24px; background: var(--color-surface); border: 1px solid var(--color-border);
+    border-radius: var(--radius-lg); cursor: pointer; transition: all 0.2s;
+    text-decoration: none; color: inherit; overflow: hidden;
+  }
+  .chapter-card::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px; background: var(--ch-color, #6366f1); opacity: 0; transition: opacity 0.2s; }
+  .chapter-card:hover { border-color: var(--ch-color, #6366f1); box-shadow: var(--shadow-md); transform: translateY(-2px); }
+  .chapter-card:hover::before { opacity: 1; }
+  .chapter-card--locked { opacity: 0.6; cursor: not-allowed; }
+  .chapter-card--locked:hover { transform: none; box-shadow: none; }
+  .chapter-card__num { flex-shrink: 0; width: 40px; height: 40px; border-radius: var(--radius-md); background: var(--ch-color, #6366f1); color: white; display: flex; align-items: center; justify-content: center; font-size: 18px; font-weight: 700; letter-spacing: -1px; }
+  .chapter-card__body { flex: 1; min-width: 0; }
+  .chapter-card__title { font-size: 16px; font-weight: 700; letter-spacing: -0.3px; margin-bottom: 3px; }
+  .chapter-card__sub { font-size: 12px; color: var(--color-text-muted); margin-bottom: 8px; font-style: italic; }
+  .chapter-card__desc { font-size: 14px; color: var(--color-text-secondary); line-height: 1.6; margin-bottom: 12px; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .chapter-card__meta { display: flex; gap: 6px; flex-wrap: wrap; }
+  .chapter-card__arrow { flex-shrink: 0; color: var(--color-text-muted); font-size: 18px; align-self: center; transition: transform 0.2s; }
+  .chapter-card:hover .chapter-card__arrow { transform: translateX(4px); }
+  .badge { display: inline-block; padding: 2px 8px; border-radius: 100px; font-size: 12px; font-weight: 500; background: var(--color-border-subtle); color: var(--color-text-secondary); border: 1px solid var(--color-border); }
+  .badge--locked { background: #fef3c7; color: #92400e; border-color: #fde68a; }
+
+  .intro-card { display: flex; justify-content: space-between; align-items: center; gap: 24px; padding: 24px 28px; background: var(--color-surface); border: 1px solid var(--color-border); border-radius: var(--radius-lg); cursor: pointer; transition: all 0.2s; text-decoration: none; color: inherit; position: relative; overflow: hidden; }
+  .intro-card::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px; background: var(--ch-color, #06b6d4); opacity: 0; transition: opacity 0.2s; }
+  .intro-card:hover { border-color: var(--ch-color, #06b6d4); transform: translateY(-2px); box-shadow: var(--shadow-md); }
+  .intro-card:hover::before { opacity: 1; }
+  .intro-card__label { font-size: 11px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--color-text-muted); margin-bottom: 6px; }
+  .intro-card__title { font-size: 18px; font-weight: 700; margin-bottom: 6px; }
+  .intro-card__desc { font-size: 14px; color: var(--color-text-secondary); line-height: 1.6; max-width: 560px; }
+  .intro-card__right { display: flex; flex-direction: column; align-items: flex-end; gap: 12px; flex-shrink: 0; }
+  .intro-card__date { font-size: 13px; color: var(--color-text-muted); }
+  .intro-card__arrow { font-size: 20px; color: var(--color-text-muted); transition: transform 0.2s; }
+  .intro-card:hover .intro-card__arrow { transform: translateX(4px); }
+
+  .concepts-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 12px; margin-bottom: 24px; }
+  .concept-card { padding: 20px; background: var(--color-surface); border: 1px solid var(--color-border); border-radius: var(--radius-md); cursor: pointer; transition: all 0.15s; text-decoration: none; color: inherit; }
+  .concept-card:hover { border-color: #9ca3af; box-shadow: var(--shadow-sm); transform: translateY(-1px); }
+  .concept-card__category { font-size: 11px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--color-text-muted); margin-bottom: 8px; }
+  .concept-card__title { font-size: 16px; font-weight: 700; letter-spacing: -0.3px; margin-bottom: 6px; }
+  .concept-card__desc { font-size: 13px; color: var(--color-text-secondary); line-height: 1.6; margin-bottom: 12px; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .concept-card__chapters { display: flex; gap: 4px; flex-wrap: wrap; }
+  .concept-chapter-tag { padding: 2px 7px; border-radius: 100px; font-size: 11px; font-weight: 500; background: var(--color-border-subtle); color: var(--color-text-muted); border: 1px solid var(--color-border); }
+  .concepts-cta { text-align: center; margin-top: 8px; }
+
+  .timeline { display: flex; flex-direction: column; gap: 0; position: relative; padding-left: 32px; }
+  .timeline::before { content: ''; position: absolute; left: 7px; top: 8px; bottom: 8px; width: 2px; background: var(--color-border); }
+  .timeline-item { display: flex; gap: 24px; position: relative; padding-bottom: 32px; }
+  .timeline-item:last-child { padding-bottom: 0; }
+  .timeline-item__dot { position: absolute; left: -28px; top: 6px; width: 10px; height: 10px; border-radius: 50%; background: var(--color-text); border: 2px solid var(--color-surface); box-shadow: 0 0 0 2px var(--color-border); flex-shrink: 0; }
+  .timeline-item__date { flex-shrink: 0; font-size: 13px; font-weight: 600; color: var(--color-text-muted); font-variant-numeric: tabular-nums; padding-top: 2px; min-width: 80px; }
+  .timeline-item__title { font-size: 15px; font-weight: 600; margin-bottom: 4px; }
+  .timeline-item__desc { font-size: 14px; color: var(--color-text-secondary); line-height: 1.6; }
+
+  .section--dark { background: var(--color-text); padding: 64px 0; margin-top: 0; }
+  .big-quote { max-width: 720px; margin: 0 auto; border: none; padding: 0; }
+  .big-quote p { font-size: 20px; line-height: 1.8; color: rgba(255,255,255,0.85); font-style: italic; margin-bottom: 24px; }
+  .big-quote footer { font-size: 14px; color: rgba(255,255,255,0.4); font-style: normal; }
+
+  @media (max-width: 768px) {
+    .track-banner { grid-template-columns: 1fr; }
+    .chapters-grid { grid-template-columns: 1fr; }
+    .intro-card { flex-direction: column; align-items: flex-start; }
+    .intro-card__right { flex-direction: row; }
+    .hero__stats { gap: 0; }
+    .stat { padding: 0 20px 0 0; }
+    .stat__divider { margin: 0 20px 0 0; }
+    .big-quote p { font-size: 17px; }
+  }
+</style>
