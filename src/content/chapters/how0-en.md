@@ -1,13 +1,13 @@
 ---
 title: "0. How to Truly Live"
 chapter: 0
-author: "数之谜@RynW1988"
+author: "Shuzhimi@RynW1988"
 ---
 
 
 > <span style="color:#2E86C1">***5hows or RynW4+1***</span>
 > <span style="color:#2E86C1">*Reasons and Examples*</span>
-> <span style="color:#2E86C1">*by 数之谜@RynW1988*</span>
+> <span style="color:#2E86C1">*by Shuzhimi@RynW1988*</span>
 > <span style="color:#2E86C1">*2025.04*</span>
 
 ---
@@ -52,7 +52,7 @@ author: "数之谜@RynW1988"
 ### How to Manage Wealth, How to Reach the Shore, How to Maintain Position, How to Make Things Happen, and How to Predict the Future
 
 ><span style="color:#2E86C1">*This work is hereafter referred to as "5hows" or "RynW4+1"*</span>
-><span style="color:#2E86C1">*by 数之谜@RynW1988*</span>
+><span style="color:#2E86C1">*by Shuzhimi@RynW1988*</span>
 
 ### Acknowledgments
 
@@ -63,11 +63,11 @@ author: "数之谜@RynW1988"
 3. ***The Man***: This work began creation in your birth month. Thank you for bringing a new kind of beautiful possibility into this world.
 
 4. ***Editorial Committee***:
-   - *Editor A*: Thank you 数之谜@xibo, for your model essay, structural suggestions, and the encouragement of "share it as you heard it too." These three elevated this work to a height not originally its own — collective contribution no less than e⁻¹.
-   - *Editor B*: Thank you 数之谜@Christine. "Understandable without studying curve theory" is the gold standard for a good article.
-   - *Editor C*: Thank you art editor 数之谜@Chaney. Color theory is elite knowledge; your counter-intuitive questioning approach was used extensively throughout.
-   - *Editor D*: Thank you 数之谜@ , for your logical talent and original spirit — contribution no less than e⁻¹. You are one of The Elite. Thank you for trusting "4+1" as you trusted "9+2"; neither has been written by many before. The former has a higher proportion of strictly true propositions; the latter is more powerful in practice.
-   - *Editor E*: Thank you 数之谜@swire, for you as a hundred-millionaire helping with formatting — reminds me of those years when we in finance all formatted documents beautifully.
+   - *Editor A*: Thank you Shuzhimi@xibo, for your model essay, structural suggestions, and the encouragement of "share it as you heard it too." These three elevated this work to a height not originally its own — collective contribution no less than e⁻¹.
+   - *Editor B*: Thank you Shuzhimi@Christine. "Understandable without studying curve theory" is the gold standard for a good article.
+   - *Editor C*: Thank you art editor Shuzhimi@Chaney (Art Editor). Color theory is elite knowledge; your counter-intuitive questioning approach was used extensively throughout.
+   - *Editor D*: Thank you Shuzhimi, for your logical talent and original spirit — contribution no less than e⁻¹. You are one of The Elite. Thank you for trusting "4+1" as you trusted "9+2"; neither has been written by many before. The former has a higher proportion of strictly true propositions; the latter is more powerful in practice.
+   - *Editor E*: Thank you Shuzhimi@swire, for you as a hundred-millionaire helping with formatting — reminds me of those years when we in finance all formatted documents beautifully.
 
 5. ***Every friend who has ever inspired me***: Without your points and enlightening, this work could not have been completed.
 
@@ -78,7 +78,7 @@ author: "数之谜@RynW1988"
 # 0. How to Truly Live
 
 > *<span style="color:#2E86C1">Lifetime is a theme park pass — you always try to visit more parks than most</span>*
-> *<span style="color:#2E86C1">by 数之谜@RynW1988</span>*
+> *<span style="color:#2E86C1">by Shuzhimi@RynW1988</span>*
 
 > It is generally held that life's pursuit is reaching places and states never before attained, whether materially or spiritually. Each achievement and experience can be viewed as a different theme park.
 
@@ -91,7 +91,7 @@ author: "数之谜@RynW1988"
 <span style="color:#2E86C1">*0.0.1.2 The author is a mathematics competition enthusiast. This work unfolds as much as possible in Euclidean geometric structure (hereinafter "geometric style"). This is possible because although 5hows is a social science work, it is not entirely narrative and experience-based — to a considerable extent, it is argumentation and science.*</span>
 
 > **0.0.2 Color coding explanation**
-> *Thanks to Editor C / Art Editor 数之谜@Chaney*
+> *Thanks to Editor C / Art Editor Shuzhimi@Chaney (Art Editor)*
 > a. Body text / statements in black
 > b. <span style="color:#C0392B">*Axioms / theorems in red*</span>
 > c. <span style="color:#2E86C1">*Explanations / supplements in blue italics*</span>
@@ -138,7 +138,7 @@ author: "数之谜@RynW1988"
 > <span style="color:#2E86C1">*i.e., amplitude e-fold; empirically wealth follows an e power-law distribution; if the author can provide better estimates, they will be specified separately*</span>
 >
 > <span style="color:#C0392B">**0.1.5.3 Floating range is a stronger property, not weaker. That is, within this range, the logic elucidated by this work does not completely fail, and remains the principal contradiction among relevant factors**</span>
-> <span style="color:#2E86C1">*Propositions satisfying this property are called "causally true propositions" (归因真命题), distinguished from strictly true propositions. Their complement is called "causally false propositions"*</span>
+> <span style="color:#2E86C1">*Propositions satisfying this property are called "causally true propositions" (causally true propositions), distinguished from strictly true propositions. Their complement is called "causally false propositions"*</span>
 > <span style="color:#2E86C1">*The difference between causally true and strictly true propositions is called "error." Causally false propositions are called "mistakes."*</span>
 >
 > <span style="color:#C0392B">**0.1.5.4 This work's disclosure principle: be as prudent as possible on avoiding mistakes, say as much as possible within error tolerance**</span>
@@ -150,8 +150,8 @@ author: "数之谜@RynW1988"
 >    <span style="color:#2E86C1">*Due to popularization nature and author level, accuracy of numbers is not guaranteed; direction/magnitude is approximately correct*</span>
 >
 > 0.1.5.6 For sharper viewpoints and facts, no more than three concise examples are provided
->    <span style="color:#2E86C1">*For various reasons, this can only guarantee approximate correctness; please use falsehood to cultivate truth (借假修真)*</span>
->    <span style="color:#2E86C1">*Proper nouns in most examples will be omitted,不影响逻辑展开*</span>
+>    <span style="color:#2E86C1">*For various reasons, this can only guarantee approximate correctness; please use falsehood to cultivate truth*</span>
+>    <span style="color:#2E86C1">*Proper nouns in most examples will be omitted, without affecting logical exposition*</span>
 
 > <span style="color:#C0392B">**0.1.6 Most major logical chains in this work are "if and only if"**</span>
 >
@@ -357,7 +357,7 @@ author: "数之谜@RynW1988"
 >
 > <span style="color:#2E86C1">*0.5.3.1 Self-starting works too but requires risking loss-of-capital risk*</span>
 >
-> <span style="color:#2E86C1">*0.5.3.2 If the冒险 succeeds, you can begin applying 5hows*</span>
+> <span style="color:#2E86C1">*0.5.3.2 If the venture succeeds, you can begin applying 5hows*</span>
 >    <span style="color:#8E44AD">**HK TV drama trope: being M's assistant (arranging travel, booking tickets) for years; before marriage/having kids, M usually gives a code word — since early HK stock manipulation was rampant, sometimes (in dramas) this actually works**</span>
 
 <span style="color:#C0392B">**0.5.4 Thus the first bucket of gold is not a "market deal" but an "off-market deal" — no universal solution / academic value**</span>
@@ -466,7 +466,7 @@ author: "数之谜@RynW1988"
 - b. **The Elite inspire and encourage each other**
    <span style="color:#17A2B8">*"Stuck in Shanghai on a rainy night, late-night snack with an old flame after years out of touch. Neither of us changed — including weight and his resolve to diet. We collaborated on many things in college: basically I started he finished, pair programming I talked he coded, weird bugs he stayed up I slept. His startup on a bizarre venture taught me lots; I shared my brewing bizarre plan for him to critique. Ended perfectly with three questions about each other's past and future." — Zhang Yiming*</span>
 
-> <span style="color:#2E86C1">*This work will quote him multiple times; hereinafter YM or 一鸣. His quotes appear in <span style="color:#17A2B8">teal</span>*</span>
+> <span style="color:#2E86C1">*This work will quote him multiple times; hereinafter YM or Yiming. His quotes appear in <span style="color:#17A2B8">teal</span>*</span>
 
 > **0.7.2.3 Direct corollary: since university is the flattest social venue, before you find answers to big questions (The Passion? Who to build with? To what extent?), why not water two extra years in university?**
 
@@ -474,9 +474,9 @@ author: "数之谜@RynW1988"
 
 <span style="color:#8E44AD">**0.7.3.0 Selected Works of Mao + Zero to One + How to Be a Commander — basically covers how to do anything**</span>
 
-**0.7.3.1 "How to Organize" is the first axiom of Mao Selected Works (Chairman Mao hereinafter 教员)**
+**0.7.3.1 "How to Organize" is the first axiom of Mao Selected Works (Chairman Mao hereinafter the Chairman)**
 
-- a. 教员 has one merit: among leaders past and present, he likely loves writing most
+- a. The Chairman has one merit: among leaders past and present, he likely loves writing most
 - b. He wishes all masses immediately understood everything he understood
 
 **0.7.3.2 He didn't do tech innovation, didn't spend long in middle management — Selected Works lacks these two parts. Everything else, he covered completely**
@@ -579,7 +579,7 @@ author: "数之谜@RynW1988"
 > ━━━━━━━━━━━━━━━━━━━━━
 >
 > <span style="color:#7F8C8D">*\*W_ir (ir for irrelevant) means*</span>
-> <span style="color:#7F8C8D">*a. Above this wealth threshold, optimal methods for achieving financial goals (hereinafter "methods/心法") begin to take effect*</span>
+> <span style="color:#7F8C8D">*a. Above this wealth threshold, optimal methods for achieving financial goals (hereinafter "methods/Xinfa") begin to take effect*</span>
 > <span style="color:#7F8C8D">*b. Below this threshold, no methods are needed for optimal results*</span>
 > <span style="color:#7F8C8D">*c. Throughout history, there have been outstanding and great individuals with zero wealth*</span>
 >    <span style="color:#2E86C1">*Master Hong Yi died penniless — did not diminish the immortality of "Farewell"*</span>
@@ -589,7 +589,7 @@ author: "数之谜@RynW1988"
 
 ## Appendix: Elite Math Competition Sample — The Code
 
-> ### 意志范儿
+> ### The Vibe of Will
 > *The Code*
 >
 > ---
