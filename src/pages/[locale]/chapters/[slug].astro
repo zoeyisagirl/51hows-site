@@ -723,6 +723,12 @@ function findHeadingId(headingText: string, pageNum: string): string | undefined
     scroll-margin-top: calc(var(--nav-height) + 20px);
   }
 
+  .page-block h2[id],
+  .page-block h3[id],
+  .page-block h4[id] {
+    scroll-margin-top: calc(var(--nav-height) + 20px);
+  }
+
   .page-block:last-of-type {
     border-bottom: none;
   }
