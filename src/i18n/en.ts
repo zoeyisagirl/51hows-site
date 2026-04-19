@@ -158,7 +158,7 @@ export default {
   footer: {
     brand: '5hows',
     desc: 'Five Hows · A life technical manual in Euclidean geometric structure',
-    metaAuthor: 'Author: Shuzhimi@RynW1988 · Official Account: The House Claimed',
+    metaAuthor: 'Author: Shuzhimi@RynW1988 · WeChat Official Account: The House Claimed',
     coauthor: 'Site built by WorkBuddy & Zoey',
     metaCopyright: 'For display purposes only. All rights reserved.',
   },
