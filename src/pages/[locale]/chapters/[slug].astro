@@ -165,7 +165,32 @@ interface Page {
   blocks: ContentBlock[];
 }
 
+interface TocEntry {
+  id: string;
+  title: string;
+  level: number; // 2 = ##, 3 = ###
+  pageNum: string;
+}
+
 const pages: Page[] = [];
+const tocEntries: TocEntry[] = [];
+
+// Helper: strip HTML tags and markdown formatting from a string for TOC display
+function stripHtml(html: string): string {
+  return html
+    .replace(/<[^>]+>/g, '')
+    .replace(/\*\*/g, '')
+    .replace(/\*/g, '')
+    .replace(/^>\s?/gm, '')
+    .trim();
+}
+
+// Helper: generate a slug-like id from heading text
+function headingToId(text: string, pageNum: string): string {
+  const cleaned = stripHtml(text).replace(/[^\w\u4e00-\u9fff]/g, '-').replace(/-+/g, '-').replace(/^-|-$/g, '');
+  return `p${pageNum}-${cleaned}`.toLowerCase();
+}
+
 if (rawContent) {
   const withoutFrontmatter = rawContent.replace(/^---[\s\S]*?---\n/, '');
   const pageSections = withoutFrontmatter.split(/<!-- Page (\d+) -->/).filter(s => s.trim());
@@ -181,12 +206,35 @@ if (rawContent) {
           content: pageContent.trim(),
           blocks
         });
+        // Extract headings from this page for TOC
+        const headingPattern = /^(#{2,3})\s+(.+)$/gm;
+        let hMatch;
+        const paddedNum = pageNum.padStart(2, '0');
+        while ((hMatch = headingPattern.exec(pageContent)) !== null) {
+          const level = hMatch[1].length;
+          const title = stripHtml(hMatch[2]);
+          const id = headingToId(hMatch[2], paddedNum);
+          if (title) {
+            tocEntries.push({ id, title, level, pageNum: paddedNum });
+          }
+        }
       }
     }
   } else {
     const blocks = parseContent(withoutFrontmatter);
     if (blocks.length > 0) {
       pages.push({ num: '01', content: withoutFrontmatter.trim(), blocks });
+      // Extract headings from single-page content
+      const headingPattern = /^(#{2,3})\s+(.+)$/gm;
+      let hMatch;
+      while ((hMatch = headingPattern.exec(withoutFrontmatter)) !== null) {
+        const level = hMatch[1].length;
+        const title = stripHtml(hMatch[2]);
+        const id = headingToId(hMatch[2], '01');
+        if (title) {
+          tocEntries.push({ id, title, level, pageNum: '01' });
+        }
+      }
     }
   }
 }
@@ -210,6 +258,13 @@ function renderInline(text: string): string {
     .replace(/^# (.+)$/gm, '<h1>$1</h1>')
     .replace(/^---$/gm, '<hr/>')
     .replace(/^\*(.+)\*$/gm, '<p><em>$1</em></p>');
+}
+
+// Find the tocEntry id for a heading by matching its text and page number
+function findHeadingId(headingText: string, pageNum: string): string | undefined {
+  const plainTitle = stripHtml(headingText);
+  const entry = tocEntries.find(e => e.title === plainTitle && e.pageNum === pageNum);
+  return entry?.id;
 }
 ---
 
@@ -273,10 +328,10 @@ function renderInline(text: string): string {
         <div class="toc-inner">
           <div class="toc-title">{t.chapterDetail.tocTitle}</div>
           <ul class="toc-list">
-            {pages.map((p, i) => (
-              <li>
-                <a href={`#page-${p.num}`} class="toc-item">
-                  {t.chapterDetail.tocPage.replace('{num}', p.num)}
+            {tocEntries.filter(e => tocEntries.filter(t => t.level === 2).length >= 4 ? e.level === 2 : e.level <= 3).map(entry => (
+              <li class={`toc-entry ${entry.level === 3 ? 'toc-entry--sub' : ''}`}>
+                <a href={`#${entry.id}`} class="toc-item" title={entry.title}>
+                  {entry.title}
                 </a>
               </li>
             ))}
@@ -303,7 +358,8 @@ function renderInline(text: string): string {
                         const level = trimmed.match(/^(#{1,4})\s/)[1].length;
                         const headingText = trimmed.replace(/^#{1,4}\s/, '');
                         const Tag = `h${level}` as 'h1' | 'h2' | 'h3' | 'h4';
-                        return <Tag class={level <= 2 ? 'content-heading' : 'content-subheading'} set:html={renderInline(headingText)} />;
+                        const headingId = (level === 2 || level === 3) ? findHeadingId(headingText, page.num) : undefined;
+                        return <Tag id={headingId} class={level <= 2 ? 'content-heading' : 'content-subheading'} set:html={renderInline(headingText)} />;
                       }
                       if (trimmed === '---') {
                         return <hr class="content-hr" />;
@@ -634,6 +690,24 @@ function renderInline(text: string): string {
   .toc-item:hover {
     color: var(--color-text);
     background: var(--color-border-subtle);
+  }
+
+  .toc-entry--level-2 .toc-item {
+    font-weight: 600;
+    font-size: 13px;
+    color: var(--color-text);
+    margin-top: 8px;
+  }
+
+  .toc-entry--level-2:first-child .toc-item {
+    margin-top: 0;
+  }
+
+  .toc-entry--level-3 .toc-item {
+    padding-left: 16px;
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--color-text-secondary);
   }
 
   /* Content */
