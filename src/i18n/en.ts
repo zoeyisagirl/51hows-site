@@ -144,7 +144,7 @@ export default {
     h2Framework: 'Author\'s Framework',
     pFramework: 'The disclosure principle is: be as cautious as possible on error avoidance scales, and disclose as much as possible within tolerance margins. The author seeks no fame or profit and does not want to reduce dissemination value by demanding perfection.',
     sourceLabel: 'Source',
-    sourceAccount: 'Account',
+    sourceAccount: 'WeChat Official Account',
     sourceAuthor: 'Author',
     sourceWritten: 'Written',
     sourceUpdated: 'Last Updated',
