@@ -619,95 +619,89 @@ a. <span style="color:#2E86C1">*When you encounter a surprising fact, try runnin
 
 ## Advanced Edition: Appendix to Chapter 5 — The Prediction
 
-> *This section contains the author's personal predictions and viewpoints on geopolitics, macro competition, and the future trajectory of civilization. It is presented in the original Chinese below.*
+### 5.8.0 Your God Will Not Forsake You
 
----
+**5.8.0.1 If, in the previous G2 transition, Britain had fallen and the U.S. still operated in the British style, then mathematically this implies Britain would never truly fall.**
 
-## 厉害版的《5. 怎样预测未来》附录 The Prediction
+<span style="color:#C0392B">**5.8.0.2 Ultimate victory has nothing to do with the details of the game. A new leader must propose new values and answer the question: why is the new version of the world better?**</span>
 
-### 5.8.0 你的神不会辜负你
+- <span style="color:#2E86C1">*Historically, Britain told the world that "industrialization and global trade" were good. It also told most of the world that "F=ma," "the Earth is round," "kings can abide by contracts," and "the steam engine exists" — demonstrating, in its time, the possibility of a better world.*</span>
+- <span style="color:#2E86C1">*The moment Emperor Qianlong saw the steam engine, he knew the new world was more attractive, and locked the country down entirely — at a time when the Qing Dynasty accounted for 30% of global GDP.*</span>
 
-**5.8.0.1 上上次 G2 如果大英跪了，美国还是大英作风，那么在数学上 implies 大英永远不会跪**
+<span style="color:#C0392B">**5.8.0.3 Values always come first. Only a grand vision can inspire people.**</span>
 
-<span style="color:#C0392B">**5.8.0.2 最终胜利无关博弈细节。新领导者要提出新价值观，回答 why 新版本的世界更美好？**</span>
+- <span style="color:#2E86C1">*During the War of Resistance against Japan, people rushed to sacrifice themselves; everyone believed victory was certain.*</span>
+- <span style="color:#2E86C1">*If we are to lead the world, would people rush to build up Africa and Latin America? Is there a set of values that would make people feel it's worth doing? If so, Africans and Latin Americans would rush to support us — no geopolitical maneuvering needed at all.*</span>
 
-- <span style="color:#2E86C1">*历史上，大英告诉世界"工业化和全球贸易"是好的。ta 也告诉大多数世界"F=ma"，"地球是圆的"，"国王可以遵守契约"，"蒸汽机是存在的"，在当时展示了更美好的可能性*</span>
-- <span style="color:#2E86C1">*乾隆一见蒸汽机，就知道新世界更有吸引力，全面锁国，其时大清 GDP 占全球 30%*</span>
+### 5.8.1 "The foundation of a long-lasting stable marriage is low expectations." (Buffett)
 
-<span style="color:#C0392B">**5.8.0.3 价值观永远是第一位的，远大的愿景才能感召人**</span>
+<span style="color:#C0392B">**5.8.1.1 In a partnership, if you are genuinely willing to do something in action, then in attitude it is always worth saying "thank you."**</span>
 
-- <span style="color:#2E86C1">*抗日战争中大家争抢着赴难，每个人都觉得一定会赢*</span>
-- <span style="color:#2E86C1">*如果我们要领导全球，大家会争抢着建设非洲拉美吗？是否存在一个价值观让大家觉得这是值得的？如果有，非洲人拉美人就会争抢着支持我们，完全不需要地缘博弈*</span>
+<span style="color:#2E86C1">*For the past century, where has been the first choice for our international students?*</span>
 
-### 5.8.1 "长期婚姻稳定的基础是低期望"（巴菲特）
+<span style="color:#C0392B">**5.8.1.2 As of April 2025, we are already this strong — we owe humanity a proposal of our own.**</span>
 
-<span style="color:#C0392B">**5.8.1.1 在伴侣关系里面，如果一件事行动上"你很愿意"，那态度上就 always 值得说"谢谢"**</span>
+a. From America's standpoint, the status quo of its thirty years of world leadership is as follows:
+   - <span style="color:#2E86C1">*It provided defense guarantees to allies, and the allies didn't pay.*</span>
+   - <span style="color:#2E86C1">*It provided a sound economic system for large Western multinational corporations, and those corporations used tax planning to pay no taxes.*</span>
+   - <span style="color:#2E86C1">*It supplied the technology, we supplied the labor, and together we made a lot of money. While making money, we learned their technology; while making money, they forgot all of theirs. For a century, it funded six generations of international students worldwide with scholarships, while over 200 million of its own people have only an elementary school education.*</span>
+b. <span style="color:#2E86C1">*"No matter what happens next, it'll be better than the status quo." Even if we don't offer a plan, they can no longer offer one either.*</span>
 
-<span style="color:#2E86C1">*一百年来，我们的留学生的第一选择是哪里？*</span>
+### 5.8.2 This Trade War Has a Floor
 
-<span style="color:#C0392B">**5.8.1.2 2504 我们已经这么强了，要给全人类一个自己的方案**</span>
+**5.8.2.1 President Trump only has four years. The last year and a half must be spent laying the groundwork for the next election. Let him do whatever he wants — just wait two and a half years. Only if he truly seeks a third term would this challenge be comparable to the pandemic.**
 
-a. 站在美国的立场上，其三十年来领导世界现状的是
-   - <span style="color:#2E86C1">*给盟友提供了国防保障，盟友们不给钱*</span>
-   - <span style="color:#2E86C1">*给西方大型全球化企业提供了健全的经济系统，跨国公司税务筹划不交税*</span>
-   - <span style="color:#2E86C1">*它出技术咱们出人，一起挣了不少钱。咱们边挣钱边学会了技术，它边挣钱边把技术全忘了。一百年来用奖学金支持了全世界六代留学生，本国人 2 亿多小学文化*</span>
-b. <span style="color:#2E86C1">*"以后不管发生啥，都比现状强"，咱们不给方案，它也无力再给了*</span>
+**5.8.2.2 There's a Chinese idiom for his situation: "日暮途远" — the sun is setting, and the destination is still far away.**
 
-### 5.8.2 本次贸易战是有底的
+### 5.8.3 Would You Rather Live on a Planet with Musk? Or Without?
 
-**5.8.2.1 Trump 总统只有四年。最后一年半还得铺排下一次选举。随便他作，等两年半就是了。如果他真的寻求第三个任期，这次挑战才能和疫情相比**
+**5.8.3.1 Musk's current contribution to humanity is greater than Buffett's or Jobs's, but less than Rockefeller's or Ford's.**
 
-**5.8.2.2 专门有个词形容他这种状态，"日暮途远"，天已经有点黑了，目的地还很远**
+**5.8.3.2 If he achieves large-scale interplanetary migration at an acceptable cost, he could surpass Ford and Edison and begin to approach the Wright Brothers.**
 
-### 5.8.3 你愿意生活在有马斯克的星球？还是相反？
+**5.8.3.3 If, within his lifetime, he terraforms Mars to the point where people voluntarily choose to go (extremely low probability), he could brush up against Watt and Cai Lun and become "The Greatest Engineer in All of Human History."**
 
-**5.8.3.1 马斯克现在对人类的贡献，高于巴菲特乔布斯，低于洛克菲勒和福特**
+### 5.8.4 Is There One Thing America Does Better Than Us?
 
-**5.8.3.2 如果他实现成本可接受的大规模星际移民，就可以超过福特和爱迪生，追一追莱特兄弟**
+<span style="color:#C0392B">**5.8.4.1 Apart from originally proving "existence," we are stronger than America in every respect.**</span>
 
-**5.8.3.3 如果他生前就把火星改造的有人愿意主动去（概率极低），就可以向上碰瓷瓦特和蔡伦，成为《古往今来工程师第一人》**
+a. <span style="color:#2E86C1">*For something already known to be feasible, we excel at grinding it out. For something where feasibility is unknown, we are unwilling to spend resources exploring — we consider it a bottomless pit.*</span>
+b. <span style="color:#2E86C1">*DeepSeek is indeed very strong, but its entrepreneurship was based on a fact (not a hypothesis): "a general-purpose language model exists."*</span>
+c. <span style="color:#2E86C1">*As of April 2025, which institution's vision is "to cure cancer"?*</span>
 
-### 5.8.4 是否有一件事，美国比咱们强？
+<span style="color:#C0392B">**5.8.4.2 Historically, China has long been the #1 economic and cultural power, and the #2 technological and military power.**</span>
 
-<span style="color:#C0392B">**5.8.4.1 咱们除了原创的论证"存在性"，处处比美国强**</span>
-
-a. <span style="color:#2E86C1">*一件事儿，已知能搞，咱们擅长死磕；不知道能不能搞，咱们不愿意花资源探索，认为是无底洞*</span>
-b. <span style="color:#2E86C1">*ds 确实很强，但其创业基于一个事实（而非假设）"通用语言大模型，是存在的"*</span>
-c. <span style="color:#2E86C1">*2504 哪家机构的愿景是"治愈癌症"？*</span>
-
-<span style="color:#C0392B">**5.8.4.2 历史上，中国长期是经济/文化第一大国，技术/军事第二大国**</span>
-
-a. <span style="color:#2E86C1">*我们的文化里，大多数人的利益是第一位的。人类需要一少部分人，去解决"存在性问题"*</span>
-b. <span style="color:#2E86C1">*剩下的问题都是迭代优化和资源组织，我们有优势。但 MIT 和 Caltech，会在相当长期里，是最好的理工科大学*</span>
+a. <span style="color:#2E86C1">*In our culture, the interests of the majority come first. Humanity needs a small minority of people to solve "existence problems."*</span>
+b. <span style="color:#2E86C1">*The remaining problems are all iterative optimization and resource organization — that's where we have the advantage. But MIT and Caltech will, for a considerable time, remain the best science and engineering universities.*</span>
 
 ### 5.8.5 The Prediction
 
-<span style="color:#C0392B">**5.8.5.1 中国将在一零后这代人退休时普遍被认为超过美国，say 2075 年成为唯一的工业大国和人类火星安家担当**</span>
+<span style="color:#C0392B">**5.8.5.1 China will be broadly recognized as having surpassed the U.S. by the time the post-2010 generation retires — say, around 2075 — becoming the sole industrial superpower and humanity's anchor for settling Mars.**</span>
 
-<span style="color:#C0392B">**5.8.5.2 美国将继续成为金融/科技/艺术中心**</span>
+<span style="color:#C0392B">**5.8.5.2 The U.S. will continue to be the center of finance, technology, and the arts.**</span>
 
-a. 和 2504 的区别在于政治/军事/外交/货币/文化和我们影响力各半。科技/军工/医疗以外的制造业归零。政体会参照我们有变化
-b. 其它国家/地区会变成资源国/文化产品生产国/旅游景点/缓冲地带。这些国家和地区的意见领袖与政治领袖合一，国家治理失去严肃性
+a. The difference from April 2025: political/military/diplomatic/monetary/cultural influence will be split roughly evenly between us. Manufacturing outside of tech, defense, and healthcare will go to zero. Its political system will evolve with reference to ours.
+b. Other countries and regions will become resource states, cultural-product producers, tourist destinations, or buffer zones. In these places, opinion leaders and political leaders will merge into one, and national governance will lose its seriousness.
 
-<span style="color:#C0392B">**5.8.5.3 AI 带来的生产力提升将使得 (1-e⁻⁴) 的人类碳基智慧劳动失去意义**</span>
+<span style="color:#C0392B">**5.8.5.3 The productivity gains brought by AI will render (1−e⁻⁴) of humanity's carbon-based intellectual labor meaningless.**</span>
 
-a. 工业商品价格无限接近零/拼多多水平。人类主要价值来自"做个人"，例如陪伴/交流/恋爱/带娃等，以及提升动物性体验的各种体术，例如形体和烹饪
-b. 将出现跨国的超级组织和新的社交形态；将广泛使用英中夹杂的世界语；由"做个人"，人类艺术成就将远远超过前代总和
+a. Industrial commodity prices will approach zero / Pinduoduo levels. Human value will primarily come from "being a person" — companionship, conversation, romance, raising children — as well as various physical arts that enhance the animal experience, such as bodywork and cooking.
+b. Transnational super-organizations and new social formations will emerge. A mixed English-Chinese world language will be widely used. Because of "being a person," humanity's artistic achievements will far exceed the sum of all prior generations.
 
-<span style="color:#C0392B">**5.8.5.4 AI 不会彻底改变现有大型科技公司竞争格局，无论 2B 还是 2C**</span>
+<span style="color:#C0392B">**5.8.5.4 AI will not fundamentally alter the competitive landscape of existing large tech companies, whether B2B or B2C.**</span>
 
-a. AI 的第一个全民应用来自生活端而非生产端
-b. 在下一代沉浸式娱乐载具出现之前，苹果微软谷歌字节茅台腾讯，仍会是世界最好的公司
+a. AI's first mass-adoption application will come from the lifestyle side, not the production side.
+b. Until the next generation of immersive entertainment hardware arrives, Apple, Microsoft, Google, ByteDance, Moutai, and Tencent will remain the best companies in the world.
 
-<span style="color:#C0392B">**5.8.5.5 基础科学因缺乏需求挑战不会有突破进步**</span>
+<span style="color:#C0392B">**5.8.5.5 Fundamental science will see no breakthrough progress due to a lack of demand-driven challenges.**</span>
 
-a. 能量的问题彻底解决，信息学是唯一有本质进步的领域
-b. 工程能力则因火星基建和军工竞赛，会高速发展至已知物理规律的极限
+a. The energy problem will be fully solved. Information science will be the only field with essential progress.
+b. Engineering capabilities, driven by Mars infrastructure and the arms race, will advance at high speed to the limits of known physical laws.
 
-<span style="color:#C0392B">**5.8.5.6 这五十年里没有热战但会有很多磨难，世界会在新平衡下彻底全球化**</span>
+<span style="color:#C0392B">**5.8.5.6 There will be no hot war in these fifty years, but there will be much hardship. The world will fully globalize under a new equilibrium.**</span>
 
-a. 主要的活儿会是 2504 AI 原住民这一代交的
-b. 对 70/80/90 后，主要任务是要带好娃，娃多且英文好（在美国则是中文好）的人 wins all
+a. Most of the heavy lifting will be done by the generation of April 2025 AI natives.
+b. For the post-70s/80s/90s generations, the main task is to raise children well. Those who have many children and whose children have strong English (or strong Chinese, if in America) will win all.
 
 ---
 
