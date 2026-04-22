@@ -1,0 +1,2294 @@
+WEBVTT
+
+1
+00:00:00.100 --> 00:00:02.162
+How to Manage Wealth
+
+2
+00:00:02.112 --> 00:00:06.937
+RMB can buy gold — what you purchase must be of finer quality than gold
+
+3
+00:00:06.937 --> 00:00:10.450
+by Shuzhimi@RynW1988
+
+4
+00:00:10.450 --> 00:00:12.887
+Color Legend for this Work
+
+5
+00:00:12.887 --> 00:00:17.662
+Acknowledgment to Editor-in-Chief C / Art Director Shuzhimi@Chaney
+
+6
+00:00:17.662 --> 00:00:20.737
+a，Body text / statements in black
+
+7
+00:00:20.737 --> 00:00:23.700
+b，Axioms / theorems in red
+
+8
+00:00:23.700 --> 00:00:27.500
+c，Explanations / supplements in blue italic
+
+9
+00:00:27.500 --> 00:00:30.725
+d，Corollaries / conclusions in orange
+
+10
+00:00:30.725 --> 00:00:37.912
+e，Facts / data / news in green (due to information locality and author limitations, not all sources are cited)
+
+11
+00:00:37.912 --> 00:00:48.562
+f，Conjectures / hypotheses, plus emotions / comments / rumors / anecdotes / metaphors / analogies and other popularized or literary expressions, in purple
+
+12
+00:00:48.562 --> 00:00:52.287
+g，Theoretical innovations in gray and highlighted
+
+13
+00:00:52.287 --> 00:00:57.325
+h，Bold means this proposition is important or the author finds it interesting
+
+14
+00:00:57.325 --> 00:01:00.462
+1.0 What Is Wealth Management
+
+15
+00:01:00.462 --> 00:01:11.825
+1.0.0 Wealth management is a technique by which non-professional individuals/organizations who do not specialize in asset management handle their accumulated daily wealth through investment
+
+16
+00:01:11.825 --> 00:01:20.525
+1.0.0.1 Wealth management solves how a person holding W₀ can deterministically achieve 20x growth (W₀到W₁)
+
+17
+00:01:20.525 --> 00:01:27.437
+a，W₀ denotes 1.5m, W₁ denotes 30m; same as Appendix The Track of Chapter 0
+
+18
+00:01:27.437 --> 00:01:33.612
+b，For brevity, no distinction between W₀ and the person holding W₀; same hereinafter
+
+19
+00:01:33.612 --> 00:01:39.575
+c，"m" for million; default currency unit is RMB as of 2504, same below
+
+20
+00:01:39.575 --> 00:01:51.012
+d，"20x" means 20 times; x denotes principal return multiple (inclusive), 1.2x = net profit 20%, 0x = total loss of principal, same below
+
+21
+00:01:51.012 --> 00:01:58.700
+e，W₀ fluctuation range (e的负一次方−1, e−1), amplitude e²; 20x does not fluctuate
+
+22
+00:01:58.700 --> 00:02:03.237
+1.0.0.2 A wealth management method exists
+
+23
+00:02:03.237 --> 00:02:08.950
+a，This work will present a wealth management method based on a deterministic analysis framework
+
+24
+00:02:08.950 --> 00:02:15.587
+Method" is a Buddhist concept referring to the most efficient way to accomplish something that has not yet become widely known
+
+25
+00:02:15.587 --> 00:02:18.537
+Not following the method is much slower.
+
+26
+00:02:18.537 --> 00:02:26.150
+Since wealth experience follows an exponential power law distribution, long-term differences can be order-of-magnitude in scale
+
+27
+00:02:26.150 --> 00:02:31.662
+1.0.0.3 The wealth management method cannot solve Wᵢᵣ 到 W₀
+
+28
+00:02:31.662 --> 00:02:37.975
+Giving everyone W₀ (colloquially "a nest egg") requires the wisdom and compassion of a great leader
+
+29
+00:02:37.975 --> 00:02:46.300
+a，Wᵢᵣ (ir for irrelevant) refers to a low-wealth state where any method is unnecessary because one's best life needs no wealth technique
+
+30
+00:02:46.300 --> 00:02:51.087
+Below Wᵢᵣ, any wealth method is ineffective/unnecessary
+
+31
+00:02:51.087 --> 00:02:56.300
+Above Wᵢᵣ, some optimal approach to financial goals begins to take effect
+
+32
+00:02:56.300 --> 00:03:02.737
+Every era has many people who achieve excellence and greatness without needing any wealth, such as Master Hong Yi
+
+33
+00:03:02.737 --> 00:03:07.375
+b，W₀ as described above, also called first bucket of gold.
+
+34
+00:03:07.375 --> 00:03:11.537
+Techniques for solving W₀ see Section 0.5
+
+35
+00:03:11.537 --> 00:03:19.937
+It should be noted that while universal techniques for achieving W₀ do not exist, specialized techniques under specific conditions do exist
+
+36
+00:03:19.937 --> 00:03:22.750
+Buffett gave a stock market version.
+
+37
+00:03:22.750 --> 00:03:32.750
+He believes the world is large — search hard for mispriced securities (including foreign-listed ones) from small companies, and you can double your money at W₀ scale within two years
+
+38
+00:03:32.750 --> 00:03:38.187
+Search with passion, like a biologist looking for new species in the rainforest" (Buffett)
+
+39
+00:03:38.187 --> 00:03:44.212
+c，In 2020s China, W₀ is not an extraordinary starting point for wealth management
+
+40
+00:03:44.212 --> 00:03:59.937
+Per 2020s Bank Z annual report, Bank Z alone has roughly 100k+ private banking accounts, whose average deposit happens to be about W₁; 500k+ jinkh accounts, after removing private bank accounts, average deposit happens to be about W₀
+
+41
+00:03:59.937 --> 00:04:05.037
+Chinese households owning W₀ number in the millions, roughly mid-x%
+
+42
+00:04:05.037 --> 00:04:13.200
+1.0.0.4 For accessibility, examples will use publicly traded Chinese company stocks by default (same below)
+
+43
+00:04:13.200 --> 00:04:15.287
+a，Some concepts
+
+44
+00:04:15.287 --> 00:04:22.862
+An investment product is an asset that can be purchased with cash and expected to be sold later for cash returns (such as physical gold)
+
+45
+00:04:22.862 --> 00:04:30.437
+Unlike consumer goods, which are generally consumed upon purchase and cannot be resold/profited from (like fresh tomatoes)
+
+46
+00:04:30.437 --> 00:04:34.325
+The object being invested in is called an investment target
+
+47
+00:04:34.492 --> 00:04:39.579
+A stock is an ownership certificate of a company, typically one share one vote
+
+48
+00:04:39.529 --> 00:04:45.704
+If a company issues 100 million shares, holding 1 million shares gives 1% ownership
+
+49
+00:04:45.704 --> 00:04:51.442
+Holding stocks enables transfer/receiving dividends/voting at shareholder meetings
+
+50
+00:04:51.442 --> 00:04:56.942
+Going public (IPO) means a company sells shares to the public for the first time
+
+51
+00:04:56.942 --> 00:05:03.704
+Post-IPO, secondary market stock trading is called securities market trading, colloquially "stock trading
+
+52
+00:05:03.704 --> 00:05:11.667
+b，Listed US companies and other investment products will occasionally appear; the principles apply equally through other investment targets
+
+53
+00:05:11.836 --> 00:05:16.161
+1.0.1 First Principles of Wealth Management
+
+54
+00:05:16.111 --> 00:05:26.298
+1.0.1.1 The first principle of wealth management is to pursue wealth that one can probably own and genuinely needs, rather than wealth that is hard to obtain or unneeded
+
+55
+00:05:26.298 --> 00:05:33.611
+a，"Can probably own" means respecting common sense — do not challenge negative-expectation/irrational trades out of greed
+
+56
+00:05:33.611 --> 00:05:37.148
+Why define wealth management as W₀ 到 W₁?
+
+57
+00:05:37.148 --> 00:05:45.823
+Because the positive-expectation trades available to wealth management have an upper limit on annualized return rate, and this limit is extremely solid
+
+58
+00:05:45.823 --> 00:05:55.248
+Unless otherwise specified, "return rate" or x% denoting return rate throughout this work refers to compound annualized return rate, precise to 1%
+
+59
+00:05:55.248 --> 00:06:03.498
+For example, return rate (or omitting "return rate" and writing percentage directly) 41.4% means doubling every two years
+
+60
+00:06:03.498 --> 00:06:08.523
+b. "Genuinely need" means Chapter 1 only solves wealth management needs
+
+61
+00:06:08.523 --> 00:06:16.511
+It cannot solve the need for "landing ashore"/obtaining Wₚ (RMB 300m, see Chapter 0 Appendix The Track)
+
+62
+00:06:16.511 --> 00:06:21.748
+Only those carrying major responsibilities genuinely need large amounts of wealth
+
+63
+00:06:21.748 --> 00:06:28.236
+For non-elite individuals, landing ashore cannot rely on the wealth management method or its enhancements either
+
+64
+00:06:28.236 --> 00:06:31.573
+An elephant weighs 15x what a pig weighs.
+
+65
+00:06:31.573 --> 00:06:37.773
+Imagine scaling up a pig 15x — its legs would break, unable to produce elephant structure
+
+66
+00:06:37.773 --> 00:06:43.586
+W₁ (30m RMB) in 2504 affords an excellent life in China
+
+67
+00:06:43.586 --> 00:06:51.848
+Per 2020s Bank Z annual report, its private banking clients exceed 100k, average deposits exactly at W₁
+
+68
+00:06:51.848 --> 00:06:58.598
+Chinese households with net worth above W₁ are estimated in the low hundreds of thousands, low x‰
+
+69
+00:06:58.598 --> 00:07:08.048
+1.0.1.2 The wealth management method is a technique that maximizes the probability of attaining the probable-limit financial return that one can reach
+
+70
+00:07:08.048 --> 00:07:12.848
+a，Therefore, the core element of the wealth management method is determinism
+
+71
+00:07:12.848 --> 00:07:18.198
+b，By definition, if enhancing the method does not help, it is better not enhanced
+
+72
+00:07:18.198 --> 00:07:20.898
+1.1 Anchoring Limits
+
+73
+00:07:20.898 --> 00:07:29.123
+1.1.0 Two empirical limits on long-term compound returns, hereafter called "anchoring limits" (precise to 1%)
+
+74
+00:07:29.123 --> 00:07:38.323
+1.1.0.0 Fundamentally, anchoring limits reflect the empirical limits of human societal innovation growth and concentration at the top
+
+75
+00:07:38.323 --> 00:07:46.148
+a，The world's best investment products absorb all humanity's income growth power and can provide ~20% stable long-term returns
+
+76
+00:07:46.148 --> 00:07:49.036
+Hereafter Global Rₘ / GRₘ.
+
+77
+00:07:49.036 --> 00:07:52.986
+Assets historically providing GRₘ returns include:
+
+78
+00:07:52.986 --> 00:07:56.761
+World's best digital currency / BTC
+
+79
+00:07:56.761 --> 00:08:02.286
+World's best listed company / Apple (hereinafter "Apple", similarly hereafter)
+
+80
+00:08:02.286 --> 00:08:06.636
+World's best private equity funds / Bain Capital etc.
+
+81
+00:08:06.636 --> 00:08:15.023
+b，Regional best investment products absorb a certain nation/field's income growth power and can provide ~15% stable long-term returns
+
+82
+00:08:15.023 --> 00:08:17.823
+Hereafter Local Rₘ / LRₘ.
+
+83
+00:08:17.823 --> 00:08:21.711
+Assets historically providing LRₘ returns include:
+
+84
+00:08:21.711 --> 00:08:26.173
+China's finest traditional painting / Zhang Daqian's price-per-foot
+
+85
+00:08:26.173 --> 00:08:32.973
+China's finest real estate / premium properties in core areas of Beijing-Shanghai-Guangzhou-Hangzhou-Shenzhen-Hong Kong
+
+86
+00:08:32.973 --> 00:08:36.836
+China's finest listed company / Moutai/Tencent
+
+87
+00:08:36.836 --> 00:08:42.186
+GRₘ and LRₘ are collectively called Rₘ (specific meaning depends on context)
+
+88
+00:08:42.186 --> 00:08:47.673
+1.1.0.1 Human-known limits on long-lasting investment performance
+
+89
+00:08:47.673 --> 00:08:50.873
+a，Soros, 30 years ~30%
+
+90
+00:08:50.873 --> 00:08:54.161
+b，Buffett, 60 years ~20%
+
+91
+00:08:54.161 --> 00:08:58.036
+c，Nasdaq Composite, since inception ~8%
+
+92
+00:08:58.036 --> 00:09:01.586
+d，Dow Jones, 100 years ~6%
+
+93
+00:09:01.586 --> 00:09:06.948
+1.1.0.2 Human-known limits on long-lasting corporate performance
+
+94
+00:09:06.948 --> 00:09:12.261
+a，Mitsui & Co., major Japanese trading house since the 17th century
+
+95
+00:09:12.261 --> 00:09:17.623
+b，General Electric, Dow Jones component 1907–2018
+
+96
+00:09:17.623 --> 00:09:22.086
+c，Apple, up more than 2000x since 1980 IPO
+
+97
+00:09:22.086 --> 00:09:29.548
+1.1.0.3 Attempting to exceed the above means challenging limits, colloquially "planting a tree into heaven.
+
+98
+00:09:29.548 --> 00:09:39.498
+If wealth management returns approach Rₘ, accumulating 20x takes only 15–20 years — less than most people's working lifetime, colloquially "scientific development
+
+99
+00:09:39.498 --> 00:09:46.423
+In practice, completion time often comes far earlier due to efforts outside wealth management and the low-base effect
+
+100
+00:09:46.588 --> 00:09:52.738
+1.1.1 In layman's terms, what is the expected return of investing in a "good company"?
+
+101
+00:09:52.688 --> 00:09:58.663
+1.1.1.1 A "good company"'s ultra-long-term expected return is 0%
+
+102
+00:09:58.663 --> 00:10:10.550
+Throughout this work, "ultra-long-term" means >20 years, "long-term" >10 years, "mid-term" 5–10 years, "short-term" 1–5 years, ±50% tolerance, same below
+
+103
+00:10:10.550 --> 00:10:20.375
+1.1.1.2 In fact, having non-negative ultra-long-term shareholder returns is a very high standard, colloquially "start cautious, finish respectful
+
+104
+00:10:20.375 --> 00:10:27.075
+Most companies, with probability 1, will cause total loss of principal when invested in over the long term
+
+105
+00:10:27.244 --> 00:10:41.581
+1.1.1.3 A company's existence is entropy-increasing — it consumes resources: it bears business risks, owners extract cash, managers self-actualize, employees demand high benefits, social responsibilities must be fulfilled...
+
+106
+00:10:41.531 --> 00:10:48.556
+1.1.1.4 Yet the supply-demand relationships its survival depends on cannot exist indefinitely
+
+107
+00:10:48.556 --> 00:10:53.456
+Buddhism teaches that everything arises, abides, decays, and ceases.
+
+108
+00:10:53.456 --> 00:10:59.769
+When the "cause" for a company's existence vanishes, value should revert to zero — this is the way of things
+
+109
+00:10:59.769 --> 00:11:07.244
+1.1.1.5 In fact, the vast majority of companies' long-term shareholder net returns are massively negative
+
+110
+00:11:07.244 --> 00:11:11.681
+People universally over-expect during good times and over-finance.
+
+111
+00:11:11.681 --> 00:11:19.981
+From founding to dissolution, most companies' cumulative total financing (including registered capital) far exceeds cumulative dividends
+
+112
+00:11:19.981 --> 00:11:27.544
+Companies where total dividends exceed total financing are so rare they can be ignored — they are quiet-deep-flowing low-entropy beasts
+
+113
+00:11:27.544 --> 00:11:30.406
+1.2 What Is Determinism?
+
+114
+00:11:30.406 --> 00:11:34.481
+1.2.0 Buying stocks means buying companies
+
+115
+00:11:34.481 --> 00:11:44.131
+1.2.0.1 For ultra-long-term investment judgments, the best simulation of returns from holding a small stake in a company is holding the entire company.
+
+116
+00:11:44.131 --> 00:11:47.606
+Over the ultra-long term, the two converge
+
+117
+00:11:47.606 --> 00:11:53.656
+1.2.0.2 It is well known that when someone buys a company, they pass it to their children.
+
+118
+00:11:53.656 --> 00:11:55.331
+Therefore
+
+119
+00:11:55.331 --> 00:12:05.644
+1.2.1 The standard for "determinism" is: someone buys a company, operates it for twenty years, and the company still exists with value that can be passed on to their children
+
+120
+00:12:05.644 --> 00:12:16.969
+1.2.1.1 It is well known that a CEO/large-scale resource allocator's essential work is choosing between 2 options or n options from among a few final choices presented by subordinates
+
+121
+00:12:16.969 --> 00:12:24.831
+Assuming no assumption about management quality, this is equivalent to replacing the CEO with a cat — hereafter the "cat CEO test
+
+122
+00:12:24.831 --> 00:12:29.794
+A company that can withstand the cat CEO test is said to have "determinism
+
+123
+00:12:29.794 --> 00:12:37.631
+1.2.1.2 In practice, most large-company CEOs perform worse than random-number generators (an agile cat).
+
+124
+00:12:37.631 --> 00:12:39.831
+Main reasons include:
+
+125
+00:12:39.831 --> 00:12:43.856
+a，Management and shareholder interests are not fully aligned
+
+126
+00:12:43.856 --> 00:12:50.044
+b，Key forward-looking decision accuracy is not significantly above random-number-generator level
+
+127
+00:12:50.044 --> 00:12:57.156
+Becoming a large-company CEO usually takes a very long time, so on average they are far removed from the front lines
+
+128
+00:12:57.156 --> 00:13:07.994
+c，Most critically, trade-off decisions require substantial time and decision resources, frequently trapping one in the predicament of "because decision-making is slow, whatever you choose is wrong
+
+129
+00:13:07.994 --> 00:13:15.644
+History's most famous CEOs were generally decisive, yet each made only single-digit correct major decisions in their lifetimes
+
+130
+00:13:15.644 --> 00:13:25.531
+1.2.1.3 Humanity's most important innovations frequently come from small companies/startup organizations — the preceding point is one of the root causes
+
+131
+00:13:25.531 --> 00:13:31.281
+Preceding point" refers to the immediately preceding proposition of equal hierarchy level.
+
+132
+00:13:31.281 --> 00:13:38.219
+For example, 1.2.1.3's preceding point is 1.2.1.2, same hereinafter
+
+133
+00:13:38.219 --> 00:13:45.369
+1.2.1.4 Note that physical gold's value does not depend on its holder — it passes the cat CEO test
+
+134
+00:13:45.369 --> 00:13:50.094
+Only companies of at least this caliber merit discussion of "determinism
+
+135
+00:13:50.260 --> 00:13:55.472
+## 1.3 Four Examples of Investment Product Determinism
+
+136
+00:13:55.422 --> 00:14:02.435
+### 1.3.1 Determinism I: Large Nation Ideological Governance Needs
+
+137
+00:14:02.435 --> 00:14:08.697
+1.3.1.1 Humans have tendencies toward belonging to collectives and loving their motherland
+
+138
+00:14:08.697 --> 00:14:14.835
+1.3.1.2 "There exist roughly 7 H-type Western nations in the world" (Buffett)
+
+139
+00:14:14.835 --> 00:14:20.735
+An H-type Western nation's state apparatus can in fact be maintained by just 5 true believers
+
+140
+00:14:20.735 --> 00:14:28.072
+1.3.1.3 In daily affairs, ideological work is no less important than maintaining the state apparatus
+
+141
+00:14:28.072 --> 00:14:32.972
+1.3.1.4 Shortcomings of Determinism I: omitted
+
+142
+00:14:32.972 --> 00:14:39.797
+### 1.3.2 Determinism II: Strongest Innovation-Efficiency Platform
+
+143
+00:14:39.797 --> 00:14:43.847
+1.3.2.1 Humanity has a future
+
+144
+00:14:43.847 --> 00:14:49.222
+1.3.2.2 Humans tend to pursue higher/faster/stronger.
+
+145
+00:14:49.222 --> 00:14:53.460
+Over the ultra-long term, advancement equals determinism
+
+146
+00:14:53.460 --> 00:15:04.247
+a，Everyone, especially resource allocators, if for various reasons opposes this platform, faces a rational/moral question: "From Mars, would you choose to live in a world without it?
+
+147
+00:15:04.247 --> 00:15:06.547
+hereafter the "Mars Test")
+
+148
+00:15:06.547 --> 00:15:16.047
+b，This progressive force over the long term even exceeds 1.3.1, possessing the strongest determinism — otherwise it violates 1.3.2.1
+
+149
+00:15:16.047 --> 00:15:20.572
+1.3.2.3 Shortcomings of Determinism II
+
+150
+00:15:20.572 --> 00:15:25.160
+a，The strongest innovation-efficiency platform has never been fixed
+
+151
+00:15:25.160 --> 00:15:29.647
+b，Otherwise the innovation is predictable, not true innovation
+
+152
+00:15:29.647 --> 00:15:35.772
+c，The innovative culture and ample resources of advanced platforms somewhat extend this determinism
+
+153
+00:15:35.772 --> 00:15:43.597
+### 1.3.3 Determinism III: Broad Consensus from Mathematics/Physics/Natural Science
+
+154
+00:15:43.597 --> 00:15:49.710
+1.3.3.1 Humans seek truth — otherwise they violate 1.3.2.1
+
+155
+00:15:49.710 --> 00:15:54.335
+1.3.3.3 Shortcomings of Determinism III
+
+156
+00:15:54.335 --> 00:16:00.847
+a，Scientific laws themselves have determinism, but forming investable products requires good design
+
+157
+00:16:00.847 --> 00:16:06.147
+Investment/trading requires counterparties; few bet that 1+1不等于2
+
+158
+00:16:06.147 --> 00:16:14.385
+### 1.3.4 Determinism IV: Cultural Consensus from Human Historical Development Trajectory
+
+159
+00:16:14.385 --> 00:16:19.610
+1.3.4.1 Humans respect tradition and seek goodness/beauty
+
+160
+00:16:19.610 --> 00:16:24.172
+1.3.4.4 Shortcomings of Determinism IV
+
+161
+00:16:24.172 --> 00:16:31.985
+a，Human memory shifts; as information explodes, path-dependent cultural traditions are accelerating in weakening/rewriting
+
+162
+00:16:31.985 --> 00:16:37.847
+This includes all cultural objects, values, rules, traditions, beliefs, habits.
+
+163
+00:16:37.847 --> 00:16:44.535
+Ming-style furniture hasn't lost value since the Ming Dynasty — it won't suddenly become worthless now" (Ma Weidu)
+
+164
+00:16:44.535 --> 00:16:49.397
+1.3.5 Other sources of determinism certainly exist.
+
+165
+00:16:49.397 --> 00:16:55.085
+For example, global energy security needs correspond to certain determinate assets
+
+166
+00:16:55.085 --> 00:17:00.472
+1.3.5 Personal Examples of Four Types of Investment Determinism
+
+167
+00:17:00.472 --> 00:17:07.410
+1.3.5.1 Determinism I: Moutai/Tencent/ByteDance; TikTok/Meta/X
+
+168
+00:17:07.410 --> 00:17:14.260
+1.3.5.2 Determinism II: Huawei/ByteDance; Apple/Tesla/Google/Meta/Nasdaq
+
+169
+00:17:14.260 --> 00:17:21.710
+1.3.5.3 Determinism III: BTC; key patents, scaling laws on the main technology tree
+
+170
+00:17:21.710 --> 00:17:29.572
+1.3.5.4 Determinism IV: World masterpieces/physical gold; Coca-Cola/Kweichow Moutai
+
+171
+00:17:29.572 --> 00:17:42.385
+1.3.6 As of 2504, among the above, only Moutai and Tencent are listed Chinese companies,we declare that Moutai and Tencent possess determinism — see Appendices On Moutai and On Tencent for details
+
+172
+00:17:42.385 --> 00:17:45.447
+1.4 The Wealth Management Method
+
+173
+00:17:45.447 --> 00:17:51.472
+For logical progression details, see Appendix Typical Beginner Operation Reference Table.
+
+174
+00:17:51.472 --> 00:17:55.772
+We fast-forward directly to conclusions/sixth-grade level:
+
+175
+00:17:55.772 --> 00:17:57.735
+The Portfolio
+
+176
+00:17:57.735 --> 00:18:02.747
+1.4.1 The best stocks are the best long-term wealth management tools
+
+177
+00:18:02.747 --> 00:18:12.635
+1.4.2 Buy without timing — 2–5 types of top-tier investable products that you understand best and believe in most, possessing determinism (The Portfolio)
+
+178
+00:18:12.635 --> 00:18:20.622
+1.4.3 There are certainly more than 5 top-tier investment products, but you can only earn from The Portfolio you have faith in
+
+179
+00:18:20.622 --> 00:18:30.097
+1.4.3.1 Establishing this faith is very difficult, related to each individual's track record — it cannot be achieved simply by copying answers
+
+180
+00:18:30.097 --> 00:18:36.560
+A most basic test: if The Portfolio drops 50%, do you add to your position or reduce it?
+
+181
+00:18:36.560 --> 00:18:41.810
+1.4.3.2 Investors are not scarce — The Portfolio is scarce.
+
+182
+00:18:41.810 --> 00:18:45.460
+Therefore, it is not investors selecting stocks.
+
+183
+00:18:45.460 --> 00:18:51.710
+Dynamically speaking, the more essential description is that The Portfolio selects its own shareholders
+
+184
+00:18:51.710 --> 00:18:58.560
+Apple and Tencent spend vast amounts daily on stock buybacks; Moutai's shareholder count regularly declines
+
+185
+00:18:58.560 --> 00:19:02.010
+1.4.4 Why No Market Timing?
+
+186
+00:19:02.164 --> 00:19:08.889
+1.4.4.1 Value investing requires judging good companies/good people/good prices
+
+187
+00:19:08.839 --> 00:19:16.839
+1.4.4.2 Judging good companies: if B2C, usually just using their products suffices — W₀ can handle this
+
+188
+00:19:16.839 --> 00:19:24.601
+1.4.4.3 Judging good people: usually requires some knowledge of the Number One position — challenging for W₀
+
+189
+00:19:24.601 --> 00:19:28.051
+1.4.5 Judging Good Prices
+
+190
+00:19:28.051 --> 00:19:35.414
+1.4.5.1 Judging good prices requires Buffett-style odds assessment and cross-sectional global comparison
+
+191
+00:19:35.572 --> 00:19:39.047
+a，A good price is one with a margin of safety.
+
+192
+00:19:38.997 --> 00:19:44.647
+Margin of safety means price is well below intrinsic value (DCF valuation output)
+
+193
+00:19:44.647 --> 00:19:52.997
+b，DCF valuation's core inputs are art, not science — can only be "rough estimate" (from Mr. Duan Yongping, hereafter Duan sir)
+
+194
+00:19:52.997 --> 00:20:03.884
+Future free cash flow is dimensional; its inputs require understanding of market/economic environment, not just the company itself; WACC/Rf involves macro judgment
+
+195
+00:20:03.884 --> 00:20:08.709
+More importantly, when stock A is cheap, stock B is often also cheap.
+
+196
+00:20:08.709 --> 00:20:13.047
+Odds assessment and cross-comparison are needed to tell good prices
+
+197
+00:20:13.047 --> 00:20:20.747
+1.4.6 Here I present qualitative criteria for margin of safety based on the Deterministic Analysis Framework
+
+198
+00:20:20.747 --> 00:20:26.122
+1.4.6.1 Margin of safety is a price range for The Portfolio
+
+199
+00:20:26.122 --> 00:20:34.084
+Only companies with determinism merit discussion of margin of safety; otherwise regardless of how low the price, there is no safety
+
+200
+00:20:34.084 --> 00:20:43.709
+1.4.6.2 This price range reflects only product competitiveness, not yet the winner-take-all competitive potential after "determinism confirmation
+
+201
+00:20:43.709 --> 00:20:47.209
+1.4.6.3 Two examples:
+
+202
+00:20:47.209 --> 00:20:50.584
+Buffett invested in Apple for 16 years
+
+203
+00:20:50.584 --> 00:20:58.197
+Jobs launched iPod in 01, iPod mini sold big in 04 — Apple had Mixue Bingcheng's product momentum even then
+
+204
+00:20:58.197 --> 00:21:03.747
+From 04–16, Apple rose ~50x — why didn't Buffett buy in 04?
+
+205
+00:21:03.747 --> 00:21:10.709
+My understanding: he felt Apple in 04 had not yet confirmed its determinism — "not yet seated at the table
+
+206
+00:21:10.709 --> 00:21:14.147
+2504 Mixue Bingcheng
+
+207
+00:21:14.147 --> 00:21:17.434
+Strong product momentum but a new company
+
+208
+00:21:17.434 --> 00:21:21.047
+Duan sir says, "heard of it but don't understand it
+
+209
+00:21:21.047 --> 00:21:26.859
+My understanding: he believes this company's determinism has not yet been fully confirmed
+
+210
+00:21:26.859 --> 00:21:35.584
+1.4.6.4 Both logic and empirical statistics show that the vast majority of investors have absolutely no market-timing ability
+
+211
+00:21:35.740 --> 00:21:39.315
+## 1.5 Buffett Method
+
+212
+00:21:39.265 --> 00:21:46.515
+### 1.5.1 Buffett-style Value Investing Decision Process (hereafter "Buffett Method")
+
+213
+00:21:46.515 --> 00:22:01.152
+1.5.1.0 Berkshire Hathaway (Buffett's chairman-led investment firm, hereafter "Berkshire") can be structured as a powerful consumer brand — a steady stream of proactively approaching customers buying its core product: friendly ultra-long-term capital
+
+214
+00:22:01.152 --> 00:22:06.527
+a，Berkshire's core product is "ultra-long-term capital that wins together with acquirees.
+
+215
+00:22:06.527 --> 00:22:10.702
+Consumers/acquirees pay with equity in their own businesses
+
+216
+00:22:10.702 --> 00:22:17.402
+b，Berkshire's core advantage is its powerful brand — excellent businesses continuously come to it seeking sale
+
+217
+00:22:17.402 --> 00:22:26.377
+Buffett places great importance on long-term interest alignment with original shareholders/management of acquired/invested companies — "being a cheerleader
+
+218
+00:22:26.377 --> 00:22:32.215
+Most other elite secondary-market investors have zero-sum interests with trading counterparts
+
+219
+00:22:32.215 --> 00:22:39.227
+Simons/Duan sir's gains/losses correspond to counterparts' losses/gains — settlement is immediate
+
+220
+00:22:39.227 --> 00:22:43.065
+Brand synergy brought by Buffett can be strictly defined
+
+221
+00:22:43.065 --> 00:22:49.602
+A company bought by Buffett long-term is worth V₂; sold to a PE/peer firm, worth only V₁
+
+222
+00:22:49.602 --> 00:22:56.490
+The extra ΔV is actually extra value created through Buffett's brand — all parties' interests are positive-sum
+
+223
+00:22:56.490 --> 00:23:03.640
+c，This gives Buffett a superior pipeline exceeding his total investment capacity, available for unhurried selection
+
+224
+00:23:03.640 --> 00:23:07.952
+That is, the best investment opportunities are not scarce for him
+
+225
+00:23:07.952 --> 00:23:15.777
+1.5.1.1 Facing these opportunities, Buffett makes three rapid binary (0/1) judgments in sequence
+
+226
+00:23:15.777 --> 00:23:17.840
+Is management good?
+
+227
+00:23:17.840 --> 00:23:19.940
+Is it a good business?
+
+228
+00:23:19.940 --> 00:23:24.377
+Is extinction risk strictly zero (not merely slightly greater)?
+
+229
+00:23:24.377 --> 00:23:31.302
+1.5.1.2 If all three answers are 1, the remaining question is good price/margin of safety
+
+230
+00:23:31.302 --> 00:23:36.077
+Quote from Alice Schroeder, author of The Snowball, 2008 interview
+
+231
+00:23:36.077 --> 00:23:46.477
+Specifically, he gathers all financial data of the target and its competitors, quarter by quarter, until identifying one or two core drivers (not building models/full forecasts)
+
+232
+00:23:46.477 --> 00:23:54.327
+Most financial data predictions and models are trivial arithmetic results; only one or two operational assumptions are core drivers
+
+233
+00:23:54.327 --> 00:23:58.977
+Exert maximum effort making key predictions on these two indicators
+
+234
+00:23:58.977 --> 00:24:03.490
+Apply inner scorecard, assessing odds like a racecourse bookmaker
+
+235
+00:24:03.490 --> 00:24:08.402
+Based on this prediction, offer the best bid with adequate margin of safety
+
+236
+00:24:08.402 --> 00:24:15.115
+Specifically, if key prediction materializes, earning 1.15x — he calls this Day1 Return
+
+237
+00:24:15.115 --> 00:24:20.715
+Arrange long-term mechanisms aligned with original shareholders'/management interests
+
+238
+00:24:20.715 --> 00:24:22.627
+Be a cheerleader
+
+239
+00:24:22.627 --> 00:24:30.477
+1.5.1.3 After investment, trust management to a considerable degree and enjoy long-term compound returns
+
+240
+00:24:30.477 --> 00:24:39.765
+1.5.1.4 The above "powerful brand, odds analysis, margin of safety, compound returns" form the core methodology of the Buffett Method
+
+241
+00:24:39.765 --> 00:24:45.965
+1.5.2 Comparison Between Buffett Method and Ordinary People (collectively W₀)
+
+242
+00:24:45.965 --> 00:24:54.977
+1.5.2.1 The fundamental difference is: Buffett can afford abundant selection from superior pipelines/positive-expectation trades.
+
+243
+00:24:54.977 --> 00:24:58.877
+For specific targets, he can afford to time the market.
+
+244
+00:24:58.877 --> 00:25:03.827
+In practice, he times to achieve Day1 Return of 1.15x
+
+245
+00:25:03.827 --> 00:25:09.815
+He waited nearly 7 years to buy Coca-Cola; he didn't even buy Apple before Jobs passed away
+
+246
+00:25:09.815 --> 00:25:14.102
+This is why Buffett doesn't encourage W₀ to index-invest.
+
+247
+00:25:14.102 --> 00:25:19.502
+His implicit assumption is that everyone can learn his diligent attitude and Buffett Method.
+
+248
+00:25:19.502 --> 00:25:23.165
+He has taught openly and tirelessly for fifty years
+
+249
+00:25:23.165 --> 00:25:32.515
+1.5.2.2 Ordinary people lack positive-expectation trade resources — they must use the wealth management method to buy The Portfolio without timing
+
+250
+00:25:32.515 --> 00:25:37.402
+1.5.2.3 W₀ cannot afford to time The Portfolio
+
+251
+00:25:37.402 --> 00:25:39.415
+Sell to buy what?
+
+252
+00:25:39.415 --> 00:25:47.202
+Duan sir manages assets at USD 10b+ scale, yet primarily manages wealth through Apple/Google/Moutai/Tencent
+
+253
+00:25:47.202 --> 00:25:54.565
+1.5.2.4 Duan sir believes: except for Day1 (individual-stock sense), never time the market
+
+254
+00:25:54.565 --> 00:25:59.640
+1.5.2.5 "Full-position doctrine — buy whenever you have cash
+
+255
+00:25:59.640 --> 00:26:06.840
+1.5.3 Ordinary Day1 Timing: Use True Randomness to Break Even With Game Designers (The Black Swan)
+
+256
+00:26:06.988 --> 00:26:20.525
+1.5.3.1 Ordinary Day1 timing means: absent exogenous clear downside expectations (bull markets, range-bound markets, or unclear conditions), invoke How to Rolling Average to generate true randomness (see appendix)
+
+257
+00:26:20.475 --> 00:26:27.925
+Mathematically, The Portfolio with strict no-timing/Day1 full position is the optimal wealth management strategy
+
+258
+00:26:27.925 --> 00:26:37.000
+1.5.3.2 In practice, naturally you want to buy when Day1 Return>0, colloquially "find a low entry point" — but this is very difficult
+
+259
+00:26:37.156 --> 00:26:46.656
+1.5.3.3 Every day of buying/holding The Portfolio is a positive-expectation trade — predicting "relatively high, should wait" is difficult
+
+260
+00:26:46.606 --> 00:26:52.656
+a，Buffett and Duan Yongping did indeed time their Day1 entries, realizing Day1 Return>0
+
+261
+00:26:52.656 --> 00:27:00.856
+b，But for ordinary people, Apple rose nearly 7x in the past decade, max drawdown under e的负一次方 — Day1 timing is extremely high-risk
+
+262
+00:27:00.856 --> 00:27:06.593
+1.5.4 Extraordinary Day1 Timing: Don't Catch Falling Knives Bare-Handed
+
+263
+00:27:06.593 --> 00:27:21.343
+1.5.4.0 The only exception comes when you exogenously (for reasons other than price, see Chapter 5) develop a downside expectation for the broad market/The Portfolio; or when you confirm we are in an overall bear market/downtrend channel.
+
+264
+00:27:21.343 --> 00:27:24.281
+Hereafter "exogenous bearish view
+
+265
+00:27:24.281 --> 00:27:32.031
+Bear market/downtrend channel means a period when most securities market stocks/a given stock exhibit a continuous downtrend
+
+266
+00:27:32.031 --> 00:27:37.081
+1.5.4.1 Exogenous bearish views can indeed exist
+
+267
+00:27:37.081 --> 00:27:40.843
+a，The Portfolio may encounter unexpected events
+
+268
+00:27:40.843 --> 00:27:46.331
+2013 Moutai plasticizer incident, 2011 Jobs' passing
+
+269
+00:27:46.331 --> 00:27:50.481
+b，The entire market may experience anomalous periods
+
+270
+00:27:50.481 --> 00:27:59.131
+Investment isn't the world's most important matter; unpredictable international economic/trade negatives arrive incessantly in 2504
+
+271
+00:27:59.131 --> 00:28:04.618
+Fundamental valuation elements (e.g., risk-free rate) change dramatically
+
+272
+00:28:04.618 --> 00:28:14.068
+1.5.4.2 Extraordinary Day1 timing means: if you hold an exogenous bearish view, invoke How to Buy the Dip to improve win rate (see appendix)
+
+273
+00:28:14.068 --> 00:28:20.393
+1.5.4.3 Behavioral Finance foundations of How to Buy the Dip (hereafter "two claims")
+
+274
+00:28:20.393 --> 00:28:24.543
+a，A complete bull-bear cycle is roughly 7–10 years
+
+275
+00:28:24.543 --> 00:28:30.456
+Complete macroeconomic cycles run roughly 50–60 years, called Kondratiev waves.
+
+276
+00:28:30.456 --> 00:28:35.018
+Each major wave divides into four phases of 10–15 years each
+
+277
+00:28:35.018 --> 00:28:39.356
+These claims have sociological foundations in the 2020s
+
+278
+00:28:39.356 --> 00:28:47.943
+Productivity progress speed, macroeconomic cycles, political cycles, new investor emergence/bear-market memory decay cycles
+
+279
+00:28:47.943 --> 00:28:54.281
+US stocks/Nasdaq additionally layer a long-term uptrend from sustained technological breakthroughs
+
+280
+00:28:54.281 --> 00:28:57.906
+b. In bear markets, "bottoms are W-shaped
+
+281
+00:28:57.906 --> 00:29:04.606
+This claim has behavioral finance foundations in the 2020s (inertia in human nature facing fear and greed)
+
+282
+00:29:04.606 --> 00:29:10.368
+Example: when a stock drops 10–20%, most feel the discount is attractive
+
+283
+00:29:10.368 --> 00:29:16.068
+But if it drops further to 50%, most sell indiscriminately regardless of cost
+
+284
+00:29:16.068 --> 00:29:20.981
+1.5.4.4 Day1 Bear-Market Hedging & How to Buy the Dip
+
+285
+00:29:20.981 --> 00:29:26.556
+a，It is generally believed that investment starting points carry extraordinary significance
+
+286
+00:29:26.556 --> 00:29:31.506
+Thiel's Law": startups with poor foundations cannot be saved (Zero to One)
+
+287
+00:29:31.506 --> 00:29:39.031
+b，More importantly, many investors' initial investments represent significant proportions of their total investment capital
+
+288
+00:29:39.031 --> 00:29:46.593
+c，Appendix How to Buy the Dip provides experience-based techniques to avoid bear-market rapid-downside phases based on two claims
+
+289
+00:29:46.593 --> 00:29:55.118
+As of 2504, Berkshire's cash position reached a record USD 0.3t, roughly 30% of its net assets
+
+290
+00:29:55.118 --> 00:30:02.731
+My understanding: Buffett holds a significantly exogenous bearish view at this time, and is doing his utmost to time the market
+
+291
+00:30:02.731 --> 00:30:07.893
+d，Exogenous bearish views may prove false post-hoc ("this isn't a bear market!
+
+292
+00:30:07.893 --> 00:30:11.243
+just admit error and buy back The Portfolio
+
+293
+00:30:11.243 --> 00:30:16.206
+1.5.5 After Day1, Timing Matters Less for W₀
+
+294
+00:30:16.206 --> 00:30:22.081
+a，Statistics show institutional investors hold no obvious edge over individuals in timing
+
+295
+00:30:22.081 --> 00:30:27.893
+b，Day1's specialness lies in: your first trade should ideally be profitable — a smooth start
+
+296
+00:30:27.893 --> 00:30:35.131
+Many consider sacrificing several positive-expectation trading days' expected returns worthwhile for higher win rate
+
+297
+00:30:35.131 --> 00:30:44.106
+c，Since The Portfolio likely rises over the long term, and limited by my reading volume, there is no "top-escaping method" to effectively improve returns
+
+298
+00:30:44.106 --> 00:30:47.406
+Don't say goodbye to old friends often" (Buffett)
+
+299
+00:30:47.406 --> 00:30:51.868
+1.6 Reference Bibliography for the Wealth Management Method
+
+300
+00:30:51.868 --> 00:30:56.656
+1.6.1 Conclusions of the wealth management method are stable
+
+301
+00:30:56.656 --> 00:31:03.481
+1.6.1.1 If you already believe, reference books are unnecessary for operational purposes
+
+302
+00:31:03.481 --> 00:31:08.981
+1.6.1.2 But reading these hundreds of thousands of words is worthwhile.
+
+303
+00:31:08.981 --> 00:31:11.631
+It is what greatness is all about
+
+304
+00:31:11.631 --> 00:31:15.168
+1.6.2 Reference bibliography
+
+305
+00:31:15.340 --> 00:31:19.302
+1.6.2.1 Ordered from shallow to deep:
+
+306
+00:31:19.252 --> 00:31:28.165
+a，N.G. Mankiw's Ten Principles of Economics, Ray Dalio How the Economy Works, Nassim Taleb The Black Swan, Peter Thiel Zero to One
+
+307
+00:31:28.165 --> 00:31:33.415
+b，Duan Yongping's Xueqiu posts (Xueqiu ID: Dawudawuxingwoyouxing)
+
+308
+00:31:33.415 --> 00:31:40.815
+c，Buffett shareholder letters, speeches/interviews, and other value investing classics such as The Intelligent Investor
+
+309
+00:31:40.815 --> 00:31:46.452
+d，Wang Xing/Huang Zheng/Boss Liang and YM — findable speeches/interviews
+
+310
+00:31:46.612 --> 00:31:53.862
+They are not professional investors, but What Makes a Great Company is the superordinate principle of What Makes a Great Investment
+
+311
+00:31:53.812 --> 00:31:57.212
+1.7 How to Exit / Cash Out
+
+312
+00:31:57.212 --> 00:32:02.924
+1.7.1 The wealth management method can be used repeatedly over the long term
+
+313
+00:32:02.924 --> 00:32:11.949
+1.7.1.1 Duan Sir has demonstrated operations publicly on Xueqiu for ten consecutive years, answering questions without threshold.
+
+314
+00:32:11.949 --> 00:32:16.124
+Transmission is accurate, greatly benefiting all beings
+
+315
+00:32:16.124 --> 00:32:21.324
+1.7.2 No investment target possesses determinism forever
+
+316
+00:32:21.324 --> 00:32:27.362
+1.7.2.1 When determinism is lost, decisively sell and cash out
+
+317
+00:32:27.362 --> 00:32:33.924
+1.7.2.2 When signs of losing determinism appear, decisively sell and cash out
+
+318
+00:32:33.924 --> 00:32:38.462
+1.7.2.3 Never earn the last e的负一次方 of gain or time
+
+319
+00:32:38.462 --> 00:32:46.637
+If a business yields 70% profit to others, 60% to the Li family suffices — never take the last copper coin (Li Ka-shing)
+
+320
+00:32:46.637 --> 00:32:52.912
+Non-Elite Version Appendix to Chapter 1: On Moutai, Tencent, Financial Data, Growth Investing
+
+321
+00:32:52.912 --> 00:32:56.162
+## 1.8 On Moutai
+
+322
+00:32:56.162 --> 00:33:03.437
+1.8.0 Moutai is flesh-and-blood connected to China's founding history, possessing perfect Determinism IV
+
+323
+00:33:03.437 --> 00:33:09.562
+1.8.0.1 In China's founding history, Moutai symbolizes beauty and victory
+
+324
+00:33:09.562 --> 00:33:16.262
+a，During the Red Army Long March, the Zunyi Conference was held, confirming the Chairman's military leadership.
+
+325
+00:33:16.262 --> 00:33:22.524
+He subsequently commanded his lifelong military masterpiece — the four crossings of the Chishui River.
+
+326
+00:33:22.524 --> 00:33:26.887
+During the third crossing, Red Army troops passed through Maotai Town
+
+327
+00:33:26.887 --> 00:33:36.437
+b，Moutai liquor relieved soldiers' fatigue and dressed wounds, becoming tangible revolutionary contribution and the white moonlight of perilous times in early founders' hearts
+
+328
+00:33:36.437 --> 00:33:41.999
+c，After the third Chishui crossing, our Party's history marched from victory to victory.
+
+329
+00:33:41.999 --> 00:33:46.524
+Especially the People's Army, with virtually no defeats thereafter
+
+330
+00:33:46.524 --> 00:33:56.562
+1.8.0.2 Post-founding, Moutai was designated state banquet liquor,and is still widely used in diplomacy/domestic politics' most important occasions
+
+331
+00:33:56.562 --> 00:34:00.524
+A concept deity's power depends on how many worship it
+
+332
+00:34:00.524 --> 00:34:09.249
+Moutai's cultural influence depends on the population recognizing and transmitting its cultural value, including Premier Zhou Enlai and his successors
+
+333
+00:34:09.249 --> 00:34:13.749
+This is a vital cultural tradition PRC rulers must uphold
+
+334
+00:34:13.749 --> 00:34:17.887
+In China, only PKU/THU can compare
+
+335
+00:34:17.887 --> 00:34:23.974
+1.8.0.3 This cultural consensus transcends individual gains and losses
+
+336
+00:34:23.974 --> 00:34:30.174
+If Tencent botches a business, say Golden Spade loses to Eggy Party, it simply tries again
+
+337
+00:34:30.174 --> 00:34:37.412
+A batch of Moutai liquor sitting unsold does not affect brand connotation at all — unsold inventory slowly becomes "aged liquor
+
+338
+00:34:37.412 --> 00:34:45.849
+1.8.1 Moutai is Chinese people's sole positive-energy stranger-relationship-management tool, possessing perfect Determinism I
+
+339
+00:34:45.849 --> 00:34:53.849
+1.8.1.1 Societies/large organizations need governance, which requires stranger-relationship-management tools
+
+340
+00:34:53.849 --> 00:34:58.462
+Undoubtedly, China hosts many qualifying large organizations
+
+341
+00:34:58.462 --> 00:35:06.212
+1.8.1.2 In China, the lowest-cost way to express "I think you are important" to a stranger is drinking Moutai together
+
+342
+00:35:06.212 --> 00:35:13.999
+a，Acquiring a company suddenly adds dozens of unfamiliar middle managers — how to identify who is willing to cooperate positively?
+
+343
+00:35:13.999 --> 00:35:21.424
+b，2020s China: the common approach is that those who have drunk Moutai together are expressing willingness to cooperate
+
+344
+00:35:21.424 --> 00:35:26.399
+c，This is almost the only universally accepted positive-energy option.
+
+345
+00:35:26.399 --> 00:35:31.324
+Chinese people find all alternatives insufficiently proper/decent
+
+346
+00:35:31.324 --> 00:35:35.924
+1.8.2 This tool is luminous, even highly efficient
+
+347
+00:35:35.924 --> 00:35:43.949
+1.8.2.1 Foreigners managing stranger relationships choose joining the same camp or supporting the same local organization
+
+348
+00:35:43.949 --> 00:35:52.712
+a，Many companies arriving in Washington/New York/Boston: first priority is not business communication but researching How to Make Donations
+
+349
+00:35:52.712 --> 00:35:58.662
+b，WH's Middle East staff once researched what breeds of prestigious dogs local lords keep
+
+350
+00:35:58.662 --> 00:36:09.087
+1.8.2.2 Many decades-old or century-old Western corporations have internal sub-organization/activity traditions, such as country clubs/golf societies
+
+351
+00:36:09.087 --> 00:36:16.512
+a，Managers can repeatedly heart-to-heart with new unfamiliar employees in these settings, gradually examining and screening
+
+352
+00:36:16.660 --> 00:36:23.622
+b，Jack Welch's autobiography vividly describes how he was chosen as GE's CEO and how he chose GE's CEO
+
+353
+00:36:23.572 --> 00:36:29.997
+1.8.2.3 Many Western large organizations barely need to manage stranger relationships
+
+354
+00:36:29.997 --> 00:36:36.372
+a，Buffett mentioned at shareholder meetings that some shareholders' grandfathers and fathers were also shareholders
+
+355
+00:36:36.372 --> 00:36:44.285
+b，The US has double-digit presidents/vice-presidents/secretaries of state who are direct relatives/spouses of each other
+
+356
+00:36:44.285 --> 00:36:49.147
+1.8.3 Empirical Verification of Moutai's Determinism
+
+357
+00:36:49.300 --> 00:36:54.262
+1.8.3.1 Moutai genuinely passed the cat CEO test
+
+358
+00:36:54.212 --> 00:37:04.775
+1.8.3.2 Since its 2003 IPO to date, Moutai has seen three chairmen fall, yet stock price appreciation + cumulative dividends exceeded 100x
+
+359
+00:37:04.775 --> 00:37:09.275
+1.8.4 Additional Explanation of Determinism I
+
+360
+00:37:09.275 --> 00:37:17.762
+1.8.4.1 China has numerous central SOEs/state-owned large financial institutions — clearly all contain Determinism I
+
+361
+00:37:17.762 --> 00:37:25.825
+1.8.4.2 While Moutai is strongest, others include many top-tier investment products such as Shenhua/CTG
+
+362
+00:37:25.825 --> 00:37:33.250
+1.8.4.3 Note: possessing Determinism I does not automatically make something a top-tier investment product
+
+363
+00:37:33.250 --> 00:37:36.700
+## 1.9 On Tencent
+
+364
+00:37:36.700 --> 00:37:41.275
+1.9.1 Tencent possesses perfect Determinism I
+
+365
+00:37:41.275 --> 00:37:48.150
+1.9.1.1 Great-power governance: ideological work ranks second only to basic livelihood
+
+366
+00:37:48.150 --> 00:37:57.775
+1.9.1.2 WeChat is a national-level instant messaging tool (1.4 billion DAU) of incomparable importance to ideological work
+
+367
+00:37:57.775 --> 00:38:02.400
+1.9.2 Determinism of Tencent's Products and Business
+
+368
+00:38:02.400 --> 00:38:10.537
+1.9.2.1 Moutai is a concept deity transcending business scope; Tencent's business determinism falls short of Moutai's
+
+369
+00:38:10.537 --> 00:38:16.962
+If the primary real-time communication medium becomes VR glasses, new IM tools may emerge on them
+
+370
+00:38:16.962 --> 00:38:25.462
+1.9.2.2 Historically, Tencent has consistently executed competently across businesses, though not always originally
+
+371
+00:38:25.462 --> 00:38:43.412
+WeChat/QQ, Mini Programs/Official Accounts/Video Accounts, gaming/live streaming/Yuewen/music, Tencent Cloud/Yuanbao, browsers/email/input methods, WeChat Pay/Weilidai, investments in Pinduoduo/Meituan/JD/Xiaohongshu/Didi/Bilibili...
+
+372
+00:38:43.412 --> 00:38:46.037
+Tencent never misses a beat.
+
+373
+00:38:46.037 --> 00:38:49.812
+Current management is humble, smart, and capable
+
+374
+00:38:49.812 --> 00:38:57.625
+1.9.2.3 WeChat is a national-level gateway empowering any product — domestic internet peers find it hard to match
+
+375
+00:38:57.625 --> 00:39:06.337
+2504 Yuanbao is based on ds, but since it dialogues directly inside WeChat, it enjoys asymmetric competitive advantage
+
+376
+00:39:06.337 --> 00:39:14.562
+If WeChat feeds chat history to Yuanbao in the future, even if not originally created by Tencent, asymmetric advantage persists
+
+377
+00:39:14.562 --> 00:39:21.362
+1.9.2.4 In summary, due to WeChat's existence, Tencent keeps pace with everything in China
+
+378
+00:39:21.362 --> 00:39:26.375
+1.9.3 Empirical Verification of Tencent's Determinism
+
+379
+00:39:26.375 --> 00:39:31.675
+1.9.3.1 Tencent has not changed its Number One since IPO.
+
+380
+00:39:31.675 --> 00:39:43.400
+Most founding team except Number One retired; Tencent survived 3Q Battle, antitrust investigation, AI revolution — three major commercial risks, with both old and new management safely navigating through
+
+381
+00:39:43.400 --> 00:39:52.212
+1.9.3.2 Objectively, cat CEO test/determinism is inferior to Moutai's as management turnover has not yet been tested
+
+382
+00:39:52.212 --> 00:40:03.262
+1.9.3.3 Conversely, volatility delivers better financial returns from investing in Tencent — since 2004 IPO, appreciation far exceeded 100x
+
+383
+00:40:03.262 --> 00:40:08.737
+1.9.3.4 Is Tencent China's only tech company with determinism?
+
+384
+00:40:08.737 --> 00:40:14.562
+a，No — Huawei, ByteDance, ds all possess irreplaceable advancement/determinism.
+
+385
+00:40:14.562 --> 00:40:18.825
+As of 2504, none are publicly traded
+
+386
+00:40:18.825 --> 00:40:22.925
+## 1.10 On Financial Data
+
+387
+00:40:22.925 --> 00:40:30.000
+1.10.1 Why Does the Author Not Discuss Moutai/Tencent's Financial/Valuation Information?
+
+388
+00:40:30.000 --> 00:40:37.587
+1.10.1.1 As of 2504, neither company's financials/valuations are abnormal
+
+389
+00:40:37.587 --> 00:40:47.812
+1.10.1.2 At ultra-long-term scales, only determinism ranks first in importance — valuation/other monetization metrics are arguably irrelevant
+
+390
+00:40:47.812 --> 00:40:55.225
+1.10.2 Using 2504 Tencent as Example: A Rough Estimate Using Short-Term Financial Data
+
+391
+00:40:55.225 --> 00:41:04.662
+1.10.2.1 We demonstrate that 28Q1 stock returning to HKD 700 is highly probable (defaulting to RMB below)
+
+392
+00:41:04.662 --> 00:41:16.312
+a，Investment business historical cost 0.5t, rough estimate ten-year double: 24Q4 1.0t; assume 15% annual growth, 27Q4 1.5t
+
+393
+00:41:16.312 --> 00:41:28.625
+b，Three operating businesses: gaming/B2B + finance/advertising, Y24 earns 0.23t; assume 5% annual growth, 27Q4 0.26t
+
+394
+00:41:28.625 --> 00:41:37.812
+c，Video Account ad revenue just began accelerating (Douyin hundred-billion revenue vs Video Account ten-billion revenue; WeChat DAU is 2x Douyin's)
+
+395
+00:41:37.812 --> 00:41:49.262
+d，Rough estimate: this segment annual profit between 10–50b; assume adding 20b/year, 27Q4 0.26+0.04=0.3t
+
+396
+00:41:49.262 --> 00:41:59.137
+e，28Q1 HKD 700 implies (6–0.15)/0.3=P/E 15x — a near-impossible price
+
+397
+00:41:59.137 --> 00:42:04.375
+1.10.3 Rough Estimation Is Non-Trivial for Ordinary People
+
+398
+00:42:04.540 --> 00:42:14.865
+1.10.3.1 "Rough estimation" requires you to bravely estimate one or two core business assumptions within (–50%, 100%) precision
+
+399
+00:42:14.815 --> 00:42:22.515
+a，This example's determinism lies in Video Account ad revenue being one order of magnitude lower than Douyin's being unsustainable
+
+400
+00:42:22.515 --> 00:42:27.352
+b，Buffett and Duan Yongping essentially use this method with financial data
+
+401
+00:42:27.352 --> 00:42:32.627
+1.10.3.2 The wealth management method serves ordinary people.
+
+402
+00:42:32.627 --> 00:42:37.577
+If you look further ahead, you'll realize analyzing all this is redundant
+
+403
+00:42:37.732 --> 00:42:41.319
+Is 2504 Tencent at a long-term high?
+
+404
+00:42:41.269 --> 00:42:44.569
+Probably not — if not Tencent, then what?
+
+405
+00:42:44.569 --> 00:42:48.382
+## 1.11 On Growth Investing
+
+406
+00:42:48.382 --> 00:42:51.982
+1.11.1 What Is Growth Investing?
+
+407
+00:42:51.982 --> 00:42:55.707
+Why Is Anthony Bolton Missing from the Anchoring Limits?
+
+408
+00:42:55.707 --> 00:43:04.532
+1.11.1.1 Growth investing is the technique of selecting high-growth-potential companies to invest in, obtaining returns through high growth
+
+409
+00:43:04.532 --> 00:43:14.107
+1.11.1.2 Bolton achieved 30 years ~20% — but his primary return source was actually mean-reversion investing (see Chapter 2 appendix)
+
+410
+00:43:14.107 --> 00:43:21.607
+1.11.2 2504 Is a Super Matthew-Effect World — Determinism Equals Long-Term Growth Potential
+
+411
+00:43:21.607 --> 00:43:31.832
+1.11.2.1 Companies with determinism (passing the cat CEO test) in 2504 have long-term expected returns approaching Rₘ, not 0%
+
+412
+00:43:31.832 --> 00:43:40.269
+a，2504 low-entropy entities stagnate or regress; once core business slows, recovery is nearly impossible — nearing extinction
+
+413
+00:43:40.269 --> 00:43:48.619
+Century-old shops unchanged forever" relies on a unique preservationist craftsman culture — a Kyoto century-old shop could be considered new
+
+414
+00:43:48.619 --> 00:43:57.619
+b，Companies that haven't slowed in 20 years made many right decisions, accumulated massive resources, and defeated multiple cycles' low-entropy beasts
+
+415
+00:43:57.619 --> 00:44:07.044
+Some counterexamples exist (Hanwang/Meitu), yet these are accidental — they constantly face elimination risk but somehow make the right moves at the final moment
+
+416
+00:44:07.044 --> 00:44:16.319
+1.11.3 Anthony Bolton's era featured low-profile high-growth undervalued opportunities that barely exist in 2504 mainstream markets
+
+417
+00:44:16.319 --> 00:44:25.882
+1.11.3.1 Bolton's secret: board chain formats when same-store cash flow turns positive — ride the certain growth from 4 stores to 100 stores
+
+418
+00:44:25.882 --> 00:44:32.557
+1.11.3.2 2504 features information explosion and developed capital.
+
+419
+00:44:32.557 --> 00:44:45.207
+This opportunity belongs to elite VCs; if public, stock prices at 4 stores already price in 8–20 store potential (√400~√400), colloquially "priced in one go," "surge then pause
+
+420
+00:44:45.207 --> 00:44:52.344
+1.11.3.3 This means you always miss the entry price of high-growth targets, hereafter "Day1 price
+
+421
+00:44:52.344 --> 00:44:58.019
+1.11.3.4 Such opportunities still exist in non-mainstream markets.
+
+422
+00:44:58.019 --> 00:45:05.307
+Buffett advises W₀ to search hard among (foreign) small companies, see 1.0.0.3.b
+
+423
+00:45:05.307 --> 00:45:10.107
+1.11.4 Three Traps of the Davis Double-Play Paradigm
+
+424
+00:45:10.107 --> 00:45:19.594
+1.11.4.0 Typical growth stocks: companies realizing high growth within 3–5 years; investors expect Davis Double-Play paradigm
+
+425
+00:45:19.594 --> 00:45:25.569
+1.11.4.1 First trap: earnings fail to materialize or financial fraud
+
+426
+00:45:25.569 --> 00:45:30.344
+1.11.4.2 Second trap: feast is already over
+
+427
+00:45:30.344 --> 00:45:35.257
+a，Can see 3–5 years of high growth but rarely twenty-year determinism.
+
+428
+00:45:35.257 --> 00:45:43.982
+Then 3 years may accelerate to √3 years (speed-doubling realization), yet current year/observation year is already year 2–3
+
+429
+00:45:43.982 --> 00:45:48.532
+1.11.4.3 Third trap: crisis of trust
+
+430
+00:45:48.532 --> 00:45:57.094
+a，Gale doesn't last till night, torrent doesn't last till morning; Rₘ is light-speed in this domain — nearly impossible to exceed continuously for many years
+
+431
+00:45:57.094 --> 00:46:04.619
+b，This natural distrust means even if targets deliver years of high growth, you can't hold on or position size is insufficient
+
+432
+00:46:04.619 --> 00:46:12.869
+1.11.5 The Only Opportunity to Buy at Day1 Price Comes from a Company's Growth Exceeding Its Own Expectations Ex-Post
+
+433
+00:46:12.869 --> 00:46:22.594
+1.11.5.1 This requires understanding the company's future better than its founder — otherwise the company tells its own story and front-runs the stock price
+
+434
+00:46:22.594 --> 00:46:30.119
+1.11.5.2 This is possible — requires extensive reading to grasp Chapter 5 How to Predict the Future
+
+435
+00:46:30.119 --> 00:46:37.582
+a，Take Pop Mart: as of 2504, China lacks comparable Disney/Universal Studios companies
+
+436
+00:46:37.582 --> 00:46:41.969
+b，Both rely entirely on IP and large amusement equipment.
+
+437
+00:46:41.969 --> 00:46:51.169
+As of 2504, almost no intelligent interactivity exists — unable to satisfy increasingly mature psychological needs of child customers
+
+438
+00:46:51.169 --> 00:46:58.844
+c，Pop Mart may genuinely possess an opportunity (perhaps beyond Wang Ning's expectations) to surpass Disney theme parks
+
+439
+00:46:58.844 --> 00:47:07.482
+1.11.5.3 Ordinary people cannot chase shore-landing via angel/VC/growth investing — see Chapter 2 for details
+
+440
+00:47:07.482 --> 00:47:16.607
+a，Former's expected return is strictly 0x/–100%; latter's deterministic returns insufficient to offset triple-trap risks
+
+441
+00:47:16.607 --> 00:47:19.969
+Non-Elite Version Appendix to Chapter 1
+
+442
+00:47:19.969 --> 00:47:23.282
+Typical Beginner Operation Reference Table
+
+443
+00:47:23.452 --> 00:47:27.239
+Also called Personal Investor Self-Assessment Table
+
+444
+00:47:27.189 --> 00:47:37.477
+Creating this table carries no academic significance, but comparing against beginners' mindsets/operations offers popularization/education/entertainment value
+
+445
+00:47:37.477 --> 00:47:40.989
+by Shuzhimi@RynW1988
+
+446
+00:47:40.989 --> 00:47:44.177
+1.12.0 Hello World
+
+447
+00:47:44.177 --> 00:47:56.352
+1.12.0.0 In securities markets, if an individual investor derives all income from trading (i.e., creates no goods/services) yet expects returns exceeding Rₘ, then ta is a beginner
+
+448
+00:47:56.500 --> 00:48:07.487
+1.12.0.1 Beginners come to securities markets not for wealth management but for gambling/enjoying game fun — typical operation: buying stocks they know best/have tips on
+
+449
+00:48:07.437 --> 00:48:18.975
+1.12.0.2 The long-term expected return multiple of the above operations is 0x — negative-expectation but conforming to human nature; stops only when principal is fully lost
+
+450
+00:48:18.975 --> 00:48:28.800
+1.12.0.3 Beginners face trading disadvantages on all fronts — e.g., domestic quant trading can execute up to 299 times per second
+
+451
+00:48:28.800 --> 00:48:32.025
+1.12.1 Pre-School Grade
+
+452
+00:48:32.025 --> 00:48:41.837
+1.12.1.1 Due to resource scarcity, in all rule designs of human society, any activity conforming to human nature is necessarily consumption
+
+453
+00:48:41.837 --> 00:48:50.375
+Human-nature-conforming activities cannot be accumulation/investment — otherwise resources would rapidly allocate entirely to this domain
+
+454
+00:48:50.375 --> 00:48:56.387
+Hitler's blitzkrieg, being both thrilling and profitable, would have continued until his destruction
+
+455
+00:48:56.387 --> 00:49:02.312
+1.12.1.2 Like game design, the securities market "game" has designers
+
+456
+00:49:02.312 --> 00:49:08.262
+Historical stock markets worldwide were not originally designed for investor wealth generation.
+
+457
+00:49:08.262 --> 00:49:13.387
+Giving people the experience of property income" requires "letting" — it takes work
+
+458
+00:49:13.387 --> 00:49:17.762
+1.12.1.3 Watching the screen means paying up
+
+459
+00:49:17.762 --> 00:49:30.812
+Screen-watching triggers conformist operations (chasing rises, cutting losses, short-term trading) and accepting unfavorable trading positions (e.g., paying quant taxes); combined, these producesevere negative expectation
+
+460
+00:49:30.812 --> 00:49:33.925
+1.12.2 First Grade
+
+461
+00:49:33.925 --> 00:49:39.550
+1.12.2.1 Acknowledge that the ceiling of the wealth management method is Rₘ
+
+462
+00:49:39.550 --> 00:49:45.137
+1.12.2.2 Accept that the wealth management method cannot achieve shore-landing
+
+463
+00:49:45.137 --> 00:49:48.312
+1.12.3 Second Grade
+
+464
+00:49:48.312 --> 00:49:54.887
+1.12.3.1 Nearly 100% of investment products are inferior to physical gold
+
+465
+00:49:54.887 --> 00:50:01.037
+1.12.3.2 Buy targets with "determinism" — quality must surpass physical gold
+
+466
+00:50:01.037 --> 00:50:09.487
+The proposition "Physical Gold Is Wealth" condenses millennia of human consensus — check gold prices periodically, frequent surprises await
+
+467
+00:50:09.487 --> 00:50:15.875
+1.12.3.3 Can we settle for general "good companies" instead of extreme "determinism"?
+
+468
+00:50:15.875 --> 00:50:24.412
+As of 2504, MN showed no perceptible day-to-day changes, expanding supermarket distribution and launching new cheese-stick products
+
+469
+00:50:24.412 --> 00:50:30.212
+Yet profits dropped 98% in one year; stock fell 75% in two years
+
+470
+00:50:30.212 --> 00:50:33.212
+1.12.4 Third Grade
+
+471
+00:50:33.212 --> 00:50:41.700
+1.12.4.1 Buying stocks means buying companies — buy companies with determinism; default requirement: global Top 20
+
+472
+00:50:41.700 --> 00:50:44.825
+1.12.5 Fourth Grade
+
+473
+00:50:44.825 --> 00:50:52.937
+As of 2504, among listed Chinese companies, only Moutai/Tencent satisfy "determinism" requirements
+
+474
+00:50:52.937 --> 00:50:57.737
+1.12.5.1 Moutai benefits from everything in China
+
+475
+00:50:57.737 --> 00:51:00.437
+a，See appendix On Moutai
+
+476
+00:51:00.437 --> 00:51:06.900
+b，Moutai's determinism cycle aligns with China's cultural tradition where Moutai symbolizes respect
+
+477
+00:51:06.900 --> 00:51:15.137
+c，If Moutai engages in excessive co-branding/dilutes brand such that it no longer symbolizes respect in China, determinism expires
+
+478
+00:51:15.137 --> 00:51:20.962
+Note: the above is an extremely low-probability event; if it occurs, it would be stopped
+
+479
+00:51:20.962 --> 00:51:25.712
+1.12.5.2 Tencent keeps pace with everything in China
+
+480
+00:51:25.712 --> 00:51:28.437
+a，See appendix On Tencent
+
+481
+00:51:28.437 --> 00:51:32.437
+b，Tencent's determinism cycle aligns with WeChat's
+
+482
+00:51:32.437 --> 00:51:38.000
+Compared with contemporaries, remove WeChat from Tencent, and it's roughly AL-level
+
+483
+00:51:38.000 --> 00:51:41.087
+1.12.6 Fifth Grade
+
+484
+00:51:41.087 --> 00:51:51.937
+1.12.6.0 Bear markets are inevitably opportunities for position-building; bull markets are inevitably opportunities for correcting errors/bottom-of-basket orange-cutting
+
+485
+00:51:51.937 --> 00:51:56.800
+Bottom-of-basket oranges" refer to stocks of companies lacking determinism
+
+486
+00:51:56.800 --> 00:52:03.900
+1.12.6.1 Moutai bought in bear markets rises in bull markets; bear-market purchases are cheaper
+
+487
+00:52:03.900 --> 00:52:11.600
+If you're a long-term net buyer of Moutai (beef) and don't produce it, you should celebrate when Moutai (beef) drops 50%
+
+488
+00:52:11.600 --> 00:52:16.925
+1.12.6.2 Bottom-of-basket oranges bought in bear markets differ
+
+489
+00:52:16.925 --> 00:52:22.387
+Bottom-of-basket orange cost 100, current price 30, real value is zero.
+
+490
+00:52:22.387 --> 00:52:26.750
+Because in bear markets you probably won't cut — the money is useless
+
+491
+00:52:26.750 --> 00:52:32.675
+Only in bull markets are bottom-of-basket oranges truly worth 30 — because you actually will cut
+
+492
+00:52:32.675 --> 00:52:40.312
+1.12.6.3 If buying bottom-of-basket oranges in bull markets, return to pre-school grade for re-education
+
+493
+00:52:40.468 --> 00:52:47.193
+1.12.7 Sixth Grade: The Portfolio — i.e., Graduation from The Wealth Management Method
+
+494
+00:52:47.143 --> 00:52:52.518
+Non-Elite Version Appendix to Chapter 1: How to Rolling Average, How to Buy the Dip
+
+495
+00:52:52.518 --> 00:52:55.518
+1.12A How to Rolling Average
+
+496
+00:52:55.518 --> 00:53:01.493
+1.12A.0 The best practice for rolling average is hereafter called "true-random method
+
+497
+00:53:01.493 --> 00:53:10.068
+1.12A.1 True-Random Method: Three-Year Rolling Average Purchase of The Portfolio, Buy Every Six Months, Delete App After Purchasing
+
+498
+00:53:10.068 --> 00:53:14.155
+1.12A.2 How to Calculate Rolling Average
+
+499
+00:53:14.308 --> 00:53:18.245
+1.12A.2.1 Assume this is year n.
+
+500
+00:53:18.195 --> 00:53:25.545
+The current market value (NOT historical cost!) of actual new purchases in years n–1 and n–2 is Aₙ₋₁ and Aₙ₋₂.
+
+501
+00:53:25.545 --> 00:53:30.158
+Your exogenous/original investment budget for year n is Xₙ
+
+502
+00:53:30.158 --> 00:53:37.083
+1.12A.2.2 Then this year's new purchase amount Aₙ = (Aₙ₋₂ + Aₙ₋₁ + Xₙ)/3.
+
+503
+00:53:37.083 --> 00:53:40.883
+For n 小于等于 2, set A₁ = A₂ = 0
+
+504
+00:53:40.883 --> 00:53:50.470
+1.12A.2.3 Note the existence of cash reserve Cₙ = Σ(Xₙ − Aₙ), whose stable value is approximately one year's budget Xₙ
+
+505
+00:53:50.470 --> 00:53:59.345
+1.12A.2.4 Confirm W's right wing (definition follows), can split Cₙ into two additional investments within 18 months
+
+506
+00:53:59.345 --> 00:54:05.458
+1.12A.2.5 For the market, your inputs A₀/A₁ and Xₙ are exogenous.
+
+507
+00:54:05.458 --> 00:54:11.270
+Thus output Aₙ is truly random to the market, and smooth/friendly/sustainable for you
+
+508
+00:54:11.270 --> 00:54:15.058
+1.12A.3 Why Three-Year Rolling Average?
+
+509
+00:54:15.058 --> 00:54:17.458
+Why Buy Every Six Months?
+
+510
+00:54:17.458 --> 00:54:21.108
+1.12A.3.1 Why Three Years
+
+511
+00:54:21.108 --> 00:54:27.033
+Market cycles empirically run 7–8 years — hence three-year rolling-average position-building
+
+512
+00:54:27.033 --> 00:54:31.458
+Within three years, Xₙ is easier for individuals to predict
+
+513
+00:54:31.458 --> 00:54:35.383
+1.12A.3.2 Why Every Six Months
+
+514
+00:54:35.383 --> 00:54:41.108
+Six months can digest personal and market emotions — combating "screen-watching means paying up
+
+515
+00:54:41.108 --> 00:54:45.283
+One year allows timing/playing twice — playing feels good
+
+516
+00:54:45.283 --> 00:54:52.120
+1.12A.3.3 In practice, steadfast full-position doctrine wouldn't mean buying daily anyway
+
+517
+00:54:52.120 --> 00:54:57.870
+Longer intervals make subsequent position additions more conformist and easier to execute
+
+518
+00:54:57.870 --> 00:55:03.945
+As of 2504, one lot of Moutai costs roughly RMB 150k.
+
+519
+00:55:03.945 --> 00:55:09.258
+If six months later 180k is needed, the extra 30k is profit
+
+520
+00:55:09.258 --> 00:55:13.770
+If only 120k needed six months later, even better
+
+521
+00:55:13.770 --> 00:55:16.670
+1.12B How to Buy the Dip
+
+522
+00:55:16.670 --> 00:55:23.720
+1.12B.0 Buying the dip means bear-market hedging technology under exogenous bearish-view conditions
+
+523
+00:55:23.720 --> 00:55:28.358
+1.12B.1 Its best practice is called "dip-buying method
+
+524
+00:55:28.358 --> 00:55:37.520
+a，The dip-buying method rests on one behavioral finance claim: bottoms are W-shaped (see diagram below, also called W-Downtrend Paradigm)
+
+525
+00:55:37.520 --> 00:55:43.945
+📈 W-Downtrend Paradigm Diagram: Five stages separated by red vertical lines.
+
+526
+00:55:43.945 --> 00:55:48.570
+By here you should still have half your money" — marked at stage 5 starting point
+
+527
+00:55:48.570 --> 00:55:52.870
+1.12B.1 Buy The Portfolio When Buying the Dip
+
+528
+00:55:52.870 --> 00:56:01.208
+1.12B.1.1 Dip-buying targets must be The Portfolio; bottom-of-basket oranges have no W shape — only L shape
+
+529
+00:56:01.208 --> 00:56:08.045
+1.12B.1.2 A complete bear market typically lasts no less than 6 months — patience required
+
+530
+00:56:08.045 --> 00:56:13.145
+1.12B.1.3 Can the W-Downtrend Paradigm fail?
+
+531
+00:56:13.145 --> 00:56:17.833
+Of course possible — without bullish-side collapse, it's not a bear market
+
+532
+00:56:17.833 --> 00:56:23.533
+a，Not a bear market means no dip-buying; if judgment proves wrong, admit error and buy back
+
+533
+00:56:23.533 --> 00:56:28.233
+b，At this point only normal Rₘ returns apply, no dip-buying bonus
+
+534
+00:56:28.233 --> 00:56:32.820
+1.12B.2 First Principles of the Dip-Buying Method
+
+535
+00:56:32.820 --> 00:56:39.433
+1.12B.2.0 The first principle of dip-buying is: don't catch falling knives bare-handed
+
+536
+00:56:39.433 --> 00:56:47.533
+1.12B.2.1 During market anomalies, negative shocks arrive unpredictably — no idea how deep or where the drop ends
+
+537
+00:56:47.533 --> 00:56:55.883
+1.12B.2.2 Therefore, wait for the storm to settle before re-entering — resist the temptation of initial bear-market declines
+
+538
+00:56:55.883 --> 00:57:00.395
+a，Is Moutai at 1300 cheap in 2504?
+
+539
+00:57:00.395 --> 00:57:03.320
+Can only tell after the knife has passed
+
+540
+00:57:03.320 --> 00:57:10.020
+b，Investment isn't the world's biggest deal — when major events arrive, Moutai halving is entirely possible
+
+541
+00:57:10.020 --> 00:57:15.220
+1.12B.3 Stage Morphology of the W-Downtrend Paradigm
+
+542
+00:57:15.220 --> 00:57:20.270
+For reader convenience, repeating the W-Downtrend Paradigm diagram
+
+543
+00:57:20.270 --> 00:57:25.983
+📈 (Same W-Downtrend Paradigm diagram, five stages 1–5)
+
+544
+00:57:25.983 --> 00:57:29.908
+1.12B.3.1 Falling-Knife Phase
+
+545
+00:57:29.908 --> 00:57:34.158
+a，Rapid decline driven solely by emotion and risk aversion
+
+546
+00:57:34.158 --> 00:57:35.858
+b，"Wolf!
+
+547
+00:57:35.858 --> 00:57:37.333
+Wolf!
+
+548
+00:57:37.333 --> 00:57:39.808
+Doesn't matter why — just run!
+
+549
+00:57:39.808 --> 00:57:43.808
+1.12B.3.2 Bull Struggle Phase
+
+550
+00:57:43.808 --> 00:57:45.933
+a，Bad news eases.
+
+551
+00:57:45.933 --> 00:57:50.670
+Repeated attempts to test previous highs — this phase has trading volume
+
+552
+00:57:50.670 --> 00:57:55.183
+b，Most people who haven't learned this method start dip-buying in this phase
+
+553
+00:57:55.183 --> 00:57:59.270
+1.12B.3.3 Bull Collapse Phase
+
+554
+00:57:59.270 --> 00:58:04.708
+a，Net direction determined by contending factors is collapse — bear market confirmed
+
+555
+00:58:04.708 --> 00:58:08.033
+b，Without this condition, it's not a bottom.
+
+556
+00:58:08.033 --> 00:58:11.270
+Bottoms require complete bullish exhaustion
+
+557
+00:58:11.270 --> 00:58:15.670
+c，Most people psychologically lose balance here — delete the app
+
+558
+00:58:15.670 --> 00:58:19.970
+1.12B.3.4 Prolonged Arc-Shaped Bottom
+
+559
+00:58:20.140 --> 00:58:22.240
+a，Zero volume.
+
+560
+00:58:22.190 --> 00:58:24.940
+Buy and get stuck — never rises.
+
+561
+00:58:24.940 --> 00:58:28.277
+Nobody discusses, nobody watches
+
+562
+00:58:28.277 --> 00:58:35.065
+b，The preceding condition is identifiable — arc-shaped bottoms are identifiable; cycle duration uncertain
+
+563
+00:58:35.065 --> 00:58:40.740
+c，Before the arc-shaped bottom appears, at most squander half your position on the left side
+
+564
+00:58:40.740 --> 00:58:42.927
+Resist temptation.
+
+565
+00:58:42.927 --> 00:58:46.365
+Generally: slower buying = more profits
+
+566
+00:58:46.365 --> 00:58:53.052
+1.12B.3.5 Right Wing of W: Bottom Volume Expansion, Pattern Confirmation
+
+567
+00:58:53.212 --> 00:58:57.199
+a，Stock price cautiously tests new highs repeatedly.
+
+568
+00:58:57.149 --> 00:59:00.699
+Each new price high accompanies new volume highs
+
+569
+00:59:00.699 --> 00:59:03.937
+b，Slowly heating up — bull market arrives
+
+570
+00:59:03.937 --> 00:59:10.924
+c，Valuation recovers rapidly in this phase; duration extremely brief, often just 1 month to half a year.
+
+571
+00:59:10.924 --> 00:59:15.474
+Most are completely out of the market/not watching screens*
+
+572
+00:59:15.474 --> 00:59:19.362
+d，By here you need to still have half your money — enter slowly.
+
+573
+00:59:19.362 --> 00:59:22.149
+You graduate from How to Buy the Dip
+

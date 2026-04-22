@@ -1,0 +1,626 @@
+How to Reach the Shore。
+
+"Fortune favors the bold; the gambling spirit must be strong"
+by Shuzhimi@RynW1988
+
+。
+
+Color coding for this chapter
+Thanks to editor-in-chief C / art director Shuzhimi@Chaney
+a，Body text / statements in black
+b，Axioms / theorems in red
+c，Explanations / supplements in blue italics
+d，Inferences / conclusions in orange
+e，Facts / data / news in green (due to information locality and the author's limitations, this work does not cite all sources)
+f，Conjectures / assertions, as well as emotions / comments / rumors / anecdotes / metaphors / analogies and other colloquial or literary expressions, in purple
+g，Theoretical innovations in gray with highlighting
+
+The vast majority of this chapter represents theoretical innovation
+
+。
+
+2.0 What Is Reaching the Shore。
+
+2.0.1 Reaching the shore means living in most civilized regions without needing to pursue unknown cash flow, also known as contemporary financial freedom。
+
+2.0.1.1 It is generally believed that RMB 300m in the 2020s achieves contemporary financial freedom
+
+a，RMB 300m/USD 40m is hereinafter WP, p for present, same as Appendix The Track of Chapter 0
+b，For brevity, hereinafter no distinction is made between WP and its holder, nor between WP and reaching the shore
+
+2.0.1.2 Hurun estimates approximately 50,000 Chinese households at WP, from low x per mille to low x percent
+
+a，Intuitively: a good ocean-view apartment with four bedrooms and four bathrooms in a prime HK location (April 2025) costs roughly RMB 100m, consuming one-third
+b，Generally speaking, RMB 1b is the limit of personally linearly expected usable wealth — beyond that, marginal utility becomes negative
+
+2.0.2 Neither oneself nor one's descendants need pursue unknown cash flow — this is perpetual financial freedom。
+
+2.0.2.1 This achievement has academic significance and objectively exists, rather than being accidental
+
+2.0.2.2 It is generally believed that USD 1b in the 2020s can achieve perpetual financial freedom
+
+2.0.2.3 USD 1b is hereinafter WH, h for hurdle. For brevity, hereinafter no distinction is made between WH and its holder
+
+2.0.2.4 By the natural succession implied by WH's definition, hereinafter no distinction is made between WH and its descendants — all are subject to the constraints on WH
+
+2.0.2.5 When necessary, WH and The Elite from Chapter 0 are collectively referred to as M
+
+We first discuss WP; for perpetual financial freedom see Chapter 3.
+It should be noted that WP does not require being among The Elite.
+
+。
+
+2.1 The Method of Reaching the Shore。
+
+2.1.1 The shore-reaching method refers to, for the non-elite, how to achieve 10x+ returns with maximum certainty in a single transaction or medium-term period (5–10 years, hereinafter the same), where the 10x figure is not subject to fluctuation。
+
+a，If you have already graduated from Chapter 1, applying the shore-reaching method will achieve W1到WP in the medium term
+b，The annualized return of the shore-reaching method is hereinafter Xi; empirically, Xi ∈ (35%, 50%)
+
+2.1.1.1 Like weather forecasting, the shore-reaching method is a counter-conventional / beyond-normal-rules technique — it cannot offer 100% certainty
+
+2.1.1.2 Like weather forecasting, the shore-reaching method is a science. When preconditions are precisely met, wins outnumber losses
+
+The author has witnessed many people apply the shore-reaching method to achieve WP
+
+2.1.2 This work defaults to using listed Chinese company stocks as examples。
+
+2.1.2.1 Reaching the shore is extraordinary (x per mille); in practice it is difficult to achieve purely through stock investing (the stakes involved are too small)
+
+2.1.2.2 Reaching the shore through other investment vehicles follows similar principles
+
+2.1.3 Why can Xi significantly exceed Rm? Three core constraints breaking through Rm。
+
+2.1.3.0 Only WH can enjoy long-term perpetual returns (see Chapter 3 for details). Such returns are constrained by three factors:
+
+2.1.3.1 Constraint One: Market Opportunity
+
+a，"Off-market deals" that can only absorb small amounts of capital are meaningless to WH
+   - Taking A-shares as an example: a stock with market cap RMB 10b trades roughly RMB 150m daily; active buying of just RMB 15m in a day is enough to trigger the daily limit-up
+   - Active position-building of USD 150m may double your average entry cost (7 consecutive limit-ups). The same applies when selling
+   - Investing USD 150m and earning USD 150m back is only possible with large-cap stocks like Moutai or Yangtze Power
+b，If the initial capital required to reach the shore is small enough to pursue off-market opportunities, then it may exceed Rm
+
+2.1.3.2 Constraint Two: Long-Term Compounding
+
+a，The best investments in the world, such as Monet's Water Lilies, have GRm as their perpetual growth ceiling
+b，Reaching the shore requires only one success: capturing the reversal phase from crash to stabilization or even to major rally, which may exceed GRm
+
+2.1.3.3 Constraint Three: Extremely High Certainty
+
+a，What WH essentially does is near risk-free trading — they neither need nor should chase returns from value system restructuring
+b，Reaching the shore demands a strong gambling spirit: participating in the establishment of new value systems may exceed Rm
+
+2.1.4 Three types of shore-reaching methods arise from the above。
+
+2.1.4.1 First type breaks Constraint 2.1.3.1, denoted X1: IRR 50%, MOC 5-year 8x
+
+2.1.4.2 Second type breaks Constraint 2.1.3.2, denoted X2: IRR 40%, MOC 7-year 12x
+
+2.1.4.3 Third type breaks Constraint 2.1.3.3, denoted X3: IRR 35%, MOC 10-year 18x
+
+2.1.4.4 Some notes on the median returns of the above Xi
+
+a，IRR stands for internal rate of return, i.e., expected investment return; MOC is the return multiple mentioned earlier
+b，IRR and time horizons have standard deviations; MOC values represent single-use medians, independent of principal, non-compoundable, with standard deviations
+
+。
+
+2.2 The First Shore-Reaching Method。
+
+2.2.0 The first principle of X1 is: high-return certainty comes from the scarcity of the trading opportunity (i.e., good price), not from certainty about the asset itself (i.e., good company)。
+
+Such high-certainty, high-return transactions accessible only to a minority are hereinafter called X1 deals
+
+2.2.0.1 Common examples include spin-offs of new-track subsidiaries by corporate giants, and the final financing round before industry leaders go public
+
+None of the above are secondary market transactions. Early-stage private equity investment is called VC; mid-to-late stage through pre-IPO is called PE — hereinafter the same
+
+2.2.0.2 The underlying assets of an X1 deal do not possess the certainty of The Portfolio, but their transaction prices are extremely attractive
+
+2.2.0.3 This work defaults to using listed Chinese company stock examples
+
+a，Stock investment naturally does not restrict participation by number of people — rather, it restricts those who understand and dare to participate. That is, X1 deals arise from fundamental positive changes in a listed company that only a minority can deeply comprehend
+b，For certain reasons, only a hypothetical example is given
+   - Assume publicly available information shows a private aerospace company secured an order from Shanghai Yuanxin Satellite Technology
+   - But not everyone understands what this implies before China's version of Starlink is built in April 2025
+
+2.2.1 The first shore-reaching method refers to the technique of securing a place in an X1 deal by leveraging one's own commercial influence。
+
+2.2.1.1 Essentially, investing (paying cash together with a group of people to purchase equity, same shares same rights) is merely the necessary form and optimal vehicle for monetizing personal commercial influence
+
+2.2.1.2 Other methods of monetizing commercial influence are not recommended (examples omitted)
+
+2.2.2 Why do X1 deals exist?。
+
+2.2.2.1 Trading is a short-term activity during which market vacuums may exist (only one buyer/seller within a certain period)
+
+2.2.2.2 If the asset is sufficiently good, trading during a market vacuum period is actually zero-risk — the sole buyer/seller enjoys full pricing power
+
+2.2.2.3 Take Buffett as an example. In reality, he possesses no extraordinary mathematical intelligence or risk-pricing ability; Berkshire Hathaway is essentially an acquisition company where he chooses his battlefield and conducts simple, rough, fault-tolerant risk pricing
+
+a，Specifically:
+   - Only do risk-free trades that only he can execute; exit at satisfactory IRR passively
+     — Any mega-PE firm could meet this bar
+   - Only do sufficiently large trades
+     - During the 2008 financial crisis, Buffett invested in Goldman Sachs: crisis pricing + preferred stock + high dividends + warrants
+     - This was clearly asymmetric deal terms, but during the financial crisis he was the sole bidder
+
+2.2.3 Core elements and empirical characteristics of X1 deals。
+
+2.2.3.1 The asset must be good — at the level of a top-tier industry leader, hereinafter "top-tier"
+
+a，While it lacks long-term certainty, it has short-to-medium term certainty at a specific time and place
+b，Below the "top-tier" level, any action taken on such assets yields long-term negative-sum outcomes in terms of interest
+   - Its own growth is insufficient to pay off everyone
+   - That is, not everyone who participates will fare well. This is inevitably high-risk — the wise avoid it
+
+2.2.3.2 This trading opportunity is scarce
+
+a，Scarcity generally means not merely the ability to buy at a discount, but that others cannot buy at all
+b，Or others can buy but, due to information asymmetry, dare not buy at the same price
+
+2.2.3.3 Empirical characteristics of X1 deals
+
+a，85%+ probability of achieving a deterministic 5–10x return
+   One successful capture before retirement suffices; beforehand, slowly accumulate commercial influence / wait for opportunity
+b，You must be a necessary link in this transaction — you cannot buy someone else's story/rumor
+   You wouldn't dare buy much of another person's rumor; net profit insufficient makes it not worth risking
+   If you're not on the front line of the transaction, once conditions deteriorate, you won't understand the dynamics
+c，Commitment should be no less than e-1 of personal net worth, median 100%
+d，Bet to the end — "fight until complete victory"
+
+2.2.4 Non-elite individuals may possess commercial influence。
+
+2.2.4.1 The Elite are those willing to Serve Original Dishes to the world — and they need help
+
+2.2.4.2 Logically, "you served this dish" and "without you, this dish couldn't have been served" are different propositions
+
+2.2.4.3 The difference between the latter and the former is called commercial influence
+
+a，Taking an M&A transaction as example: typical persons with commercial include target company shareholders and management; headquarters of major commercial banks, M&A lending departments, handling branches; acquirer's boss and core employees; regulatory authorities
+b，And key assistants to all of the above
+
+2.2.4. I almost never have influence in any transaction — what then?
+
+Then you're suited for the second or third shore-reaching method
+
+2.2.5 Core elements of the transaction structure / realization method for X1 deals。
+
+2.2.5.1 Must be indisputably legal and compliant
+
+a，Laws/regulations/rules are not immutable — it must remain legal and compliant under generous interpretation
+b，For example, involving listed companies: if there's no particularly valid reason to buy before a trading halt, buy after resumption
+c，For X1 deals, window returns arising from halts/resumptions (return differential between buying before vs. after halt) are entirely irrelevant
+
+2.2.5.2 The more you share the same profit mechanism with commercially influential persons, the safer it is
+
+Safety in numbers
+
+2.2.5.3 If sharing profit mechanisms with many isn't possible, align as closely as possible with a very wealthy individual/institution's profit mechanism — this is the next-safest realization method
+
+a，The standard is: what you take should be negligible to them
+
+2.2.5.4 If all laws of capitalism were summarized in one sentence: always stand on the side of the rich. For the non-elite, aligning profit mechanisms with the rich is self-protection — because the rich have far less motive to default on you
+
+2.2.6 Three examples of X1。
+
+2.2.6.1 A formerly worked at a foreign PE firm
+
+a，Resigned during a project spin-off. Personally invested in the new company's formation and became vice-chairman
+b，Currently considered the wealthiest among ex-PE practitioners
+
+2.2.6.2 B formerly worked at a domestic PE firm
+
+a，The firm's investment committee rejected a certain project. He mortgaged his house and invested nearly 100% of his personal net worth
+b，The project later accumulated low double-digit returns, with net profit in the RMB 1b range
+
+2.2.6.3 C, owner of a foreign PE firm
+
+a，Personally invested in the first large-scale Chinese concept stock privatization transaction. Because the market had no precedent, privatization proceeded smoothly at reasonable cost
+b，Secured high single-digit returns smoothly, net profit in the RMB 1b range
+
+。
+
+2.3 The Second Shore-Reaching Method。
+
+2.3.0 The first principle of X2 is: high-return certainty comes from severe prior decline AND reversal certainty — both are indispensable。
+
+Such high-return transactions featuring prior crash + deterministic reversal are hereinafter called X2 deals
+
+2.3.1 The second shore-reaching method refers to the technique of reaching the shore through reversal investing / X2 deals。
+
+For the main academic viewpoints and practices of reversal investing, see the appendix to this chapter
+
+2.3.1.1 In the turnaround of an X2 deal, there must be a key person/party playing a central rescue role (typically a new CEO / new shareholder)
+
+Hereinafter White Knight / WK
+
+2.3.1.2 The certainty of an X2 deal derives from WK's rescue capability
+
+It should be noted that WK also brings massive positive changes to the target company that only a minority can understand — but differs from X1
+
+a，X1 deal excess returns mainly come from trading scarcity — monetization of commercial influence
+b，X2 deal excess returns mainly come from severe prior decline and WK ultimately avoiding its extinction risk
+
+2.3.1.3 Therefore, completing an X2 deal does not require commercial influence — but it requires you to have above-market understanding of and confidence in WK
+
+a，You need to determine only: "Who will rescue? Is the rescuer reliable?" That's enough
+b，In any endeavor, even win-win ones, among resource-holding, influential parties, at least one person must be responsible/decent/professional — commonly known as having "someone to backstop." Bad actors cannot accomplish good things. The backstop must be reliable.
+
+2.3.2 Why do X2 deals exist?。
+
+2.3.2.0 The investment target must reach top-tier level
+
+2.3.2.1 Severe decline means dropping 90% from the prior peak, then declining further by roughly e-1
+
+a，The first 90% is certain; the subsequent e-1 has a range of ±e-1 (in growth ratio terms)
+b，A 90% drop isn't enough. Empirically, if something has dropped 90%, it usually falls further (see appendix on "Reflexivity")
+
+2.3.2.2 Dropping 90% means the market believes this formerly top-tier asset faces extinction risk
+
+2.3.2.3 There are two causes: either the environment underwent fundamental change, or the company committed serious operational misconduct
+
+Colloquially: "shot themselves in the foot" (made a fatal blunder)
+
+2.3.2.4 Only the second cause is salvageable. The first is mostly unsalvageable
+a，A 90% drop means the market believes this company no longer serves any purpose under the new environment
+b，A company typically cannot change its macro environment. Without self-inflicted damage, every reasonable response would already have been deployed. Continued decline indicates human effort is exhausted
+c，What if the environmental cause later improves (e.g., temporary policy changes)?
+Possible, but rational investors cannot bet on this
+Policy changes generally have profound, irreversible reasons (e.g., China's "Double Reduction" policy on tutoring, grounded in deep social fairness and demographic foundations)
+If the cause were reversible/temporary, the market would be smart enough that the drop rarely reaches 90%
+d，When the environment hasn't changed but the company shot itself in the foot, recovery is much easier — simply returning to its former self suffices
+If WK is capable, this is achievable
+
+2.3.2.5 Misconduct by original shareholders/management on the liability/distribution side generally doesn't directly affect asset/operations in the long run
+
+a，Assets remain quality assets; brands often remain strong brands
+b，For top-tier leaders, if you think they've made a recoverable blunder, other capable institutions surely think so too
+c，Eventually, a capable WK will emerge who judges the target worth saving, believes they can revive it, and dives in personally
+
+2.3.3 Core elements and empirical characteristics of X2 deals。
+
+2.3.3.1 WK's strength, credibility, and experience must exceed those of the rescued company
+
+Typically elite entrepreneurs/acquisition funds become new owners; or with dispersed ownership, capable management becomes new CEO
+This must not be WK's first/only project — their rescue capability remains unvalidated, and win rate is insufficient
+
+2.3.3.2 WK must have skin in the game — fully committed
+
+If they don't rescue, they suffer personal loss — not merely opportunistic trial
+Once WK is committed and sufficiently capable, there is 70%+ probability of successful revival
+
+2.3.3.3 Empirical characteristics of X2 deals
+
+a，Return distribution is empirically roughly: 70% at 10–20x; 20% at 1–2x; 10% at 0x
+   As stated, a 90% drop reflects the market's belief that this formerly top-tier asset faces extinction risk
+   If the final outcome is non-extinction, there's a floor of 6–8x return; empirically, the median exceeds 10x
+b，Bet to the end — "fight until complete victory"
+   A common error: correctly betting the top-tier won't go extinct, yet exiting at 2x or with insufficient position size
+
+2.3.4 Non-elite individuals may also build confidence in WK。
+
+2.3.4.1 Philosophically, the success of the non-elite necessarily comes from following the right Elite
+Most early ByteDance employees have reached WP or even WH and retired
+
+2.3.4.2 Non-elite individuals may also have the ability to leverage social resources to understand inside information
+
+2.3.4.3 You need only make a 0/1 judgment
+
+This is information you'll only learn after sharing a bottle of Moutai with at least one witness to the power struggles among the company's factions
+
+2.3.4.4 I have no opportunity to learn who the new operator is or whether they're reliable — what then?
+
+a，An X2 deal appears roughly once per year across the entire market (deal of year)
+b，Once before retirement is sufficient. If you happen not to know anyone in that field, wait for the next one
+c，In fact, this is the most common path to the shore for ordinary people
+d，If you have no opportunity to learn about any capable WK, you're suited for the third shore-reaching method
+
+2.3.5 Core elements the transaction structure / realization method must satisfy。
+
+2.3.5.1 Use capital you can afford to lose — such capital, after 10x appreciation, must reach WP/your satisfaction threshold
+
+Human calculation cannot match heaven's design; X2 deals have at best ~70% win rate
+
+2.3.5.2 Gambling spirit must be strong
+
+a，You need deep understanding of and absolute confidence in WK — do not reduce positions before achieving expected/needed returns
+b，In a single trade, if you eventually earn 10x, it means you did not materially reduce positions at 2x or 5x
+c，This means if principal is 10, your utility function U(w) satisfies U(10)=U(0)=U(20)=U(50)2
+
+2.3.6.1 Steve Jobs' return to Apple
+
+a，Before Jobs returned, Apple's stock had fallen 95% from its peak
+b，During Jobs' tenure after returning, Apple's stock rose over 100x
+
+2.3.6.2 RX Coffee
+
+a，After accounting fraud erupted, the stock fell over 95%
+b，Yet throughout, RX Coffee's assets remained quality assets. Since new controlling parties took over, the stock has risen over 30x
+
+2.3.6.3 A local government rescuing/buying the dip on a new-energy vehicle manufacturer
+
+a，Over the subsequent 8 months, this NEV company's stock rose 20x
+b，Shareholders with inside knowledge benefited accordingly
+
+。
+
+2.4 The Third Shore-Reaching Method。
+
+2.4.0 The first principle of X3 is: high returns come from a new asset category emerging from nothing and growing into significance。
+
+2.4.0.1 Such brand-new-from-nothing assets are hereinafter called X3 Assets
+
+a，Predicting a new asset category's growth entails startup-level risk — weakest certainty
+b，Identifying X3 Assets requires you to get Chapter 5: How to Predict the Future
+
+2.4.0.2 Despite weak certainty, X3 still holds academic value
+
+a，X3 has the lowest requirements on capital/social resources and highest expected returns (note: not highest return ceiling)
+b，Low capital allows failure tolerance; X3 is the only common shore-reaching category permitting multiple attempts
+
+2.4.0.3 The third shore-reaching method refers to the technique of reaching the shore by investing in X3 Assets
+
+2.4.1 Applicability of X3, "non-elite exception," and illustrative examples。
+
+2.4.1.1 Ex-post, X3 requires The Elite to originally succeed in performing — but the non-elite may attempt
+
+a，Getting Chapter 5 is, of course, an Elite pursuit. There exists a kind of Elite who produces only original thought. Consequently, they cannot obtain WP by signing their name to endeavors. Their original intellectual contribution has only one direct user: themselves
+b，Per 2.4.0.2.a, X3 performed by such Elite is unattributed, thus open to non-elite attempts — many other "Elite games" lack this opportunity
+
+2.4.1.2 Per 2.3.4.1, whenever opportunities open up, non-elites can follow or copy homework — or in the process produce original thought and become Elite ("Eliteness is not innate")
+
+a，The most common practice is becoming an early employee at companies creating X3 Assets; or following Elite X3 performers to invest in X3 Assets; or copying their ideas and applying them to the current-version world
+
+2.4.1.3 Illustrative examples
+
+a，April 2025: BTC rose ~20x over the past decade; Pop Mart also rose ~20x from recent lows
+b，April 2025: Cardoo Limited plans IPO; news reports call it "sweeping 4.4 billion from elementary students" (referring to collectible card business revenue)
+
+2.4.2 Core elements and empirical characteristics of X3 Assets。
+
+2.4.2.1 The core element of X3 Assets is: entirely new assets requiring new culture/new values/new rule-setting
+
+2.4.2.2 X3 Assets CANNOT be early-stage tech-driven conceptual assets
+
+a，Technological progress possesses considerable reasonableness and feasibility from day one
+   April 2025: autonomous driving, flying cars, curing cancer, brain-computer interfaces all have very high probabilities of eventual success
+b，No matter how early, you cannot obtain pricing good enough for X3-level returns
+   Bill Gates said: "People overestimate what they can do in one year and underestimate what they can do in ten years" — hence tech concept assets tend to be expensive even in year one
+
+2.4.2.3 After the first wave ends in chaos, such tech concept assets may subsequently present X3-level pricing
+
+April 2025: under AI's impact, metaverse/NFT concept assets are barely discussed anymore
+
+2.4.2.4 Empirical characteristics of X3 Assets
+
+a，On the basis of correctly predicting the future, return distribution is empirically roughly: 50% at 30x; 50% at 0x
+   Correctly predicting the future doesn't guarantee profits. The first ride-hailing app, the first bike-share — both bankrupt by April 2025
+b，X3 Assets entering rapid appreciation undergo a sudden takeoff; before that, no clear pattern emerges — median waiting time spans a decade
+c，Therefore you must tolerate total-loss risk tolerance. After enduring long waiting and entering the takeoff harvest phase, (very counter-intuitively) do not exit prematurely
+
+2.4.3 Why do X3 Assets exist?。
+
+2.4.3.0 Only by defining new values can new asset holders / newcomers participate in value reshuffling
+
+The most common value reshuffling is a city's new hot district: Beijing won't forever favor locations closest to Tiananmen Square
+
+2.4.3.1 Newcomers' labor and demand create net value. Traditional-value-system M also welcomes this and opportunistically shares the new pie
+
+After new residents pour in, urban new districts genuinely transform from wasteland to modern metropolis, surrounding land appreciating dramatically
+
+2.4.3.2 Their combined forces form a new consensus
+
+a，The only losers in this game are slow-transitioning defenders of old value systems
+b，Since this game creates net wealth, the formation of new consensus is irreversible and inevitable
+   - Pop Mart went viral — its supply chain, promotion platforms, store owners, new and old shareholders all benefited accordingly
+   - Everyone is pleased to see toy culture go global; Pop Mart indeed makes prettier products than Jellycat, with stronger psychological projection
+
+2.4.4 Identifying X3 Assets requires curiosity, broad interests, and love of learning。
+
+2.4.4.1 You must be unable to tolerate fixed cognitive frameworks and unable to accept stagnant understanding of the world
+
+a，Successfully predicting 5到100 necessarily contains deep understanding of the world and powerful prediction ability
+b，This understanding certainly lies outside your existing track (otherwise you'd have reached the shore already) — this unknown demands curiosity
+   Don't mind learning completely unrelated knowledge — bird taxonomy, vocal techniques — embrace the spirit that "no learning is wasted"
+
+2.4.4.2 Possessing broad curiosity prevents confinement by existing cognitive frameworks — your worldview won't be fixed
+
+a，If someone considers their pre-T self very foolish, call T their foolishness cycle. Highly curious people have extremely short foolishness cycles
+b，Eventually, these structural understandings / analogies / refutations of the world undergo qualitative change — at some point you discover the world itself is foolish
+c，As correction, X3 Assets naturally enter your cognition
+
+2.4.4.3 X is known as China's most curious entrepreneur. He told a story:
+a，Mr. CM Po is a renowned financier. X wondered: "Why 'Po' in his name? Must be a good reason."
+b，X has a remarkable cognitive trait: "Boss C chose this name not because his mother was confused — it must be because X himself was confused."
+c，Reportedly, "Po" carries auspicious meanings. The water radical represents wealth; combined with fa (from facai, prosperity), it becomes Po
+d，This quality is politically termed "welcoming criticism" (Li Shimin) and academically termed "never letting any counter-intuition slip" (Yang Chenning). X is top-tier Elite — at least e-1 of his Eliteness stems from such top-tier curiosity. Incidentally, X invested USD 100m in BTC at a very early stage, purely to "pay tribute to this magnificent design"
+
+2.4.4.4 Compared with "judging whether WK is reliable," X3 theoretically requires fewer social resources — quiet reading suffices
+
+a，However, this actually requires investors to possess some degree of insight into the world's operating laws, even the ability to predict the future
+b，Colloquially: "having truly mastered learning," possessing great wisdom — harder than X2
+
+2.4.5 Core elements the transaction structure / realization method must satisfy。
+
+2.4.5.1 After forming identification and judgment on a new asset class, intervene early enough
+
+2.4.5.2 One important optional path: join a company operating new assets
+
+2.4.6 Three examples of X3。
+
+2.4.6.1 A certain angel investor
+
+a，Co-founder of a renowned education institution. Introverted, avid reader. After leaving that company, deep understanding of the world enabled two investments turning RMB 100m 到 RMB 10b
+
+2.4.6.2 Pop Mart
+
+a，Founder studied MBA at Guanghua School of Management (2014). Several classmates joined pre-Molly-era Pop Mart
+b，The most contributing classmate held ~1%; April 2025 market cap around RMB 1b
+
+2.4.6.3 Singapore's Sea Group and Vietnam's potential X3
+
+a，Singapore's Sea Group is "the Tencent of Southeast Asia"; rose 30x+ from 2018–2021
+b，Vietnam's potential X3 targets are omitted here, with some notes:
+   - April 2025: limited by the author's capabilities, virtually no marginal macro change unfavorable to Vietnamese targets can be found
+   - Its small scale and low base are already priced in. Vietnam's GDP exceeds Yunnan/Guizhou, approaching Hebei. If a Vietnamese target reaches national dominance, it has momentum akin to Great Wall Motor/Yunnan Baiyao; if it leads all Asia outside China (GDP comparable to China's), it has momentum akin to Moutai/Tencent
+
+。
+
+2.6 When Encountering Xi, You Are Usually Not Ready — Strive to Seize Opportunities。
+
+2.6.1 Although Xi is a medium-term investment, in practice you almost NEVER have time to operate leisurely。
+
+Ex-post windows may span months or even over a dozen months — but you cannot wait
+
+2.6.2 One relatively realistic reason: normally you have low probability of having maximal-level liquid cash available。
+
+Yet Xi investment opportunities are exceedingly rare — maximize capital mobilization
+
+2.6.3 The author's experiences consistently had only around three weeks of operation window。
+
+2.6.3.1 Once, the author drove family far to a ski resort. Ski gear just on; while stowing phone, received intel: 2–3 week operation window. Removing heavy gear to head to airport felt deeply counter-intuitive
+
+2.6.3.2 Still went to airport and started fundraising. Just finalized when informed quota increased — still half short. Had to continue fundraising; spent over a month total, one week overtime, barely completed
+
+2.6.3.3 Had to stay in hotel meetings constantly that year; child's birthday had to be celebrated at the hotel
+
+2.6.4 All three types of Xi are rare opportunities — exert maximum effort。
+
+2.6.4.1 Maximize commercial influence to get a foot in; maximize social resources to understand WK; maximize curiosity and courage to learn new things
+
+2.6.4.2 Maximize position sizing to spur bravery, push yourself to 137% effort, transcend self-capability
+
+a，Reaching the shore is extraordinary; fortune is not lightly bestowed
+
+2.6.5 Two examples of seizing Xi。
+
+2.6.5.1 A senior alumnus
+
+a，Participated in a chip company's backdoor-listing paired private placement; WP到WH took three years: "Those three years exhausted me"
+b，After completion, donated a building to alma mater as reward to self
+
+2.6.5.2 Leader of a world-leading new energy group
+
+a，"When you have 70% confidence, act. Overcome 15% of risk during execution; bear the remaining 15%"
+b，"'Dare to win through hard work' is insufficient — that's physical labor. 'Strong gambling spirit' — now that's mental labor"
+
+。
+
+2.7 Don't Reach the Shore Twice。
+
+2.7.0 WP到WH cannot be accomplished by the non-elite, nor via Xi。
+
+One shouldn't possess wealth exceeding what one can carry
+
+2.7.1 People who complete Xi may be non-elite but are all extraordinary — in Feng Shui terms, they "possess wealth fortune"。
+
+Happening to know the methods saved them detours
+
+2.7.2 Xi·Xj 不等于 X². After Xi success, it cannot be compounded — usable only once
+2.7.2.1 Empirically, after one Xi success, repeated compound use causes severe return degradation
+a，With identical external conditions, return distribution degrades to: 10% at 2x–10x, 60% at 1–2x, 30% at 0–1x
+2.7.2.2 Some explanations why Xi cannot be compounded:
+a，Someone is non-elite; through certain opportunities occasionally executed Xi and obtained WP — they should be content
+b，After reaching the shore, mindset shifts: less sharp, less humble
+c，Someone didn't change or even grew stronger, but successful Xi itself is enormous luck — a repeat attempt likely reverts to mean
+
+2.7.3 If Xi succeeds: in the following period (at least one year), relax thoroughly。
+
+2.7.3.1 Engage in anything legal and relaxing except investing — default choice is global travel
+
+2.7.3.2 Seek yourself during world travel; forcibly refrain from investing
+
+2.7.3.3 Of course one MAY become rich twice — but don't try to
+
+April 2025: Trump went bankrupt twice, became rich twice
+
+2.7.4 Adjust mindset: after reaching the shore, forget Chapter 2。
+
+2.7.4.1 Good fish require excellent water adaptability and swimming ability; good frogs require sharp vision and jumping power
+
+a，Their skill sets differ
+b，After reaching the shore, they face different food sources, living environments, and predators
+
+2.7.5 After reaching the shore, adjust mindset and switch ASAP to Chapter 3: How to Maintain Position
+
+。
+
+Non-elite version Appendix to Chapter 2: On Reversal Investing
+
+2.8 What Is Reversal Investing? Doesn't the Anchoring Limit Include Soros's 30-Year 30%?。
+
+2.8.0 Reversal investing is an academically recognized investment school exceeding Rm, with effectiveness between Chapter 1 and Chapter 2。
+
+2.8.0.1 On one hand, well-applied reversal investing outperforms the Wealth Management Method; on the other hand, pure reversal investing cannot achieve reaching the shore — it needs its enhanced version X2. The content below can be viewed as X2's theoretical foundation
+
+2.8.0.2 Unlike the Wealth Management Method, shore-reaching methods can be infinitely strengthened. For uncertain matters, every bit more stability helps
+
+2.8.1 Reflexivity of Expectations (Soros)。
+
+2.8.1.1 Humans are irrational. Once psychological thresholds are breached, reactions follow the trend — fleeing en masse
+
+2.8.1.2 Thus this downward trend overshoots / self-reinforces — this phenomenon is called negative reflexivity of expectations
+
+2015 A-share circuit breaker introduction / forced liquidation / thousands of stocks hitting limit-down
+
+2.8.1.3 Investing that exploits reflexivity is called reversal investing
+
+2.8.2 Practical Reversal Investing Example 1: ZD Group。
+
+2.8.2.1 ZD Group is the #1 Chinese commercial family by wealth, prosperous across seven generations
+
+2.8.2.2 Investment style: acts once per decade, frequently at RMB tens-of-billions scale, purchasing only strategically important best-in-class assets
+
+a，Philosophically, unique quality assets are always cheapest long-term — "fear of heights is the lot of the unfortunate"
+
+2.8.2.3 Its Chinese investments include:
+
+a，China X Group / J Company mixed-ownership reform
+b，Two Grade-A office towers in Beijing CBD core area
+c，ZG Biotech (shareholder of KX vaccine)
+
+2.8.3 Practical Reversal Investing Example 2: Hong Kong Property Stocks。
+
+2.8.3.1 HK's priciest property viewings often require proof of assets in tens or hundreds of millions
+
+2.8.3.2 Yet the finest HK property stocks, like Sun Hung Kai, over a 20-year horizon always reach PE 5x at some point
+
+2.8.4 Practical Reversal Investing Example 3: Diversified Reversal-Factor Investing。
+
+2.8.4.1 Ordinary people lack access to exclusively buy the highest-certainty assets (as in the two examples above), but the phenomenon that ordinary assets (short-term) refuse to fall further may exist
+
+a，Facing life-threatening danger (e.g., at gunpoint), few immediately flee — most freeze in fear and numbness
+b，Similarly, an asset experiencing multiple rounds of sharp decline and prolonged bottom oscillation enters a so-called oversold state
+c，Among oversold-state assets, removing portions with fast-extinction risk and investing in a diversified way often achieves ~30% returns
+
+2.8.5 This merits mention because it is arguably the only academic strategy exceeding GRm=20%。
+
+2.8.6 Reversal investing is not suitable for everyone。
+
+2.8.6.1 Investment style mirrors investor personality
+
+Those who love oversold bargains generally dislike buying quality assets, and vice versa
+
+2.8.6.2 This technique is currently fully armed — nearly only institutional professional operations are viable
+
+2.8.6.3 Poor application leads to value traps and severe losses
+
+a，A company valued below its book free cash is quite ordinary
+b，Two examples of "market cap below cash on books":
+   - An HK-listed company held RMB 500m cash on books, but market cap was only RMB 400m
+     - Natural thought: buy it, dissolve it, and it's worth RMB 500m?
+     - But it won't dissolve — management expenses travel and entertainment on the company dime daily
+     - Management is so terrible no WK is willing to step forward for privatization
+   - Capital C raised an Ethereum metaverse fund
+     - Operation: convert raised USD to ETH, then invest ETH into metaverse projects
+     - Fund ultimately liquidated: earned 2–3x in USD terms but lost 90%+ in ETH terms
+     - I.e., if they'd simply held ETH post-fundraising without investing in any projects, they'd have earned 10x–20x
+c，Oversold ordinary assets merely resist falling short-term; long-term extinction is certain
+d，Some top-tier companies appear to have dropped significantly and present opportunity, but they are no longer who they were
+   For understanding this point, see main text 2.3.2.4
+
+。
+
+Both Elite and Non-Elite versions*

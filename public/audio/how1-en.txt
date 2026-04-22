@@ -1,0 +1,881 @@
+How to Manage Wealth。
+
+RMB can buy gold — what you purchase must be of finer quality than gold
+by Shuzhimi@RynW1988
+
+。
+
+Color Legend for this Work
+Acknowledgment to Editor-in-Chief C / Art Director Shuzhimi@Chaney
+a，Body text / statements in black
+b，Axioms / theorems in red
+c，Explanations / supplements in blue italic
+d，Corollaries / conclusions in orange
+e，Facts / data / news in green (due to information locality and author limitations, not all sources are cited)
+f，Conjectures / hypotheses, plus emotions / comments / rumors / anecdotes / metaphors / analogies and other popularized or literary expressions, in purple
+g，Theoretical innovations in gray and highlighted
+h，Bold means this proposition is important or the author finds it interesting
+
+。
+
+1.0 What Is Wealth Management。
+
+1.0.0 Wealth management is a technique by which non-professional individuals/organizations who do not specialize in asset management handle their accumulated daily wealth through investment。
+
+1.0.0.1 Wealth management solves how a person holding W₀ can deterministically achieve 20x growth (W₀到W₁)
+
+a，W₀ denotes 1.5m, W₁ denotes 30m; same as Appendix The Track of Chapter 0
+b，For brevity, no distinction between W₀ and the person holding W₀; same hereinafter
+c，"m" for million; default currency unit is RMB as of 2504, same below
+d，"20x" means 20 times; x denotes principal return multiple (inclusive), 1.2x = net profit 20%, 0x = total loss of principal, same below
+e，W₀ fluctuation range (e的负一次方−1, e−1), amplitude e²; 20x does not fluctuate
+
+1.0.0.2 A wealth management method exists
+a，This work will present a wealth management method based on a deterministic analysis framework
+"Method" is a Buddhist concept referring to the most efficient way to accomplish something that has not yet become widely known
+Not following the method is much slower. Since wealth experience follows an exponential power law distribution, long-term differences can be order-of-magnitude in scale
+
+1.0.0.3 The wealth management method cannot solve Wᵢᵣ 到 W₀
+
+Giving everyone W₀ (colloquially "a nest egg") requires the wisdom and compassion of a great leader
+
+a，Wᵢᵣ (ir for irrelevant) refers to a low-wealth state where any method is unnecessary because one's best life needs no wealth technique
+Below Wᵢᵣ, any wealth method is ineffective/unnecessary
+Above Wᵢᵣ, some optimal approach to financial goals begins to take effect
+Every era has many people who achieve excellence and greatness without needing any wealth, such as Master Hong Yi
+
+b，W₀ as described above, also called first bucket of gold. Techniques for solving W₀ see Section 0.5
+It should be noted that while universal techniques for achieving W₀ do not exist, specialized techniques under specific conditions do exist
+Buffett gave a stock market version. He believes the world is large — search hard for mispriced securities (including foreign-listed ones) from small companies, and you can double your money at W₀ scale within two years
+"Search with passion, like a biologist looking for new species in the rainforest" (Buffett)
+
+c，In 2020s China, W₀ is not an extraordinary starting point for wealth management
+Per 2020s Bank Z annual report, Bank Z alone has roughly 100k+ private banking accounts, whose average deposit happens to be about W₁; 500k+ jinkh accounts, after removing private bank accounts, average deposit happens to be about W₀
+Chinese households owning W₀ number in the millions, roughly mid-x%
+
+1.0.0.4 For accessibility, examples will use publicly traded Chinese company stocks by default (same below)
+
+a，Some concepts
+An investment product is an asset that can be purchased with cash and expected to be sold later for cash returns (such as physical gold)
+  - Unlike consumer goods, which are generally consumed upon purchase and cannot be resold/profited from (like fresh tomatoes)
+The object being invested in is called an investment target
+A stock is an ownership certificate of a company, typically one share one vote
+  - If a company issues 100 million shares, holding 1 million shares gives 1% ownership
+  - Holding stocks enables transfer/receiving dividends/voting at shareholder meetings
+Going public (IPO) means a company sells shares to the public for the first time
+Post-IPO, secondary market stock trading is called securities market trading, colloquially "stock trading"
+
+b，Listed US companies and other investment products will occasionally appear; the principles apply equally through other investment targets
+
+。
+
+1.0.1 First Principles of Wealth Management。
+
+1.0.1.1 The first principle of wealth management is to pursue wealth that one can probably own and genuinely needs, rather than wealth that is hard to obtain or unneeded
+
+a，"Can probably own" means respecting common sense — do not challenge negative-expectation/irrational trades out of greed
+Why define wealth management as W₀ 到 W₁?
+  - Because the positive-expectation trades available to wealth management have an upper limit on annualized return rate, and this limit is extremely solid
+
+  > Unless otherwise specified, "return rate" or x% denoting return rate throughout this work refers to compound annualized return rate, precise to 1%
+  > For example, return rate (or omitting "return rate" and writing percentage directly) 41.4% means doubling every two years
+
+  b. "Genuinely need" means Chapter 1 only solves wealth management needs
+
+   It cannot solve the need for "landing ashore"/obtaining Wₚ (RMB 300m, see Chapter 0 Appendix The Track)
+
+Only those carrying major responsibilities genuinely need large amounts of wealth
+For non-elite individuals, landing ashore cannot rely on the wealth management method or its enhancements either
+
+   An elephant weighs 15x what a pig weighs. Imagine scaling up a pig 15x — its legs would break, unable to produce elephant structure
+
+W₁ (30m RMB) in 2504 affords an excellent life in China
+
+   Per 2020s Bank Z annual report, its private banking clients exceed 100k, average deposits exactly at W₁
+   Chinese households with net worth above W₁ are estimated in the low hundreds of thousands, low x‰
+
+1.0.1.2 The wealth management method is a technique that maximizes the probability of attaining the probable-limit financial return that one can reach
+
+a，Therefore, the core element of the wealth management method is determinism
+b，By definition, if enhancing the method does not help, it is better not enhanced
+
+。
+
+1.1 Anchoring Limits。
+
+1.1.0 Two empirical limits on long-term compound returns, hereafter called "anchoring limits" (precise to 1%)。
+
+1.1.0.0 Fundamentally, anchoring limits reflect the empirical limits of human societal innovation growth and concentration at the top
+
+a，The world's best investment products absorb all humanity's income growth power and can provide ~20% stable long-term returns
+
+  Hereafter Global Rₘ / GRₘ. Assets historically providing GRₘ returns include:
+  - World's best digital currency / BTC
+  - World's best listed company / Apple (hereinafter "Apple", similarly hereafter)
+  - World's best private equity funds / Bain Capital etc.
+
+b，Regional best investment products absorb a certain nation/field's income growth power and can provide ~15% stable long-term returns
+
+  Hereafter Local Rₘ / LRₘ. Assets historically providing LRₘ returns include:
+  - China's finest traditional painting / Zhang Daqian's price-per-foot
+  - China's finest real estate / premium properties in core areas of Beijing-Shanghai-Guangzhou-Hangzhou-Shenzhen-Hong Kong
+  - China's finest listed company / Moutai/Tencent
+
+GRₘ and LRₘ are collectively called Rₘ (specific meaning depends on context)
+
+。
+
+1.1.0.1 Human-known limits on long-lasting investment performance
+
+a，Soros, 30 years ~30%
+b，Buffett, 60 years ~20%
+c，Nasdaq Composite, since inception ~8%
+d，Dow Jones, 100 years ~6%
+
+1.1.0.2 Human-known limits on long-lasting corporate performance
+
+a，Mitsui & Co., major Japanese trading house since the 17th century
+b，General Electric, Dow Jones component 1907–2018
+c，Apple, up more than 2000x since 1980 IPO
+
+1.1.0.3 Attempting to exceed the above means challenging limits, colloquially "planting a tree into heaven." If wealth management returns approach Rₘ, accumulating 20x takes only 15–20 years — less than most people's working lifetime, colloquially "scientific development"
+In practice, completion time often comes far earlier due to efforts outside wealth management and the low-base effect
+
+。
+
+1.1.1 In layman's terms, what is the expected return of investing in a "good company"?。
+
+1.1.1.1 A "good company"'s ultra-long-term expected return is 0%
+
+Throughout this work, "ultra-long-term" means >20 years, "long-term" >10 years, "mid-term" 5–10 years, "short-term" 1–5 years, ±50% tolerance, same below
+
+1.1.1.2 In fact, having non-negative ultra-long-term shareholder returns is a very high standard, colloquially "start cautious, finish respectful"
+
+Most companies, with probability 1, will cause total loss of principal when invested in over the long term
+
+1.1.1.3 A company's existence is entropy-increasing — it consumes resources: it bears business risks, owners extract cash, managers self-actualize, employees demand high benefits, social responsibilities must be fulfilled...
+
+1.1.1.4 Yet the supply-demand relationships its survival depends on cannot exist indefinitely
+
+Buddhism teaches that everything arises, abides, decays, and ceases. When the "cause" for a company's existence vanishes, value should revert to zero — this is the way of things
+
+1.1.1.5 In fact, the vast majority of companies' long-term shareholder net returns are massively negative
+
+People universally over-expect during good times and over-finance. From founding to dissolution, most companies' cumulative total financing (including registered capital) far exceeds cumulative dividends
+
+Companies where total dividends exceed total financing are so rare they can be ignored — they are quiet-deep-flowing low-entropy beasts
+
+。
+
+1.2 What Is Determinism?。
+
+1.2.0 Buying stocks means buying companies。
+
+1.2.0.1 For ultra-long-term investment judgments, the best simulation of returns from holding a small stake in a company is holding the entire company. Over the ultra-long term, the two converge
+
+1.2.0.2 It is well known that when someone buys a company, they pass it to their children. Therefore
+
+1.2.1 The standard for "determinism" is: someone buys a company, operates it for twenty years, and the company still exists with value that can be passed on to their children。
+
+1.2.1.1 It is well known that a CEO/large-scale resource allocator's essential work is choosing between 2 options or n options from among a few final choices presented by subordinates
+
+Assuming no assumption about management quality, this is equivalent to replacing the CEO with a cat — hereafter the "cat CEO test"
+A company that can withstand the cat CEO test is said to have "determinism"
+
+1.2.1.2 In practice, most large-company CEOs perform worse than random-number generators (an agile cat). Main reasons include:
+
+a，Management and shareholder interests are not fully aligned
+b，Key forward-looking decision accuracy is not significantly above random-number-generator level
+
+   Becoming a large-company CEO usually takes a very long time, so on average they are far removed from the front lines
+
+c，Most critically, trade-off decisions require substantial time and decision resources, frequently trapping one in the predicament of "because decision-making is slow, whatever you choose is wrong"
+
+   History's most famous CEOs were generally decisive, yet each made only single-digit correct major decisions in their lifetimes
+
+1.2.1.3 Humanity's most important innovations frequently come from small companies/startup organizations — the preceding point is one of the root causes
+
+"Preceding point" refers to the immediately preceding proposition of equal hierarchy level. For example, 1.2.1.3's preceding point is 1.2.1.2, same hereinafter
+
+1.2.1.4 Note that physical gold's value does not depend on its holder — it passes the cat CEO test
+
+Only companies of at least this caliber merit discussion of "determinism"
+
+## 1.3 Four Examples of Investment Product Determinism
+### 1.3.1 Determinism I: Large Nation Ideological Governance Needs
+1.3.1.1 Humans have tendencies toward belonging to collectives and loving their motherland
+1.3.1.2 "There exist roughly 7 H-type Western nations in the world" (Buffett)
+An H-type Western nation's state apparatus can in fact be maintained by just 5 true believers
+1.3.1.3 In daily affairs, ideological work is no less important than maintaining the state apparatus
+1.3.1.4 Shortcomings of Determinism I: omitted
+### 1.3.2 Determinism II: Strongest Innovation-Efficiency Platform
+1.3.2.1 Humanity has a future
+1.3.2.2 Humans tend to pursue higher/faster/stronger. Over the ultra-long term, advancement equals determinism
+a，Everyone, especially resource allocators, if for various reasons opposes this platform, faces a rational/moral question: "From Mars, would you choose to live in a world without it?" (hereafter the "Mars Test")
+b，This progressive force over the long term even exceeds 1.3.1, possessing the strongest determinism — otherwise it violates 1.3.2.1
+1.3.2.3 Shortcomings of Determinism II
+a，The strongest innovation-efficiency platform has never been fixed
+b，Otherwise the innovation is predictable, not true innovation
+c，The innovative culture and ample resources of advanced platforms somewhat extend this determinism
+### 1.3.3 Determinism III: Broad Consensus from Mathematics/Physics/Natural Science
+1.3.3.1 Humans seek truth — otherwise they violate 1.3.2.1
+1.3.3.3 Shortcomings of Determinism III
+a，Scientific laws themselves have determinism, but forming investable products requires good design
+Investment/trading requires counterparties; few bet that 1+1不等于2
+### 1.3.4 Determinism IV: Cultural Consensus from Human Historical Development Trajectory
+1.3.4.1 Humans respect tradition and seek goodness/beauty
+1.3.4.4 Shortcomings of Determinism IV
+a，Human memory shifts; as information explodes, path-dependent cultural traditions are accelerating in weakening/rewriting
+This includes all cultural objects, values, rules, traditions, beliefs, habits. "Ming-style furniture hasn't lost value since the Ming Dynasty — it won't suddenly become worthless now" (Ma Weidu)
+1.3.5 Other sources of determinism certainly exist. For example, global energy security needs correspond to certain determinate assets
+
+1.3.5 Personal Examples of Four Types of Investment Determinism。
+
+1.3.5.1 Determinism I: Moutai/Tencent/ByteDance; TikTok/Meta/X
+1.3.5.2 Determinism II: Huawei/ByteDance; Apple/Tesla/Google/Meta/Nasdaq
+1.3.5.3 Determinism III: BTC; key patents, scaling laws on the main technology tree
+1.3.5.4 Determinism IV: World masterpieces/physical gold; Coca-Cola/Kweichow Moutai
+
+1.3.6 As of 2504, among the above, only Moutai and Tencent are listed Chinese companies,we declare that Moutai and Tencent possess determinism — see Appendices On Moutai and On Tencent for details
+
+。
+
+1.4 The Wealth Management Method。
+
+For logical progression details, see Appendix Typical Beginner Operation Reference Table. We fast-forward directly to conclusions/sixth-grade level:
+
+The Portfolio
+1.4.1 The best stocks are the best long-term wealth management tools
+1.4.2 Buy without timing — 2–5 types of top-tier investable products that you understand best and believe in most, possessing determinism (The Portfolio)
+1.4.3 There are certainly more than 5 top-tier investment products, but you can only earn from The Portfolio you have faith in
+1.4.3.1 Establishing this faith is very difficult, related to each individual's track record — it cannot be achieved simply by copying answers
+A most basic test: if The Portfolio drops 50%, do you add to your position or reduce it?
+1.4.3.2 Investors are not scarce — The Portfolio is scarce. Therefore, it is not investors selecting stocks. Dynamically speaking, the more essential description is that The Portfolio selects its own shareholders
+Apple and Tencent spend vast amounts daily on stock buybacks; Moutai's shareholder count regularly declines
+
+1.4.4 Why No Market Timing?。
+
+1.4.4.1 Value investing requires judging good companies/good people/good prices
+
+1.4.4.2 Judging good companies: if B2C, usually just using their products suffices — W₀ can handle this
+
+1.4.4.3 Judging good people: usually requires some knowledge of the Number One position — challenging for W₀
+
+1.4.5 Judging Good Prices。
+
+1.4.5.1 Judging good prices requires Buffett-style odds assessment and cross-sectional global comparison
+
+a，A good price is one with a margin of safety. Margin of safety means price is well below intrinsic value (DCF valuation output)
+b，DCF valuation's core inputs are art, not science — can only be "rough estimate" (from Mr. Duan Yongping, hereafter Duan sir)
+
+Future free cash flow is dimensional; its inputs require understanding of market/economic environment, not just the company itself; WACC/Rf involves macro judgment
+More importantly, when stock A is cheap, stock B is often also cheap. Odds assessment and cross-comparison are needed to tell good prices
+
+1.4.6 Here I present qualitative criteria for margin of safety based on the Deterministic Analysis Framework。
+1.4.6.1 Margin of safety is a price range for The Portfolio
+   Only companies with determinism merit discussion of margin of safety; otherwise regardless of how low the price, there is no safety
+1.4.6.2 This price range reflects only product competitiveness, not yet the winner-take-all competitive potential after "determinism confirmation"
+1.4.6.3 Two examples:
+Buffett invested in Apple for 16 years
+Jobs launched iPod in 01, iPod mini sold big in 04 — Apple had Mixue Bingcheng's product momentum even then
+From 04–16, Apple rose ~50x — why didn't Buffett buy in 04?
+My understanding: he felt Apple in 04 had not yet confirmed its determinism — "not yet seated at the table"
+2504 Mixue Bingcheng
+Strong product momentum but a new company
+Duan sir says, "heard of it but don't understand it"
+My understanding: he believes this company's determinism has not yet been fully confirmed
+
+  1.4.6.4 Both logic and empirical statistics show that the vast majority of investors have absolutely no market-timing ability
+
+## 1.5 Buffett Method
+### 1.5.1 Buffett-style Value Investing Decision Process (hereafter "Buffett Method")
+1.5.1.0 Berkshire Hathaway (Buffett's chairman-led investment firm, hereafter "Berkshire") can be structured as a powerful consumer brand — a steady stream of proactively approaching customers buying its core product: friendly ultra-long-term capital
+a，Berkshire's core product is "ultra-long-term capital that wins together with acquirees." Consumers/acquirees pay with equity in their own businesses
+b，Berkshire's core advantage is its powerful brand — excellent businesses continuously come to it seeking sale
+Buffett places great importance on long-term interest alignment with original shareholders/management of acquired/invested companies — "being a cheerleader"
+Most other elite secondary-market investors have zero-sum interests with trading counterparts
+Simons/Duan sir's gains/losses correspond to counterparts' losses/gains — settlement is immediate
+Brand synergy brought by Buffett can be strictly defined
+A company bought by Buffett long-term is worth V₂; sold to a PE/peer firm, worth only V₁
+The extra ΔV is actually extra value created through Buffett's brand — all parties' interests are positive-sum
+c，This gives Buffett a superior pipeline exceeding his total investment capacity, available for unhurried selection
+That is, the best investment opportunities are not scarce for him
+1.5.1.1 Facing these opportunities, Buffett makes three rapid binary (0/1) judgments in sequence
+Is management good? Is it a good business? Is extinction risk strictly zero (not merely slightly greater)?
+1.5.1.2 If all three answers are 1, the remaining question is good price/margin of safety
+Quote from Alice Schroeder, author of The Snowball, 2008 interview
+Specifically, he gathers all financial data of the target and its competitors, quarter by quarter, until identifying one or two core drivers (not building models/full forecasts)
+Most financial data predictions and models are trivial arithmetic results; only one or two operational assumptions are core drivers
+Exert maximum effort making key predictions on these two indicators
+Apply inner scorecard, assessing odds like a racecourse bookmaker
+Based on this prediction, offer the best bid with adequate margin of safety
+Specifically, if key prediction materializes, earning 1.15x — he calls this Day1 Return
+Arrange long-term mechanisms aligned with original shareholders'/management interests
+Be a cheerleader
+1.5.1.3 After investment, trust management to a considerable degree and enjoy long-term compound returns
+1.5.1.4 The above "powerful brand, odds analysis, margin of safety, compound returns" form the core methodology of the Buffett Method
+1.5.2 Comparison Between Buffett Method and Ordinary People (collectively W₀)。
+1.5.2.1 The fundamental difference is: Buffett can afford abundant selection from superior pipelines/positive-expectation trades. For specific targets, he can afford to time the market. In practice, he times to achieve Day1 Return of 1.15x
+He waited nearly 7 years to buy Coca-Cola; he didn't even buy Apple before Jobs passed away
+This is why Buffett doesn't encourage W₀ to index-invest. His implicit assumption is that everyone can learn his diligent attitude and Buffett Method. He has taught openly and tirelessly for fifty years
+1.5.2.2 Ordinary people lack positive-expectation trade resources — they must use the wealth management method to buy The Portfolio without timing
+1.5.2.3 W₀ cannot afford to time The Portfolio
+"Sell to buy what?"
+Duan sir manages assets at USD 10b+ scale, yet primarily manages wealth through Apple/Google/Moutai/Tencent
+1.5.2.4 Duan sir believes: except for Day1 (individual-stock sense), never time the market
+1.5.2.5 "Full-position doctrine — buy whenever you have cash"
+
+1.5.3 Ordinary Day1 Timing: Use True Randomness to Break Even With Game Designers (The Black Swan)。
+
+1.5.3.1 Ordinary Day1 timing means: absent exogenous clear downside expectations (bull markets, range-bound markets, or unclear conditions), invoke How to Rolling Average to generate true randomness (see appendix)
+
+Mathematically, The Portfolio with strict no-timing/Day1 full position is the optimal wealth management strategy
+
+1.5.3.2 In practice, naturally you want to buy when Day1 Return>0, colloquially "find a low entry point" — but this is very difficult
+
+1.5.3.3 Every day of buying/holding The Portfolio is a positive-expectation trade — predicting "relatively high, should wait" is difficult
+
+a，Buffett and Duan Yongping did indeed time their Day1 entries, realizing Day1 Return>0
+b，But for ordinary people, Apple rose nearly 7x in the past decade, max drawdown under e的负一次方 — Day1 timing is extremely high-risk
+
+1.5.4 Extraordinary Day1 Timing: Don't Catch Falling Knives Bare-Handed。
+
+1.5.4.0 The only exception comes when you exogenously (for reasons other than price, see Chapter 5) develop a downside expectation for the broad market/The Portfolio; or when you confirm we are in an overall bear market/downtrend channel. Hereafter "exogenous bearish view"
+Bear market/downtrend channel means a period when most securities market stocks/a given stock exhibit a continuous downtrend
+
+1.5.4.1 Exogenous bearish views can indeed exist
+
+a，The Portfolio may encounter unexpected events
+2013 Moutai plasticizer incident, 2011 Jobs' passing
+
+b，The entire market may experience anomalous periods
+Investment isn't the world's most important matter; unpredictable international economic/trade negatives arrive incessantly in 2504
+Fundamental valuation elements (e.g., risk-free rate) change dramatically
+
+1.5.4.2 Extraordinary Day1 timing means: if you hold an exogenous bearish view, invoke How to Buy the Dip to improve win rate (see appendix)
+
+1.5.4.3 Behavioral Finance foundations of How to Buy the Dip (hereafter "two claims")
+
+a，A complete bull-bear cycle is roughly 7–10 years
+Complete macroeconomic cycles run roughly 50–60 years, called Kondratiev waves. Each major wave divides into four phases of 10–15 years each
+These claims have sociological foundations in the 2020s
+  - Productivity progress speed, macroeconomic cycles, political cycles, new investor emergence/bear-market memory decay cycles
+  - US stocks/Nasdaq additionally layer a long-term uptrend from sustained technological breakthroughs
+
+  b. In bear markets, "bottoms are W-shaped"
+This claim has behavioral finance foundations in the 2020s (inertia in human nature facing fear and greed)
+  - Example: when a stock drops 10–20%, most feel the discount is attractive
+  - But if it drops further to 50%, most sell indiscriminately regardless of cost
+
+1.5.4.4 Day1 Bear-Market Hedging & How to Buy the Dip
+a，It is generally believed that investment starting points carry extraordinary significance
+"Thiel's Law": startups with poor foundations cannot be saved (Zero to One)
+b，More importantly, many investors' initial investments represent significant proportions of their total investment capital
+c，Appendix How to Buy the Dip provides experience-based techniques to avoid bear-market rapid-downside phases based on two claims
+As of 2504, Berkshire's cash position reached a record USD 0.3t, roughly 30% of its net assets
+My understanding: Buffett holds a significantly exogenous bearish view at this time, and is doing his utmost to time the market
+d，Exogenous bearish views may prove false post-hoc ("this isn't a bear market!") — just admit error and buy back The Portfolio
+
+1.5.5 After Day1, Timing Matters Less for W₀。
+
+a，Statistics show institutional investors hold no obvious edge over individuals in timing
+b，Day1's specialness lies in: your first trade should ideally be profitable — a smooth start
+
+   Many consider sacrificing several positive-expectation trading days' expected returns worthwhile for higher win rate
+
+c，Since The Portfolio likely rises over the long term, and limited by my reading volume, there is no "top-escaping method" to effectively improve returns
+
+   "Don't say goodbye to old friends often" (Buffett)
+
+。
+
+1.6 Reference Bibliography for the Wealth Management Method。
+
+1.6.1 Conclusions of the wealth management method are stable。
+
+1.6.1.1 If you already believe, reference books are unnecessary for operational purposes
+
+1.6.1.2 But reading these hundreds of thousands of words is worthwhile. It is what greatness is all about
+
+1.6.2 Reference bibliography。
+
+1.6.2.1 Ordered from shallow to deep:
+
+a，N.G. Mankiw's Ten Principles of Economics, Ray Dalio How the Economy Works, Nassim Taleb The Black Swan, Peter Thiel Zero to One
+b，Duan Yongping's Xueqiu posts (Xueqiu ID: Dawudawuxingwoyouxing)
+c，Buffett shareholder letters, speeches/interviews, and other value investing classics such as The Intelligent Investor
+d，Wang Xing/Huang Zheng/Boss Liang and YM — findable speeches/interviews
+
+   They are not professional investors, but What Makes a Great Company is the superordinate principle of What Makes a Great Investment
+
+。
+
+1.7 How to Exit / Cash Out。
+
+1.7.1 The wealth management method can be used repeatedly over the long term。
+
+1.7.1.1 Duan Sir has demonstrated operations publicly on Xueqiu for ten consecutive years, answering questions without threshold. Transmission is accurate, greatly benefiting all beings
+
+1.7.2 No investment target possesses determinism forever。
+
+1.7.2.1 When determinism is lost, decisively sell and cash out
+
+1.7.2.2 When signs of losing determinism appear, decisively sell and cash out
+
+1.7.2.3 Never earn the last e的负一次方 of gain or time
+
+   If a business yields 70% profit to others, 60% to the Li family suffices — never take the last copper coin (Li Ka-shing)
+
+。
+
+Non-Elite Version Appendix to Chapter 1: On Moutai, Tencent, Financial Data, Growth Investing。
+
+## 1.8 On Moutai
+
+1.8.0 Moutai is flesh-and-blood connected to China's founding history, possessing perfect Determinism IV
+
+1.8.0.1 In China's founding history, Moutai symbolizes beauty and victory
+
+a，During the Red Army Long March, the Zunyi Conference was held, confirming the Chairman's military leadership. He subsequently commanded his lifelong military masterpiece — the four crossings of the Chishui River. During the third crossing, Red Army troops passed through Maotai Town
+b，Moutai liquor relieved soldiers' fatigue and dressed wounds, becoming tangible revolutionary contribution and the white moonlight of perilous times in early founders' hearts
+c，After the third Chishui crossing, our Party's history marched from victory to victory. Especially the People's Army, with virtually no defeats thereafter
+
+1.8.0.2 Post-founding, Moutai was designated state banquet liquor,and is still widely used in diplomacy/domestic politics' most important occasions
+
+   A concept deity's power depends on how many worship it
+
+   Moutai's cultural influence depends on the population recognizing and transmitting its cultural value, including Premier Zhou Enlai and his successors
+
+   This is a vital cultural tradition PRC rulers must uphold
+
+   In China, only PKU/THU can compare
+
+1.8.0.3 This cultural consensus transcends individual gains and losses
+
+   If Tencent botches a business, say Golden Spade loses to Eggy Party, it simply tries again
+
+   A batch of Moutai liquor sitting unsold does not affect brand connotation at all — unsold inventory slowly becomes "aged liquor"
+
+。
+
+1.8.1 Moutai is Chinese people's sole positive-energy stranger-relationship-management tool, possessing perfect Determinism I。
+
+1.8.1.1 Societies/large organizations need governance, which requires stranger-relationship-management tools
+
+   Undoubtedly, China hosts many qualifying large organizations
+
+1.8.1.2 In China, the lowest-cost way to express "I think you are important" to a stranger is drinking Moutai together
+
+a，Acquiring a company suddenly adds dozens of unfamiliar middle managers — how to identify who is willing to cooperate positively?
+b，2020s China: the common approach is that those who have drunk Moutai together are expressing willingness to cooperate
+c，This is almost the only universally accepted positive-energy option. Chinese people find all alternatives insufficiently proper/decent
+
+。
+
+1.8.2 This tool is luminous, even highly efficient。
+
+1.8.2.1 Foreigners managing stranger relationships choose joining the same camp or supporting the same local organization
+
+a，Many companies arriving in Washington/New York/Boston: first priority is not business communication but researching How to Make Donations
+b，WH's Middle East staff once researched what breeds of prestigious dogs local lords keep
+
+1.8.2.2 Many decades-old or century-old Western corporations have internal sub-organization/activity traditions, such as country clubs/golf societies
+
+a，Managers can repeatedly heart-to-heart with new unfamiliar employees in these settings, gradually examining and screening
+b，Jack Welch's autobiography vividly describes how he was chosen as GE's CEO and how he chose GE's CEO
+
+1.8.2.3 Many Western large organizations barely need to manage stranger relationships
+
+a，Buffett mentioned at shareholder meetings that some shareholders' grandfathers and fathers were also shareholders
+b，The US has double-digit presidents/vice-presidents/secretaries of state who are direct relatives/spouses of each other
+
+。
+
+1.8.3 Empirical Verification of Moutai's Determinism。
+
+1.8.3.1 Moutai genuinely passed the cat CEO test
+
+1.8.3.2 Since its 2003 IPO to date, Moutai has seen three chairmen fall, yet stock price appreciation + cumulative dividends exceeded 100x
+
+。
+
+1.8.4 Additional Explanation of Determinism I。
+
+1.8.4.1 China has numerous central SOEs/state-owned large financial institutions — clearly all contain Determinism I
+
+1.8.4.2 While Moutai is strongest, others include many top-tier investment products such as Shenhua/CTG
+
+1.8.4.3 Note: possessing Determinism I does not automatically make something a top-tier investment product
+
+## 1.9 On Tencent
+
+1.9.1 Tencent possesses perfect Determinism I
+
+1.9.1.1 Great-power governance: ideological work ranks second only to basic livelihood
+
+1.9.1.2 WeChat is a national-level instant messaging tool (1.4 billion DAU) of incomparable importance to ideological work
+
+。
+
+1.9.2 Determinism of Tencent's Products and Business。
+
+1.9.2.1 Moutai is a concept deity transcending business scope; Tencent's business determinism falls short of Moutai's
+
+   If the primary real-time communication medium becomes VR glasses, new IM tools may emerge on them
+
+1.9.2.2 Historically, Tencent has consistently executed competently across businesses, though not always originally
+
+   WeChat/QQ, Mini Programs/Official Accounts/Video Accounts, gaming/live streaming/Yuewen/music, Tencent Cloud/Yuanbao, browsers/email/input methods, WeChat Pay/Weilidai, investments in Pinduoduo/Meituan/JD/Xiaohongshu/Didi/Bilibili...
+
+   Tencent never misses a beat. Current management is humble, smart, and capable
+
+1.9.2.3 WeChat is a national-level gateway empowering any product — domestic internet peers find it hard to match
+
+   2504 Yuanbao is based on ds, but since it dialogues directly inside WeChat, it enjoys asymmetric competitive advantage
+
+   If WeChat feeds chat history to Yuanbao in the future, even if not originally created by Tencent, asymmetric advantage persists
+
+1.9.2.4 In summary, due to WeChat's existence, Tencent keeps pace with everything in China
+
+。
+
+1.9.3 Empirical Verification of Tencent's Determinism。
+
+1.9.3.1 Tencent has not changed its Number One since IPO. Most founding team except Number One retired; Tencent survived 3Q Battle, antitrust investigation, AI revolution — three major commercial risks, with both old and new management safely navigating through
+
+1.9.3.2 Objectively, cat CEO test/determinism is inferior to Moutai's as management turnover has not yet been tested
+
+1.9.3.3 Conversely, volatility delivers better financial returns from investing in Tencent — since 2004 IPO, appreciation far exceeded 100x
+
+1.9.3.4 Is Tencent China's only tech company with determinism?
+
+a，No — Huawei, ByteDance, ds all possess irreplaceable advancement/determinism. As of 2504, none are publicly traded
+
+## 1.10 On Financial Data
+
+1.10.1 Why Does the Author Not Discuss Moutai/Tencent's Financial/Valuation Information?。
+
+1.10.1.1 As of 2504, neither company's financials/valuations are abnormal
+
+1.10.1.2 At ultra-long-term scales, only determinism ranks first in importance — valuation/other monetization metrics are arguably irrelevant
+
+。
+
+1.10.2 Using 2504 Tencent as Example: A Rough Estimate Using Short-Term Financial Data。
+
+1.10.2.1 We demonstrate that 28Q1 stock returning to HKD 700 is highly probable (defaulting to RMB below)
+
+a，Investment business historical cost 0.5t, rough estimate ten-year double: 24Q4 1.0t; assume 15% annual growth, 27Q4 1.5t
+b，Three operating businesses: gaming/B2B + finance/advertising, Y24 earns 0.23t; assume 5% annual growth, 27Q4 0.26t
+c，Video Account ad revenue just began accelerating (Douyin hundred-billion revenue vs Video Account ten-billion revenue; WeChat DAU is 2x Douyin's)
+d，Rough estimate: this segment annual profit between 10–50b; assume adding 20b/year, 27Q4 0.26+0.04=0.3t
+e，28Q1 HKD 700 implies (6–0.15)/0.3=P/E 15x — a near-impossible price
+
+。
+
+1.10.3 Rough Estimation Is Non-Trivial for Ordinary People。
+
+1.10.3.1 "Rough estimation" requires you to bravely estimate one or two core business assumptions within (–50%, 100%) precision
+
+a，This example's determinism lies in Video Account ad revenue being one order of magnitude lower than Douyin's being unsustainable
+b，Buffett and Duan Yongping essentially use this method with financial data
+
+1.10.3.2 The wealth management method serves ordinary people. If you look further ahead, you'll realize analyzing all this is redundant
+
+   Is 2504 Tencent at a long-term high? Probably not — if not Tencent, then what?
+
+## 1.11 On Growth Investing
+
+1.11.1 What Is Growth Investing? Why Is Anthony Bolton Missing from the Anchoring Limits?。
+
+1.11.1.1 Growth investing is the technique of selecting high-growth-potential companies to invest in, obtaining returns through high growth
+
+1.11.1.2 Bolton achieved 30 years ~20% — but his primary return source was actually mean-reversion investing (see Chapter 2 appendix)
+
+。
+
+1.11.2 2504 Is a Super Matthew-Effect World — Determinism Equals Long-Term Growth Potential。
+
+1.11.2.1 Companies with determinism (passing the cat CEO test) in 2504 have long-term expected returns approaching Rₘ, not 0%
+
+a，2504 low-entropy entities stagnate or regress; once core business slows, recovery is nearly impossible — nearing extinction
+"Century-old shops unchanged forever" relies on a unique preservationist craftsman culture — a Kyoto century-old shop could be considered new
+
+b，Companies that haven't slowed in 20 years made many right decisions, accumulated massive resources, and defeated multiple cycles' low-entropy beasts
+Some counterexamples exist (Hanwang/Meitu), yet these are accidental — they constantly face elimination risk but somehow make the right moves at the final moment
+
+。
+
+1.11.3 Anthony Bolton's era featured low-profile high-growth undervalued opportunities that barely exist in 2504 mainstream markets
+
+1.11.3.1 Bolton's secret: board chain formats when same-store cash flow turns positive — ride the certain growth from 4 stores to 100 stores
+
+1.11.3.2 2504 features information explosion and developed capital. This opportunity belongs to elite VCs; if public, stock prices at 4 stores already price in 8–20 store potential (√400~√400), colloquially "priced in one go," "surge then pause"
+
+1.11.3.3 This means you always miss the entry price of high-growth targets, hereafter "Day1 price"
+
+1.11.3.4 Such opportunities still exist in non-mainstream markets. Buffett advises W₀ to search hard among (foreign) small companies, see 1.0.0.3.b
+
+。
+
+1.11.4 Three Traps of the Davis Double-Play Paradigm。
+
+1.11.4.0 Typical growth stocks: companies realizing high growth within 3–5 years; investors expect Davis Double-Play paradigm
+
+1.11.4.1 First trap: earnings fail to materialize or financial fraud
+
+1.11.4.2 Second trap: feast is already over
+
+a，Can see 3–5 years of high growth but rarely twenty-year determinism. Then 3 years may accelerate to √3 years (speed-doubling realization), yet current year/observation year is already year 2–3
+
+1.11.4.3 Third trap: crisis of trust
+
+a，Gale doesn't last till night, torrent doesn't last till morning; Rₘ is light-speed in this domain — nearly impossible to exceed continuously for many years
+b，This natural distrust means even if targets deliver years of high growth, you can't hold on or position size is insufficient
+
+。
+
+1.11.5 The Only Opportunity to Buy at Day1 Price Comes from a Company's Growth Exceeding Its Own Expectations Ex-Post。
+
+1.11.5.1 This requires understanding the company's future better than its founder — otherwise the company tells its own story and front-runs the stock price
+
+1.11.5.2 This is possible — requires extensive reading to grasp Chapter 5 How to Predict the Future
+
+a，Take Pop Mart: as of 2504, China lacks comparable Disney/Universal Studios companies
+b，Both rely entirely on IP and large amusement equipment. As of 2504, almost no intelligent interactivity exists — unable to satisfy increasingly mature psychological needs of child customers
+c，Pop Mart may genuinely possess an opportunity (perhaps beyond Wang Ning's expectations) to surpass Disney theme parks
+
+1.11.5.3 Ordinary people cannot chase shore-landing via angel/VC/growth investing — see Chapter 2 for details
+
+a，Former's expected return is strictly 0x/–100%; latter's deterministic returns insufficient to offset triple-trap risks
+
+。
+
+Non-Elite Version Appendix to Chapter 1。
+Typical Beginner Operation Reference Table。
+
+Also called Personal Investor Self-Assessment Table
+Creating this table carries no academic significance, but comparing against beginners' mindsets/operations offers popularization/education/entertainment value
+by Shuzhimi@RynW1988
+
+。
+
+1.12.0 Hello World。
+
+1.12.0.0 In securities markets, if an individual investor derives all income from trading (i.e., creates no goods/services) yet expects returns exceeding Rₘ, then ta is a beginner
+
+1.12.0.1 Beginners come to securities markets not for wealth management but for gambling/enjoying game fun — typical operation: buying stocks they know best/have tips on
+
+1.12.0.2 The long-term expected return multiple of the above operations is 0x — negative-expectation but conforming to human nature; stops only when principal is fully lost
+
+1.12.0.3 Beginners face trading disadvantages on all fronts — e.g., domestic quant trading can execute up to 299 times per second
+
+。
+
+1.12.1 Pre-School Grade。
+
+1.12.1.1 Due to resource scarcity, in all rule designs of human society, any activity conforming to human nature is necessarily consumption
+
+   Human-nature-conforming activities cannot be accumulation/investment — otherwise resources would rapidly allocate entirely to this domain
+
+   Hitler's blitzkrieg, being both thrilling and profitable, would have continued until his destruction
+
+1.12.1.2 Like game design, the securities market "game" has designers
+
+   Historical stock markets worldwide were not originally designed for investor wealth generation. "Giving people the experience of property income" requires "letting" — it takes work
+
+1.12.1.3 Watching the screen means paying up
+
+   Screen-watching triggers conformist operations (chasing rises, cutting losses, short-term trading) and accepting unfavorable trading positions (e.g., paying quant taxes); combined, these producesevere negative expectation
+
+。
+
+1.12.2 First Grade。
+
+1.12.2.1 Acknowledge that the ceiling of the wealth management method is Rₘ
+
+1.12.2.2 Accept that the wealth management method cannot achieve shore-landing
+
+。
+
+1.12.3 Second Grade。
+
+1.12.3.1 Nearly 100% of investment products are inferior to physical gold
+
+1.12.3.2 Buy targets with "determinism" — quality must surpass physical gold
+
+   The proposition "Physical Gold Is Wealth" condenses millennia of human consensus — check gold prices periodically, frequent surprises await
+
+1.12.3.3 Can we settle for general "good companies" instead of extreme "determinism"?
+
+   As of 2504, MN showed no perceptible day-to-day changes, expanding supermarket distribution and launching new cheese-stick products
+
+   Yet profits dropped 98% in one year; stock fell 75% in two years
+
+。
+
+1.12.4 Third Grade。
+
+1.12.4.1 Buying stocks means buying companies — buy companies with determinism; default requirement: global Top 20
+
+。
+
+1.12.5 Fourth Grade。
+
+As of 2504, among listed Chinese companies, only Moutai/Tencent satisfy "determinism" requirements
+
+1.12.5.1 Moutai benefits from everything in China
+
+a，See appendix On Moutai
+b，Moutai's determinism cycle aligns with China's cultural tradition where Moutai symbolizes respect
+c，If Moutai engages in excessive co-branding/dilutes brand such that it no longer symbolizes respect in China, determinism expires
+Note: the above is an extremely low-probability event; if it occurs, it would be stopped
+
+1.12.5.2 Tencent keeps pace with everything in China
+
+a，See appendix On Tencent
+b，Tencent's determinism cycle aligns with WeChat's
+Compared with contemporaries, remove WeChat from Tencent, and it's roughly AL-level
+
+。
+
+1.12.6 Fifth Grade。
+
+1.12.6.0 Bear markets are inevitably opportunities for position-building; bull markets are inevitably opportunities for correcting errors/bottom-of-basket orange-cutting
+
+   "Bottom-of-basket oranges" refer to stocks of companies lacking determinism
+
+1.12.6.1 Moutai bought in bear markets rises in bull markets; bear-market purchases are cheaper
+
+   If you're a long-term net buyer of Moutai (beef) and don't produce it, you should celebrate when Moutai (beef) drops 50%
+
+1.12.6.2 Bottom-of-basket oranges bought in bear markets differ
+
+   Bottom-of-basket orange cost 100, current price 30, real value is zero. Because in bear markets you probably won't cut — the money is useless
+
+   Only in bull markets are bottom-of-basket oranges truly worth 30 — because you actually will cut
+
+1.12.6.3 If buying bottom-of-basket oranges in bull markets, return to pre-school grade for re-education
+
+。
+
+1.12.7 Sixth Grade: The Portfolio — i.e., Graduation from The Wealth Management Method。
+
+。
+
+Non-Elite Version Appendix to Chapter 1: How to Rolling Average, How to Buy the Dip。
+
+1.12A How to Rolling Average。
+
+1.12A.0 The best practice for rolling average is hereafter called "true-random method"
+
+1.12A.1 True-Random Method: Three-Year Rolling Average Purchase of The Portfolio, Buy Every Six Months, Delete App After Purchasing
+
+1.12A.2 How to Calculate Rolling Average。
+
+1.12A.2.1 Assume this is year n. The current market value (NOT historical cost!) of actual new purchases in years n–1 and n–2 is Aₙ₋₁ and Aₙ₋₂. Your exogenous/original investment budget for year n is Xₙ
+
+1.12A.2.2 Then this year's new purchase amount Aₙ = (Aₙ₋₂ + Aₙ₋₁ + Xₙ)/3. For n 小于等于 2, set A₁ = A₂ = 0
+
+1.12A.2.3 Note the existence of cash reserve Cₙ = Σ(Xₙ − Aₙ), whose stable value is approximately one year's budget Xₙ
+
+1.12A.2.4 Confirm W's right wing (definition follows), can split Cₙ into two additional investments within 18 months
+
+1.12A.2.5 For the market, your inputs A₀/A₁ and Xₙ are exogenous. Thus output Aₙ is truly random to the market, and smooth/friendly/sustainable for you
+
+。
+
+1.12A.3 Why Three-Year Rolling Average? Why Buy Every Six Months?。
+
+1.12A.3.1 Why Three Years
+
+Market cycles empirically run 7–8 years — hence three-year rolling-average position-building
+Within three years, Xₙ is easier for individuals to predict
+
+1.12A.3.2 Why Every Six Months
+
+Six months can digest personal and market emotions — combating "screen-watching means paying up"
+One year allows timing/playing twice — playing feels good
+
+1.12A.3.3 In practice, steadfast full-position doctrine wouldn't mean buying daily anyway
+
+Longer intervals make subsequent position additions more conformist and easier to execute
+As of 2504, one lot of Moutai costs roughly RMB 150k. If six months later 180k is needed, the extra 30k is profit
+
+If only 120k needed six months later, even better
+
+。
+
+1.12B How to Buy the Dip。
+
+1.12B.0 Buying the dip means bear-market hedging technology under exogenous bearish-view conditions
+
+1.12B.1 Its best practice is called "dip-buying method"
+
+a，The dip-buying method rests on one behavioral finance claim: bottoms are W-shaped (see diagram below, also called W-Downtrend Paradigm)
+
+📈 W-Downtrend Paradigm Diagram: Five stages separated by red vertical lines.
+"By here you should still have half your money" — marked at stage 5 starting point
+
+1.12B.1 Buy The Portfolio When Buying the Dip
+
+1.12B.1.1 Dip-buying targets must be The Portfolio; bottom-of-basket oranges have no W shape — only L shape
+
+1.12B.1.2 A complete bear market typically lasts no less than 6 months — patience required
+
+1.12B.1.3 Can the W-Downtrend Paradigm fail? Of course possible — without bullish-side collapse, it's not a bear market
+
+a，Not a bear market means no dip-buying; if judgment proves wrong, admit error and buy back
+b，At this point only normal Rₘ returns apply, no dip-buying bonus
+
+。
+
+1.12B.2 First Principles of the Dip-Buying Method。
+
+1.12B.2.0 The first principle of dip-buying is: don't catch falling knives bare-handed
+
+1.12B.2.1 During market anomalies, negative shocks arrive unpredictably — no idea how deep or where the drop ends
+
+1.12B.2.2 Therefore, wait for the storm to settle before re-entering — resist the temptation of initial bear-market declines
+
+a，Is Moutai at 1300 cheap in 2504? Can only tell after the knife has passed
+b，Investment isn't the world's biggest deal — when major events arrive, Moutai halving is entirely possible
+
+。
+
+1.12B.3 Stage Morphology of the W-Downtrend Paradigm。
+
+   For reader convenience, repeating the W-Downtrend Paradigm diagram
+
+📈 (Same W-Downtrend Paradigm diagram, five stages 1–5)
+
+1.12B.3.1 Falling-Knife Phase
+
+a，Rapid decline driven solely by emotion and risk aversion
+b，"Wolf! Wolf! Doesn't matter why — just run!"
+
+1.12B.3.2 Bull Struggle Phase
+
+a，Bad news eases. Repeated attempts to test previous highs — this phase has trading volume
+b，Most people who haven't learned this method start dip-buying in this phase
+
+1.12B.3.3 Bull Collapse Phase
+
+a，Net direction determined by contending factors is collapse — bear market confirmed
+b，Without this condition, it's not a bottom. Bottoms require complete bullish exhaustion
+c，Most people psychologically lose balance here — delete the app
+
+1.12B.3.4 Prolonged Arc-Shaped Bottom
+
+a，Zero volume. Buy and get stuck — never rises. Nobody discusses, nobody watches
+b，The preceding condition is identifiable — arc-shaped bottoms are identifiable; cycle duration uncertain
+c，Before the arc-shaped bottom appears, at most squander half your position on the left side
+
+   Resist temptation. Generally: slower buying = more profits
+
+1.12B.3.5 Right Wing of W: Bottom Volume Expansion, Pattern Confirmation
+
+a，Stock price cautiously tests new highs repeatedly. Each new price high accompanies new volume highs
+b，Slowly heating up — bull market arrives
+c，Valuation recovers rapidly in this phase; duration extremely brief, often just 1 month to half a year. Most are completely out of the market/not watching screens*
+d，By here you need to still have half your money — enter slowly. You graduate from How to Buy the Dip

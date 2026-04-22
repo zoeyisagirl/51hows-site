@@ -1,0 +1,2462 @@
+WEBVTT
+
+1
+00:00:00.100 --> 00:00:04.875
+The final outcome is the convergent value of infinite-order influences.
+
+2
+00:00:04.825 --> 00:00:08.337
+by Shuzhimi@RynW1988
+
+3
+00:00:08.337 --> 00:00:11.100
+Color Coding Guide for This Chapter
+
+4
+00:00:11.100 --> 00:00:15.500
+With gratitude to editor C / art director Shuzhimi@Chaney
+
+5
+00:00:15.500 --> 00:00:18.475
+a，Main text / statements — black
+
+6
+00:00:18.475 --> 00:00:21.462
+b，Axioms / theorems — red
+
+7
+00:00:21.462 --> 00:00:25.225
+c，Explanations / supplements — blue italic
+
+8
+00:00:25.225 --> 00:00:28.450
+d，Corollaries / conclusions — orange
+
+9
+00:00:28.450 --> 00:00:36.087
+e，Facts / data / news — green (due to the locality of information and the author's limitations, not all sources are cited)
+
+10
+00:00:36.087 --> 00:00:43.562
+f，Conjectures / hypotheses, and emotional / editorial / anecdotal / metaphorical expressions — purple
+
+11
+00:00:43.562 --> 00:00:47.075
+g，Theoretical innovations — gray with highlight
+
+12
+00:00:47.075 --> 00:00:51.775
+The vast majority of this chapter constitutes theoretical innovation.
+
+13
+00:00:51.775 --> 00:00:54.662
+5.0 Citation Notes
+
+14
+00:00:54.662 --> 00:01:00.712
+5.0.1 This chapter draws extensively from several important futurist works
+
+15
+00:01:00.712 --> 00:01:06.237
+*5.0.1.1 Life After Capitalism, George Gilder
+
+16
+00:01:06.237 --> 00:01:11.462
+The author regards this as a futurist work on par with Zero to One in importance.
+
+17
+00:01:11.462 --> 00:01:15.587
+Abbreviated as LAC; citations marked in royal blue.
+
+18
+00:01:15.587 --> 00:01:20.525
+5.0.1.2 The Singularity Is Nearer, Ray Kurzweil
+
+19
+00:01:20.525 --> 00:01:24.612
+Abbreviated as SN2; citations marked in gold.
+
+20
+00:01:24.612 --> 00:01:29.687
+5.0.1.3 The Forecast Book, convened by Luo Zhenyu
+
+21
+00:01:29.687 --> 00:01:33.975
+Abbreviated as TFB; citations marked in dark green.
+
+22
+00:01:33.975 --> 00:01:41.412
+5.0.2 This chapter also includes the author's own predictions, marked in brownish red / silver-gray highlight
+
+23
+00:01:41.412 --> 00:01:49.512
+5.0.3 Chapter 5 is the technique underlying all of Chapters 0–4, and the author's most personally engaging chapter
+
+24
+00:01:49.512 --> 00:01:57.187
+In traditional culture, "ascending to the Tao" has two legendary dimensions: eternal life and the ability to foresee the future.
+
+25
+00:01:57.187 --> 00:02:00.487
+5.1 What Is Predicting the Future
+
+26
+00:02:00.487 --> 00:02:13.112
+5.1.1 A "Qualitative Future Proposition" is a claim, within some applicable system, that a target object will possess a certain qualitative property at a future point in time — abbreviated as "QLFP".
+
+27
+00:02:13.112 --> 00:02:20.400
+5.1.2 Some conventions: 01-j, Mahayana / Hinayana 01 Method, L1, L0
+
+28
+00:02:20.400 --> 00:02:29.387
+5.1.2.0 This chapter discusses only long-term 0/1 judgments about QALFPs — abbreviated as "01-j", for 0/1 judgment.
+
+29
+00:02:29.387 --> 00:02:38.837
+a，01-j means: for a QLFP in a sufficiently distant and span-unspecified future, give a 0 or 1 judgment on whether it will ultimately hold true
+
+30
+00:02:38.837 --> 00:02:42.500
+b，01-j does not predict specific timing
+
+31
+00:02:42.500 --> 00:02:47.212
+i.e., assume the time span is long enough for the driver to fully play out
+
+32
+00:02:47.212 --> 00:02:50.612
+c，01-j does not specify degree
+
+33
+00:02:50.612 --> 00:02:56.875
+i.e., no quantitative targets (e.g., adoption rate reaching e的负一次方); only a 0 or 1 output
+
+34
+00:02:56.875 --> 00:03:01.525
+d，Empirically, most truly important long-term judgments are 01-j
+
+35
+00:03:01.525 --> 00:03:04.537
+Chapter 0: Am I an elite person?
+
+36
+00:03:04.537 --> 00:03:08.562
+Should I follow the elite development path, or the non-elite one?
+
+37
+00:03:08.562 --> 00:03:11.962
+Chapter 1: Is this company a good business?
+
+38
+00:03:11.962 --> 00:03:14.350
+Is management trustworthy?
+
+39
+00:03:14.350 --> 00:03:17.425
+Is the extinction risk strictly zero?
+
+40
+00:03:17.425 --> 00:03:23.225
+Chapter 2: In a potential X₂ deal, is the incoming White Knight ultimately reliable?
+
+41
+00:03:23.225 --> 00:03:27.437
+Chapter 3: Who is the M with direct influence over me?
+
+42
+00:03:27.437 --> 00:03:30.675
+Chapter 4: Is The Idea solid enough?
+
+43
+00:03:30.675 --> 00:03:37.325
+5.1.2.1 The best practice principles for 01-j are collectively called the "01 Method".
+
+44
+00:03:37.325 --> 00:03:45.112
+a，Of course there is no theoretically optimal or certain prediction method — only a set of powerful methodologies grounded in known practice
+
+45
+00:03:45.112 --> 00:03:51.562
+b，This is fundamentally because the world has infinite dimensions, and progress in modeling it is never-ending
+
+46
+00:03:51.562 --> 00:03:59.112
+5.1.2.2 The 01 Method is divided into the Mahayana 01 Method and the Hinayana 01 Method.
+
+47
+00:03:59.112 --> 00:04:10.712
+a，The Mahayana 01 Method refers to the technique of proposing a more fundamental description and dynamics for the system in which the QLFP resides — thereby making 01-j for all QALFPs within that system
+
+48
+00:04:10.712 --> 00:04:21.487
+Foundational works of this kind include The Wealth of Nations, Das Kapital, Principles of Economics, The General Theory, Capitalism and Freedom, The Denationalization of Money…
+
+49
+00:04:21.487 --> 00:04:28.387
+In popular business writing, roughly once a decade a work reaches this level: The Black Swan, Zero to One, LAC
+
+50
+00:04:28.387 --> 00:04:38.262
+b，The Hinayana 01 Method refers to the technique of making 01-j on individual QALFPs within a system, without rewriting the system's current description and dynamics
+
+51
+00:04:38.428 --> 00:04:48.040
+Obviously, only thinkers and futurists can complete the Mahayana 01 Method; the Hinayana 01 Method is the more practically needed skill for ordinary people
+
+52
+00:04:47.990 --> 00:04:59.840
+In practice, 2504 elite people — busy as they are building things — typically only absorb Mahayana 01 frameworks, and personally perform Hinayana 01-j to guide their work (see below)
+
+53
+00:04:59.840 --> 00:05:08.528
+5.1.2.3 A QLFP that has not yet occurred but will certainly be confirmed in the long run is called "Longterm 1", abbreviated L1.
+
+54
+00:05:08.528 --> 00:05:16.015
+Correspondingly, a QLFP that has not yet dissipated but will certainly be falsified in the long run is called L0.
+
+55
+00:05:16.180 --> 00:05:27.067
+a，Below, L0/L1 for the same QLFP will be marked with (0)/(1); unless otherwise noted, the default prediction horizon is year 2504
+
+56
+00:05:27.017 --> 00:05:31.830
+b，It should be noted that L1 and L0 do not exhaust the space of QALFPs.
+
+57
+00:05:31.830 --> 00:05:38.405
+In fact, for most QALFPs, the long-term outcome is neither definitively L1 nor definitively L0.
+
+58
+00:05:38.405 --> 00:05:43.155
+c，Both L1 and L0 are extremely strong forms of 01-j
+
+59
+00:05:43.155 --> 00:05:52.005
+5.1.2.4 For accessibility, most 01-j examples in this chapter concern economic QALFPs; other domains are touched on less.
+
+60
+00:05:52.005 --> 00:06:01.605
+The methodology of this work applies equally to sociology, anthropology, international relations, political science, psychology, and natural science.
+
+61
+00:06:01.605 --> 00:06:05.730
+5.1.3 Three examples of 01-j
+
+62
+00:06:05.730 --> 00:06:20.242
+5.1.3.1 The development of nanobots and brain-computer interfaces will enable humanity to solve the aging problem in the 2030s (1), achieving "longevity escape velocity" — i.e., the risk of death will no longer increase with age (SN2)
+
+63
+00:06:20.242 --> 00:06:30.430
+5.1.3.2 Urban skyscraper factories (1) — which allow workers to remain in better-quality urban living areas — will replace remote factories (TFB)
+
+64
+00:06:30.430 --> 00:06:38.405
+5.1.3.3 In 2014, game streaming platforms were growing rapidly and top streamers were exploding in fame.
+
+65
+00:06:38.405 --> 00:06:42.917
+The author predicted: "In the future, everyone will be able to stream.
+
+66
+00:06:42.917 --> 00:06:56.455
+Specialized / high-barrier streaming platforms (0) will give way to mass-market, entertaining, personalized short video platforms (1)" — i.e., what later became short video platforms: Tencent Weishi / Kuaishou / Douyin.
+
+67
+00:06:56.455 --> 00:07:07.805
+As an aside, although the author correctly called this L1, he did not simultaneously produce The Paper (targeted information distribution is possible) nor The Idea (building Douyin from scratch).
+
+68
+00:07:07.805 --> 00:07:11.130
+5.2 Some Known Prediction Techniques
+
+69
+00:07:11.130 --> 00:07:16.505
+For accessibility, only a brief gloss is given here, without extended discussion.
+
+70
+00:07:16.505 --> 00:07:19.605
+5.2.1 Delphi Method
+
+71
+00:07:19.605 --> 00:07:30.367
+Collect independent expert opinions on a QLFP, consolidate and feed them back to each expert, and ask them to revise their views in light of others' input — repeat until consensus is reached.
+
+72
+00:07:30.367 --> 00:07:33.867
+5.2.2 Scenario Analysis
+
+73
+00:07:33.867 --> 00:07:39.305
+Enumerate optimistic / baseline / pessimistic scenarios and analyze each.
+
+74
+00:07:39.305 --> 00:07:42.717
+5.2.3 Trend Extrapolation
+
+75
+00:07:42.717 --> 00:07:45.905
+Analyze trends and project them forward.
+
+76
+00:07:45.905 --> 00:07:49.255
+5.2.4 Simulation Modeling
+
+77
+00:07:49.255 --> 00:07:54.717
+Use mathematical models and computing technology to simulate complex systems.
+
+78
+00:07:54.717 --> 00:07:58.605
+5.2.5 System Dynamics Analysis
+
+79
+00:07:58.605 --> 00:08:04.642
+A special type of model: draw causal loop diagrams and build dynamic equations for simulation.
+
+80
+00:08:04.642 --> 00:08:08.355
+5.2.6 Cross-Impact Analysis
+
+81
+00:08:08.355 --> 00:08:12.980
+Build a matrix to analyze how various factors influence one another.
+
+82
+00:08:12.980 --> 00:08:16.842
+5.2.7 Morphological Analysis
+
+83
+00:08:16.842 --> 00:08:23.817
+Decompose a subject into component dimensions, enumerate possible states for each, and analyze combinations.
+
+84
+00:08:23.817 --> 00:08:26.855
+5.3 Why 01-j?
+
+85
+00:08:26.855 --> 00:08:33.692
+5.3.1 In 2504, elite people do not specialize exclusively in 01-j.
+
+86
+00:08:33.692 --> 00:08:39.630
+a，Performing only generic 01-j provides no basis for claiming authorship of any endeavor
+
+87
+00:08:39.630 --> 00:08:43.642
+When you love something, don't settle for merely talking about it.
+
+88
+00:08:43.642 --> 00:08:48.505
+b，Elite people commit to one 01-j at a time, and make one L1 real
+
+89
+00:08:48.505 --> 00:08:52.492
+The L1 they believe in is what Zero to One calls a "secret
+
+90
+00:08:52.492 --> 00:08:59.942
+Elite people keep their secrets, then marshal resources to make the L1 happen — see Zero to One and Chapter 4 for specifics
+
+91
+00:08:59.942 --> 00:09:06.880
+5.3.2 The primary function of 01-j is to help elite people "go with the great tide" — not the reverse.
+
+92
+00:09:06.880 --> 00:09:11.167
+5.3.2.1 "Following the great tide is first.
+
+93
+00:09:11.167 --> 00:09:15.855
+Without the 01 Method, riding the great tide is simply impossible.
+
+94
+00:09:15.855 --> 00:09:21.705
+5.3.2.2 The Idea must not spend even a moment on the wrong side of an L1.
+
+95
+00:09:21.705 --> 00:09:29.292
+Obviously, fighting an L1 — even if successful in the short term — only accumulates capability that is worthless in the long run.
+
+96
+00:09:29.292 --> 00:09:34.305
+L1 generally represents progress, freedom, and the good and beautiful.
+
+97
+00:09:34.305 --> 00:09:38.892
+A company should not have a track record of having obstructed these forces.
+
+98
+00:09:38.892 --> 00:09:47.642
+5.3.2.3 The Idea may exploit an L0 that has not yet dissipated in the short-to-medium term, but must not become dependent on it.
+
+99
+00:09:47.642 --> 00:09:49.892
+Do not build on sand.
+
+100
+00:09:49.892 --> 00:09:53.930
+5.3.3 Other functions of 01-j include:
+
+101
+00:09:53.930 --> 00:09:58.080
+5.3.3.1 Sharpening one's own judgment
+
+102
+00:09:58.080 --> 00:10:00.205
+a，"Judgment second.
+
+103
+00:10:00.205 --> 00:10:03.342
+b，Assessing the quality of The Idea
+
+104
+00:10:03.342 --> 00:10:07.455
+A well-founded Idea always contains a deeply hidden L1.
+
+105
+00:10:07.612 --> 00:10:14.399
+Even a Hinayana / smaller-scale idea must not depend on an L0 that merely hasn't been falsified yet.
+
+106
+00:10:14.349 --> 00:10:17.399
+c，Choosing long-term-minded partners
+
+107
+00:10:17.399 --> 00:10:23.149
+If a person or party is fighting an L1, they are either not sharp enough or not long-term-minded.
+
+108
+00:10:23.149 --> 00:10:27.737
+The above is the first-principles rule for choosing long-term partners.
+
+109
+00:10:27.737 --> 00:10:33.699
+5.3.3.2 Helping others make decisions / anticipating others' decisions
+
+110
+00:10:33.868 --> 00:10:37.818
+a，"Success means people still like you when you're old" (Buffett).
+
+111
+00:10:37.768 --> 00:10:41.455
+There are always people you genuinely hope will do well.
+
+112
+00:10:41.455 --> 00:10:49.293
+b，Elite people commit to landing one L1 per phase — this is itself a certainty at the level of The Idea, and need not be very long-term.
+
+113
+00:10:49.293 --> 00:10:53.705
+Accordingly, their 01-j capacity overflows into others
+
+114
+00:10:53.705 --> 00:10:59.618
+Elite people can offer M high-quality 01-j advice (hereafter "01 recommendations")
+
+115
+00:10:59.618 --> 00:11:06.705
+M's gain is not necessarily accepting the advice, but rather hearing a perspective and logic about the 01 Method.
+
+116
+00:11:06.705 --> 00:11:14.218
+In fact, aside from M₊ support, high-quality 01 recommendations are almost the only other critical resource M needs.
+
+117
+00:11:14.218 --> 00:11:18.618
+Elite people can therefore also anticipate how M will make decisions
+
+118
+00:11:18.618 --> 00:11:23.843
+5.3.3.3 Illuminating the public, opening up the future
+
+119
+00:11:23.843 --> 00:11:33.405
+a，Publishing important L1s and L0s is itself an act of pursuing truth and beauty — no further justification needed (an upgraded version of the point above)
+
+120
+00:11:33.405 --> 00:11:45.468
+b，Ronnie Chan, former chairman of Hang Lung Properties, has over three decades published more than a hundred shareholder letters containing predictions and visions for the future — invariably on the mark, of great benefit to many.
+
+121
+00:11:45.468 --> 00:11:50.780
+Next we discuss the 01 Methods — beginning with the Mahayana 01 Method.
+
+122
+00:11:50.780 --> 00:11:54.280
+5.4 The Mahayana 01 Method
+
+123
+00:11:54.280 --> 00:12:00.005
+5.4.0 The object of a QLFP exists within its applicable system
+
+124
+00:12:00.005 --> 00:12:07.455
+5.4.0.1 This system always has a standing description and a standing set of dynamics under that description
+
+125
+00:12:07.455 --> 00:12:12.555
+Collectively referred to as SD, for standing description / dynamics
+
+126
+00:12:12.555 --> 00:12:19.930
+5.4.0.2 If this system is the entire universe, then SD is current physics and information theory
+
+127
+00:12:19.930 --> 00:12:27.480
+The world is composed of five elements that generate and overcome one another"; "Matter is made of indivisible fundamental particles
+
+128
+00:12:27.480 --> 00:12:41.255
+5.4.1 The Mahayana 01 Method first rewrites the SD for the applicable system, producing a more fundamental description and dynamics (collectively ND, N for new), and then makes 01-j for most QALFPs within that system
+
+129
+00:12:41.255 --> 00:12:46.730
+Colloquially: building an entirely new, revolutionary theoretical framework
+
+130
+00:12:46.730 --> 00:12:52.580
+5.4.2 LAC's ND on traditional scarcity economics and commodity money
+
+131
+00:12:52.580 --> 00:12:56.068
+5.4.2.1 Wealth is knowledge
+
+132
+00:12:56.068 --> 00:13:04.993
+a，Except for a small amount consumed by nuclear reactions, atoms have not changed from the Stone Age to the present — wealth comes from advances in how we use them
+
+133
+00:13:04.993 --> 00:13:14.505
+b，The first principle of economics is not the grim scarcity of matter, but mechanisms that stimulate new knowledge, accelerate learning, and encourage innovation
+
+134
+00:13:14.505 --> 00:13:17.930
+5.4.2.2 Growth is learning
+
+135
+00:13:17.930 --> 00:13:20.980
+a，This follows directly from the above.
+
+136
+00:13:20.980 --> 00:13:34.855
+In practice, Moore's Law and its theoretical foundation — the "learning curve" — have brought unimaginable gains in efficiency and wealth (over 50+ years, calculations per second have grown by a factor of one million, and memory density by two billion)
+
+137
+00:13:34.855 --> 00:13:41.868
+b，The silicon and aluminum underlying the semiconductor and optical industries are abundant elements in the earth's crust.
+
+138
+00:13:41.868 --> 00:13:47.405
+Continuous learning and ever-steeper learning curves have created incredible growth and progress
+
+139
+00:13:47.405 --> 00:13:50.830
+5.4.2.3 Money is time
+
+140
+00:13:50.830 --> 00:13:57.993
+a，Per Gödel's incompleteness theorem, a self-referential system cannot be simultaneously consistent and complete
+
+141
+00:13:57.993 --> 00:14:03.680
+If money is itself a commodity, the economic system cannot be stable or high-signal
+
+142
+00:14:03.680 --> 00:14:10.593
+b，In practice, this flaw in money — its own value fluctuating wildly — is catastrophically efficiency-destroying
+
+143
+00:14:10.593 --> 00:14:18.693
+Currently, the forex market is the world's single largest market, with annual transaction volume roughly 70x global GDP
+
+144
+00:14:18.693 --> 00:14:24.555
+c，Only time, based on universal constants, is the most suitable unit of currency
+
+145
+00:14:24.555 --> 00:14:30.343
+d，Goods can be priced in time — i.e., how much of your working time this item is equivalent to
+
+146
+00:14:30.343 --> 00:14:38.305
+This would be clean and elegant; economic quantities would no longer require disputed inflation / PPP adjustments across periods
+
+147
+00:14:38.305 --> 00:14:42.293
+5.4.2.4 Information is surprise
+
+148
+00:14:42.460 --> 00:14:46.672
+a，Surprising information is the only information with value
+
+149
+00:14:46.622 --> 00:14:55.347
+Working on deciphering military codes, Shannon realized that in most communication, only the surprising, unpredictable portion is necessary.
+
+150
+00:14:55.347 --> 00:14:59.335
+The information we need to learn is surprising information.
+
+151
+00:14:59.335 --> 00:15:07.597
+One necessary consequence of applying Shannon's entropy theory to economics: it places high-entropy information on a low-entropy carrier
+
+152
+00:15:07.597 --> 00:15:14.635
+b，In economics, the low-entropy carrier consists of legal rules, property rights, and constitutional freedoms
+
+153
+00:15:14.635 --> 00:15:19.347
+As the lifeblood of the economy, money itself should be low-entropy
+
+154
+00:15:19.347 --> 00:15:24.585
+c，Learning curves and entrepreneurial innovation are the core economic activities
+
+155
+00:15:24.585 --> 00:15:34.422
+Traditional economics holds that all economic systems tend toward "equilibrium," and that pre-equilibrium entrepreneurship is merely the entropy decay toward equilibrium
+
+156
+00:15:34.422 --> 00:15:41.835
+Yet obviously, entrepreneurial innovation is not noise in an equilibrating process — it is the true source of value and growth
+
+157
+00:15:41.835 --> 00:15:50.797
+5.4.3 Building on its ND of abundant, information-theoretic, time-money economics, LAC provides a full suite of 01-j
+
+158
+00:15:50.797 --> 00:15:54.860
+5.4.3.1 Excerpts from the Twelve Laws
+
+159
+00:15:54.860 --> 00:16:02.872
+a，Law of Abundance: Abundance is ultimately incalculable — as learning deepens, the ultimate destination is prices approaching zero
+
+160
+00:16:02.872 --> 00:16:05.810
+b，Law of Wealth: Wealth is knowledge.
+
+161
+00:16:05.810 --> 00:16:12.247
+Atoms and molecules are infinite, in Brownian motion; only knowledge and truth are stable and sustainable
+
+162
+00:16:12.247 --> 00:16:15.622
+c，Law of Money: Money is tokenized time
+
+163
+00:16:15.622 --> 00:16:21.072
+d，Law of Knowledge Propagation and Growth: As knowledge spreads, wealth grows accordingly.
+
+164
+00:16:21.072 --> 00:16:27.322
+Growth is learning, measured by the learning curve — assessed by time saved and proved by market profit or loss
+
+165
+00:16:27.322 --> 00:16:31.735
+5.4.3.2 Excerpts from the Ten Dos and Don'ts
+
+166
+00:16:31.735 --> 00:16:37.135
+a，Make money as predictable, irreversible, fraud-proof, and fungible as time
+
+167
+00:16:37.135 --> 00:16:39.922
+b，Allow bankruptcy and failure.
+
+168
+00:16:39.922 --> 00:16:42.835
+This opens the door to new creation
+
+169
+00:16:42.835 --> 00:16:45.685
+c，Do not provide guarantees.
+
+170
+00:16:45.685 --> 00:16:50.660
+Information, knowledge, and learning are defined by entropy and surprise
+
+171
+00:16:50.660 --> 00:16:54.772
+d，Do not fight uncertainty — the future is unpredictable.
+
+172
+00:16:54.772 --> 00:16:58.547
+If you let it happen, it will be better than you imagine
+
+173
+00:16:58.547 --> 00:17:03.422
+5.4.4 The Mahayana 01 Method for Ordinary People
+
+174
+00:17:03.422 --> 00:17:09.610
+5.4.4.1 Believe in mathematics, probability, and orders of magnitude
+
+175
+00:17:09.610 --> 00:17:17.685
+In qualitative analysis domains, even a modest introduction of mathematical tools will fundamentally rewrite SD and yield ND
+
+176
+00:17:17.685 --> 00:17:23.110
+5.4.4.2 Two examples of ordinary people using mathematics
+
+177
+00:17:23.110 --> 00:17:28.085
+a，Why is Israel's military expansionism in the Middle East unsustainable?
+
+178
+00:17:28.085 --> 00:17:35.010
+The conflict in the Middle East has shifted from Israel vs. the Arab world to Israel vs. the entire Muslim world…
+
+179
+00:17:35.010 --> 00:17:40.210
+Israel can still win today's fight against Palestine, and will win the next one too.
+
+180
+00:17:40.210 --> 00:17:44.372
+But as enmity deepens, there will always be another conflict.
+
+181
+00:17:44.372 --> 00:17:52.260
+In a permanently ongoing game, as long as one side's advantage is not 100%, eventually the Muslim world will win one.
+
+182
+00:17:52.260 --> 00:17:56.235
+This is not political reasoning — it is mathematical law.
+
+183
+00:17:56.235 --> 00:18:02.735
+And the outcome of the war Israel loses in the future may be something the Israel of that time cannot afford to bear.
+
+184
+00:18:02.735 --> 00:18:05.910
+xiao yuehan Khan, 2023)
+
+185
+00:18:06.076 --> 00:18:12.588
+b，Why is learning computational geometry more efficient than pure synthetic geometry in math competitions?
+
+186
+00:18:12.538 --> 00:18:15.763
+Background of computational geometry
+
+187
+00:18:15.763 --> 00:18:21.138
+IMO/CMO has 6 problems, of which 1–2 are plane geometry.
+
+188
+00:18:21.138 --> 00:18:33.301
+Since Descartes invented the coordinate system, humanity has developed multiple computational geometry tools (analytic geometry, trigonometry, complex numbers, vectors, barycentric coordinates…
+
+189
+00:18:33.301 --> 00:18:41.713
+These translate plane geometry problems into algebra, rather than relying solely on auxiliary constructions and pure geometric transformations
+
+190
+00:18:41.713 --> 00:18:46.088
+Why is the learning curve for pure synthetic geometry training flat?
+
+191
+00:18:46.088 --> 00:18:55.176
+The human brain processes geometric transformations discontinuously (algebraic verification does not; computation barely taxes working memory).
+
+192
+00:18:55.176 --> 00:19:03.738
+Pure geometry training therefore requires accumulating "plane geometric configurations" — a library of common auxiliary lines and transformations
+
+193
+00:19:03.738 --> 00:19:07.163
+This library is two-dimensional and infinite.
+
+194
+00:19:07.163 --> 00:19:13.813
+Commonly, "standard" configurations number in the dozens of categories, 500–1000 total.
+
+195
+00:19:13.813 --> 00:19:20.751
+And problem-setters are also building the library — they deliberately avoid common configurations when writing problems
+
+196
+00:19:20.751 --> 00:19:26.201
+Why is computational geometry the more recommended training path over a full lifetime?
+
+197
+00:19:26.201 --> 00:19:30.626
+Computational geometry also requires accumulated knowledge.
+
+198
+00:19:30.626 --> 00:19:37.951
+In analytic geometry, the total supplementary formulas are around 20; common special-point coordinates are around 10.
+
+199
+00:19:37.951 --> 00:19:41.351
+The complex number method is of similar scope.
+
+200
+00:19:41.351 --> 00:19:45.688
+Mastering both can solve most competition geometry problems
+
+201
+00:19:45.688 --> 00:19:49.051
+This library is one-dimensional and finite.
+
+202
+00:19:49.051 --> 00:19:58.351
+More fundamentally, computational geometry only tests algebraic manipulation fluency — no clever and uncertain auxiliary-line methodology required.
+
+203
+00:19:58.351 --> 00:20:03.438
+The learning curve is therefore steep: the more you compute, the more fluent you become
+
+204
+00:20:03.438 --> 00:20:06.876
+The Mahayana 01 Method concludes here.
+
+205
+00:20:06.876 --> 00:20:15.313
+We salute the thought and courage of the founding masters; an ND for an entire system often opens an era of 01-j work and L1 realization.
+
+206
+00:20:15.313 --> 00:20:19.038
+Next we discuss the Hinayana 01 Method.
+
+207
+00:20:19.038 --> 00:20:24.076
+5.5 The Logical Starting Point of the Hinayana 01 Method
+
+208
+00:20:24.076 --> 00:20:32.301
+5.5.0 A first principle is "the most basic proposition or assumption that cannot be derived" (Aristotle, Metaphysics)
+
+209
+00:20:32.301 --> 00:20:37.113
+5.5.0.1 That definition is criterion-based.
+
+210
+00:20:37.113 --> 00:20:41.476
+So what does a first principle look like in terms of its properties?
+
+211
+00:20:41.476 --> 00:20:46.163
+5.5.0.2 Which properties are essential and stable?
+
+212
+00:20:46.163 --> 00:20:49.226
+Which are superficial and stage-specific?
+
+213
+00:20:49.226 --> 00:20:57.738
+5.5.0.1 For specific / short-term / driver-simple problems, effectiveness analysis is already highly valuable
+
+214
+00:20:57.738 --> 00:21:03.163
+a，"Effective / useful / predictable" is often a phenomenological conclusion.
+
+215
+00:21:03.163 --> 00:21:08.526
+Effectiveness is not religion; it is short-term / first-order influence — a fact.
+
+216
+00:21:08.526 --> 00:21:12.138
+b，Not every fact is first-principles important.
+
+217
+00:21:12.138 --> 00:21:20.663
+5.5.0.2 For grand / long-term / driver-complex problems, we need important facts with "first-principles character
+
+218
+00:21:20.663 --> 00:21:26.451
+5.5.0.3 These facts serve as the logical starting point for 01-j
+
+219
+00:21:26.451 --> 00:21:35.588
+5.5.0.4 With a logical starting point (a credible initial value), one can use SD to perform deductive reasoning (computation)
+
+220
+00:21:35.588 --> 00:21:41.863
+5.5.1 Core elements and first-principles characteristics of logical starting points
+
+221
+00:21:41.863 --> 00:21:48.638
+5.5.1.1 Consistent with theorems and laws of mathematical physics / natural science
+
+222
+00:21:48.638 --> 00:21:54.463
+a，This is in fact the original definition of first principles — the only version Musk accepts
+
+223
+00:21:54.463 --> 00:21:59.138
+b，He sets task timelines based on rough estimates of physical limits.
+
+224
+00:21:59.138 --> 00:22:03.601
+Apart from the laws of physics, everything else is just a suggestion.
+
+225
+00:22:03.601 --> 00:22:08.788
+5.5.1.2 Not bounded by a time signature in its correctness
+
+226
+00:22:08.788 --> 00:22:16.101
+a，A fact tied to a specific date is news; once separated from that date, it loses value — or even ceases to hold
+
+227
+00:22:16.101 --> 00:22:27.388
+b，News (facts that were not true before and may not remain true afterward) is generally not first-principles important — it is a manifestation of deeper underlying drivers at a particular moment in time
+
+228
+00:22:27.388 --> 00:22:31.226
+5.5.1.3 Solid and reliable
+
+229
+00:22:31.226 --> 00:22:39.176
+5.5.1.3.1 Facts grounded in the most fundamental inputs: balance of power and cost-benefit choices
+
+230
+00:22:39.340 --> 00:22:44.390
+a，In the Russia-Ukraine war, Russia was certain to prevail from day one (1)
+
+231
+00:22:44.340 --> 00:22:51.815
+Russia has global strike capability; its institutions, history, and culture mean President Putin cannot afford to lose
+
+232
+00:22:51.815 --> 00:22:57.402
+His country / he personally / his family cannot absorb that outcome — he has no exit
+
+233
+00:22:57.402 --> 00:22:59.977
+b，This point is solid enough
+
+234
+00:22:59.977 --> 00:23:12.552
+Other factors — hundreds of billions in aid to Ukraine, Ukraine's sovereignty claims, UN rules, third-party country stances, battlefield gains and losses, and the latest weapons deployments — are all noise that need not be tracked
+
+235
+00:23:12.552 --> 00:23:18.427
+5.5.1.4 Advancing the truth, goodness, and beauty of all humanity
+
+236
+00:23:18.427 --> 00:23:29.065
+a，By Axiom Zero, naturally, no endeavor can permanently oppose humanity's collective drive toward full emancipation, toward freedom, toward truth, toward efficiency, toward the good
+
+237
+00:23:29.065 --> 00:23:36.340
+b，Unlike the widely prevalent worship of pragmatism / realism, this point carries decisive force in the long run
+
+238
+00:23:36.340 --> 00:23:38.602
+c，"Life finds a way.
+
+239
+00:23:38.602 --> 00:23:44.702
+Every morning, every person spontaneously pursues what is better, finds cracks to develop through.
+
+240
+00:23:44.702 --> 00:23:50.902
+This is the collective effort of all humanity; given enough time, it makes a significant difference.
+
+241
+00:23:50.902 --> 00:24:04.352
+During a particular period, learning certain foreign languages was banned; after the college entrance exam was restored, students who could pass the foreign language section of that exam enrolled in university language departments within the very same year.
+
+242
+00:24:04.352 --> 00:24:10.115
+5.5.1.5 Endogenous / innate (not exogenous / acquired)
+
+243
+00:24:10.115 --> 00:24:17.127
+5.5.1.5.1 First-principles drivers are generally intrinsic, not later acquired.
+
+244
+00:24:17.127 --> 00:24:21.965
+The initial configuration exerts its far-reaching influence in every cycle.
+
+245
+00:24:21.965 --> 00:24:28.202
+a，From youth, Mao was a person willing to struggle, willing to win, and standing on the side of the weak
+
+246
+00:24:28.202 --> 00:24:35.190
+b，From youth, Putin was someone who understood national interests, understood compromise, and was quite moderate
+
+247
+00:24:35.190 --> 00:24:38.377
+c，Why is Alibaba weaker than Tencent?
+
+248
+00:24:38.377 --> 00:24:45.427
+Because Alibaba's founding mission — "make it easy to do business anywhere" — implies Alibaba does not mind what business it is in
+
+249
+00:24:45.427 --> 00:24:55.665
+5.5.2 A solid and reliable logical starting point (credible initial value) is a prerequisite for scientific 01-j, with an importance of no less than e的负一次方
+
+250
+00:24:55.665 --> 00:25:00.602
+With a logical starting point, one can follow SD to perform 01-j.
+
+251
+00:25:00.602 --> 00:25:04.740
+A few empirically powerful methodologies are listed below.
+
+252
+00:25:04.740 --> 00:25:08.340
+5.6 The Hinayana 01 Method
+
+253
+00:25:08.340 --> 00:25:18.177
+The following ten Hinayana 01 Methods (5.6.0 is a prerequisite and common sense) are listed in order of empirical importance and frequency.
+
+254
+00:25:18.177 --> 00:25:27.102
+Their logical relationships are not mutually exclusive and exhaustive (e.g., 5.6.5 can be seen as a special case of 5.6.2).
+
+255
+00:25:27.102 --> 00:25:36.002
+The author did not deliberately impose a structure — the experiential order is itself useful information; follow "equanimity" and "faithful transmission.
+
+256
+00:25:36.002 --> 00:25:40.802
+5.6.0 Believe firmly that justice prevails in the long run
+
+257
+00:25:40.802 --> 00:25:48.515
+5.6.0.1 No force can, in the long run, stand against humanity's drive toward truth, goodness, and beauty
+
+258
+00:25:48.515 --> 00:25:54.002
+Otherwise it would contradict "Axiom Zero" (see 5.5.1.4)
+
+259
+00:25:54.002 --> 00:25:58.815
+5.6.0.2 Applicability, steps, and notes:
+
+260
+00:25:58.815 --> 00:26:03.277
+a，Applicable to: the longest-term, grandest-scale 01-j
+
+261
+00:26:03.277 --> 00:26:05.002
+b，Steps:
+
+262
+00:26:05.002 --> 00:26:11.177
+Determine which side represents advanced productive forces and the progressive forces of all humanity
+
+263
+00:26:11.177 --> 00:26:18.002
+The Mars test: Would you rather live in a world that has it (1), or a world from which it has been deleted (0)?
+
+264
+00:26:18.002 --> 00:26:21.277
+The former is certain to prevail in the long run
+
+265
+00:26:21.277 --> 00:26:24.865
+5.6.0.3 One example
+
+266
+00:26:24.865 --> 00:26:28.477
+a，Do large-cap U.S. tech companies have a future?
+
+267
+00:26:28.477 --> 00:26:32.227
+In 2504, U.S. equities are declining.
+
+268
+00:26:32.227 --> 00:26:43.277
+Would you rather live in a world without Apple / Meta's VR headsets, without Tesla robots, without TSMC sustaining Moore's Law, without Gilead and others targeting the cure of cancer (0)?
+
+269
+00:26:43.277 --> 00:26:48.940
+For many people the answer is no — so large-cap U.S. tech companies do have a future (1)
+
+270
+00:26:48.940 --> 00:26:53.077
+5.6.1 Grasp the principal contradiction
+
+271
+00:26:53.077 --> 00:27:01.477
+5.6.1.1 The principal contradiction is the contradiction that dominates and determines the development of a complex situation
+
+272
+00:27:01.477 --> 00:27:06.090
+5.6.1.2 Applicability, steps, and notes
+
+273
+00:27:06.244 --> 00:27:14.069
+a，Applicable to: situations where the first-order effect of the principal contradiction is powerful enough to overwhelm all other factors
+
+274
+00:27:14.019 --> 00:27:15.744
+b，Steps:
+
+275
+00:27:15.744 --> 00:27:18.556
+What is the principal contradiction?
+
+276
+00:27:18.556 --> 00:27:21.169
+What is its first-order effect?
+
+277
+00:27:21.169 --> 00:27:25.319
+Once it takes hold, how do other factors modify the outcome?
+
+278
+00:27:25.319 --> 00:27:28.019
+Is that modified outcome stable?
+
+279
+00:27:28.019 --> 00:27:35.244
+If stable, that is the final result; if not, what is the new principal contradiction under the conditions at that point?
+
+280
+00:27:35.244 --> 00:27:38.756
+5.6.1.3 One example
+
+281
+00:27:38.908 --> 00:27:42.958
+a，Is de-globalization deepening in 2504?
+
+282
+00:27:42.908 --> 00:27:44.683
+TFB)
+
+283
+00:27:44.683 --> 00:27:51.495
+In the 2020s Western world, the dominant actors are multinational corporations, not Western nation-states
+
+284
+00:27:51.495 --> 00:27:58.495
+National distinctions are surface-level rules, not fundamental rules — an environment that multinationals adapt to
+
+285
+00:27:58.495 --> 00:28:05.358
+Therefore, de-globalization (0) is the appearance; deepening globalization (1) is the substance
+
+286
+00:28:05.358 --> 00:28:09.345
+5.6.2 Endgame thinking and reverse reasoning
+
+287
+00:28:09.345 --> 00:28:17.395
+5.6.2.1 Start from the easily determinable final outcome and work backward to the optimal strategy during the process
+
+288
+00:28:17.395 --> 00:28:22.045
+5.6.2.2 Applicability, steps, and notes
+
+289
+00:28:22.045 --> 00:28:28.520
+a，Applicable to: cases where, based on innate conditions, the endgame is more certain than the process
+
+290
+00:28:28.520 --> 00:28:30.245
+b，Steps:
+
+291
+00:28:30.245 --> 00:28:34.958
+First, calmly accept the endgame conclusion — maintain equanimity
+
+292
+00:28:34.958 --> 00:28:40.958
+Then, work backward from that conclusion to identify the optimal strategy throughout the process
+
+293
+00:28:40.958 --> 00:28:44.470
+5.6.2.3 One example
+
+294
+00:28:44.470 --> 00:28:48.220
+a，The optimal strategy for game streaming companies
+
+295
+00:28:48.220 --> 00:28:51.608
+In the 2010s, game streaming emerged.
+
+296
+00:28:51.608 --> 00:28:59.783
+At the time, Douyu, Huya, Huajiao, and Panda TV were fiercely competing, paying astronomical sums to retain top streamers.
+
+297
+00:28:59.783 --> 00:29:07.608
+However, because it sat at the intersection of "gaming," "content," and "player ecosystem," this space was too important to Tencent.
+
+298
+00:29:07.608 --> 00:29:12.795
+Conversely, Tencent held a dimensionally superior level of dominance over it.
+
+299
+00:29:12.795 --> 00:29:17.083
+The entire game streaming space will eventually belong to Tencent.
+
+300
+00:29:17.083 --> 00:29:20.208
+YY (Joyy) chairman Li Xueling
+
+301
+00:29:20.208 --> 00:29:27.295
+Companies positioning for acquisition would cash out (1); those aiming for independent development would fail (0)
+
+302
+00:29:27.295 --> 00:29:31.670
+5.6.3 Great figures also have ordinary minds
+
+303
+00:29:31.670 --> 00:29:39.108
+5.6.3.1 Important figures at critical junctures often think the same way a normal person in their position would
+
+304
+00:29:39.108 --> 00:29:43.683
+5.6.3.2 Applicability, steps, and notes
+
+305
+00:29:43.683 --> 00:29:51.520
+a，Applicable to: situations where the outcome depends on one or two key decisions by an important figure, and you need to anticipate them
+
+306
+00:29:51.520 --> 00:29:53.245
+b，Steps:
+
+307
+00:29:53.245 --> 00:29:56.445
+Genuinely place yourself in their position.
+
+308
+00:29:56.445 --> 00:30:04.320
+Understand the true stakes they face — not the nominal "logic" of justice, legitimacy, narrative inertia, or rhetorical habit.
+
+309
+00:30:04.320 --> 00:30:09.245
+Understand their early experiences and past decisions at key turning points.
+
+310
+00:30:09.245 --> 00:30:17.245
+Then, applying ordinary human values, make a prediction that follows human nature and common sense — that prediction is most likely correct.
+
+311
+00:30:17.245 --> 00:30:21.808
+Great figures have ordinary minds; human nature is very stable.
+
+312
+00:30:21.808 --> 00:30:27.895
+Firmly treat them as ordinary people, and you will place your conditional expectation on the right facts.
+
+313
+00:30:27.895 --> 00:30:31.445
+5.6.3.3 One example
+
+314
+00:30:31.445 --> 00:30:33.733
+a，Buffett's final act
+
+315
+00:30:33.733 --> 00:30:41.358
+In 2504, Buffett announced his retirement at year-end, holding a record cash position (30% of net assets)
+
+316
+00:30:41.358 --> 00:30:44.695
+If you were Buffett, what would you value most?
+
+317
+00:30:44.695 --> 00:30:51.308
+Without question: Berkshire's performance record — 60 years at 20%, an awe-inspiring monument
+
+318
+00:30:51.308 --> 00:30:59.220
+From this, we can infer that he believes trying to extend the record to 61 or more years is not a good choice in 2504 (0)
+
+319
+00:30:59.220 --> 00:31:04.170
+5.6.4 Historical echoes and social science fundamentals
+
+320
+00:31:04.170 --> 00:31:15.308
+5.6.4.1 Human nature is stable, social science fundamentals are firm, and history keeps rhyming (natural science fundamentals, by contrast, are broken through routinely)
+
+321
+00:31:15.308 --> 00:31:19.920
+5.6.4.2 Applicability, steps, and notes
+
+322
+00:31:19.920 --> 00:31:26.345
+a，Applicable to: social science QALFPs about future trajectories, where history provides analogies
+
+323
+00:31:26.345 --> 00:31:28.070
+b，Steps:
+
+324
+00:31:28.070 --> 00:31:36.395
+Social science propositions have historical analogues; understand the context and logic behind the key decisions of those historical figures
+
+325
+00:31:36.395 --> 00:31:41.045
+This is called "reading books thoroughly" — thorough reading produces case studies.
+
+326
+00:31:41.045 --> 00:31:50.108
+The decision logic embedded in historical cases (not the mechanical outcomes) will, under similar spatiotemporal conditions, most likely recur
+
+327
+00:31:50.108 --> 00:31:53.645
+5.6.4.3 One example
+
+328
+00:31:53.645 --> 00:31:57.570
+a，Progress requires breaking free from conservatism.
+
+329
+00:31:57.570 --> 00:32:03.070
+Whichever of the G2 abandons narrow nationalism will become the world's leading power.
+
+330
+00:32:03.070 --> 00:32:04.845
+TFB)
+
+331
+00:32:04.845 --> 00:32:12.833
+Leading the world requires global talent and requires articulating new values and new opportunities that people across the world aspire to
+
+332
+00:32:12.988 --> 00:32:23.525
+Among Emperor Wudi of Han's trusted regents was Jin Midi, a prince of the Xiongnu; among Emperor Taizong of Tang's most trusted generals was Gao Xianzhi, a man of Goguryeo heritage
+
+333
+00:32:23.475 --> 00:32:27.800
+5.6.5 Breakthrough technology leads progress
+
+334
+00:32:27.800 --> 00:32:38.200
+5.6.5.1 A key technology breakthrough brings gains in productivity and reorganizations of the factors of production that were previously completely unimaginable
+
+335
+00:32:38.200 --> 00:32:42.913
+5.6.5.2 Applicability, steps, and notes
+
+336
+00:32:43.084 --> 00:32:49.271
+a，Applicable to: if the change brought by the breakthrough benefits humanity, it will most likely happen
+
+337
+00:32:49.221 --> 00:32:50.946
+b，Steps:
+
+338
+00:32:50.946 --> 00:32:53.834
+Is the technology breakthrough solid?
+
+339
+00:32:53.834 --> 00:32:57.496
+Is the benefit it brings to humanity significant?
+
+340
+00:32:57.496 --> 00:33:03.021
+If both are yes, then no matter the cost or how counterintuitive — it will be realized.
+
+341
+00:33:03.021 --> 00:33:05.934
+This is "absolute progressivism
+
+342
+00:33:05.934 --> 00:33:09.546
+5.6.5.3 One example
+
+343
+00:33:09.546 --> 00:33:15.359
+a，The possibility of precisely eliminating specific harmful wild animals (TFB)
+
+344
+00:33:15.359 --> 00:33:30.071
+Using gene drive technology (third-generation insect sterility technique), precisely modifying mosquito genomes to dramatically reduce or eliminate their populations, thereby cutting off transmission of malaria, dengue fever, and other infectious diseases
+
+345
+00:33:30.071 --> 00:33:46.109
+Specifically, third-generation SIT (gene drive technology) uses CRISPR-Cas9 and similar gene-editing tools to insert "self-replicating genes" (e.g., lethal genes) into mosquito genomes, spreading them through the population via mating — achieving "single release, long-term drive
+
+346
+00:33:46.109 --> 00:33:51.509
+5.6.6 A decline on one side necessarily brings a rise on the other
+
+347
+00:33:51.509 --> 00:34:01.934
+5.6.6.1 For two closely connected parties, a major fundamental change on one side will necessarily bring a correspondingly major fundamental change on the other
+
+348
+00:34:01.934 --> 00:34:06.671
+5.6.6.2 Applicability, steps, and notes
+
+349
+00:34:06.671 --> 00:34:09.821
+a，Applicable to: see definition
+
+350
+00:34:09.821 --> 00:34:11.546
+b，Steps:
+
+351
+00:34:11.546 --> 00:34:19.021
+Given a major change on one side, identify the closely connected counterpart and trace the mechanism of interaction between them
+
+352
+00:34:19.021 --> 00:34:25.371
+With this systemic understanding of the "status quo," analyze the possible major changes on the other side
+
+353
+00:34:25.371 --> 00:34:29.021
+5.6.6.3 Two examples
+
+354
+00:34:29.021 --> 00:34:33.971
+a，In the AI era, a person's most important value is "being human
+
+355
+00:34:33.971 --> 00:34:42.209
+In the AI era, most people's greatest value is no longer carbon-based cognitive labor — it is "being human," "being useful as a person
+
+356
+00:34:42.209 --> 00:34:54.396
+One framework for generating The Idea: rather than predicting how far AI can develop, study what humans will definitely have left that is irreplaceable — and, properly organized, what future business forms would emerge
+
+357
+00:34:54.396 --> 00:35:13.771
+Consequently, regardless of which future business forms emerge (e.g., elderly care / renovation outsourcing / home cooking), companies that use many people and have especially strong organizational capability (Meituan, JD, Beike, DiDi) will necessarily have at least one highly valuable position that can absorb the AI era's reverse dividend
+
+358
+00:35:13.771 --> 00:35:16.809
+b，Deep information reuse agents
+
+359
+00:35:16.809 --> 00:35:21.134
+AI causes easily searchable information to plummet in value.
+
+360
+00:35:21.134 --> 00:35:28.359
+Since the total value of information is exogenously determined by demand, deep information will appreciate sharply.
+
+361
+00:35:28.359 --> 00:35:31.721
+The way to obtain it is through in-depth interviews.
+
+362
+00:35:31.721 --> 00:35:41.809
+In 2504, after a project is completed, the deep information is locked in a comprehensive report — becoming local information (too costly to locate and read in full)
+
+363
+00:35:41.809 --> 00:35:48.284
+For example, 80% of a clinic doctor's work is mapping "symptom descriptions" to "common prescriptions.
+
+364
+00:35:48.284 --> 00:35:52.846
+In the AI era, the value of this mapping drops significantly.
+
+365
+00:35:52.846 --> 00:35:59.146
+Meanwhile, Doctor A's deep experience on complex cases cannot be efficiently shared with Doctor B.
+
+366
+00:35:59.146 --> 00:36:01.834
+This information is reusable.
+
+367
+00:36:01.834 --> 00:36:12.484
+One possible approach: use AI to aggregate deep information from large numbers of completed independent projects into an agent, then open it to pro users for paid conversations
+
+368
+00:36:12.484 --> 00:36:17.509
+5.6.7 An unbalanced system cannot remain stable for long
+
+369
+00:36:17.509 --> 00:36:23.159
+5.6.7.1 An unbalanced system cannot remain stable in the long run
+
+370
+00:36:23.159 --> 00:36:27.971
+5.6.7.2 Applicability, steps, and notes:
+
+371
+00:36:27.971 --> 00:36:32.334
+a，Applicable to: analogous to Nash equilibrium conditions
+
+372
+00:36:32.334 --> 00:36:34.059
+b，Steps:
+
+373
+00:36:34.059 --> 00:36:39.959
+Analyze whether one or more parties have marginal incentives to defect or change the status quo
+
+374
+00:36:39.959 --> 00:36:45.084
+If so, they will inevitably make repeated attempts to reach a new equilibrium
+
+375
+00:36:45.084 --> 00:36:48.696
+5.6.7.3 One example
+
+376
+00:36:48.696 --> 00:36:52.796
+a，The spread of nuclear weapons is inevitable in the long run
+
+377
+00:36:52.796 --> 00:37:00.559
+Hinton has said that even if nuclear war breaks out on Earth, it is still far more habitable than Mars by many orders of magnitude
+
+378
+00:37:00.724 --> 00:37:10.961
+Yet Musk has mobilized enough resources to aim for colonizing Mars — implying that his backers assume major powers have all stockpiled second-/third-strike nuclear capabilities
+
+379
+00:37:10.911 --> 00:37:17.536
+For non-nuclear states, developing indigenous nuclear forces is marginally in their own national interest
+
+380
+00:37:17.536 --> 00:37:22.399
+5.6.8 Essential characteristics create differentiation
+
+381
+00:37:22.399 --> 00:37:30.349
+5.6.8.1 An essential characteristic is one where, if two comparable entities swapped it, each would become more like the other
+
+382
+00:37:30.349 --> 00:37:34.911
+5.6.8.2 Applicability, steps, and notes
+
+383
+00:37:35.068 --> 00:37:40.693
+a，Applicable to: 01-j predicting the long-term differentiation between two entities
+
+384
+00:37:40.643 --> 00:37:42.368
+b，Steps:
+
+385
+00:37:42.368 --> 00:37:50.305
+Identify the first-principles, essential difference between them; identify the fundamental divergence this produces in the long run
+
+386
+00:37:50.305 --> 00:37:55.305
+Use this divergence as the logical starting point for seed-and-harvest reasoning
+
+387
+00:37:55.305 --> 00:37:58.780
+5.6.8.3 Two examples
+
+388
+00:37:58.780 --> 00:38:02.443
+a，The Buffett Method versus the Wealth Management Method
+
+389
+00:38:02.443 --> 00:38:11.118
+The essential difference: Buffett's method is based on having an excess of excellent investment opportunities — he can simultaneously pick stocks and time the market
+
+390
+00:38:11.118 --> 00:38:18.805
+Ordinary people lack sufficient positive-expectation investment resources; they simply have no standing to time The Portfolio
+
+391
+00:38:18.805 --> 00:38:22.268
+b，Top 2 vs. Top 5 universities
+
+392
+00:38:22.268 --> 00:38:29.280
+The essential difference: China's gaokao is meritocratic; admissions to top American private universities are not.
+
+393
+00:38:29.280 --> 00:38:35.018
+Meanwhile, the logic of selecting people for key positions in the East and West is similar
+
+394
+00:38:35.018 --> 00:38:39.830
+Top 2 graduates still need to be forged; they must prove themselves further.
+
+395
+00:38:39.830 --> 00:38:49.180
+Top 5 graduates, by contrast, come mostly from their country's elite class or the Global Top Mind — less need for further self-proving, lower competitive pressure
+
+396
+00:38:49.180 --> 00:38:56.905
+Zuckerberg was not the original creator of the Facebook idea — his two Harvard classmates graciously accepted a symbolic settlement
+
+397
+00:38:56.905 --> 00:39:04.605
+In the U.S., capital and power travel the same revolving door — money selects people and people select money, one unified track.
+
+398
+00:39:04.605 --> 00:39:07.368
+In China, that is not the case
+
+399
+00:39:07.368 --> 00:39:12.130
+5.6.9 Abstract isomorphism deepens understanding
+
+400
+00:39:12.130 --> 00:39:20.443
+5.6.9.1 If A occupies the same conceptual position as B within their respective frameworks, they can be made isomorphic
+
+401
+00:39:20.443 --> 00:39:25.093
+5.6.9.2 Applicability, steps, and notes
+
+402
+00:39:25.093 --> 00:39:31.055
+a，Applicable to: new or unfamiliar things that are hard to find analogues for within their own domain
+
+403
+00:39:31.055 --> 00:39:32.780
+b，Steps:
+
+404
+00:39:32.780 --> 00:39:35.505
+Conceptually map A onto B
+
+405
+00:39:35.505 --> 00:39:41.805
+Understand A's position by analogy to B's position within B's conceptual system / worldview
+
+406
+00:39:41.805 --> 00:39:48.243
+Understand A's dynamics by analogy to B's dynamics within B's conceptual system / worldview
+
+407
+00:39:48.243 --> 00:39:51.755
+5.6.9.3 Two examples
+
+408
+00:39:51.755 --> 00:39:53.730
+a，Chapter 1
+
+409
+00:39:53.730 --> 00:40:01.330
+Understanding "certainty" can be mapped to "replacing the company's CEO with a cat" — a cat can make 0/1 decisions quickly
+
+410
+00:40:01.330 --> 00:40:08.793
+Understanding "Berkshire" can be mapped to "a consumer goods company with a powerful brand" — selling capital and collecting equity
+
+411
+00:40:08.793 --> 00:40:12.068
+b，Why does BTC offer long-term Rₘ?
+
+412
+00:40:12.068 --> 00:40:19.755
+Van Gogh / Monet benefit from the wealth growth of art-loving, collecting high-net-worth individuals worldwide — hence long-term Rₘ
+
+413
+00:40:19.755 --> 00:40:27.268
+BTC is similar: it benefits from the wealth growth of high-net-worth individuals worldwide who cannot enjoy stable governance
+
+414
+00:40:27.268 --> 00:40:40.793
+For European / Russian oligarchs — facing daily power outages and asset freezes from conflicts, no guarantee of international transfers or deposit safety — the more chaotic the world, the more such high-net-worth individuals will store some Bitcoin
+
+415
+00:40:40.793 --> 00:40:44.893
+5.6.10 Holistic analysis and invariants
+
+416
+00:40:44.893 --> 00:40:51.568
+5.6.10.1 Analogous to holistic analysis and invariant methods in mathematics
+
+417
+00:40:51.568 --> 00:40:56.580
+5.6.10.2 Applicability, steps, and notes
+
+418
+00:40:56.580 --> 00:41:02.730
+a，Applicable to: 01-j where holistic properties are easier to grasp than individual properties
+
+419
+00:41:02.730 --> 00:41:04.455
+b，Steps:
+
+420
+00:41:04.455 --> 00:41:09.880
+Start from holistic properties; use invariants to find the logical starting point
+
+421
+00:41:09.880 --> 00:41:16.005
+From the logical starting point, derive individual properties through a solid chain of necessity
+
+422
+00:41:16.005 --> 00:41:19.818
+5.6.10.3 One example
+
+423
+00:41:19.818 --> 00:41:27.205
+a，Why does U.S. equities sustain a long bull market, independent of America's national trajectory in 2504?
+
+424
+00:41:27.205 --> 00:41:36.455
+Treating humanity as a whole: 100s% of people need to be engaged in exploring humanity's future — otherwise the monkeys never came down from the trees
+
+425
+00:41:36.455 --> 00:41:44.805
+Treating humanity as a whole: 100r% of people need to happen to have a lot of money — money that can be used to explore humanity's future
+
+426
+00:41:44.956 --> 00:41:52.356
+Macroscopically, the money of s must come from r; the money of (1-r) sustains subsistence and social operation.
+
+427
+00:41:52.306 --> 00:41:56.831
+Both s/r cannot be too high, or humanity will collapse.
+
+428
+00:41:56.831 --> 00:42:03.493
+For the rare few s and r, a strong positive-feedback system must be provided — hereafter called the "rs system
+
+429
+00:42:03.493 --> 00:42:11.968
+The American version of the rs system is a fundamental feature of the U.S. setup — not something one or two presidents or one or two policies can change
+
+430
+00:42:11.968 --> 00:42:23.993
+Su Zhi-yu's generation entering Forbes; Jensen Huang and the Vietnamese PM eating roadside BBQ; the real influence of Musk / Zuckerberg / Gates in America — all are at the level of core government personnel
+
+431
+00:42:23.993 --> 00:42:28.918
+In 2504, we look forward to other versions of the rs system.
+
+432
+00:42:29.068 --> 00:42:33.243
+5.7 Deliberate Practice of the 01 Method
+
+433
+00:42:33.193 --> 00:42:42.180
+5.7.1 The first principle of deliberate practice is: never lightly dismiss any counterintuitive fact (hereafter "surprising fact")
+
+434
+00:42:42.180 --> 00:42:46.168
+5.7.2 Steps for deliberate practice
+
+435
+00:42:46.168 --> 00:42:53.018
+5.7.2.0 The capacity for 01-j is not innate — it needs and can be deliberately practiced
+
+436
+00:42:53.018 --> 00:43:02.630
+5.7.2.1 Build a framework for understanding the world (hereafter "current framework"); cultivate the habit of thinking structurally about every problem
+
+437
+00:43:02.630 --> 00:43:10.218
+Abstract, analogize, and categorize each problem encountered into the current framework — into a model you have already thought through
+
+438
+00:43:10.218 --> 00:43:14.780
+5.7.2.2 Hold on tight to surprising facts
+
+439
+00:43:14.780 --> 00:43:19.218
+a，Always maintain strong curiosity and open-minded humility
+
+440
+00:43:19.218 --> 00:43:29.980
+In the early Meiji Restoration, Japanese people bought many oversized suits made for Western builds — because they worried that the secret to modern civilization might be hidden inside large-sized suits
+
+441
+00:43:29.980 --> 00:43:32.855
+b，Equanimity about yourself
+
+442
+00:43:32.855 --> 00:43:38.255
+Don't engage in wishful analysis: "I'm right — the surprising fact is just an anomaly.
+
+443
+00:43:38.255 --> 00:43:44.055
+You must figure out exactly what is going on behind any fact your current framework cannot explain.
+
+444
+00:43:44.055 --> 00:43:48.243
+Surprising facts always have reasons and logic behind them.
+
+445
+00:43:48.243 --> 00:43:56.855
+5.7.2.3 The logic behind surprising facts will continuously refine the less precise and powerful parts of the current framework
+
+446
+00:43:56.855 --> 00:44:00.755
+5.7.3 Build your own prediction book
+
+447
+00:44:00.755 --> 00:44:08.293
+5.7.3.1 Periodically review your own judgments and trace the methodological reasons behind previous errors
+
+448
+00:44:08.293 --> 00:44:12.418
+5.7.4 The author's personal experience
+
+449
+00:44:12.418 --> 00:44:20.380
+5.7.4.1 Before retirement, the author was an investor (investment decisions are of course a form of 01-j).
+
+450
+00:44:20.380 --> 00:44:23.930
+01-j is the author's passion and expertise.
+
+451
+00:44:23.930 --> 00:44:29.080
+5.7.4.2 Looking back, roughly three things are worth sharing:
+
+452
+00:44:29.080 --> 00:44:35.568
+a，Habitually structuralize everything; apply mathematical tools for rough estimates whenever possible
+
+453
+00:44:35.568 --> 00:44:40.518
+b，Stay curious; the author did far more 01-j than strictly necessary
+
+454
+00:44:40.518 --> 00:44:43.355
+c，The methodology in this work
+
+455
+00:44:43.355 --> 00:44:48.305
+5.7.4.3 Now that the methodology has been disclosed:
+
+456
+00:44:48.305 --> 00:44:53.818
+a，When you encounter a surprising fact, try running through it: Where does justice lie?
+
+457
+00:44:53.818 --> 00:44:56.630
+What is the principal contradiction?
+
+458
+00:44:56.630 --> 00:44:59.255
+Is the endgame determinable?
+
+459
+00:44:59.255 --> 00:45:02.280
+Does it involve a breakthrough in technology?
+
+460
+00:45:02.280 --> 00:45:05.643
+What is the corresponding rise-and-fall dynamic?
+
+461
+00:45:05.643 --> 00:45:08.880
+Has there been a similar storyline in history?
+
+462
+00:45:08.880 --> 00:45:17.868
+5.7.4.4 Gradually, your current framework will grow very sharp — your words will find their mark, and you will read the past to know the future
+
+463
+00:45:17.868 --> 00:45:20.018
+5hows ends here.
+
+464
+00:45:20.018 --> 00:45:24.693
+May you stay true to your heart, seize the moment, and move through life with ease
+
+465
+00:45:24.693 --> 00:45:26.568
+in your own way.
+
+466
+00:45:26.568 --> 00:45:30.705
+Advanced Edition: Appendix to Chapter 5 — The Prediction
+
+467
+00:45:30.705 --> 00:45:34.430
+5.8.0 Your God Will Not Forsake You
+
+468
+00:45:34.430 --> 00:45:45.655
+5.8.0.1 If, in the previous G2 transition, Britain had fallen and the U.S. still operated in the British style, then mathematically this implies Britain would never truly fall.
+
+469
+00:45:45.655 --> 00:45:51.343
+5.8.0.2 Ultimate victory has nothing to do with the details of the game.
+
+470
+00:45:51.343 --> 00:45:57.493
+A new leader must propose new values and answer the question: why is the new version of the world better?
+
+471
+00:45:57.493 --> 00:46:03.130
+Historically, Britain told the world that "industrialization and global trade" were good.
+
+472
+00:46:03.130 --> 00:46:14.355
+It also told most of the world that "F=ma," "the Earth is round," "kings can abide by contracts," and "the steam engine exists" — demonstrating, in its time, the possibility of a better world.
+
+473
+00:46:14.355 --> 00:46:25.093
+The moment Emperor Qianlong saw the steam engine, he knew the new world was more attractive, and locked the country down entirely — at a time when the Qing Dynasty accounted for 30% of global GDP.
+
+474
+00:46:25.093 --> 00:46:29.168
+5.8.0.3 Values always come first.
+
+475
+00:46:29.168 --> 00:46:32.280
+Only a grand vision can inspire people.
+
+476
+00:46:32.280 --> 00:46:39.580
+During the War of Resistance against Japan, people rushed to sacrifice themselves; everyone believed victory was certain.
+
+477
+00:46:39.580 --> 00:46:44.855
+If we are to lead the world, would people rush to build up Africa and Latin America?
+
+478
+00:46:44.855 --> 00:46:48.880
+Is there a set of values that would make people feel it's worth doing?
+
+479
+00:46:48.880 --> 00:46:55.480
+If so, Africans and Latin Americans would rush to support us — no geopolitical maneuvering needed at all.
+
+480
+00:46:55.480 --> 00:47:01.055
+5.8.1 "The foundation of a long-lasting stable marriage is low expectations.
+
+481
+00:47:01.055 --> 00:47:02.555
+Buffett)
+
+482
+00:47:02.716 --> 00:47:11.053
+5.8.1.1 In a partnership, if you are genuinely willing to do something in action, then in attitude it is always worth saying "thank you.
+
+483
+00:47:11.003 --> 00:47:16.116
+For the past century, where has been the first choice for our international students?
+
+484
+00:47:16.116 --> 00:47:23.953
+5.8.1.2 As of April 2025, we are already this strong — we owe humanity a proposal of our own.
+
+485
+00:47:24.124 --> 00:47:30.086
+a，From America's standpoint, the status quo of its thirty years of world leadership is as follows:
+
+486
+00:47:30.036 --> 00:47:34.736
+It provided defense guarantees to allies, and the allies didn't pay.
+
+487
+00:47:34.736 --> 00:47:43.049
+It provided a sound economic system for large Western multinational corporations, and those corporations used tax planning to pay no taxes.
+
+488
+00:47:43.049 --> 00:47:48.324
+It supplied the technology, we supplied the labor, and together we made a lot of money.
+
+489
+00:47:48.324 --> 00:47:53.624
+While making money, we learned their technology; while making money, they forgot all of theirs.
+
+490
+00:47:53.624 --> 00:48:03.874
+For a century, it funded six generations of international students worldwide with scholarships, while over 200 million of its own people have only an elementary school education.
+
+491
+00:48:03.874 --> 00:48:08.436
+b，"No matter what happens next, it'll be better than the status quo.
+
+492
+00:48:08.436 --> 00:48:12.786
+Even if we don't offer a plan, they can no longer offer one either.
+
+493
+00:48:12.786 --> 00:48:16.461
+5.8.2 This Trade War Has a Floor
+
+494
+00:48:16.461 --> 00:48:20.861
+5.8.2.1 President Trump only has four years.
+
+495
+00:48:20.861 --> 00:48:25.524
+The last year and a half must be spent laying the groundwork for the next election.
+
+496
+00:48:25.524 --> 00:48:29.399
+Let him do whatever he wants — just wait two and a half years.
+
+497
+00:48:29.399 --> 00:48:34.499
+Only if he truly seeks a third term would this challenge be comparable to the pandemic.
+
+498
+00:48:34.499 --> 00:48:42.036
+5.8.2.2 There's a Chinese idiom for his situation: "日暮途远" — the sun is setting, and the destination is still far away.
+
+499
+00:48:42.036 --> 00:48:46.286
+5.8.3 Would You Rather Live on a Planet with Musk?
+
+500
+00:48:46.286 --> 00:48:47.986
+Or Without?
+
+501
+00:48:47.986 --> 00:48:56.236
+5.8.3.1 Musk's current contribution to humanity is greater than Buffett's or Jobs's, but less than Rockefeller's or Ford's.
+
+502
+00:48:56.236 --> 00:49:06.024
+5.8.3.2 If he achieves large-scale interplanetary migration at an acceptable cost, he could surpass Ford and Edison and begin to approach the Wright Brothers.
+
+503
+00:49:06.024 --> 00:49:19.536
+5.8.3.3 If, within his lifetime, he terraforms Mars to the point where people voluntarily choose to go (extremely low probability), he could brush up against Watt and Cai Lun and become "The Greatest Engineer in All of Human History.
+
+504
+00:49:19.536 --> 00:49:23.911
+5.8.4 Is There One Thing America Does Better Than Us?
+
+505
+00:49:23.911 --> 00:49:31.286
+5.8.4.1 Apart from originally proving "existence," we are stronger than America in every respect.
+
+506
+00:49:31.286 --> 00:49:35.949
+a，For something already known to be feasible, we excel at grinding it out.
+
+507
+00:49:35.949 --> 00:49:42.949
+For something where feasibility is unknown, we are unwilling to spend resources exploring — we consider it a bottomless pit.
+
+508
+00:49:42.949 --> 00:49:51.611
+b，DeepSeek is indeed very strong, but its entrepreneurship was based on a fact (not a hypothesis): "a general-purpose language model exists.
+
+509
+00:49:51.611 --> 00:49:57.011
+c，As of April 2025, which institution's vision is "to cure cancer"?
+
+510
+00:49:57.011 --> 00:50:06.286
+5.8.4.2 Historically, China has long been the #1 economic and cultural power, and the #2 technological and military power.
+
+511
+00:50:06.286 --> 00:50:10.349
+a，In our culture, the interests of the majority come first.
+
+512
+00:50:10.349 --> 00:50:15.074
+Humanity needs a small minority of people to solve "existence problems.
+
+513
+00:50:15.074 --> 00:50:21.661
+b，The remaining problems are all iterative optimization and resource organization — that's where we have the advantage.
+
+514
+00:50:21.661 --> 00:50:28.424
+But MIT and Caltech will, for a considerable time, remain the best science and engineering universities.
+
+515
+00:50:28.424 --> 00:50:31.461
+5.8.5 The Prediction
+
+516
+00:50:31.461 --> 00:50:45.649
+5.8.5.1 China will be broadly recognized as having surpassed the U.S. by the time the post-2010 generation retires — say, around 2075 — becoming the sole industrial superpower and humanity's anchor for settling Mars.
+
+517
+00:50:45.649 --> 00:50:52.274
+5.8.5.2 The U.S. will continue to be the center of finance, technology, and the arts.
+
+518
+00:50:52.274 --> 00:51:02.074
+a，The difference from April 2025: political/military/diplomatic/monetary/cultural influence will be split roughly evenly between us.
+
+519
+00:51:02.074 --> 00:51:06.824
+Manufacturing outside of tech, defense, and healthcare will go to zero.
+
+520
+00:51:06.824 --> 00:51:10.811
+Its political system will evolve with reference to ours.
+
+521
+00:51:10.811 --> 00:51:18.286
+b，Other countries and regions will become resource states, cultural-product producers, tourist destinations, or buffer zones.
+
+522
+00:51:18.286 --> 00:51:25.774
+In these places, opinion leaders and political leaders will merge into one, and national governance will lose its seriousness.
+
+523
+00:51:25.774 --> 00:51:34.761
+5.8.5.3 The productivity gains brought by AI will render (1−e的负四次方) of humanity's carbon-based intellectual labor meaningless.
+
+524
+00:51:34.924 --> 00:51:40.199
+a，Industrial commodity prices will approach zero / Pinduoduo levels.
+
+525
+00:51:40.149 --> 00:51:52.061
+Human value will primarily come from "being a person" — companionship, conversation, romance, raising children — as well as various physical arts that enhance the animal experience, such as bodywork and cooking.
+
+526
+00:51:52.061 --> 00:51:57.049
+b，Transnational super-organizations and new social formations will emerge.
+
+527
+00:51:57.049 --> 00:52:01.099
+A mixed English-Chinese world language will be widely used.
+
+528
+00:52:01.099 --> 00:52:07.711
+Because of "being a person," humanity's artistic achievements will far exceed the sum of all prior generations.
+
+529
+00:52:07.876 --> 00:52:16.838
+5.8.5.4 AI will not fundamentally alter the competitive landscape of existing large tech companies, whether B2B or B2C.
+
+530
+00:52:16.788 --> 00:52:22.813
+a，AI's first mass-adoption application will come from the lifestyle side, not the production side.
+
+531
+00:52:22.813 --> 00:52:32.963
+b，Until the next generation of immersive entertainment hardware arrives, Apple, Microsoft, Google, ByteDance, Moutai, and Tencent will remain the best companies in the world.
+
+532
+00:52:32.963 --> 00:52:40.101
+5.8.5.5 Fundamental science will see no breakthrough progress due to a lack of demand-driven challenges.
+
+533
+00:52:40.101 --> 00:52:43.288
+a，The energy problem will be fully solved.
+
+534
+00:52:43.288 --> 00:52:47.726
+Information science will be the only field with essential progress.
+
+535
+00:52:47.726 --> 00:52:56.126
+b，Engineering capabilities, driven by Mars infrastructure and the arms race, will advance at high speed to the limits of known physical laws.
+
+536
+00:52:56.126 --> 00:53:02.251
+5.8.5.6 There will be no hot war in these fifty years, but there will be much hardship.
+
+537
+00:53:02.251 --> 00:53:06.201
+The world will fully globalize under a new equilibrium.
+
+538
+00:53:06.201 --> 00:53:11.988
+a，Most of the heavy lifting will be done by the generation of April 2025 AI natives.
+
+539
+00:53:11.988 --> 00:53:18.626
+b，For the post-70s/80s/90s generations, the main task is to raise children well.
+
+540
+00:53:18.626 --> 00:53:25.238
+Those who have many children and whose children have strong English (or strong Chinese, if in America) will win all.
+
+541
+00:53:25.238 --> 00:53:29.388
+Advanced Edition: Appendix to Chapter 5 — On Doing Good
+
+542
+00:53:29.388 --> 00:53:35.138
+The author has always stood on the side of the disadvantaged, and is passionate about spreading knowledge.
+
+543
+00:53:35.138 --> 00:53:44.976
+Between June 2024 and May 2025, the author ran two purely public-benefit communities: a math competition charity group and an investment charity group.
+
+544
+00:53:44.976 --> 00:53:51.813
+The original intent was to promote information flow, bridge gaps, teach skills, and benefit the less privileged.
+
+545
+00:53:51.813 --> 00:54:02.563
+During that time, works RynW9+2 and RynW4+1 / this book were written, aimed at organizing, promoting, and answering questions for a zero-barrier audience.
+
+546
+00:54:02.563 --> 00:54:06.801
+After a one-year experiment, some reflections are shared here.
+
+547
+00:54:06.801 --> 00:54:11.038
+5.9.0 Public benefit efficiency is real
+
+548
+00:54:11.038 --> 00:54:20.801
+5.9.1 "True public benefit" aimed entirely at a zero-barrier audience is impossible — complete zero-barrier access ignores public benefit efficiency
+
+549
+00:54:20.801 --> 00:54:28.288
+5.9.1.1 In fact, the more someone needs help, the more likely their capacity and willingness to learn is lower
+
+550
+00:54:28.288 --> 00:54:31.613
+This is often why they need help in the first place
+
+551
+00:54:31.613 --> 00:54:42.663
+5.9.1.2 Effective public benefit means raising the audience's capacity to learn and quality of character — therefore values transmission is necessary and first-principles important
+
+552
+00:54:42.663 --> 00:54:49.063
+Transmitting skills alone cannot achieve the goal; skills require implicit preconditions to take effect
+
+553
+00:54:49.063 --> 00:55:00.063
+5.9.2 Even if the initiator personally wants nothing in return, because values cannot be universally accepted, one can only do public benefit within a defined private domain
+
+554
+00:55:00.063 --> 00:55:07.913
+The only option is to make the benefited small circle as large as possible — analogous to Duan Sir having 1M followers on Xueqiu
+
+555
+00:55:07.913 --> 00:55:18.213
+5.9.2.1 Advanced skills and sharp truths cannot be broadcast indiscriminately — without values alignment, the general audience gains limited benefit from hearing them
+
+556
+00:55:18.213 --> 00:55:26.688
+5.9.2.2 The most effective public benefit is guiding a person early to be pure of heart, to love learning, to be open and curious
+
+557
+00:55:26.688 --> 00:55:35.313
+5.9.2.3 Therefore, true undifferentiated public benefit is early childhood character education and universal prosperity
+
+558
+00:55:35.313 --> 00:55:39.501
+Only the mothers of a billion-plus people can truly achieve that
+
+559
+00:55:39.501 --> 00:55:49.376
+5.9.3 Specifically for 5hows, the greatest public benefit of this book lies in the fact that most inverse theorems are also true explanatory propositions
+
+560
+00:55:49.376 --> 00:56:01.138
+5.9.3.1 The diligent editor D has tested the converse of many propositions in this work — making it not only an "operations manual" but also a "pitfall-avoidance guide," as with Chapter 0
+
+561
+00:56:01.138 --> 00:56:06.726
+That is: "follow this approach and you'll most likely succeed; ignore it and you'll most likely fail
+
+562
+00:56:06.726 --> 00:56:11.501
+5.9.3.2 Taking Chapters 1 and 2 as examples:
+
+563
+00:56:11.501 --> 00:56:18.213
+a，Inverse theorem of Chapter 2: Targets that do not take the Xᵢ form are not worth the risk — the odds aren't there
+
+564
+00:56:18.213 --> 00:56:25.938
+b，Inverse theorem of Chapter 1: Before Xᵢ appears, strengthening wealth management beyond The Portfolio is worse than not doing so
+
+565
+00:56:26.092 --> 00:56:30.729
+c，Theorem of Chapter 1: Buy The Portfolio and earn Rₘ honestly
+
+566
+00:56:30.679 --> 00:56:36.217
+d，Theorem of Chapter 2: When a real Xᵢ appears, seize it boldly and bet with conviction
+
+567
+00:56:36.217 --> 00:56:41.267
+5.9.4 Public benefit is joyful — fortune does not come lightly
+
+568
+00:56:41.267 --> 00:56:48.392
+5.9.4.1 Chapters 0/1/3 are general-purpose techniques accessible to most people.
+
+569
+00:56:48.392 --> 00:57:01.079
+Chapters 2/4/5 are advanced techniques that produce lower-probability changes (x‰到x%‰); readers need to pursue excellence, be open and humble, candid and clear, pragmatic and bold…
+
+570
+00:57:01.228 --> 00:57:07.515
+5.9.4.2 This past year, the author was rewarded with warm joy and sincere friendship.
+
+571
+00:57:07.465 --> 00:57:12.665
+May you always check your six mirrors, and may good fortune be your constant companion.
+
+572
+00:57:12.665 --> 00:57:18.753
+Advanced Edition: Appendix to Chapter 5 — Afterword: Why I Wrote 5hows (A Letter to Ku)
+
+573
+00:57:18.753 --> 00:57:22.365
+Ku is an IMO gold medalist from a certain year.
+
+574
+00:57:22.365 --> 00:57:28.528
+The author is the founder of the largest math competition charity WeChat group on the Shuzhimi platform.
+
+575
+00:57:28.528 --> 00:57:31.803
+5.10 "I'm about to withdraw.
+
+576
+00:57:31.803 --> 00:57:36.678
+Before I go, one word of advice: you should write something down and leave it behind.
+
+577
+00:57:36.678 --> 00:57:44.978
+5.10.1 Your math competition skillset is, for you personally, most likely rare, something to be deeply proud of and treasured
+
+578
+00:57:44.978 --> 00:57:52.353
+5.10.1.1 In Breaking Bad there's a line: "Being the best in the world at something is a very, very rare thing.
+
+579
+00:57:52.353 --> 00:57:57.603
+5.10.1.2 Who is world-class at two things simultaneously?
+
+580
+00:57:57.603 --> 00:57:59.803
+Einstein's violin?
+
+581
+00:57:59.803 --> 00:58:02.590
+Eileen Gu's quantum mechanics?
+
+582
+00:58:02.590 --> 00:58:08.353
+5.10.2 Given that you have this ability, is it better to share it or not?
+
+583
+00:58:08.353 --> 00:58:11.065
+My recommendation is to share.
+
+584
+00:58:11.065 --> 00:58:16.178
+5.10.2.1 A person only has 4GB of memory.
+
+585
+00:58:16.178 --> 00:58:21.665
+You're better than average — call it 16GB — but written out, it isn't that long.
+
+586
+00:58:21.665 --> 00:58:28.628
+Gradually, your memory will fill up with things that aren't world-class but must be remembered — like next semester's timetable.
+
+587
+00:58:28.628 --> 00:58:34.653
+a，Therefore, sharing what you're good at and locking it down — for the world and for yourself — is deeply meaningful
+
+588
+00:58:34.653 --> 00:58:37.528
+b，The opportunity cost is zero.
+
+589
+00:58:37.528 --> 00:58:42.740
+Time is linear, but memory is hyperbolic — the precious kind is doubly so.
+
+590
+00:58:42.740 --> 00:58:48.678
+Also: your destination / future is you, and your past / experiences are also you.
+
+591
+00:58:48.678 --> 00:58:54.778
+That part of yourself is equally important — not only the future-goal-achieving self that matters most.
+
+592
+00:58:54.778 --> 00:59:04.378
+c，Beyond your "near-term goals," there is always something — unrelated to those goals, but best done now rather than later — like traveling the world, or staying up all night playing cards
+
+593
+00:59:04.378 --> 00:59:09.065
+5.10.3 Small-scale sharing, or large-scale sharing?
+
+594
+00:59:09.065 --> 00:59:11.928
+My personal preference is the latter.
+
+595
+00:59:11.928 --> 00:59:18.278
+5.10.3.1 Mr. J said his strongest math competition skill is Algorithms.
+
+596
+00:59:18.278 --> 00:59:20.428
+He shared it at scale.
+
+597
+00:59:20.428 --> 00:59:27.965
+Now everyone knows "The Supreme Method" — it rescues your mindset collapse during exams and snaps you out of being stuck on a weird problem.
+
+598
+00:59:27.965 --> 00:59:32.178
+Faithful transmission, great benefit to those who come after.
+
+599
+00:59:32.178 --> 00:59:37.453
+5.10.3.2 You don't know the large-scale readers who find your work.
+
+600
+00:59:37.453 --> 00:59:49.328
+In terms of meaning, influence, and durability — is it better to have "100 former national team members think you're the best," or "5,000 devoted fans and maybe hundreds of thousands of later generations think so"?
+
+601
+00:59:49.328 --> 00:59:51.590
+Actually, the latter.
+
+602
+00:59:51.590 --> 00:59:58.215
+a，First, there's a world of difference in rarity between having great medical skill and advancing medical science.
+
+603
+00:59:58.215 --> 01:00:03.865
+Every dynasty had great doctors — but how many truly important medical texts have there been?
+
+604
+01:00:03.865 --> 01:00:07.578
+In Chinese medicine, the answer is fewer than ten.
+
+605
+01:00:07.578 --> 01:00:15.840
+b，Second, most people will be completely forgotten within 150 years — three generations, once everyone who remembers you is gone.
+
+606
+01:00:15.840 --> 01:00:24.678
+A technique that people use every day, woven into the basic fabric of a community — that is the only way to defeat time and achieve immortality.*
+
+607
+01:00:24.678 --> 01:00:32.278
+5.10.4 In making money and building things, the author is only at the provincial / junior olympiad level.
+
+608
+01:00:32.278 --> 01:00:43.890
+But books that address "how ordinary people go from their first pot of gold to permanent financial freedom" and "how extraordinary people serve original dishes to the world" — at a geometric level — are almost nonexistent.
+
+609
+01:00:43.890 --> 01:00:48.503
+Writing this for first-year math competition students is what I should be doing.
+
+610
+01:00:48.503 --> 01:00:52.928
+5.10.5 There is one gold standard for this.
+
+611
+01:00:52.928 --> 01:00:57.953
+When I was a freshman, would I have wanted to live in a world where 5hows existed?
+
+612
+01:00:57.953 --> 01:01:01.590
+Twenty years back from the start, my answer is yes.
+
+613
+01:01:01.590 --> 01:01:05.503
+Now that it's written, I've kept faith with my younger self.
+
+614
+01:01:05.503 --> 01:01:07.128
+That's all.
+
+615
+01:01:07.128 --> 01:01:09.990
+RynW1988
+

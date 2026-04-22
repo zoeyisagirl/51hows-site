@@ -1,0 +1,1718 @@
+WEBVTT
+
+1
+00:00:00.100 --> 00:00:02.212
+How to Make Things Happen
+
+2
+00:00:02.162 --> 00:00:07.162
+Why, sometimes I've believed as many as six impossible things before breakfast
+
+3
+00:00:07.162 --> 00:00:09.325
+Alice in Wonderland
+
+4
+00:00:09.325 --> 00:00:12.837
+by Shuzhimi@RynW1988
+
+5
+00:00:12.837 --> 00:00:15.437
+Color coding guide for this work
+
+6
+00:00:15.437 --> 00:00:19.812
+Acknowledgments to editor C / art editor Shuzhimi@Chaney
+
+7
+00:00:19.812 --> 00:00:22.887
+a，Body text / statements in black
+
+8
+00:00:22.887 --> 00:00:25.850
+b，Axioms / theorems in red
+
+9
+00:00:25.850 --> 00:00:29.712
+c，Explanations / supplements in blue italics
+
+10
+00:00:29.712 --> 00:00:32.937
+d，Corollaries / conclusions in orange
+
+11
+00:00:32.937 --> 00:00:40.387
+e，Facts / data / news in green (due to the locality of information and the author's level, not all sources are provided)
+
+12
+00:00:40.387 --> 00:00:50.537
+f，Conjectures / assertions, and emotions / commentary / rumors / anecdotes / metaphors / analogies and other colloquial and literary expressions in purple
+
+13
+00:00:50.537 --> 00:00:54.150
+g，Theoretical innovations in gray with highlight
+
+14
+00:00:54.150 --> 00:00:57.825
+4.0 Citation Statement for This Chapter
+
+15
+00:00:57.825 --> 00:01:05.087
+4.0.0 This chapter uses ByteDance's (hereinafter "Byte") early history as a running example throughout
+
+16
+00:01:05.087 --> 00:01:18.775
+The lack of more diversified examples is partly due to the author's limitations; partly, technology-driven, truly globalized companies (Douyin and TikTok combined DAU exceeding 2 billion) founded by Chinese contemporaries are extremely rare
+
+17
+00:01:18.775 --> 00:01:25.075
+4.0.1 Accuracy not guaranteed — the author has never worked at Byte; this is hearsay
+
+18
+00:01:25.075 --> 00:01:31.262
+4.0.2 Thanks to Shuzhimi@xibo for the encouragement: "Hearsay — can I write about it?
+
+19
+00:01:31.262 --> 00:01:39.400
+4.0.2.1 He himself wrote the most important work in the field of math competition methodology, "My Competition Reflections
+
+20
+00:01:39.400 --> 00:01:46.575
+4.0.2.2 I asked him: "If you weren't a national team member / IMO gold medalist, would you still write?
+
+21
+00:01:46.575 --> 00:01:48.162
+He said:
+
+22
+00:01:48.162 --> 00:01:51.212
+a，That's a non-essential consideration.
+
+23
+00:01:51.212 --> 00:01:55.862
+If you only consider reader impact, of course you should write regardless.
+
+24
+00:01:55.862 --> 00:02:01.050
+The actual situation is about the convergence value of infinite-order influence
+
+25
+00:02:01.050 --> 00:02:05.387
+b，Where exactly it converges, everyone has their own judgment.
+
+26
+00:02:05.387 --> 00:02:08.937
+People with similar ideas might gather and share.
+
+27
+00:02:08.937 --> 00:02:11.825
+I also want people to know I wrote it
+
+28
+00:02:11.825 --> 00:02:18.525
+4.0.2 This chapter contains extensive citations from YM's public and unpublished statements
+
+29
+00:02:18.525 --> 00:02:20.975
+These will be marked in teal
+
+30
+00:02:20.975 --> 00:02:24.012
+4.1 What Is Making Things Happen
+
+31
+00:02:24.012 --> 00:02:33.900
+4.1.0 Making things happen means the elite amplify their original contributions by organizing resources, ultimately changing the world — this is the task line
+
+32
+00:02:33.900 --> 00:02:40.875
+4.1.0.1 The highest-efficiency method for accomplishing this task is called the Making Things Happen Method
+
+33
+00:02:40.875 --> 00:02:43.600
+To 'make' is to act innovatively
+
+34
+00:02:43.600 --> 00:02:52.187
+4.1.0.2 The main body of this chapter discusses how to profoundly change the world, hereinafter the Mahayana Making Things Happen Method
+
+35
+00:02:52.187 --> 00:03:01.987
+4.1.0.3 The final section of this chapter discusses how to make incremental innovations that change the world, hereinafter the Hinayana Making Things Happen Method
+
+36
+00:03:01.987 --> 00:03:09.062
+a，It should be noted that the two are fundamentally different and cannot be transformed by scaling the concept of "world" up or down
+
+37
+00:03:09.062 --> 00:03:17.650
+b，The former's starting point is essentially solving problems; the latter's starting point is satisfying current market demand and capturing era dividends
+
+38
+00:03:17.650 --> 00:03:25.425
+4.1.1 This chapter only discusses the Making Things Happen Method of the elite (whom others don't yet recognize as elite)
+
+39
+00:03:25.425 --> 00:03:33.787
+4.1.1.1 Going from 0 to ε is many times harder than going from ε to 1, especially for the Mahayana Method
+
+40
+00:03:33.787 --> 00:03:43.462
+Intuitively, the Mahayana Method targets the ultimate goal directly, while the Hinayana Method aims to be recognized by the world as quickly as possible upon reaching "1
+
+41
+00:03:43.462 --> 00:03:52.175
+4.1.1.2 "How successful people achieve greater success" is a widely circulated field of study; restating it here adds little value
+
+42
+00:03:52.175 --> 00:04:01.525
+The elite's capabilities grow exponentially; this chapter only discusses the Making Things Happen Method for the first four years (hereinafter "the undergraduate years")
+
+43
+00:04:01.525 --> 00:04:08.050
+*4.1.2 This chapter assumes the reader has read the foundational work Zero to One and
+
+44
+00:04:08.050 --> 00:04:13.937
+4.1.2.1 A sufficient number of biographies, history books, textbooks
+
+45
+00:04:13.937 --> 00:04:21.237
+Steve Jobs, Jack: Straight from the Gut, The Facebook Effect, Negotiation, A World History, Campbell Biology…
+
+46
+00:04:21.237 --> 00:04:26.787
+4.1.2.2 A sufficient number of psychology and productivity readings
+
+47
+00:04:26.956 --> 00:04:34.793
+The Introvert Advantage, A Compass to Fulfillment, The 7 Habits of Highly Effective People, Attention Curve, The Road Less Traveled…
+
+48
+00:04:34.743 --> 00:04:40.918
+4.1.3 This chapter only discusses the Making Things Happen Method for the No. 1 position
+
+49
+00:04:40.918 --> 00:04:46.356
+4.1.3.0 The elite are by no means limited to the No. 1 position
+
+50
+00:04:46.516 --> 00:04:51.128
+a，The No. 2 to an elite No. 1 must also be elite (see below)
+
+51
+00:04:51.078 --> 00:04:54.553
+The Chairman and the Premier — both are top-tier elite
+
+52
+00:04:54.553 --> 00:04:58.716
+b，This limitation exists because the No. 2 / No.
+
+53
+00:04:58.716 --> 00:05:04.428
+N positions require composite abilities that are not a single research object academically
+
+54
+00:05:04.428 --> 00:05:09.166
+A large part of the No. 2's job nature is to work well with the No. 1
+
+55
+00:05:09.166 --> 00:05:14.303
+4.1.3.1 The intrinsic requirements of the No. 1 position
+
+56
+00:05:14.303 --> 00:05:17.516
+a，The primary contributor to The Idea
+
+57
+00:05:17.516 --> 00:05:25.691
+The Idea refers to the most important original idea that makes an organization's existence meaningful — the one that brings it from nothing to something
+
+58
+00:05:25.691 --> 00:05:32.391
+The Idea must contain a natural science / social science fact that has not yet been widely understood or applied
+
+59
+00:05:32.391 --> 00:05:35.616
+*Called a "secret" in Zero to One
+
+60
+00:05:35.616 --> 00:05:41.678
+Ideally, the No. 1 is the originator of The Idea, making their authority uncontested
+
+61
+00:05:41.678 --> 00:05:50.266
+If not, the No. 1 generally needs to be the first person in the organization to recognize its enormous value — colloquially, "the standard-bearer
+
+62
+00:05:50.266 --> 00:05:52.578
+The elite have The Passion.
+
+63
+00:05:52.578 --> 00:05:57.866
+The Idea generally intersects with it, though they may not be 100% aligned
+
+64
+00:05:57.866 --> 00:06:02.041
+The Passion must have a non-empty intersection with the world's needs
+
+65
+00:06:02.041 --> 00:06:08.028
+But they can't be completely unrelated either — complete irrelevance means you're studying the wrong field
+
+66
+00:06:08.028 --> 00:06:10.553
+b，The soul of the Storyline
+
+67
+00:06:10.553 --> 00:06:14.041
+There is no greater source of power than a good story
+
+68
+00:06:14.041 --> 00:06:19.566
+A story is a self-interpreting logic package; a story cannot be suppressed or deleted
+
+69
+00:06:19.566 --> 00:06:26.953
+Listeners will analyze, verify, extrapolate, and spread it on their own; a story self-reinforces as it circulates
+
+70
+00:06:26.953 --> 00:06:32.441
+Viewing an organization as a narrative, the No. 1 must be the soul of that storyline
+
+71
+00:06:32.441 --> 00:06:35.716
+c，The mutual friend of most elite people
+
+72
+00:06:35.716 --> 00:06:42.978
+From a human perspective, a company is a group of elite people who decide to do extraordinary things together (with helpers)
+
+73
+00:06:42.978 --> 00:06:49.766
+Clearly, whoever is the mutual friend of most elite people will have the best communication efficiency as No. 1
+
+74
+00:06:49.766 --> 00:06:54.191
+4.1.4 The First Principle of the No. 1 Position
+
+75
+00:06:54.191 --> 00:07:03.341
+4.1.4.1 The first principle of the No. 1 position is the willingness to put one's name to a goal/vision, hereinafter "The Heart of Signature
+
+76
+00:07:03.341 --> 00:07:11.291
+Making contributions doesn't require being No. 1 — in almost every field there are unsung heroes who have made indelible contributions
+
+77
+00:07:11.291 --> 00:07:17.978
+4.1.4.2 Never underestimate the Heart of Signature (the primary essence of "entrepreneurship")
+
+78
+00:07:17.978 --> 00:07:22.616
+a，"Don't ever underestimate the heart of a champion" (Rudy Tomjanovich)
+
+79
+00:07:22.616 --> 00:07:26.716
+b，Intuitively, "isn't it good to be able to sign your name?
+
+80
+00:07:26.716 --> 00:07:32.028
+In practice, many elite hesitate and retreat because they lack the "Heart of Signature
+
+81
+00:07:32.028 --> 00:07:37.553
+c，Willingness to take on challenging things, to guide and backstop everyone — that's not easy
+
+82
+00:07:37.553 --> 00:07:42.091
+4.1.4.3 Two examples of the Heart of Signature
+
+83
+00:07:42.091 --> 00:07:43.753
+a，Pony
+
+84
+00:07:43.753 --> 00:07:47.503
+The main developer of QQ was not Pony himself.
+
+85
+00:07:47.503 --> 00:07:54.003
+While the team was developing, Pony was finding markets for QQ and selling pagers to keep the company alive
+
+86
+00:07:54.003 --> 00:07:59.316
+In fact, the QQ notification sound to this day comes from a Motorola pager
+
+87
+00:07:59.316 --> 00:08:02.416
+b，The founder of a bike-sharing platform
+
+88
+00:08:02.416 --> 00:08:07.328
+She was originally an automotive journalist who met M. during an interview.
+
+89
+00:08:07.328 --> 00:08:11.691
+In one conversation, M. expressed the desire to do this thing
+
+90
+00:08:11.691 --> 00:08:19.066
+This journalist had absolutely nothing to do with bicycles before, but no one among M.'s acquaintances was willing to do it
+
+91
+00:08:19.066 --> 00:08:25.228
+She was willing to step up as one of the founding team members and held her ground through round after round of changes
+
+92
+00:08:25.228 --> 00:08:33.828
+Her willingness to do it back then was worth $200M (by the finale she walked away with about $400M)" (another M)
+
+93
+00:08:33.828 --> 00:08:36.141
+4.2 The Elite
+
+94
+00:08:36.292 --> 00:08:41.879
+4.2.1 Core qualities needed for making things happen (in order of importance)
+
+95
+00:08:41.829 --> 00:08:46.142
+4.2.1.1 Following the macro trend is first
+
+96
+00:08:46.142 --> 00:08:53.017
+a，Heroes can create the times, but for a specific moment, place, and person, the probability is close to zero
+
+97
+00:08:53.017 --> 00:08:56.579
+4.2.1.2 Judgment is second
+
+98
+00:08:56.579 --> 00:09:03.179
+a，Judgment is a lifelong cultivation; it is de facto the Top 1 Driver (the previous item is trivial)
+
+99
+00:09:03.179 --> 00:09:09.467
+The fox knows many things, but the hedgehog knows one big thing"; "I often dream about making decisions
+
+100
+00:09:09.467 --> 00:09:13.417
+4.2.1.3 Adversity quotient is third
+
+101
+00:09:13.417 --> 00:09:19.229
+a，We live in a world where someone who works 1+e的负一次方 and is lucky e的负一次方 takes home 500%.
+
+102
+00:09:19.229 --> 00:09:23.404
+A winner's mindset has a statistically significant win rate
+
+103
+00:09:23.404 --> 00:09:30.417
+b，A winner's self-suggestion encourages them to always persist an extra e的负一次方, thereby surpassing their current level
+
+104
+00:09:30.417 --> 00:09:34.829
+4.2.1.4 Organizational ability is fourth
+
+105
+00:09:34.829 --> 00:09:40.579
+a，Big things require collaboration with many elite people; a grand vision will unite hearts
+
+106
+00:09:40.579 --> 00:09:49.404
+b，Two main task lines: first, screening for elite people with a similar mindset to yours; second, spending more time with them to further align thinking
+
+107
+00:09:49.404 --> 00:09:52.829
+4.2.1.5 Courage is fifth
+
+108
+00:09:52.829 --> 00:10:02.679
+a，Bearing responsibility requires courage, facing reality requires courage, resisting temptation requires courage, and thinking boldly also requires courage
+
+109
+00:10:02.679 --> 00:10:07.604
+Courage is not bold ignorance — it's firmly doing what you truly believe is right
+
+110
+00:10:07.604 --> 00:10:13.967
+It's dangerous going forward or backward, but being paralyzed with fear is the most dangerous" (Free Solo)
+
+111
+00:10:13.967 --> 00:10:17.642
+4.2.1.6 Diligence is sixth
+
+112
+00:10:17.642 --> 00:10:23.954
+a，First, leading by example; second, success lies in details; third, maintaining form
+
+113
+00:10:23.954 --> 00:10:31.304
+Rarely do successful people not work extremely long hours: the GE CEO worked 100-hour weeks for at least a decade.
+
+114
+00:10:31.304 --> 00:10:36.342
+Buffett often went to pick up the Wall Street Journal at 4 AM to get it earliest
+
+115
+00:10:36.342 --> 00:10:45.229
+b，"Diligence is not a form but a state of mind: enjoying the process of pushing limits, maintaining passion and curiosity, persevering relentlessly
+
+116
+00:10:45.229 --> 00:10:49.929
+4.2.1.7 Intelligence and rationality are seventh
+
+117
+00:10:49.929 --> 00:10:58.167
+a，The core of intelligence and rationality is learning ability, including agility in self-cognitive progress and empathy in dealing with people
+
+118
+00:10:58.167 --> 00:11:04.079
+Being smart and patient is somewhat contradictory, but those who possess both are truly outstanding
+
+119
+00:11:04.079 --> 00:11:10.279
+I've always viewed IQ and genius as a car's horsepower, while the final output depends on rationality.
+
+120
+00:11:10.279 --> 00:11:16.679
+Many people drive 400-horsepower cars but only produce 100 horsepower of power" (Buffett)
+
+121
+00:11:16.679 --> 00:11:20.054
+4.2.2 How to become more elite
+
+122
+00:11:20.054 --> 00:11:29.829
+4.2.2.1 Pursue the ultimate, be pragmatic and bold, be open and humble, be candid and clear, always stay Day 1, be diverse and inclusive
+
+123
+00:11:29.829 --> 00:11:36.642
+a，Hereinafter "The Six Mirrors," quoted from the 2021 version of "ByteStyles," see appendix "ByteStyles
+
+124
+00:11:36.642 --> 00:11:43.179
+4.2.2.2 The elite can use these six mirrors to correct themselves and become increasingly elite
+
+125
+00:11:43.179 --> 00:11:50.229
+4.2.2.3 The elite can use these six mirrors to evaluate others and identify the (non-)elite
+
+126
+00:11:50.229 --> 00:11:55.742
+Popular culture has other characterizations of the elite, such as "if not me, then who?
+
+127
+00:11:55.742 --> 00:12:00.754
+This shares a similar spirit with "be pragmatic and bold" among the Six Mirrors
+
+128
+00:12:00.754 --> 00:12:06.367
+For narrative conciseness and as a tribute, this chapter fully quotes the "ByteStyles" version
+
+129
+00:12:06.367 --> 00:12:10.529
+4.2.3 One must have original contributions
+
+130
+00:12:10.529 --> 00:12:23.654
+4.2.3.1 The elite must serve original dishes to the world — whether in original productive forces, original production relations, original non-production/life relations, original thought, or original culture
+
+131
+00:12:23.654 --> 00:12:32.242
+Being a scientist who discovers is acceptable; being an engineer who invents is acceptable; being an organizer who restructures is acceptable.
+
+132
+00:12:32.242 --> 00:12:45.054
+Entrepreneurship / stewardship is acceptable; philanthropy / public welfare is acceptable; creating art is acceptable; innovating in thought is acceptable; advancing institutions is also acceptable" (Chapter 0)
+
+133
+00:12:45.054 --> 00:12:53.642
+4.2.3.2 This chapter only discusses making original contributions to productive forces, i.e., technology entrepreneurship
+
+134
+00:12:53.642 --> 00:13:01.167
+a，If you want to restructure production relations, advance thought, or build influence organizations — the principles are the same
+
+135
+00:13:01.324 --> 00:13:09.899
+4.2.3.3 In 2504, for outstanding tech startups, The Idea generally comes from a paper (hereinafter "The Paper")
+
+136
+00:13:10.012 --> 00:13:16.337
+a，The ability to organize and restructure social resources is trivial from a societal perspective.
+
+137
+00:13:16.287 --> 00:13:22.774
+If The Idea comes from a social science concept rather than The Paper, the track is most likely highly crowded
+
+138
+00:13:22.774 --> 00:13:33.037
+b，More importantly, during the undergraduate years, if something can be accomplished through social resource restructuring alone, from Mars's perspective, it probably shouldn't be you doing it
+
+139
+00:13:33.037 --> 00:13:40.349
+In 2504, residential property management companies need 24h monitoring and security guards anyway.
+
+140
+00:13:40.349 --> 00:13:48.549
+So leveraging their common areas (mostly basements) for personal storage and safe deposit box services could be a commercial opportunity
+
+141
+00:13:48.549 --> 00:13:53.874
+But this opportunity belongs to existing large branded property management companies.
+
+142
+00:13:53.874 --> 00:13:59.787
+In fact, Vanke Service alone manages approximately 780 million square meters
+
+143
+00:13:59.787 --> 00:14:06.874
+c，The only exception to the above is when The Idea is an M's willingness — they will provide resources for you to make it happen
+
+144
+00:14:06.874 --> 00:14:13.962
+In this case, you are not purely the No. 1; this requires composite abilities, which this chapter does not cover
+
+145
+00:14:13.962 --> 00:14:21.424
+Below we discuss the Making Things Happen Manual (practical steps will be highlighted, same hereafter), starting from The Paper
+
+146
+00:14:21.424 --> 00:14:24.812
+4.3 Reading / Writing The Paper
+
+147
+00:14:24.812 --> 00:14:29.799
+4.3.0 Have a frontier domain for deep research / insight
+
+148
+00:14:29.799 --> 00:14:34.124
+4.3.0.1 Deep research / insight means
+
+149
+00:14:34.124 --> 00:14:43.312
+a，Statically, you have put in the work in this field and have your own understanding of frontier knowledge that has not yet formed market consensus, or even been published
+
+150
+00:14:43.312 --> 00:14:51.174
+b，Dynamically, this understanding needs to be structural / dynamic; you should have some ability to predict the future in this field
+
+151
+00:14:51.174 --> 00:14:53.974
+What are the big problems in this field?
+
+152
+00:14:53.974 --> 00:14:56.874
+Are there any fundamental breakthroughs?
+
+153
+00:14:56.874 --> 00:14:59.237
+Where is it currently stuck?
+
+154
+00:14:59.237 --> 00:15:02.137
+What are the fundamental obstacles?
+
+155
+00:15:02.137 --> 00:15:05.762
+Consequently, what is the most promising route?
+
+156
+00:15:05.762 --> 00:15:09.362
+In the long run, what is definitely achievable?
+
+157
+00:15:09.362 --> 00:15:12.012
+What is impossible to achieve?
+
+158
+00:15:12.012 --> 00:15:18.224
+4.3.0.2 You don't need to be a scientist / researcher, but you must read papers
+
+159
+00:15:18.224 --> 00:15:22.274
+To search is to research; to have taste is to have mastery
+
+160
+00:15:22.274 --> 00:15:30.799
+4.3.0.3 Enter this field's community, communicate and learn frequently, and selflessly contribute to the community yourself
+
+161
+00:15:30.799 --> 00:15:36.362
+Great winds arise from the tips of grass; great enterprises originate from interest groups
+
+162
+00:15:36.362 --> 00:15:41.824
+4.3.1 The Paper provides scientific "existence proof" for The Idea
+
+163
+00:15:41.824 --> 00:15:48.899
+4.3.1.1 The Idea is often proposed before The Paper; it needs a scientifically sound foundation
+
+164
+00:15:48.899 --> 00:15:59.674
+4.3.1.2 The Idea frequently comes from linear extrapolation "imagination" based on existing theories / technologies and user feedback, having some precursory nature
+
+165
+00:15:59.674 --> 00:16:07.037
+Version-defying business ideas often come from user complaints; era-defining trading insights often come from client calls
+
+166
+00:16:07.037 --> 00:16:11.599
+4.3.1.3 Existence is generally a big problem
+
+167
+00:16:11.599 --> 00:16:16.537
+The most important knowledge about the atomic bomb is that it can be built" (Yang Zhenning)
+
+168
+00:16:16.537 --> 00:16:22.749
+I've seen many people who broke the law, but I've never seen anyone who could break the laws of physics" (Musk)
+
+169
+00:16:22.749 --> 00:16:28.674
+4.3.2 The Paper generally only resolves "existence," not the specific path
+
+170
+00:16:28.674 --> 00:16:36.312
+4.3.2.1 If existence is not resolved, the expected time to solve the problem is strictly positive infinity
+
+171
+00:16:36.312 --> 00:16:42.349
+4.3.2.2 Once existence is solid, you're within range of brute-force miracles
+
+172
+00:16:42.349 --> 00:16:48.524
+4.3.2.3 The Paper generally does not provide specific solution steps for the problem
+
+173
+00:16:48.524 --> 00:16:54.762
+a，If it does, the problem isn't hard enough, and The Idea isn't sufficient to sustain a great company
+
+174
+00:16:54.762 --> 00:17:02.974
+b，If it does, even if you're among the earlier readers of The Paper — given the undergraduate stage, this probably isn't something you should be doing
+
+175
+00:17:02.974 --> 00:17:06.599
+4.3.3 Two examples of The Paper
+
+176
+00:17:06.599 --> 00:17:13.174
+4.3.4.1 The Idea of the ND era came from a Bell Labs battery manufacturing patent
+
+177
+00:17:13.174 --> 00:17:18.437
+The patent couldn't be used directly — the batteries bulged and couldn't be mass-produced.
+
+178
+00:17:18.437 --> 00:17:23.362
+If it could be used directly, Sony/Panasonic would have bought it long ago
+
+179
+00:17:23.362 --> 00:17:29.312
+After Dr. Z acquired the patent, he led the team to forcefully solve the mass production problem
+
+180
+00:17:29.312 --> 00:17:36.912
+4.3.3.2 Byte's The Idea came from a then-unpublished book, Practice of Recommender Systems**
+
+181
+00:17:37.060 --> 00:17:46.272
+YM contacted the author for a digital copy; the author declined since it wasn't published yet, seriously delaying Byte's recommendation capability progress
+
+182
+00:17:46.222 --> 00:17:53.197
+YM relied on imagination and wrote the first version of the recommendation engine himself, then recruited the author
+
+183
+00:17:53.197 --> 00:17:56.122
+4.4 Think Through The Idea
+
+184
+00:17:56.122 --> 00:18:03.147
+4.4.1 The Paper makes The Idea "something that is theoretically possible but has not yet happened in practice
+
+185
+00:18:03.316 --> 00:18:08.191
+4.4.1.1 Always strive to solve problems fundamentally
+
+186
+00:18:08.141 --> 00:18:16.241
+Can we do something that surpasses current industry standards, surpasses current product definitions — something more innovative and more valuable?
+
+187
+00:18:16.241 --> 00:18:20.528
+4.4.1.2 Do the right thing, not the easy thing
+
+188
+00:18:20.528 --> 00:18:26.716
+Why, sometimes I've believed as many as six impossible things before breakfast" (Alice in Wonderland)
+
+189
+00:18:26.716 --> 00:18:30.741
+4.4.2 The Idea must pass the Mars Test
+
+190
+00:18:30.741 --> 00:18:35.566
+4.4.2.1 From Mars looking at Earth: should this be done?
+
+191
+00:18:35.566 --> 00:18:38.028
+Should you be the one doing it?
+
+192
+00:18:38.028 --> 00:18:41.966
+In the long run, what will this thing ultimately look like?
+
+193
+00:18:41.966 --> 00:18:46.303
+Would you rather live in a world where this thing happens, or the opposite?
+
+194
+00:18:46.303 --> 00:18:52.203
+4.4.2.2 Even for large companies, most cannot pass the above Mars Test
+
+195
+00:18:52.203 --> 00:18:59.178
+That is, their existence is due to some historical advantage, not because the world losing them would be efficiency-losing
+
+196
+00:18:59.178 --> 00:19:06.116
+4.4.2.3 Suffice it to say, efficiency-losing things cannot stably exist in the ultra-long run
+
+197
+00:19:06.116 --> 00:19:11.016
+4.4.3 Don't start by stitching together initial resources
+
+198
+00:19:11.016 --> 00:19:18.803
+4.4.3.1 Initial resource combinations are random and have no reason to be the logical starting point of a long-term plan
+
+199
+00:19:18.803 --> 00:19:28.778
+4.4.3.2 The Idea's validation requires you / your team to have original endogenous growth capability; exogenous resources may distort this judgment
+
+200
+00:19:28.778 --> 00:19:36.741
+a，"Cognition 到 Judgment 到 Resource allocation 到 Execution 到 Result validation 到 Cognitive improvement" is hereinafter called the "Practice Flywheel
+
+201
+00:19:36.741 --> 00:19:43.991
+b，The Practice Flywheel grows endogenously; exogenous resources can break this flywheel, causing strategic distortion
+
+202
+00:19:43.991 --> 00:19:47.491
+c，Exogenous resources aren't even free.
+
+203
+00:19:47.491 --> 00:19:56.528
+Being pulled by them forces you to commit matching resources, and during the undergraduate years, precious resources should be used to validate the Practice Flywheel
+
+204
+00:19:56.528 --> 00:20:01.991
+4.4.3.3 Not taking shortcuts is the gold standard for business models
+
+205
+00:20:01.991 --> 00:20:06.616
+a，Shortcut environments and practices cultivate fake capabilities
+
+206
+00:20:06.616 --> 00:20:10.166
+4.4.4 An example of The Idea
+
+207
+00:20:10.166 --> 00:20:14.528
+4.4.4.1 Deep information reuse agents
+
+208
+00:20:14.528 --> 00:20:19.316
+a，AI has caused easily searchable information to depreciate sharply.
+
+209
+00:20:19.316 --> 00:20:28.003
+Meanwhile, the total value of information is exogenously determined by demand — correspondingly, deep information will appreciate dramatically.
+
+210
+00:20:28.003 --> 00:20:31.678
+The way to obtain the latter is through in-depth interviews.
+
+211
+00:20:31.678 --> 00:20:42.978
+In 2504, after a project is completed, deep information becomes localized because its value is sealed within the overall report (finding / reading the entire report is too costly)
+
+212
+00:20:42.978 --> 00:20:45.753
+b，This information is reusable.
+
+213
+00:20:45.753 --> 00:20:55.878
+One possible approach: use AI to aggregate deep information from many completed independent projects into an agent, and open it to pro users for paid chat interactions
+
+214
+00:20:55.878 --> 00:21:00.653
+4.5 Spend e的负一次方 of Your Time Recruiting and Cultivating Dream Colleagues
+
+215
+00:21:00.653 --> 00:21:04.366
+4.5.1 Find the second elite person
+
+216
+00:21:04.366 --> 00:21:11.028
+4.5.1.1 "Thiel's Law": A startup messed up at its foundation cannot be fixed (Zero to One)
+
+217
+00:21:11.028 --> 00:21:15.603
+Breaking up with the wrong co-founder is roughly equivalent to a divorce
+
+218
+00:21:15.603 --> 00:21:24.978
+4.5.1.2 The second most important person in the company must also be elite, preferably someone you know well who complements you on 4.2.1
+
+219
+00:21:24.978 --> 00:21:36.728
+a，Otherwise this company is your one-man show — only you are making original contributions, in which case you'd be better off self-actualizing at a company with certainty, which is definitely stronger than starting your own
+
+220
+00:21:36.728 --> 00:21:45.366
+4.5.1.3 The second person joins not for the making-things-happen / economic reasons, but because of their emotional connection with you.
+
+221
+00:21:45.366 --> 00:21:49.466
+This is actually the elite version of W_ir到W₀.
+
+222
+00:21:49.466 --> 00:21:56.066
+There is no universal technique for this step; many founders get stuck at not finding the second elite person
+
+223
+00:21:56.066 --> 00:22:03.116
+4.5.1.4 A direct corollary is: don't graduate from college too easily; see Chapter 0
+
+224
+00:22:03.116 --> 00:22:06.178
+4.5.2 Dream Colleagues
+
+225
+00:22:06.178 --> 00:22:14.253
+4.5.2.1 Dream colleagues are those who replicate your mindset as much as possible, with high achievement motivation and low ego
+
+226
+00:22:14.253 --> 00:22:19.516
+4.5.2.2 What are dream colleagues like (before joining the company)?
+
+227
+00:22:19.516 --> 00:22:25.016
+a，Curious, able to proactively learn new things, new knowledge, and new technologies
+
+228
+00:22:25.016 --> 00:22:29.916
+b，Optimistic about uncertainty, never setting boundaries on what they do
+
+229
+00:22:30.076 --> 00:22:33.001
+c，Not content with mediocrity.
+
+230
+00:22:32.951 --> 00:22:36.788
+Dedicated to bringing fundamental progress to the world
+
+231
+00:22:36.788 --> 00:22:40.663
+d，Not arrogant, capable of delayed gratification.
+
+232
+00:22:40.663 --> 00:22:46.613
+Most people's degree of delayed gratification is so low they never get the chance to compete on talent
+
+233
+00:22:46.613 --> 00:22:51.588
+e，Must have good judgment on important choices, not swayed by short-term options
+
+234
+00:22:51.748 --> 00:23:05.798
+4.5.2.3 During the undergraduate years, besides working on products, the second most time YM spent was recruiting and having meals with colleagues — recruiting every week, even at classmates' weddings, striving to meet elite people and recruit them
+
+235
+00:23:05.748 --> 00:23:09.360
+4.5.3 Replicate your mindset
+
+236
+00:23:09.360 --> 00:23:16.885
+4.5.3.1 During the undergraduate years, spend significant time communicating / eating with the core team
+
+237
+00:23:16.885 --> 00:23:22.410
+4.5.3.2 The goal is to align thinking and replicate your mindset outward
+
+238
+00:23:22.410 --> 00:23:32.723
+4.5.3.3 Essentially, if your mindset is replicated to someone, then in a specific scenario, their decisions and execution are the same as if you did it yourself
+
+239
+00:23:32.723 --> 00:23:39.823
+a，People can generally only maintain direct emotional connections with about 150 others (Dunbar's number).
+
+240
+00:23:39.823 --> 00:23:44.535
+So hire very carefully, transfer roles when possible, don't fire
+
+241
+00:23:44.535 --> 00:23:51.935
+b，Getting the first 150 people in the company to share your mindset is, in the long run, the least-effort management
+
+242
+00:23:51.935 --> 00:23:56.548
+4.6 Delegate to Dream Captains, Form the Standing Committee
+
+243
+00:23:56.548 --> 00:24:04.485
+4.6.1 Dream Captains are dream colleagues whose capabilities are sufficient to independently lead a core team / business unit
+
+244
+00:24:04.485 --> 00:24:09.910
+4.6.1.1 Such people are more precious than jade, but they do exist
+
+245
+00:24:09.910 --> 00:24:18.260
+a，They have the capability to independently sustain a listed company, but for the achievement motivation of building something greater, they gave up ego
+
+246
+00:24:18.260 --> 00:24:24.185
+b，It should be noted that this choice is financially rational for them; see Zero to One specifically
+
+247
+00:24:24.185 --> 00:24:29.035
+4.6.1.2 They have both a sense of crisis and diligence
+
+248
+00:24:29.035 --> 00:24:34.548
+4.6.1.3 They don't need a particularly strong resume when joining.
+
+249
+00:24:34.548 --> 00:24:40.198
+After the company grows large enough, new Dream Captains need to be cultivated internally
+
+250
+00:24:40.198 --> 00:24:44.473
+4.6.2 Dream Captains will form a Standing Committee.
+
+251
+00:24:44.473 --> 00:24:48.723
+The Standing Committee only sets strategy and is democratic
+
+252
+00:24:48.723 --> 00:24:54.048
+4.6.2.1 Fully delegate — hand matters over to the Dream Captains
+
+253
+00:24:54.048 --> 00:24:59.823
+4.6.2.2 Train them for management; the No. 1 only manages these people
+
+254
+00:24:59.823 --> 00:25:05.385
+a，Dream Captains actually don't need managing, so the No. 1 can be relatively free
+
+255
+00:25:05.385 --> 00:25:19.885
+b，The No. 1 should continue doing three things: learning and thinking about management science for rapid company scaling; learning and thinking about how to create more social value; learning and thinking about strategic directions for new businesses, and further personally recruiting
+
+256
+00:25:19.885 --> 00:25:25.573
+4.6.3 In the company, only discuss matters — not interests, not ranks
+
+257
+00:25:25.573 --> 00:25:32.573
+4.6.3.1 Dream Captains will set their own goals; give them as many sufficient resources as possible
+
+258
+00:25:32.573 --> 00:25:41.735
+Note that the company itself is also a product: input resources, output a platform for everyone to realize creativity and gain original experiences
+
+259
+00:25:41.735 --> 00:25:48.860
+4.6.3.2 Quantify everything, review every six months, no favoritism, no personal feelings
+
+260
+00:25:48.860 --> 00:25:54.048
+a，Context, Not Control — communicate and persuade with empathy and context
+
+261
+00:25:54.048 --> 00:25:58.273
+b，The harshest thing you can say in the company is, "How could this be?
+
+262
+00:25:58.273 --> 00:26:04.398
+4.7 Brute-Force Miracles for Rapid Iteration, Pragmatic Romance for Stunning Products
+
+263
+00:26:04.398 --> 00:26:09.423
+4.7.1 The philosophical foundation of brute-force miracles
+
+264
+00:26:09.423 --> 00:26:15.648
+4.7.1.1 Key concepts are sparsely / power-law distributed in real-world data
+
+265
+00:26:15.648 --> 00:26:23.085
+4.7.1.2 Ideas that exponentially improve efficiency are often hidden in long-tail data — you have to dig them out
+
+266
+00:26:23.085 --> 00:26:26.385
+4.7.2 Rapid iteration
+
+267
+00:26:26.385 --> 00:26:31.835
+4.7.2.1 No wishful analysis, no self-congratulation
+
+268
+00:26:31.835 --> 00:26:38.435
+4.7.2.2 Update rapidly, fail fast, quantify everything, don't drag things out
+
+269
+00:26:38.435 --> 00:26:43.273
+Either succeed or promptly abandon and start over — "fail fast, move on
+
+270
+00:26:43.273 --> 00:26:49.760
+4.7.3 Creating stunning products requires sensitive empathy and expansive imagination
+
+271
+00:26:49.760 --> 00:27:01.223
+4.7.3.0 Empathy is the foundation — without it, you can't feel user needs; imagination is the sky — without it, you can't create stunning products; the line in between is logic and tools
+
+272
+00:27:01.223 --> 00:27:08.085
+4.7.3.1 Don't overuse methodologies / abstract concepts — you'll lose sensitive empathy
+
+273
+00:27:08.085 --> 00:27:14.323
+Encourage every colleague to go home for holidays and ask five friends and family: what products are they using?
+
+274
+00:27:14.323 --> 00:27:15.710
+Why?
+
+275
+00:27:15.710 --> 00:27:22.410
+4.7.3.2 Don't over-focus on "expectations" and "labels" — you'll lose expansive imagination
+
+276
+00:27:22.564 --> 00:27:28.164
+Expectation could be a burden"; "Why must our company grow 100% next year?
+
+277
+00:27:28.114 --> 00:27:33.889
+4.7.3.3 Be pragmatically romantic; be romantically pragmatic
+
+278
+00:27:34.060 --> 00:27:42.547
+a，Having empathy is being pragmatic; having imagination is being romantic; facing reality and changing it is being pragmatically romantic
+
+279
+00:27:42.497 --> 00:27:47.372
+b，Doing the right thing is being pragmatic; short-term speculation is not.
+
+280
+00:27:47.372 --> 00:27:58.397
+Brute-force miracles are pragmatic; getting to the root is pragmatic; grasping the essence is pragmatic; respecting users is pragmatic; recognizing the world's diversity is pragmatic.
+
+281
+00:27:58.397 --> 00:28:02.010
+Thinking independently through the noise is romantic.
+
+282
+00:28:02.010 --> 00:28:10.772
+Having vitality is romantic; facing the future is romantic; embracing uncertainty is romantic; keeping possibilities open is romantic
+
+283
+00:28:10.772 --> 00:28:14.710
+4.8 Commercialization and Resource Acquisition
+
+284
+00:28:14.710 --> 00:28:19.272
+4.8.1 Find an elite person who knows commercialization
+
+285
+00:28:19.272 --> 00:28:23.860
+4.8.2 Find an elite person who knows internal management
+
+286
+00:28:23.860 --> 00:28:32.710
+4.8.3 Find an elite person who can communicate amiably with various resource providers and coexist maturely with all aspects of society
+
+287
+00:28:32.710 --> 00:28:36.447
+4.8.4 The above are at most two people.
+
+288
+00:28:36.447 --> 00:28:44.110
+If you happen to be competent in one role, adding one or two more to the No. 1/No. 2 positions makes at most three people total
+
+289
+00:28:44.110 --> 00:28:55.235
+In 2504, these capabilities are contained within being candid and clear with resource providers and the public; we won't elaborate — these are more the techniques of an elite No. 2 or No. 3
+
+290
+00:28:55.235 --> 00:28:58.797
+4.9 Stay Calm and Keep an Ordinary Mind
+
+291
+00:28:58.797 --> 00:29:05.697
+4.9.0 What's difficult is not working concurrently, but working with multiple moods concurrently
+
+292
+00:29:05.697 --> 00:29:10.960
+4.9.0.1 You cannot control outcomes; you cannot control moods.
+
+293
+00:29:10.960 --> 00:29:16.297
+Under controllable circumstances, allow yourself mild happiness and sadness
+
+294
+00:29:16.297 --> 00:29:23.522
+4.9.0.2 When you're not fired up, strive to get fired up; when you're super fired up, strive to stay calm
+
+295
+00:29:23.522 --> 00:29:29.685
+4.9.1 Face mistakes and errors with an ordinary mind; face yourself with an ordinary mind
+
+296
+00:29:29.685 --> 00:29:34.885
+4.9.1.1 Realize it, correct it, learn from it, forgive it
+
+297
+00:29:34.885 --> 00:29:40.497
+4.9.1.2 Be an ordinary person, and you can do extraordinary things
+
+298
+00:29:40.497 --> 00:29:44.722
+4.9.2 Face competition with an ordinary mind
+
+299
+00:29:44.722 --> 00:29:50.835
+4.9.2.1 Besides competitors, no one will scrutinize your problems so carefully.
+
+300
+00:29:50.835 --> 00:29:56.897
+80% of articles criticizing you are flawed, but often 20% are enlightening for us
+
+301
+00:29:56.897 --> 00:30:04.160
+4.9.2.2 Don't compete for the sake of competition — a competitor-oriented way of thinking is not fundamental
+
+302
+00:30:04.160 --> 00:30:08.697
+4.9.3 Face success and failure with an ordinary mind
+
+303
+00:30:08.697 --> 00:30:16.410
+4.9.3.1 Don't misattribute — don't treat external causes as internal causes, don't mistake luck for ability
+
+304
+00:30:16.410 --> 00:30:21.247
+4.9.3.2 Find the real reasons for success or failure
+
+305
+00:30:21.247 --> 00:30:25.297
+4.10 Ready for Undergraduate Graduation
+
+306
+00:30:25.297 --> 00:30:32.310
+4.10.0 Once you've completed all the above, you're basically on the national team — time to go compete
+
+307
+00:30:32.310 --> 00:30:38.635
+4.10.1 From Day 1, have a Global perspective on business and company architecture
+
+308
+00:30:38.635 --> 00:30:43.722
+4.10.2 Buy into local values, build local influence
+
+309
+00:30:43.722 --> 00:30:51.460
+4.10.3 Build up a globalized community of dream colleagues, and at this point, the undergraduate years are complete
+
+310
+00:30:51.460 --> 00:31:08.635
+This generation of entrepreneurs has a greater global vision than the previous one, receives international information earlier, and has greater opportunities for globalization"; "If I were YM, I'd be even more aggressive about internationalization, then use global resources to compete in the Chinese market" (Huang Zheng)
+
+311
+00:31:08.635 --> 00:31:17.185
+4.10.4 It turns out that dream colleagues are an advanced trait of the elite, regardless of skin color, race, language, or culture
+
+312
+00:31:17.185 --> 00:31:20.960
+This concludes the Mahayana Making Things Happen Method.
+
+313
+00:31:20.960 --> 00:31:24.960
+Below we discuss the Hinayana Making Things Happen Method
+
+314
+00:31:24.960 --> 00:31:28.835
+4.11 I Don't Want to Profoundly Change the World!
+
+315
+00:31:28.835 --> 00:31:32.010
+The Hinayana Making Things Happen Method
+
+316
+00:31:32.010 --> 00:31:42.335
+4.11.1 The first principle of the Hinayana Making Things Happen Method: do not assume the company's long-term vision is the scientifically fundamental solution to the problem
+
+317
+00:31:42.335 --> 00:31:50.747
+4.11.1.1 Respect the static and predictable demands of the market; respect users' sense of gain rather than problem resolution
+
+318
+00:31:50.747 --> 00:31:58.047
+4.11.1.2 Respect era dividends, respect existing resources, respect rolling development
+
+319
+00:31:58.204 --> 00:32:04.729
+### 4.11.2 Hinayana Making Things Happen Method Operating Manual
+
+320
+00:32:04.679 --> 00:32:09.604
+4.11.2.0 Absolutely do not think about big things
+
+321
+00:32:09.604 --> 00:32:21.366
+4.11.2.1 Cross-section or longitudinal-section current market demand, find a not-yet-fully-exploited but potentially fast-growing market, and create a product for it — hereinafter "the idea
+
+322
+00:32:21.366 --> 00:32:30.779
+4.11.2.2 Build a prototype product — B2B products must be e times better than existing ones; B2C must be e² times better
+
+323
+00:32:30.779 --> 00:32:35.629
+4.11.2.3 Find a senior / M to give you orders
+
+324
+00:32:35.629 --> 00:32:44.304
+4.11.2.4 Find a department professor to endorse (note: this is where science and papers come in — everything before was market-driven)
+
+325
+00:32:44.304 --> 00:32:50.229
+4.11.2.5 Raise to Series B, and the company won't die within 18 months
+
+326
+00:32:50.229 --> 00:32:57.916
+4.11.2.6 This step is the most critical — the company internally splits into the Angel Side and the Devil Side
+
+327
+00:32:57.916 --> 00:33:08.929
+a，The Angel Side only meets with people on the liability / resource side, telling grand visions, reinforcing and spreading the storyline, upgrading the narrative from "the idea" to "The Idea
+
+328
+00:33:08.929 --> 00:33:19.141
+b，The Devil Side only meets with people on the asset / operations side, focused on studying: based on the company's current factors, what's the minimum closed loop in the market?
+
+329
+00:33:19.141 --> 00:33:21.466
+What can generate orders?
+
+330
+00:33:21.466 --> 00:33:25.679
+c，These two sides barely speak to each other, until the IPO
+
+331
+00:33:25.679 --> 00:33:32.354
+4.11.2.7 After IPO, donate to the school, industry associations, and hometown.
+
+332
+00:33:32.354 --> 00:33:36.866
+Set up a family office — colloquially "Hinayana Reaching the Shore
+
+333
+00:33:36.866 --> 00:33:42.691
+4.11.2.8 After Hinayana Reaching the Shore, the two sides begin to merge.
+
+334
+00:33:42.691 --> 00:33:48.279
+But the operators become professional managers who handle both the Angel and Devil sides.
+
+335
+00:33:48.279 --> 00:33:54.354
+You then rule from above, going all-in on studying "Chapter 3: The Maintaining Position Method
+
+336
+00:33:54.354 --> 00:34:00.079
+4.11.3 Effectiveness evaluation of the Hinayana Making Things Happen Method
+
+337
+00:34:00.079 --> 00:34:06.729
+4.11.3.1 IPO is guaranteed; company lifespan follows the average of listed companies
+
+338
+00:34:06.729 --> 00:34:16.929
+4.11.3.2 Since the company's DNA is not fundamentally problem-solving, by Thiel's Law, the probability of subsequently becoming a great company is low
+
+339
+00:34:16.929 --> 00:34:25.091
+4.11.3.3 But the No. 1 can definitely reach e的负一次方W_H, and the No. 2 can reach W_P
+
+340
+00:34:25.091 --> 00:34:33.229
+A typical No. 1 metric combination: owning e的负一次方 equity of an RMB 10B company, diluted to 70%e的负一次方 post-IPO
+
+341
+00:34:33.229 --> 00:34:38.404
+4.11.4 N examples of the Hinayana Making Things Happen Method
+
+342
+00:34:38.404 --> 00:34:49.604
+4.11.4.1 The author attended a university full of entrepreneurial vitality and personally witnessed high double-digit to triple-digit alumni achieving Hinayana Reaching the Shore
+
+343
+00:34:49.604 --> 00:35:00.204
+4.11.4.2 The Hinayana Making Things Happen Method creates value and contributions in a specific time and place; those who complete the full cycle are unquestionably elite
+
+344
+00:35:00.364 --> 00:35:06.264
+### 4.11.5 "Hinayana Warm-Up" Operating Manual
+
+345
+00:35:06.214 --> 00:35:14.901
+4.11.5.0 Hinayana Warm-Up refers to the technique for solving "I don't even have 'the idea' / don't know how — how do I make things happen?
+
+346
+00:35:14.901 --> 00:35:22.826
+4.11.5.1 Obtain a scarce supply in some industry — the standard is that it's indispensable in someone else's "the idea
+
+347
+00:35:22.826 --> 00:35:29.714
+4.11.5.2 Use the above to enter a company — do enterprise services or go work there directly
+
+348
+00:35:29.714 --> 00:35:38.864
+4.11.5.3 While executing the above, be observant — figure out the structural characteristics and real pain points of the current industry
+
+349
+00:35:38.864 --> 00:35:48.451
+4.11.5.4 Understand and secure the resources indispensable for entrepreneurship in this industry and the currently existing commercial opportunities
+
+350
+00:35:48.451 --> 00:35:57.714
+4.11.5.5 Execute the commercial opportunity from above, and use this win-win experience to obtain all the resources from the previous step
+
+351
+00:35:57.714 --> 00:36:03.914
+a，It should be noted that 4.11.5.1 and 4.11.5.4 are different.
+
+352
+00:36:03.914 --> 00:36:11.714
+In the former, you're still an outsider with only resources; in the latter, you've at least secured a full team and a commercial opportunity
+
+353
+00:36:11.714 --> 00:36:17.501
+b，If you have no resources at all, 4.11.5.1 can be the trust of some M.
+
+354
+00:36:17.501 --> 00:36:26.214
+That is, among M's acquaintances, you're the most suitable person to play this role, but you don't have the capability to independently lead and close the loop
+
+355
+00:36:26.214 --> 00:36:29.089
+c，This step is indispensable
+
+356
+00:36:29.089 --> 00:36:34.776
+You must personally experience it — someone else's company is a free business school for this track
+
+357
+00:36:34.776 --> 00:36:41.526
+You need to win something first to earn respect / followers, to get M's support — colloquially, "make an appearance
+
+358
+00:36:41.526 --> 00:36:50.876
+4.11.5.6 Form the minimum viable form to solve 4.11.5.3 (hereinafter "a circle"), and get your track and your company
+
+359
+00:36:50.876 --> 00:36:56.601
+4.11.5.7 Use "a circle" to raise funding, and secure an M's support
+
+360
+00:36:56.601 --> 00:37:05.414
+4.11.5.8 Note that at this point you've entered 4.11.2.5, and can begin running the Hinayana Making Things Happen Method
+
+361
+00:37:05.414 --> 00:37:14.439
+4.11.5.9 While running, keep building good karma and continuously stockpiling ammo; compete with same-track rivals on speed and momentum
+
+362
+00:37:14.439 --> 00:37:23.876
+4.11.5.10 If you don't fall behind for a round or two, largely you can then rely on inertia, being propelled forward by macro trends / M
+
+363
+00:37:23.876 --> 00:37:28.151
+4.11.6 An example of Hinayana Warm-Up
+
+364
+00:37:28.151 --> 00:37:33.489
+QH data, see Mr. JY's resume for details; elaboration omitted.
+
+365
+00:37:33.489 --> 00:37:37.301
+This concludes the Hinayana Making Things Happen Method
+
+366
+00:37:37.301 --> 00:37:40.401
+4.12 Two Methods Q&A
+
+367
+00:37:40.401 --> 00:37:45.014
+4.12.1 About the Mahayana Making Things Happen Method
+
+368
+00:37:45.014 --> 00:37:52.076
+4.12.1.1 From Mars's perspective, shouldn't The Idea be executed by whoever wrote The Paper?
+
+369
+00:37:52.076 --> 00:37:55.464
+a，That works, and that's "the ideal scenario
+
+370
+00:37:55.464 --> 00:38:00.439
+b，This chapter covers events from roughly 2012–2015.
+
+371
+00:38:00.439 --> 00:38:07.939
+In that era, scientists hadn't read Zero to One (published in 2015), and entrepreneurs rarely read papers.
+
+372
+00:38:07.939 --> 00:38:11.876
+In 2504, these two are often the same person
+
+373
+00:38:11.876 --> 00:38:18.314
+4.12.1.2 What's the approximate proportion of elite people — ε, e的负一次方, or 1-e的负一次方?
+
+374
+00:38:18.314 --> 00:38:23.764
+a，Among the general population, the proportion of elite people is indeed ε
+
+375
+00:38:23.764 --> 00:38:29.164
+b，But in the sample of people the elite know, this ratio is quite high, no less than e的负一次方
+
+376
+00:38:29.164 --> 00:38:37.351
+The essential reason is that non-elite people have too little originality in their views; excessive work communication is efficiency-destroying
+
+377
+00:38:37.351 --> 00:38:44.414
+c，The above means you should immerse yourself among the elite as much as possible; every additional one you meet is a net gain
+
+378
+00:38:44.414 --> 00:38:47.951
+YM was recruiting even at classmates' weddings.
+
+379
+00:38:47.951 --> 00:38:53.726
+In fact, among peers attending elite people's weddings, 1-e⁻² are elite
+
+380
+00:38:53.726 --> 00:38:58.889
+4.12.1.3 Is a higher proportion of elite people always better?
+
+381
+00:38:58.889 --> 00:39:01.651
+a，Before the 2000s, no.
+
+382
+00:39:01.651 --> 00:39:06.139
+Back then, elite people couldn't have low ego — they'd block each other
+
+383
+00:39:06.139 --> 00:39:09.914
+Imagine a small space filled with inflating balloons
+
+384
+00:39:09.914 --> 00:39:17.289
+b，In the 2020s, the new generation of dream colleagues can miraculously achieve high achievement motivation with low ego
+
+385
+00:39:17.289 --> 00:39:24.989
+You've got to build a product with 100M DAU in your lifetime (hereinafter '100M DAU'), like some weather app — that works too!
+
+386
+00:39:24.989 --> 00:39:31.976
+It's worth noting that the No. 1, because of the Heart of Signature, cannot have low ego — they must be confident and rational
+
+387
+00:39:32.140 --> 00:39:43.152
+c，Thus, in terms of outcomes, during the undergraduate years, it's achievable to have 20% of the first 150 people be elite, each with the potential to create 100M DAU.
+
+388
+00:39:43.102 --> 00:39:47.102
+They can cooperate, with fewer than e的负一次方 having high ego
+
+389
+00:39:47.102 --> 00:39:52.552
+Byte once had over 30 Dream Captains, who sustained a company with 2B global DAU
+
+390
+00:39:52.552 --> 00:40:00.940
+Having three such people is enough to sustain a USD 10B market cap company; having six who can cooperate can reach 100B
+
+391
+00:40:00.940 --> 00:40:05.527
+4.12.2 About the Hinayana Making Things Happen Method
+
+392
+00:40:05.692 --> 00:40:13.354
+4.12.2.1 Why don't dream colleagues apply the "Hinayana Making Things Happen Method" / "Hinayana Warm-Up"?
+
+393
+00:40:13.304 --> 00:40:16.542
+It's simple, easy, and highly rewarding
+
+394
+00:40:16.542 --> 00:40:22.917
+a，They're busy fundamentally changing the world; their ego is too low to think of various Hinayana schemes
+
+395
+00:40:22.917 --> 00:40:31.217
+b，Achieving 100M DAU is easier at a big company, with equally rewarding returns at the same order of magnitude and a higher ceiling
+
+396
+00:40:31.217 --> 00:40:34.092
+4.12A The Greatest Works
+
+397
+00:40:34.092 --> 00:40:43.917
+4.12A.0 Effectiveness is not necessarily the highest pursuit of making things happen; correctness is not necessarily the ultimate limit of intellectual exploration
+
+398
+00:40:43.917 --> 00:40:50.879
+This is not the end; it is not even the beginning of the end; it is, perhaps, the end of the beginning (Churchill)
+
+399
+00:40:50.879 --> 00:41:00.729
+4.12A.1 The Six Mirrors are a higher-order principle deeper than the entire "Non-Elite W₀ to Reaching the Shore" / "Chapters 0/2/3
+
+400
+00:41:00.729 --> 00:41:06.679
+It answers "what kind of success (what kind of person's success) is more valuable in the long run
+
+401
+00:41:06.679 --> 00:41:14.642
+4.12A.2 The original Google motto "Don't be evil" is reportedly an equally or even more profound higher-order principle
+
+402
+00:41:14.642 --> 00:41:23.554
+4.12A.2.1 Regrettably, the author does not know any early Google employees and has not had the chance for firsthand academic interviews
+
+403
+00:41:23.554 --> 00:41:34.442
+4.12A.2.2 This work could of course deliberately under-cite and over-paraphrase, but labeling hurts efficiency and contradicts "ordinary mind" and "transmitting the dharma without error
+
+404
+00:41:34.442 --> 00:41:45.267
+4.12A.3 This article's citations of YM go up to 2020 at the latest; each version has its era's giants; DeepSeek's greatness and pioneering significance are no less than Byte's
+
+405
+00:41:45.267 --> 00:41:54.067
+4.12A.4 By Axiom Zero, we look forward to more impossible things being believed by a new generation of elite before breakfast each day
+
+406
+00:41:54.067 --> 00:42:00.079
+Curing cancer, eliminating discrimination, AGI beyond language, homes beyond Earth…
+
+407
+00:42:00.079 --> 00:42:04.529
+Appendix: ByteStyles — Appendix to the Elite Version of "4.
+
+408
+00:42:04.529 --> 00:42:06.642
+How to Make Things Happen
+
+409
+00:42:06.642 --> 00:42:10.179
+Pursue the Ultimate | Be Pragmatic and Bold |
+
+410
+00:42:10.179 --> 00:42:18.517
+Continuously raise the bar, delay gratification | Direct experience, deep into facts, no self-congratulation, focus on results |
+
+411
+00:42:18.517 --> 00:42:23.217
+Find optimal solutions in a broader scope | Breakthrough with accountability |
+
+412
+00:42:23.217 --> 00:42:30.292
+Don't let problems slide, think about the essence | Break conventions, try multiple possibilities, iterate rapidly |
+
+413
+00:42:30.292 --> 00:42:37.542
+Go the extra mile — always do one step more | Compared to showcasing achievements, focus more on external results and feedback |
+
+414
+00:42:37.542 --> 00:42:54.142
+Discipline yourself in the present for long-term results; avoid complacency over minor achievements, so you have the possibility of taking the next step | Dare to think and dare to do, fear no difficulty, make breakthroughs, take responsibility, boldly try new ideas, and agilely correct the path in the process |
+
+415
+00:42:54.142 --> 00:42:57.417
+Be Open and Humble | Be Candid and Clear |
+
+416
+00:42:57.417 --> 00:43:02.542
+Sunny disposition, trust partners | Dare to express true thoughts face to face |
+
+417
+00:43:02.542 --> 00:43:09.092
+Glad to help and ask for help, collaborate on big things | Can admit mistakes, no pretense, no face-saving |
+
+418
+00:43:09.092 --> 00:43:15.892
+Think big, think from a higher vantage point | Seek truth from facts, expose problems, oppose "managing upward" |
+
+419
+00:43:15.892 --> 00:43:23.542
+Outwardly sensitive and humble, small ego, open to feedback | Accurate, concise, direct, organized and focused |
+
+420
+00:43:23.542 --> 00:43:36.567
+When facing questioning, defending and arguing may be human instinct, but it doesn't effectively solve problems | Encourage no pretense — express true thoughts candidly; point out problems directly without considering the other party's work status |
+
+421
+00:43:36.567 --> 00:43:55.642
+Encourage good-faith assumptions; seek inward first; keep the big picture in mind; keep ego small and don't be driven by face and emotions — this often leads to clearer judgment | Expression should have detail and be grounded; additionally, candid expression should also be clear, hitting key points, summarizing essentials — improving the company's signal-to-noise ratio |
+
+422
+00:43:55.804 --> 00:43:59.441
+Always Stay Day 1 | Be Diverse and Inclusive |
+
+423
+00:43:59.391 --> 00:44:07.091
+Self-driven, no boundaries, not afraid of trouble | Understand and value differences and diversity, establish a Mars perspective |
+
+424
+00:44:07.091 --> 00:44:13.466
+Resilient, face reality and change it | Build diverse teams, welcome talents from different backgrounds |
+
+425
+00:44:13.466 --> 00:44:19.929
+Embrace change, stay optimistic about uncertainty | Proactively challenge yourself with different ideas |
+
+426
+00:44:19.929 --> 00:44:25.879
+Always think as if it's the company's first day | Create an inclusive, welcoming work environment |
+
+427
+00:44:25.879 --> 00:44:36.591
+Promote startup culture: be resilient, fear no difficulty, face reality, become part of the solution | The starting point of diversity and inclusion is attention to and valuing of people |
+
+428
+00:44:36.591 --> 00:44:47.166
+Often we're doing things no one has done before — requiring self-driven growth with no boundaries | Build a rich and inclusive community culture; build the teams and talent of an international platform |
+
+429
+00:44:47.166 --> 00:44:49.641
+The Elite Version*
+

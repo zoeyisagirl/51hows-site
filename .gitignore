@@ -17,3 +17,4 @@ dist/
 # env
 .env
 .env.production
+public/audio/*.mp3

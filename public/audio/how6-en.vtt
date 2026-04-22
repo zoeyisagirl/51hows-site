@@ -1,0 +1,3018 @@
+WEBVTT
+
+1
+00:00:00.100 --> 00:00:02.137
+How to Do Anything
+
+2
+00:00:02.087 --> 00:00:06.412
+May you possess the perspective of algorithms and a poetic life
+
+3
+00:00:06.412 --> 00:00:09.925
+by Shuzhimi@RynW1988
+
+4
+00:00:09.925 --> 00:00:12.687
+Color Coding Guide for This Chapter
+
+5
+00:00:12.687 --> 00:00:17.087
+With gratitude to editor C / art director Shuzhimi@Chaney
+
+6
+00:00:17.087 --> 00:00:20.062
+a，Main text / statements — black
+
+7
+00:00:20.062 --> 00:00:23.050
+b，Axioms / theorems — red
+
+8
+00:00:23.050 --> 00:00:26.812
+c，Explanations / supplements — blue italic
+
+9
+00:00:26.812 --> 00:00:30.037
+d，Corollaries / conclusions — orange
+
+10
+00:00:30.037 --> 00:00:37.675
+e，Facts / data / news — green (due to the locality of information and the author's limitations, not all sources are cited)
+
+11
+00:00:37.675 --> 00:00:46.687
+f，Conjectures / hypotheses, and emotional / editorial / anecdotal / metaphorical / analogical and literary expressions — purple
+
+12
+00:00:46.687 --> 00:00:50.200
+g，Theoretical innovations — gray with highlight
+
+13
+00:00:50.200 --> 00:01:01.375
+This chapter is compiled from questions that members of The House chat group were interested in, divided into topics about math competition, about life, about relationships, and about not serving dishes.
+
+14
+00:01:01.375 --> 00:01:07.025
+Compared to "0.-5.", these questions are widely followed, but none are big problems
+
+15
+00:01:07.025 --> 00:01:10.050
+6Q1 About math competition
+
+16
+00:01:10.050 --> 00:01:16.325
+6.0 "How to Math Competition" — see editor A Shuzhimi@xibo's "My Competition Reflections
+
+17
+00:01:16.325 --> 00:01:21.812
+Generally regarded as the most important work on math competition methodology to date
+
+18
+00:01:21.812 --> 00:01:24.850
+6.1 How to Career Threepeat
+
+19
+00:01:24.850 --> 00:01:27.912
+6.1.1 How to Sprint
+
+20
+00:01:27.912 --> 00:01:33.687
+6.1.1.0 Approaching the big exam, what should you do in the last two weeks?
+
+21
+00:01:33.687 --> 00:01:38.550
+6.1.1.1 Human memory lives in hyperbolic space.
+
+22
+00:01:38.550 --> 00:01:44.325
+What you memorize in the past week leaves an extremely deep impression, far exceeding the past month
+
+23
+00:01:44.325 --> 00:01:49.325
+6.1.1.2 Never look at new techniques right before the exam
+
+24
+00:01:49.325 --> 00:01:55.337
+a，Your subconscious will really want to use them (because you just learned them), but you're not proficient enough
+
+25
+00:01:55.337 --> 00:02:02.575
+b，Don't bet on the chance that you happen to learn a knowledge point you didn't know before this week, and it actually shows up on the exam
+
+26
+00:02:02.575 --> 00:02:07.062
+What you cram in one week has measure zero compared to what you already know
+
+27
+00:02:07.062 --> 00:02:14.375
+6.1.1.3 During this period, repeatedly review what you already know, and remember the feeling of AK
+
+28
+00:02:14.375 --> 00:02:16.925
+a，When were you in the best form?
+
+29
+00:02:16.925 --> 00:02:21.137
+Review the parts you studied then, "restore to optimal state
+
+30
+00:02:21.137 --> 00:02:28.000
+When the demon king Zhang Yining wanted to let the opponent score, she'd just drop the ball on the floor, never serve it over
+
+31
+00:02:28.000 --> 00:02:31.837
+You can't leave the wrong feeling in your hands" (Zhang Yining)
+
+32
+00:02:31.837 --> 00:02:40.650
+6.1.1.4 This way you pour your strongest content and confidence into your brain in the days before the exam, thereby achieving optimal state
+
+33
+00:02:40.650 --> 00:02:43.737
+6.1.2 How to Retire
+
+34
+00:02:43.737 --> 00:02:59.525
+6.1.2.0 The author was a student from a weak province and weak school, gave up direct admission to enter a different department at the same university (at a Bay Area gathering of 8 competition students, only I and one uncle had Gaokao experience), knowledge limited to that year
+
+35
+00:02:59.525 --> 00:03:10.150
+6.1.2.1 The first principle of retirement is that math competition students are most likely missing chunks of the regular curriculum, and missing chunks must be patched in chunks
+
+36
+00:03:10.150 --> 00:03:15.037
+6.1.2.2 Don't worry about short-term mock exam scores
+
+37
+00:03:15.037 --> 00:03:21.137
+a，English and Chinese are weak-reason subjects, they're skilled labor, you bounce back quickly with practice
+
+38
+00:03:21.137 --> 00:03:27.362
+b，First focus on patching subjects where you're confused at the reason level (say chemistry and biology)
+
+39
+00:03:27.362 --> 00:03:33.787
+c，After Spring Festival it's just repeated mock exams, no chance for research-style gap-filling anymore
+
+40
+00:03:33.787 --> 00:03:38.200
+6.1.2.3 Find someone to answer your questions
+
+41
+00:03:38.200 --> 00:03:42.925
+a，Or at least you can understand the answers yourself and have the ability to grow
+
+42
+00:03:42.925 --> 00:03:47.225
+Just doing problems is useless, you need to fix topic areas.
+
+43
+00:03:47.225 --> 00:03:51.862
+Ask two questions: "What's the typical approach for this type of problem?
+
+44
+00:03:51.862 --> 00:03:54.337
+What should you think when starting?
+
+45
+00:03:54.337 --> 00:04:01.837
+When Wei Shen first made the national team, he went door to door in the dorms asking questions, "If you guys don't know, you can ask me too
+
+46
+00:04:01.837 --> 00:04:05.500
+6.1.2.4 Self-paced planning
+
+47
+00:04:05.500 --> 00:04:13.387
+6.1.2.4.1 The school can't tailor-make a plan for what you're missing; communicate with your teachers as appropriate
+
+48
+00:04:13.387 --> 00:04:18.737
+This whole chunk is missing; patching it bit by bit will leave you perpetually confused
+
+49
+00:04:18.737 --> 00:04:22.362
+6.1.2.5 Build confidence
+
+50
+00:04:22.362 --> 00:04:25.400
+a，Gaokao is easier than competition
+
+51
+00:04:25.564 --> 00:04:33.351
+b，If you completely ignore the narrative context and only look at "operations," the Gaokao rarely has more than four operations per problem
+
+52
+00:04:33.301 --> 00:04:42.364
+Set up physical quantities, analyze phases, analyze energy/momentum/angular momentum at each phase, connect with initial and final states
+
+53
+00:04:42.364 --> 00:04:46.339
+There's almost no "construction" — it's full of answer templates.
+
+54
+00:04:46.339 --> 00:04:49.339
+Conquer them, and you'll have a good year
+
+55
+00:04:49.339 --> 00:04:52.726
+6.1.3 How to Repeat a Year
+
+56
+00:04:52.876 --> 00:05:02.688
+The author has experience giving up direct admission and testing back into the same school ("How to Retire"), but no experience repeating a year, so this contains no action items
+
+57
+00:05:02.638 --> 00:05:11.851
+6.1.3.0 The first principle of repeating a year is that you have plenty of time to waste in the rest of your life, so repeating a year is a massive win
+
+58
+00:05:11.851 --> 00:05:17.238
+a，A senior-year CMOer who can repeat a year can leave no regrets on both sides
+
+59
+00:05:17.238 --> 00:05:22.963
+b，From the perspective of your entire life, having no regrets is extremely luxurious
+
+60
+00:05:22.963 --> 00:05:27.638
+6.1.3.1 The core difficulty of repeating a year
+
+61
+00:05:27.638 --> 00:05:35.901
+a，Setting aside policy factors (gold/silver medal Strong Foundation Plan eligibility), is your cultural environment friendly?
+
+62
+00:05:35.901 --> 00:05:38.888
+b，Can you be yourself while repeating?
+
+63
+00:05:38.888 --> 00:05:43.426
+6.1.3.2 The main advantage of repeating a year
+
+64
+00:05:43.426 --> 00:05:49.951
+a，The regular curriculum is a finite game; it can be learned well in the half-year from September to February
+
+65
+00:05:49.951 --> 00:05:55.463
+b，See "How to Retire" for details; returning from CMO leaves no such opportunity
+
+66
+00:05:55.463 --> 00:06:00.376
+6.1.3.3 The opportunity cost of repeating a year
+
+67
+00:06:00.376 --> 00:06:06.038
+a，New seniors are all at similar levels; four years versus three years has a clear advantage
+
+68
+00:06:06.038 --> 00:06:14.226
+b，Not so in math competition — each new batch of freshmen gets stronger in a straight line; just not declining in senior year is already impressive
+
+69
+00:06:14.226 --> 00:06:18.763
+6.1.3.4 The hidden assumption of repeating a year
+
+70
+00:06:18.763 --> 00:06:25.988
+a，Public opinion discourages repeating because opportunities within xx tend to favor those who hit milestones first
+
+71
+00:06:25.988 --> 00:06:29.976
+b，This advantage is now quite ordinary (reasons omitted)
+
+72
+00:06:29.976 --> 00:06:36.601
+c，Other important life junctures have no take 2 — no director, no script, one take only — except the Gaokao
+
+73
+00:06:36.601 --> 00:06:40.826
+6.1.3.5 I love math, why waste a year?
+
+74
+00:06:40.826 --> 00:06:54.551
+a，A statistical fact is that the vast majority of people have enough time to waste in their lifetime (the author started working in 2007, retired in 2022, slacked off for at least e的负一次方 of the time in between, just coasted through four business schools)
+
+75
+00:06:54.551 --> 00:07:07.826
+b，Higher mathematics is a bottomless pit — the total volume of knowledge is four orders of magnitude more than what one can learn in a lifetime, so the core task is to understand yourself as quickly as possible, build interests, and find the right direction.
+
+76
+00:07:07.826 --> 00:07:10.851
+A good environment is crucial for this
+
+77
+00:07:10.851 --> 00:07:13.601
+See 6.2 for details
+
+78
+00:07:13.601 --> 00:07:19.763
+6.1.4 How to Math Competition Threepeat Appendix: Personal Edition Zhang Xuefeng
+
+79
+00:07:19.763 --> 00:07:26.676
+Tribute to Zhang Xuefeng — if you're willing to act on something, it deserves a "thank you" in attitude (see "5." appendix)
+
+80
+00:07:26.676 --> 00:07:30.401
+6.1.4.0 Brand > City > Major
+
+81
+00:07:30.401 --> 00:07:34.751
+6.1.4.1 t's dining halls win hands down
+
+82
+00:07:34.751 --> 00:07:41.126
+Long-term, it demands that you be strong (strong in results) — the stronger you are, the wider the path
+
+83
+00:07:41.126 --> 00:07:46.701
+6.1.4.2 p's advisors are nice, and it's much easier to graduate
+
+84
+00:07:46.701 --> 00:07:54.363
+Long-term, it demands that you have a few good friends; form a close circle with them as quickly as possible — being strong is secondary
+
+85
+00:07:54.363 --> 00:08:00.826
+6.1.4.3 fdu/sjtu — as long as you're not in Beijing, they're on par with tp.
+
+86
+00:08:00.826 --> 00:08:02.763
+The value picks
+
+87
+00:08:02.763 --> 00:08:08.338
+a，This has a direct corollary: if you're suited for Beijing, you already know it by now
+
+88
+00:08:08.338 --> 00:08:11.401
+b，If you're not sure, then you're not suited
+
+89
+00:08:11.401 --> 00:08:16.663
+6.1.4.4 zju — alumni-friendly, good startup environment
+
+90
+00:08:16.663 --> 00:08:23.188
+6.1.4.5 After these, see 6.1.3 and 6.1.4.0
+
+91
+00:08:23.188 --> 00:08:28.688
+Overall, the south beats the north; the further south the better; hk is optimal
+
+92
+00:08:28.688 --> 00:08:32.951
+6.2 How to know if you're suited for mathematical research
+
+93
+00:08:32.951 --> 00:08:35.888
+6.2.1 An example
+
+94
+00:08:35.888 --> 00:08:39.901
+R: In the math world, how are resources allocated?
+
+95
+00:08:39.901 --> 00:08:42.576
+What is important mathematics?
+
+96
+00:08:42.576 --> 00:08:51.538
+M: I personally lean toward important mathematics being deep, capable of connecting to part of human nature, similar to why Da Vinci is a master of art
+
+97
+00:08:51.538 --> 00:09:05.126
+R: Taking art as an example, art has schools (historical lineage, similar to what you mentioned about people discussing it), has clients (market demand, like architecture), has development (some masters believe which directions are important)
+
+98
+00:09:05.126 --> 00:09:07.963
+M: Mathematics is the same.
+
+99
+00:09:07.963 --> 00:09:11.626
+One is basic curiosity, one is the client
+
+100
+00:09:11.626 --> 00:09:14.263
+R: Two common concerns
+
+101
+00:09:14.428 --> 00:09:26.865
+a，Pure math has insufficient total resources (foundational disciplines that directly create productivity, like computer science, have several orders of magnitude more resources), with extremely low tolerance for talent
+
+102
+00:09:26.815 --> 00:09:32.390
+b，Given limited resources, computer science has sharp market-demand orientation.
+
+103
+00:09:32.390 --> 00:09:39.765
+Returning to the art analogy, doing math requires paying attention to school lineage / master opinions / client taste
+
+104
+00:09:39.765 --> 00:09:41.103
+M:
+
+105
+00:09:41.103 --> 00:09:42.715
+a，Yes.
+
+106
+00:09:42.715 --> 00:09:45.428
+You need to cultivate good taste
+
+107
+00:09:45.428 --> 00:09:51.478
+b，Do what you think is important, fight for resources for yourself, and most people are reasonable
+
+108
+00:09:51.628 --> 00:09:58.528
+c，The direction of productivity progress will most likely also give rise to good mathematics, say quantum computing
+
+109
+00:09:58.478 --> 00:10:02.840
+R: "How to at least know if you're suited for mathematical research?
+
+110
+00:10:02.840 --> 00:10:06.753
+M: When you have this awareness, you will figure it out
+
+111
+00:10:06.753 --> 00:10:20.978
+M: One is to read mathematicians' profiles / interviews / biographies, see if you feel admiration for them, if you like their lives; recommend "Contemporary Mathematical Elites / Contemporary Mathematical Masters"; two is you only know by doing
+
+112
+00:10:20.978 --> 00:10:25.090
+M: Attached are two interviews that deeply influenced me
+
+113
+00:10:25.090 --> 00:10:35.965
+https://publications.ias.edu/sites/default/files/interview-ubc-2009-rpl.pdf
+
+114
+00:10:35.965 --> 00:10:47.278
+https://www.ams.org/journals/notices/201904/rnoti-p494.pdf
+
+115
+00:10:47.278 --> 00:10:52.615
+6.3 (If you've already studied mathematics) How to choose a good direction?
+
+116
+00:10:52.615 --> 00:11:00.703
+6.3.0 Fields with dramatic productivity progress have higher talent tolerance, and greater probability of development
+
+117
+00:11:00.703 --> 00:11:04.640
+6.3.0.1 There are two公认的 good directions
+
+118
+00:11:04.640 --> 00:11:07.490
+6.3.1 Glasses
+
+119
+00:11:07.490 --> 00:11:13.278
+6.3.1.1 As is well known, we see the world through our eyes, not screens.
+
+120
+00:11:13.278 --> 00:11:17.715
+If all the screens in the world went black, you still wouldn't be blind
+
+121
+00:11:17.715 --> 00:11:27.765
+6.3.1.2 Therefore, the future's core interaction device must be glasses (not screens), which will replace phones/computers/all interaction endpoints
+
+122
+00:11:27.765 --> 00:11:34.778
+6.3.1.3 Culturally, humanity has already accepted wearing glasses as an aesthetic choice.
+
+123
+00:11:34.778 --> 00:11:38.590
+Unlike AI earpieces, which people think are ugly
+
+124
+00:11:38.590 --> 00:11:44.290
+6.3.1.4 By the way, a widely circulated fallacy is robots
+
+125
+00:11:44.290 --> 00:11:47.753
+a，The core of a humanoid robot is intimacy
+
+126
+00:11:47.753 --> 00:11:52.528
+Not somersaults and other acrobatics; therefore its core is algorithms
+
+127
+00:11:52.528 --> 00:11:56.240
+b，A non-humanoid robot is not a new industry
+
+128
+00:11:56.240 --> 00:11:58.865
+They existed in the Ford era.
+
+129
+00:11:58.865 --> 00:12:04.553
+Since the technical route is unclear yet it's not a new industry, it's therefore a bad industry
+
+130
+00:12:04.553 --> 00:12:09.928
+6.3.2 AI and its financial application: quantitative trading
+
+131
+00:12:09.928 --> 00:12:14.690
+6.3.2.1 This point is trivial in 2504
+
+132
+00:12:14.690 --> 00:12:22.590
+a，AI points directly at the sharpest direction of productivity progress; for quant, see "3." appendix "On Quantitative Trading
+
+133
+00:12:22.590 --> 00:12:29.153
+6.3.2.2 High talent tolerance and economic returns that are almost certainly lucrative
+
+134
+00:12:29.153 --> 00:12:37.290
+6.3.3 Regardless of which direction, don't position yourself for "transitioning" — dive in from day one, enter that community
+
+135
+00:12:37.290 --> 00:12:45.015
+6.3.3.1 As is well known, the elite's learning curve depends on themselves, not on schools/others arranging it
+
+136
+00:12:45.015 --> 00:12:49.615
+6.3.3.2 Expecting to "transition" is irrational
+
+137
+00:12:49.615 --> 00:12:55.028
+a，You need deliberate practice in specific disciplinary/industry scenarios
+
+138
+00:12:55.028 --> 00:12:58.690
+A fitness expert is not a table tennis expert
+
+139
+00:12:58.690 --> 00:13:03.615
+b，Entering the field's (elite) interest groups has no less than e的负一次方 importance
+
+140
+00:13:03.615 --> 00:13:07.915
+Waiting until you've transitioned to meet people obviously doesn't work
+
+141
+00:13:07.915 --> 00:13:13.303
+If you think sex is really great, don't fully prepare for it until age 60" (Buffett)
+
+142
+00:13:13.303 --> 00:13:18.015
+6.3.4 Considering that (the questioner) is female
+
+143
+00:13:18.015 --> 00:13:24.128
+6.3.4.1 In 2504, The Right One's answer is "Good character and good tech
+
+144
+00:13:24.128 --> 00:13:31.865
+6.3.4.2 This is something almost only Silicon Valley (Greater Bay Area secondarily) coders can achieve
+
+145
+00:13:31.865 --> 00:13:35.978
+a，The underlying cultural and historical reasons are omitted
+
+146
+00:13:35.978 --> 00:13:43.503
+6.3.4.3 So deep social networking with the Silicon Valley coder community has additional long-term value
+
+147
+00:13:43.503 --> 00:13:46.403
+6Q2 About relationships
+
+148
+00:13:46.403 --> 00:13:49.590
+6.4 How to Get Over a Breakup
+
+149
+00:13:49.590 --> 00:13:52.653
+6.4.0 Full House
+
+150
+00:13:52.653 --> 00:13:57.215
+6.4.0.0 5hows' book club is called "Howl Room!
+
+151
+00:13:57.215 --> 00:14:01.453
+Full House," named after an old Korean drama, Fullhouse.
+
+152
+00:14:01.453 --> 00:14:07.903
+The group's anniversary happens to be 520; below records its "520 Memorial" text
+
+153
+00:14:07.903 --> 00:14:11.253
+6.4.1 Research background
+
+154
+00:14:11.253 --> 00:14:23.078
+6.4.1.1 The author is also the admin of a mahjong group that has been running for over 200 days, spending at least 75 minutes every night with mahjong group members over the past 200 days
+
+155
+00:14:23.078 --> 00:14:41.828
+6.4.1.2 Gradually the first group member came to ask "How to Get Over a Breakup," and the author enthusiastically wrote a dedicated essay to comfort them; then came the second, and the author wrote another essay to comfort them; then came the third, and the author directly copy-pasted the essay, telling them to go somewhere cool and read it themselves
+
+156
+00:14:41.980 --> 00:14:46.430
+6.4.2 The first principles of breakup mindset
+
+157
+00:14:46.380 --> 00:14:51.242
+6.4.2.1 From the supply side, supply is infinite
+
+158
+00:14:51.242 --> 00:14:57.817
+a，Earth has 3.5b opposite-sex individuals, nearly 0.5b of marriageable age
+
+159
+00:14:57.817 --> 00:15:11.180
+6.4.2.2 From the demand side, assuming you do have true love (demanding/strict/precise requirements for relationships, not substitutable by material conditions), but your true love is not infinitely dimensional
+
+160
+00:15:11.180 --> 00:15:15.655
+a，It's said that Douyin categorizes people into 108 types
+
+161
+00:15:15.655 --> 00:15:24.692
+b，YM says, out of 3.5 billion, you're not picking the one destined for you — the total number of people who satisfy you in every way is 20,000
+
+162
+00:15:24.692 --> 00:15:29.817
+6.4.3 Therefore, the supply of true love is strictly infinite
+
+163
+00:15:29.817 --> 00:15:37.155
+6.4.3.1 Direct corollary one: the next one is strictly better, wasting even a minute is a loss
+
+164
+00:15:37.155 --> 00:15:44.905
+6.4.3.2 Direct corollary two: you must be proactive; reaching slightly above your grasp is strictly superior
+
+165
+00:15:44.905 --> 00:15:49.992
+a，Passively accepting "low-hanging fruit" will most likely land you in a "sinkhole
+
+166
+00:15:49.992 --> 00:15:57.492
+b，The latter can be rigorously proven by game theory; there happens to be a beautiful Berkeley math YouTuber who explains this proof
+
+167
+00:15:57.492 --> 00:16:02.192
+Bilibili link BV1jx4y197u7
+
+168
+00:16:02.192 --> 00:16:06.942
+6.4.4 Pursue proactively but fail fast and move on
+
+169
+00:16:06.942 --> 00:16:13.692
+6.4.4.1 When you meet someone you like, you must give 1+e的负一次方, exceeding your own level
+
+170
+00:16:13.692 --> 00:16:20.142
+a，Because at the beginning there's a chain of suspicion between you, which reduces the yield of effort-to-return
+
+171
+00:16:20.142 --> 00:16:25.580
+b，Don't let the e的负一次方 you didn't put in create a "Pride and Prejudice-style" missed opportunity
+
+172
+00:16:25.580 --> 00:16:30.292
+6.4.4.2 Iterate quickly, fail fast and move on
+
+173
+00:16:30.292 --> 00:16:33.630
+a，The gold standard for hard but right things
+
+174
+00:16:33.630 --> 00:16:36.867
+If something is right, there's a gold standard.
+
+175
+00:16:36.867 --> 00:16:43.067
+Although difficult, every time you put in effort, you'll also feel it accompanied by an equal amount of luck
+
+176
+00:16:43.067 --> 00:16:48.430
+That is, the other person is also trying, and the overall situation is improving
+
+177
+00:16:48.430 --> 00:16:55.367
+Otherwise, the more effort you put in the harder it gets, and the expected waiting time is strictly positive infinity
+
+178
+00:16:55.367 --> 00:16:59.042
+b，The solution to the optimal stopping problem is e的负一次方
+
+179
+00:16:59.042 --> 00:17:06.367
+e的负一次方 appears extensively in 5hows; the mathematically meaningful e的负一次方 is actually the solution to the optimal stopping problem
+
+180
+00:17:06.367 --> 00:17:09.592
+First confirm the total sample size.
+
+181
+00:17:09.592 --> 00:17:13.567
+Then observe e的负一次方 sample candidates first, and pass on them.
+
+182
+00:17:13.567 --> 00:17:18.980
+After that, immediately commit to the first new person who exceeds max{e的负一次方 sample}
+
+183
+00:17:18.980 --> 00:17:24.055
+c，Your exes are observation samples; their poor performance is not your fault
+
+184
+00:17:24.055 --> 00:17:29.030
+6.4.5 In summary, it's all growth — be full of gratitude
+
+185
+00:17:29.030 --> 00:17:32.105
+6.4.6 An example
+
+186
+00:17:32.105 --> 00:17:37.342
+Q: I can't bring myself to play riichi mahjong anymore, and my life is a mess
+
+187
+00:17:37.342 --> 00:17:42.592
+A: Better than when you couldn't bring yourself to live, and mahjong was also a mess
+
+188
+00:17:42.592 --> 00:17:46.017
+Q: How do I get over relationship troubles?
+
+189
+00:17:46.017 --> 00:17:48.567
+I feel like I need therapy
+
+190
+00:17:48.567 --> 00:17:51.742
+A: I'll teach you, it's super simple
+
+191
+00:17:51.742 --> 00:17:59.217
+A: First, you're not the first group member to encounter this problem — so much so that I don't even need to type, hold on while I paste
+
+192
+00:17:59.217 --> 00:18:03.705
+Q: I've been in a relationship for over four years, no result.
+
+193
+00:18:03.705 --> 00:18:07.892
+I've consulted friends around me, and they all advise breaking up.
+
+194
+00:18:07.892 --> 00:18:10.992
+But I find myself increasingly drained
+
+195
+00:18:10.992 --> 00:18:15.542
+A: Break up, break up this second, don't wait even one second.
+
+196
+00:18:15.542 --> 00:18:21.642
+A basic fact is, four years with no progress — the other person is also very awkward facing you
+
+197
+00:18:21.642 --> 00:18:28.155
+A: Again, the first principle is that supply is infinite; what's finite is your time and resources.
+
+198
+00:18:28.155 --> 00:18:30.980
+So you must cherish your resources
+
+199
+00:18:30.980 --> 00:18:33.017
+Q: Well said
+
+200
+00:18:33.017 --> 00:18:38.130
+A: Your dream lover, the one who's perfect for you — there are 20,000 of them.
+
+201
+00:18:38.130 --> 00:18:45.567
+If you're willing to slightly compromise, say accepting "suitable" level, the number rises to hundreds of thousands or even millions
+
+202
+00:18:45.567 --> 00:18:51.592
+A: China has 20 major cities, each with 20,000, and each neighborhood with 1,000.
+
+203
+00:18:51.592 --> 00:18:55.242
+This roughly means you meet one every day when you go out
+
+204
+00:18:55.242 --> 00:18:59.867
+A: So where you spend your time, and on whom — that's what matters most.
+
+205
+00:18:59.867 --> 00:19:03.167
+Any specific person is not scarce at all
+
+206
+00:19:03.167 --> 00:19:12.267
+A: You essentially have thousands upon thousands of lovers hanging in every Starbucks on every street, waiting for you to apply resources and unlock their storyline
+
+207
+00:19:12.436 --> 00:19:15.148
+A: You must iterate quickly.
+
+208
+00:19:15.098 --> 00:19:19.236
+Spending n months on one person is an extremely slow pace.
+
+209
+00:19:19.236 --> 00:19:24.073
+If you get a bad feeling after n months, hurry up and start a new storyline
+
+210
+00:19:24.073 --> 00:19:27.086
+6.5 How to Find a Partner
+
+211
+00:19:27.086 --> 00:19:35.448
+6.5.0 From the previous point, the solution to the optimal stopping problem is e的负一次方, and your e的负一次方 exes are observation samples
+
+212
+00:19:35.448 --> 00:19:39.198
+6.5.1 You need deliberate practice.
+
+213
+00:19:39.198 --> 00:19:45.086
+Seeking a partner for the purpose of finding a partner will yield better full-lifecycle efficiency
+
+214
+00:19:45.244 --> 00:19:50.294
+Mr. Cai Lan says, "Dating requires practice — even go after the ugly ones.
+
+215
+00:19:50.244 --> 00:19:53.094
+Gradually the pretty ones will come
+
+216
+00:19:53.094 --> 00:20:01.506
+6.5.2 Human nature is stable; environment is only a first-order influence; character/habits are even second-order
+
+217
+00:20:01.506 --> 00:20:12.206
+6.5.2.1 A kind, lovely, well-born, noble-charactered, talented opposite-sex individual — their basic elements of human nature are not much different from lesser ones
+
+218
+00:20:12.206 --> 00:20:19.794
+a，Environment changes some internals, virtues change some paradigms, but the deepest layer of human nature remains unchanged
+
+219
+00:20:19.794 --> 00:20:25.131
+6.5.2.2 Interpreted positively, Mr. Cai Lan is right
+
+220
+00:20:25.131 --> 00:20:30.319
+a，You can acquire much understanding of the opposite sex through deliberate practice
+
+221
+00:20:30.319 --> 00:20:37.194
+Understanding of people and relationships, low-cost high-charm tricks, composure and equanimity in relationships
+
+222
+00:20:37.194 --> 00:20:43.181
+b，After active or passive e的负一次方 regrets, these accumulated skills remain, and all come in handy
+
+223
+00:20:43.181 --> 00:20:46.431
+6.6 How to Avoid Being Scammed
+
+224
+00:20:46.431 --> 00:20:50.781
+6.6.0 Fear is not a solution to any problem
+
+225
+00:20:50.781 --> 00:21:00.306
+6.6.0.0 In 2504, the reason many people dare not / don't want to deliberately practice "How to Find a Partner" is fear of being scammed
+
+226
+00:21:00.306 --> 00:21:07.256
+a，Being scammed means being excessively guided in expectations during a relationship, and consequently overpaying
+
+227
+00:21:07.256 --> 00:21:13.781
+6.6.0.1 Or the social pressure and rejection from defensively avoiding being scammed
+
+228
+00:21:13.781 --> 00:21:18.356
+a，There's even a bestselling game called "Romance Anti-Fraud Simulator
+
+229
+00:21:18.356 --> 00:21:22.356
+6.6.1 This fear is entirely baseless.
+
+230
+00:21:22.356 --> 00:21:26.344
+Note that if you're rich enough, dating barely requires money
+
+231
+00:21:26.344 --> 00:21:35.606
+6.6.1.1 If you get scammed, there's an e的负一次方 probability it's because you're not rich enough; and a 1-e的负一次方 probability it's because you're in the wrong relationship
+
+232
+00:21:35.606 --> 00:21:40.169
+6.6.1.2 Therefore being scammed isn't that scary
+
+233
+00:21:40.169 --> 00:21:47.419
+a，Always only go on dates you find comfortable, keep spending at a comfortable level — it doesn't affect relationship progress at all
+
+234
+00:21:47.419 --> 00:21:54.156
+6.6.2 Paying cannot increase the probability of a successful relationship, not even a tiny bit
+
+235
+00:21:54.156 --> 00:22:06.144
+6.6.2.1 If paying could increase the probability, it means the other person has a need for your money, so the probability of relationship success depends only on your wealth level, not on your spending level
+
+236
+00:22:06.144 --> 00:22:12.869
+6.6.2.2 If paying cannot independently increase the probability, then getting along well can.
+
+237
+00:22:12.869 --> 00:22:17.606
+Spending at your comfortable level is conducive to getting along well long-term
+
+238
+00:22:17.606 --> 00:22:22.969
+6.6.2.3 In practice, the biggest role of paying is signaling
+
+239
+00:22:22.969 --> 00:22:31.306
+a，That is, in a correct relationship, you can let the other person understand that you're willing to devote a significant proportion of resources for them
+
+240
+00:22:31.306 --> 00:22:37.281
+b，This makes the signaling a ratio / dimensionless quantity, which you can definitely afford
+
+241
+00:22:37.281 --> 00:22:41.156
+6.6.3 How to avoid inferiority
+
+242
+00:22:41.156 --> 00:22:47.494
+Being scammed generally comes from inferiority; you won't be scammed by someone you interact with as an equal
+
+243
+00:22:47.494 --> 00:22:56.156
+6.6.3.0 The hidden assumption of not being confident is that you believe there are other life playthroughs, and you don't want to face the current one
+
+244
+00:22:56.156 --> 00:22:58.281
+a，You don't have any
+
+245
+00:22:58.281 --> 00:23:03.369
+b，Therefore, you must believe in yourself, for you have no chance to be someone else.
+
+246
+00:23:03.369 --> 00:23:07.206
+You must assume you can definitely beat the current playthrough
+
+247
+00:23:07.206 --> 00:23:11.156
+c，Since you're going to beat it anyway, you deserve anything
+
+248
+00:23:11.156 --> 00:23:16.431
+6.6.3.1 What if you truly don't deserve them, should you still love?
+
+249
+00:23:16.431 --> 00:23:18.956
+a，Love has many dimensions
+
+250
+00:23:18.956 --> 00:23:21.831
+You want them to achieve their ideals
+
+251
+00:23:21.831 --> 00:23:24.731
+You want to achieve your ideals with them
+
+252
+00:23:24.731 --> 00:23:26.981
+You want them to be well
+
+253
+00:23:26.981 --> 00:23:30.281
+You want them to understand you and be proud of you
+
+254
+00:23:30.281 --> 00:23:33.806
+You're willing to give more for them than for anyone else
+
+255
+00:23:33.806 --> 00:23:38.181
+You have the urge to share with them, you want them to know your daily life
+
+256
+00:23:38.181 --> 00:23:43.481
+b，But it absolutely does not include looking up to them, feeling they're unattainable
+
+257
+00:23:43.481 --> 00:23:48.381
+6.6.3.2 You will meet many absolutely stunning people
+
+258
+00:23:48.381 --> 00:23:54.594
+Experiencing one thing / having one trait is enough to impress you — they have 6-7 such things
+
+259
+00:23:54.594 --> 00:23:59.206
+a，At these times, remember: you don't love them, you're just impressed
+
+260
+00:23:59.206 --> 00:24:02.006
+b，You love what you can take care of
+
+261
+00:24:02.006 --> 00:24:03.644
+Otherwise?
+
+262
+00:24:03.644 --> 00:24:08.331
+You don't love an unattainable antique, like a jade pig-dragon pendant
+
+263
+00:24:08.331 --> 00:24:11.881
+You love some specific pig that you can take care of
+
+264
+00:24:12.052 --> 00:24:17.127
+6.6.3.3 I tried my best, but my confession failed
+
+265
+00:24:17.077 --> 00:24:20.627
+a，Then you've had a breakup, follow 6.4
+
+266
+00:24:20.788 --> 00:24:26.275
+b，A common suggestion: if you can't let go and like someone better, you should cut contact
+
+267
+00:24:26.225 --> 00:24:28.538
+Don't be "Just Good Friends
+
+268
+00:24:28.538 --> 00:24:36.013
+Someone who doesn't mind hurting your feelings generally won't mind habitually hurting you — this has nothing to do with whether they love you or not
+
+269
+00:24:36.013 --> 00:24:40.350
+Even if there's a reversal and you end up together, they'll still hurt you
+
+270
+00:24:40.350 --> 00:24:45.700
+You must always believe you'll find someone better, because supply is strictly infinite
+
+271
+00:24:45.700 --> 00:24:48.188
+6Q3 About life
+
+272
+00:24:48.188 --> 00:24:50.738
+6.7 How to Read
+
+273
+00:24:50.738 --> 00:24:54.800
+6.7.0 How to choose books — see "0.
+
+274
+00:24:54.800 --> 00:25:00.813
+Feasibility analysis of feasibility 到 spot-read 到 read what you don't know 到 read seriously on demand
+
+275
+00:25:00.813 --> 00:25:03.988
+6.7.1 Read for Joy.
+
+276
+00:25:03.988 --> 00:25:05.925
+Read for Learning.
+
+277
+00:25:05.925 --> 00:25:08.188
+Read for Inspiration
+
+278
+00:25:08.188 --> 00:25:10.738
+6.8 Read for Joy
+
+279
+00:25:10.738 --> 00:25:15.463
+6.8.1 People's reading interests are remarkably fixed.
+
+280
+00:25:15.463 --> 00:25:20.813
+Just re-read the book you enjoyed the most; coming across an additional one counts as lucky
+
+281
+00:25:20.813 --> 00:25:29.413
+Many people read "Cai Gen Tan" over a hundred times; most Jin Yong novel fans are thoroughly familiar with the complete plots of volumes 1到14
+
+282
+00:25:29.413 --> 00:25:34.500
+Half of "The Analects" / half of "Yes, Prime Minister" can govern the world
+
+283
+00:25:34.500 --> 00:25:40.900
+6.8.2 Enter high-threshold reading domains, and thereby enter the corresponding community
+
+284
+00:25:40.900 --> 00:25:45.100
+6.8.2.1 Some of the author's interest groups
+
+285
+00:25:45.100 --> 00:25:48.438
+a，Regulated verse society: Howl Room!
+
+286
+00:25:48.438 --> 00:25:51.163
+Fantang Poetry Society
+
+287
+00:25:51.163 --> 00:25:54.100
+b，Riichi mahjong club: Howl Room!
+
+288
+00:25:54.100 --> 00:25:56.150
+Full Disclosure
+
+289
+00:25:56.150 --> 00:26:00.613
+6.8.3 Deep happiness actually belongs to the elite
+
+290
+00:26:00.613 --> 00:26:08.450
+6.8.3.0 "How to Be Happy" is actually closer to "How to Make Things Happen" — it requires considerable originality
+
+291
+00:26:08.450 --> 00:26:17.975
+6.8.3.1 The joy of creation / building an ideal state is something very hardwired in human nature, generally considered the highest form of happiness
+
+292
+00:26:17.975 --> 00:26:21.250
+6.8.3.2 An example
+
+293
+00:26:21.250 --> 00:26:29.700
+a，*The author is a history enthusiast, and a counterfactual history game frequently played with fellow enthusiasts is called "The Last Moment
+
+294
+00:26:29.700 --> 00:26:36.688
+b，The daily discussion of this game: at what latest moment could the course of history / someone's fate still have been changed?
+
+295
+00:26:36.688 --> 00:26:39.650
+When did Chiang Kai-shek lose the mainland?
+
+296
+00:26:39.650 --> 00:26:43.600
+When did 101's tragic ending become determined?
+
+297
+00:26:43.600 --> 00:26:46.538
+When did Germany lose WWII?
+
+298
+00:26:46.538 --> 00:26:52.063
+6.8.4 For adults to have fun, they generally need to build it themselves
+
+299
+00:26:52.063 --> 00:26:57.838
+6.8.4.1 The world is designed for children to play well and adults to buy lots
+
+300
+00:26:57.838 --> 00:27:02.225
+a，Kids can happily visit a museum, then sweep the gift shop
+
+301
+00:27:02.225 --> 00:27:09.188
+b，To paint your own "Girl with a Pearl Earring," you basically need to organize fellow enthusiasts and build your own workshop
+
+302
+00:27:09.188 --> 00:27:12.475
+6.8.4.2 An example
+
+303
+00:27:12.475 --> 00:27:18.325
+a，The author built a public-service community for math competition students (hereafter "The House")
+
+304
+00:27:18.325 --> 00:27:27.750
+b，Containing 7 academic groups, 7 gaming groups, 7 functional groups, totaling over 2,700 people as of 2504
+
+305
+00:27:27.750 --> 00:27:30.413
+6.9 Read for Learning
+
+306
+00:27:30.413 --> 00:27:39.063
+6.9.0 Read for Learning applies when you already know this book is worth learning from, so the core purpose is to improve absorption efficiency
+
+307
+00:27:39.063 --> 00:27:46.213
+6.9.0.1 The standard for Read for Joy is whether you learn something new or not — it makes no difference to the outcome
+
+308
+00:27:46.213 --> 00:27:51.225
+6.9.0.2 For Read for Learning, you must learn something new
+
+309
+00:27:51.225 --> 00:27:59.063
+6.9.1 The first principle of Read for Learning is to figure out which part of the book is most important for your own absorption
+
+310
+00:27:59.063 --> 00:28:06.625
+6.9.1.1 You need to allocate reading/attention resources (even when you definitely plan to learn everything)
+
+311
+00:28:06.625 --> 00:28:16.625
+6.9.1.2 You actually use what you learn first to understand what you learn later, so prioritizing the parts critical to your absorption is especially important
+
+312
+00:28:16.625 --> 00:28:20.975
+6.9.2 Determining the necessity of absorption
+
+313
+00:28:20.975 --> 00:28:26.588
+6.9.2.1 The key points and difficulties of absorption are always different
+
+314
+00:28:26.588 --> 00:28:34.963
+a，If there's content that simultaneously satisfies being needed, being unknown to you, and being very hard to learn, you should be especially happy
+
+315
+00:28:34.963 --> 00:28:39.550
+b，Because this means you've found the steepest point on your learning curve right now
+
+316
+00:28:39.550 --> 00:28:46.175
+This is quite rare; most of the time, what consumes your time is often completely unimportant technical details
+
+317
+00:28:46.175 --> 00:28:55.138
+6.9.2.2 Understand the book's logic and structure from the author's perspective, and weight the content according to its importance for your absorption
+
+318
+00:28:55.300 --> 00:29:02.900
+a，Carefully read the table of contents / preface / afterword; understand the author's narrative/argumentative logic
+
+319
+00:29:02.850 --> 00:29:12.750
+b，The author unfolds content by rigor rather than by importance to you; without understanding the big picture, you don't know what they're trying to do, and thus can't judge what's important
+
+320
+00:29:12.750 --> 00:29:16.550
+6.9.3 Allocate attention by weight
+
+321
+00:29:16.550 --> 00:29:26.287
+6.9.3.1 Intensively read the parts most important to you; for prerequisite knowledge, just enough for logical progression will do — don't be a perfectionist
+
+322
+00:29:26.452 --> 00:29:33.264
+6.9.3.2 Use them to understand the rest — this is the most likely path to learning things fastest
+
+323
+00:29:33.214 --> 00:29:38.402
+6.9.4 If you truly can't learn it yourself, seek help from others
+
+324
+00:29:38.402 --> 00:29:43.889
+6.9.4.1 Structure your understanding, structure your questions
+
+325
+00:29:43.889 --> 00:29:51.502
+6.9.4.2 The most basic quality when seeking help is to assume that others' time is at least as valuable as yours
+
+326
+00:29:51.502 --> 00:29:55.639
+a，Explore everything you can understand before asking for help
+
+327
+00:29:55.639 --> 00:30:00.702
+b，Strive to be enlightened by just a sentence or two from someone who understands
+
+328
+00:30:00.702 --> 00:30:06.139
+c，Luck generally means meeting someone who understands, who says one clear thing to you
+
+329
+00:30:06.139 --> 00:30:10.839
+6.9.5 Learn, apply, and teach simultaneously
+
+330
+00:30:10.839 --> 00:30:18.139
+6.9.5.1 Once you've learned something, apply it immediately — if you don't use it, you might as well not have read
+
+331
+00:30:18.139 --> 00:30:26.614
+6.9.5.2 A direct corollary: if you're reading/learning within a real time-limited task, you'll quickly learn everything you need
+
+332
+00:30:26.614 --> 00:30:31.214
+a，The goal is a concrete deliverable, not taking notes for their own sake
+
+333
+00:30:31.214 --> 00:30:41.189
+b，Masters of guerrilla warfare all learned guerrilla tactics in practice, because very few military academies can simulate the environment of being chased by enemies every day
+
+334
+00:30:41.189 --> 00:30:49.014
+c，In "The Smiling, Proud Wanderer," Linghu Chong learned the "Sword-Breaking Stance" in three days because he needed to drive away Tian Boguang
+
+335
+00:30:49.014 --> 00:30:54.964
+6.9.5.3 The Feynman Technique is the unbeatable method for learning new things
+
+336
+00:30:54.964 --> 00:31:01.914
+a，The author routinely writes "How to xx" pieces, which aren't things already fully mastered/summarized beforehand
+
+337
+00:31:01.914 --> 00:31:05.002
+b，Writing is a process of synthesis.
+
+338
+00:31:05.002 --> 00:31:09.852
+Explain it to someone else once, and it's hard not to understand it yourself
+
+339
+00:31:09.852 --> 00:31:15.477
+Furthermore, to have substance worth sharing, you also have extra motivation to read
+
+340
+00:31:15.477 --> 00:31:18.577
+6.9.6 An example
+
+341
+00:31:18.577 --> 00:31:30.377
+6.9.6.1 The author is a business student who routinely reads large volumes of STEM papers across different fields, requiring particularly strong methodology to get even a little bit out of them
+
+342
+00:31:30.377 --> 00:31:37.752
+6.9.6.2 In fact, the author still reads papers daily to this day, undeterred by any difficulty
+
+343
+00:31:37.752 --> 00:31:41.189
+6.10 Read for Inspiration
+
+344
+00:31:41.189 --> 00:31:46.689
+Please first read the appendix "On the Zi-Yang Telegram" as an introduction to the problem
+
+345
+00:31:46.689 --> 00:31:53.577
+6.10.0 Classic texts have many interpretive angles — a thousand readers have a thousand Hamlets
+
+346
+00:31:53.577 --> 00:32:00.364
+6.10.0.0 Therefore the real question is, how to transform the "Zi-Yang Telegram" into
+
+347
+00:32:00.364 --> 00:32:03.739
+a，Standing from the other person's perspective
+
+348
+00:32:03.739 --> 00:32:07.139
+b，No attitude, no emotion, all reason
+
+349
+00:32:07.139 --> 00:32:11.177
+c，Boldly stating your view, without demanding authority
+
+350
+00:32:11.177 --> 00:32:19.027
+6.10.0.1 You only need Inspiration; you don't need to master everything, nor is it guaranteed that you'll be inspired
+
+351
+00:32:19.027 --> 00:32:26.677
+a，Still using the Zi-Yang Telegram as an example, only "give advice but never simultaneously demand power" can inspire you
+
+352
+00:32:26.677 --> 00:32:31.827
+b，As for "how to stand from the other person's perspective" — completely unimportant
+
+353
+00:32:31.827 --> 00:32:38.764
+6.10.1 The first principle of Read for Inspiration, also known as the "APP Update Principle
+
+354
+00:32:38.764 --> 00:32:44.577
+6.10.1.1 As is well known, whether an App can be updated depends on
+
+355
+00:32:44.577 --> 00:32:47.927
+a，Whether the developer has released a new version
+
+356
+00:32:47.927 --> 00:32:51.527
+b，Whether your OS system can support this update
+
+357
+00:32:51.527 --> 00:32:59.727
+6.10.1.2 If not, you need to update the OS first before you can absorb the APP's update ("version lagged, cannot load")
+
+358
+00:32:59.727 --> 00:33:05.314
+6.10.1.3 Similarly, whether you can be inspired depends on
+
+359
+00:33:05.314 --> 00:33:11.252
+a，The innovativeness, inspirability, and readability of the reading material itself
+
+360
+00:33:11.252 --> 00:33:17.314
+b，Your current characterization of the world and understanding of dynamics (SD, see "5.
+
+361
+00:33:17.314 --> 00:33:25.252
+You might be able to learn content you previously didn't understand at all, but it's unlikely you'll be inspired by content you barely understand
+
+362
+00:33:25.252 --> 00:33:34.602
+6.10.2 "Textbooks, history, biographies/interviews/speeches, and landmark papers are the并列 top four best inspirational materials
+
+363
+00:33:34.602 --> 00:33:43.039
+6.10.2.1 Respect the classics, respect your own reading preferences; re-read what you love, read it many, many times
+
+364
+00:33:43.039 --> 00:33:52.689
+6.10.2.2 "When I was young, I thought Journey to the West was poorly written — just a pilgrimage encountering monsters repeatedly, with repetitive plot.
+
+365
+00:33:52.689 --> 00:33:58.227
+After turning thirty, I suddenly understood: the monsters all came from heaven" (Liu Zhenyun)
+
+366
+00:33:58.396 --> 00:34:02.371
+6.10.3 Entering the "Realm of Self
+
+367
+00:34:02.321 --> 00:34:07.483
+6.10.3.1 Put yourself in: "How far can I understand?
+
+368
+00:34:07.483 --> 00:34:09.396
+How would I judge?
+
+369
+00:34:09.396 --> 00:34:11.571
+Can I actually do it?
+
+370
+00:34:11.571 --> 00:34:20.433
+6.10.3.2 The samples and thinking paradigms in these books will temper your intuition, accumulate your models, and elevate your SD
+
+371
+00:34:20.433 --> 00:34:26.621
+6.10.4 Given SD, how to maximize the probability of being inspired?
+
+372
+00:34:26.621 --> 00:34:31.896
+6.10.4.0 The main methodology is "active isomorphism
+
+373
+00:34:32.044 --> 00:34:44.331
+6.10.4.1 You don't have SD_a for system A, but you do have SD_b for system B, and have obtained a clear and profound textbook/case book M_b for system B
+
+374
+00:34:44.281 --> 00:34:55.444
+6.10.4.2 If system A and system B have structural and dynamical isomorphism, you can seriously study M_b and try to construct M_a by analogy
+
+375
+00:34:55.444 --> 00:34:59.794
+6.10.4.3 Whatever you can grasp counts
+
+376
+00:34:59.794 --> 00:35:08.719
+6.10.5 Reading epiphanies are mysterious, discontinuously innovative processes that require the best possible reading conditions
+
+377
+00:35:08.719 --> 00:35:14.506
+6.10.5.1 Everyone has personal habits for moments of inspiration
+
+378
+00:35:14.506 --> 00:35:19.631
+a，Showering, exercise, before sleep, talking to yourself, happy food...
+
+379
+00:35:19.631 --> 00:35:28.794
+6.10.5.2 The mechanism of such nonlinear innovation is currently unclear; respect it, cherish it, and practice it deliberately
+
+380
+00:35:28.794 --> 00:35:35.006
+a，The only known mechanism is self-suggestion that stimulates creativity, "entering the flow state
+
+381
+00:35:35.006 --> 00:35:39.181
+b，"I usually get inspiration while taking a bath" "Eureka!
+
+382
+00:35:39.181 --> 00:35:40.944
+Archimedes)
+
+383
+00:35:40.944 --> 00:35:45.719
+6.10.6 You truly understand only through practice
+
+384
+00:35:45.719 --> 00:35:54.081
+6.10.6.1 In practice, Read for Inspiration with non-zero value measure generally starts with having a problem first
+
+385
+00:35:54.081 --> 00:35:59.344
+At least having a directional question, "hoping to receive an oracle on which aspect
+
+386
+00:35:59.344 --> 00:36:07.631
+6.10.6.2 Actively find corresponding books, find inspiration, find isomorphism, and thereby find answers
+
+387
+00:36:07.631 --> 00:36:15.756
+a，No matter how good the inspiration-stimulating conditions, casually reading books and realizing random truths — the reasoning may be profound
+
+388
+00:36:15.756 --> 00:36:22.144
+b，But if you don't immediately use it, don't form actions, it actually has zero positive measure impact
+
+389
+00:36:22.144 --> 00:36:24.544
+c，Practice is primary
+
+390
+00:36:24.544 --> 00:36:28.856
+Only purely original ideas rely on constructing ND
+
+391
+00:36:28.856 --> 00:36:34.644
+The vast majority of cognitive improvement comes from drawing inferences and applying by analogy
+
+392
+00:36:34.644 --> 00:36:45.219
+6.10.6.3 When encountering problems, read more corresponding classic works, map more of the deductive logic in the books, and consult more experienced authorities
+
+393
+00:36:45.219 --> 00:36:52.594
+a，Absorb more of their analytical perspectives; there's no need for any particularly magical inspiration methodology
+
+394
+00:36:52.594 --> 00:36:59.756
+b，Ability is forced by circumstances, ideas are distilled from methods — there's no champion who hasn't been in the arena
+
+395
+00:36:59.756 --> 00:37:02.694
+6.11 How to Raise Kids
+
+396
+00:37:02.694 --> 00:37:11.006
+6.11.1 The first principle of how to raise kids is that kids are rational agents who will make optimal choices according to their own SD
+
+397
+00:37:11.006 --> 00:37:15.331
+6.11.2 Leading by example is paramount
+
+398
+00:37:15.331 --> 00:37:24.081
+6.11.2.1 If something is right/impressive and your kid doesn't dare do it, the only reason is they don't believe anyone can actually do it
+
+399
+00:37:24.081 --> 00:37:31.806
+a，Many people are mediocre or even failures their whole lives, yet their kids are exceptionally impressive, daring to think and act
+
+400
+00:37:31.806 --> 00:37:38.669
+b，Because the kid received correct and vivid reverse leading-by-example education, and this education is working
+
+401
+00:37:38.669 --> 00:37:51.044
+6.11.2.2 Conversely, trying to persuade your kid to accept some principle solely through studying child psychology / childhood education, without yourself practicing it — this cannot possibly have any effect
+
+402
+00:37:51.044 --> 00:37:57.156
+6.11.3 You reveal the SD you understand, and your kid will apply it themselves
+
+403
+00:37:57.156 --> 00:38:05.594
+6.11.3.1 Studying history / reading biographies is nothing more than hoping to use others' experiences to teach yourself
+
+404
+00:38:05.594 --> 00:38:13.369
+6.11.3.2 Therefore, just explain the story's setting and causality, introduce what you understand and what you know
+
+405
+00:38:13.369 --> 00:38:21.006
+6.11.3.3 You should assume your kid is a rational agent — once they know the game rules, they'll pick up a good game in minutes
+
+406
+00:38:21.006 --> 00:38:27.231
+a，In The House, there's a relationships group where plenty of young guys play "Romance Anti-Fraud Simulator
+
+407
+00:38:27.231 --> 00:38:31.156
+b，Learning "How to Find a Partner" and "How to Not Get Scammed
+
+408
+00:38:31.156 --> 00:38:35.131
+6.11.4 Context, Not Control
+
+409
+00:38:35.131 --> 00:38:43.219
+6.11.4.1 "Running a family is nothing more than leading a good team — the only difference is, you can't fire your family members
+
+410
+00:38:43.219 --> 00:38:51.481
+6.11.4.2 Follow this methodology, and you'll know what's the maximum you can hope to achieve in raising kids/leading teams
+
+411
+00:38:51.481 --> 00:38:54.856
+6.11.5 Two examples
+
+412
+00:38:54.856 --> 00:38:59.744
+6.11.5.1 Don't worry about your kid not working hard
+
+413
+00:38:59.744 --> 00:39:06.994
+a，In 2504, the world rewards those who put in 1+e的负一次方 with e的负一次方 luck, taking home 500%
+
+414
+00:39:07.156 --> 00:39:11.131
+b，Not working hard is the lowest cost-performance choice
+
+415
+00:39:11.081 --> 00:39:16.368
+6.11.5.2 Don't worry about your kid not finding a good direction
+
+416
+00:39:16.368 --> 00:39:24.518
+a，Yang Zhenning said, "Directions must have a future; the difference between directions far exceeds the difference between individual diligence and talent
+
+417
+00:39:24.676 --> 00:39:32.338
+b，According to "0.", as long as you slightly serve some dishes to the world, the world's rewards for excellence have never been so generous
+
+418
+00:39:32.288 --> 00:39:40.676
+In 2504, AI companies founded within the past year are rarely valued below $1 billion, yet typically have only 30 people
+
+419
+00:39:40.676 --> 00:39:47.213
+A certain Chinese woman did the things one should do when co-founding S AI, and is now worth more than Taylor Swift
+
+420
+00:39:47.213 --> 00:39:50.863
+6.12 How to Dispose of Bad Assets
+
+421
+00:39:50.863 --> 00:39:55.538
+Disposing of bad assets is painful, draining, and counterintuitive
+
+422
+00:39:55.538 --> 00:39:59.501
+6.12.1 Definition of bad assets
+
+423
+00:39:59.501 --> 00:40:08.251
+6.12.1.1 A bad asset is one that, if you were holding it for the first time today, lacks certainty, yet cannot be easily disposed of
+
+424
+00:40:08.251 --> 00:40:11.863
+a，Buying = holding, holding = buying
+
+425
+00:40:11.863 --> 00:40:19.376
+b，Mentally, you cannot lose rational assessment and perspective simply because you've held it for a long time, or even inherited it
+
+426
+00:40:19.376 --> 00:40:21.301
+Always Day 1
+
+427
+00:40:21.301 --> 00:40:26.326
+Your situation is the same as if you were buying and holding it for the first time today
+
+428
+00:40:26.326 --> 00:40:33.226
+c，Given the above, if it can be easily disposed of, then it's not a bad asset — just a pending-disposal asset
+
+429
+00:40:33.226 --> 00:40:38.088
+Historical cost and emotional sediment — only you know; no one else cares
+
+430
+00:40:38.088 --> 00:40:40.438
+Fail fast and move on
+
+431
+00:40:40.438 --> 00:40:44.701
+6.12.2 First principles of bad assets
+
+432
+00:40:44.701 --> 00:40:52.476
+6.12.2.1 The first principle of bad assets is that you lack the ability to dispose of a certain non-certain asset
+
+433
+00:40:52.476 --> 00:41:01.913
+6.12.2.2 Your The Idea / judgment and your asset starting point / disposal capability are not synchronized, and are often completely unrelated
+
+434
+00:41:01.913 --> 00:41:07.838
+6.12.2.3 Therefore, the emergence of bad assets is almost inevitable
+
+435
+00:41:07.838 --> 00:41:13.726
+a，Each profession has its specialty; you can't be skilled at disposing of all asset categories
+
+436
+00:41:13.726 --> 00:41:17.526
+b，Every family has its difficult sutra to recite
+
+437
+00:41:17.526 --> 00:41:21.726
+6.12.3 The Desire Condensation Lemma
+
+438
+00:41:21.726 --> 00:41:26.326
+6.12.3.0 Things are universally connected
+
+439
+00:41:26.326 --> 00:41:35.563
+6.12.3.1 Judging whether something can be accomplished has a people-centered perspective: how many people's desires are contained within this matter
+
+440
+00:41:35.563 --> 00:41:40.688
+a，You want to preserve and increase value, get rid of trouble — this is your desire
+
+441
+00:41:40.688 --> 00:41:46.851
+b，Generally speaking, do fewer things with insufficient desire; one-sided wishes don't succeed
+
+442
+00:41:46.851 --> 00:41:49.688
+c，Wait for desire to condense.
+
+443
+00:41:49.688 --> 00:41:53.688
+Before that, accumulate desire and build inner strength
+
+444
+00:41:53.688 --> 00:41:58.738
+6.12.4 Don't actively sell, and definitely don't develop
+
+445
+00:41:58.738 --> 00:42:05.863
+6.12.4.1 From the "Desire Condensation Lemma," you cannot push things that only you alone care about
+
+446
+00:42:05.863 --> 00:42:09.488
+6.12.4.2 Just leave it there
+
+447
+00:42:09.488 --> 00:42:15.401
+When someone else starts caring too, the combined desire of you two will be enough to push it forward
+
+448
+00:42:15.401 --> 00:42:22.751
+6.12.4.3 "Some projects can develop, some cannot, but projects that cannot develop also have value
+
+449
+00:42:22.751 --> 00:42:26.551
+6.12.5 Maintain equanimity
+
+450
+00:42:26.551 --> 00:42:32.651
+6.12.5.1 Tolerate its non-performing, tolerate its value declining
+
+451
+00:42:32.651 --> 00:42:38.738
+6.12.5.2 Tolerate your own powerlessness and slow progress in asset disposal
+
+452
+00:42:38.738 --> 00:42:45.476
+a，According to "4.", asset disposal is not an original contribution, and thus most likely not your The Idea
+
+453
+00:42:45.476 --> 00:42:50.763
+b，Wait for critical resources, wait for timing, wait for others to come find you
+
+454
+00:42:50.763 --> 00:42:58.251
+6.12.5.3 If this asset is too important to you (e.g., succession), then handling it becomes your The Idea
+
+455
+00:42:58.251 --> 00:43:02.151
+a，At this point, try to solve the problem fundamentally
+
+456
+00:43:02.151 --> 00:43:05.126
+b，This too is a form of equanimity
+
+457
+00:43:05.126 --> 00:43:08.338
+6Q4 About not serving dishes
+
+458
+00:43:08.338 --> 00:43:11.163
+6.12a How to Indulge
+
+459
+00:43:11.163 --> 00:43:18.388
+6.12a.0 Indulgence means all efforts aimed at satisfying desires without attempting to serve a dish to the world
+
+460
+00:43:18.388 --> 00:43:25.838
+6.12a.1 The first principle of indulgence is to counteract diminishing marginal utility in human nature
+
+461
+00:43:25.838 --> 00:43:35.263
+6.12a.1.0 Humans are insatiable creatures; even with all necessary material conditions met, indulgence remains very difficult
+
+462
+00:43:35.263 --> 00:43:43.038
+6.12a.1.1 Abundance of material conditions does not necessarily point to an essential solution to this problem
+
+463
+00:43:43.038 --> 00:43:46.826
+a，Happiness is about "what to do after having choices
+
+464
+00:43:46.826 --> 00:43:52.638
+b，Having choices only means one less thing to worry about — it's merely the first step of indulgence
+
+465
+00:43:52.638 --> 00:43:56.351
+6.12a.1.2 Two examples
+
+466
+00:43:56.351 --> 00:44:05.213
+a，If a chip is implanted in a lab mouse's brain, continuously giving it pleasure-center electrical signals, it will keep pressing until it starves to death
+
+467
+00:44:05.213 --> 00:44:08.601
+Clearly, humans won't — they get bored quickly
+
+468
+00:44:08.764 --> 00:44:17.864
+b，Hu Xuan seriously researched this question: "With such a big toy in hand, how exactly should you play with it to be fully satisfied, without it being a waste?
+
+469
+00:44:17.814 --> 00:44:22.876
+He conducted the initial, extreme, and consequence-heavy exploration
+
+470
+00:44:22.876 --> 00:44:28.539
+6.12a.2 Behave like things that are generally considered particularly good
+
+471
+00:44:28.539 --> 00:44:37.151
+6.12a.2.0 You can and should try them, increase your sample size, embrace charm and curiosity, and enrich your experiences
+
+472
+00:44:37.300 --> 00:44:45.287
+6.12a.2.1 Eyes, ears, tongue, nose, body, mind — form, sound, scent, taste, touch, dharma
+
+473
+00:44:45.237 --> 00:44:52.175
+Fancy cars, fancy watches, fancy spectacles; dedicated staff, private jets, VIP channels...
+
+474
+00:44:52.175 --> 00:45:07.062
+6.12a.2.2 A fact is, even if you dabble extensively, all the low-threshold novelty across food, clothing, shelter, transportation, sky, sea, entertainment, leisure, and the bizarre — will be quickly maxed out in a short time (roughly two years)
+
+475
+00:45:07.062 --> 00:45:14.012
+This is why some people prefer gardens that are harder to reach, because there really aren't many nearby gardens left to play in
+
+476
+00:45:14.012 --> 00:45:17.612
+6.12a.3 Happiness from winning
+
+477
+00:45:17.612 --> 00:45:25.412
+6.12a.3.0 This is a very natural choice, because your happiness in the non-"Indulgence" part comes from winning
+
+478
+00:45:25.412 --> 00:45:30.075
+6.12a.3.1 However, you can't win every day
+
+479
+00:45:30.075 --> 00:45:33.000
+a，The sorrow of life lies right here
+
+480
+00:45:33.000 --> 00:45:38.412
+Small things have a default cycle of 18 months; big things take 5-7 years
+
+481
+00:45:38.412 --> 00:45:42.462
+Your quality-progress refreshes roughly every 3 years
+
+482
+00:45:42.462 --> 00:45:45.287
+But your mood-drama updates daily.
+
+483
+00:45:45.287 --> 00:45:49.025
+Judging only by mood, most days have no progress
+
+484
+00:45:49.025 --> 00:45:52.762
+b，You can choose some daily-update mini-win projects
+
+485
+00:45:52.762 --> 00:45:55.300
+Learn one new trick every year
+
+486
+00:45:55.300 --> 00:46:07.200
+Personally, the author flew planes and visited museums in '22, audited university courses in '23, did analytic geometry/competition philanthropy in '24, wrote in '25...
+
+487
+00:46:07.200 --> 00:46:15.975
+Problem-solving / gaming is a daily-update feel-good drama; its scarcity lies in being genuinely challenging yet satisfiable within 1-2 days
+
+488
+00:46:15.975 --> 00:46:23.587
+If other projects also satisfy the above scarcity criterion, they can be included in the "daily mini-win" experience pack
+
+489
+00:46:23.587 --> 00:46:27.275
+6.12a.4 Happiness not from winning
+
+490
+00:46:27.275 --> 00:46:30.437
+Formerly known as the Gate of Liberation
+
+491
+00:46:30.437 --> 00:46:34.950
+6.12a.4.1 The "All Dharmas Are Empty" School
+
+492
+00:46:34.950 --> 00:46:40.125
+a，My happiness doesn't come from winning, but from actively accepting impermanence
+
+493
+00:46:40.125 --> 00:46:44.650
+6.12a.4.2 The Delayed Gratification School
+
+494
+00:46:44.650 --> 00:46:50.637
+a，Every day within the 18-month cycle, savoring and anticipating the thrill of the winning moment
+
+495
+00:46:50.637 --> 00:46:54.812
+6.12a.4.3 The Great Ambition School
+
+496
+00:46:54.812 --> 00:46:59.837
+a，Devoting one's life to boundless exploration, and defaulting that this is good
+
+497
+00:46:59.837 --> 00:47:03.512
+b，Neither happy nor unhappy on a daily basis
+
+498
+00:47:03.512 --> 00:47:06.775
+It should be noted that this is not indulgence
+
+499
+00:47:06.775 --> 00:47:12.487
+This belongs to the few who have the opportunity to do great things, say "100M DAU
+
+500
+00:47:12.487 --> 00:47:16.387
+6.12a.4.4 The Dark Shepherd School
+
+501
+00:47:16.387 --> 00:47:22.762
+a，This work does not include value judgments; it should be noted that this is widespread and does provide pleasure
+
+502
+00:47:22.762 --> 00:47:29.137
+A veteran in the AI circle, long-term single, keeping two girlfriends with opposite personalities
+
+503
+00:47:29.137 --> 00:47:31.625
+b，Humans have desires.
+
+504
+00:47:31.625 --> 00:47:39.150
+The various states people display when their desires are exposed can satisfy the voyeuristic urges of many who allocate resources
+
+505
+00:47:39.150 --> 00:47:42.587
+Why do big companies set vesting at four years?
+
+506
+00:47:42.587 --> 00:47:47.412
+Because in practice, four years is the limit of ordinary people's endurance
+
+507
+00:47:47.412 --> 00:47:56.325
+The most delicious food is not foie gras, but a card played against someone's soul — the taste is like savoring the human heart" (Akagi Shigeru, Tenhou Street)
+
+508
+00:47:56.325 --> 00:47:59.137
+6.12b How to Coast
+
+509
+00:47:59.137 --> 00:48:02.475
+6.12b.0 Given "2.
+
+510
+00:48:02.475 --> 00:48:05.000
+How to Reach the Shore" and "3.
+
+511
+00:48:05.000 --> 00:48:08.987
+How to Maintain Position," why do we still need "How to Coast"?
+
+512
+00:48:08.987 --> 00:48:13.400
+6.12b.0.1 Most people are not elite
+
+513
+00:48:13.400 --> 00:48:19.625
+6.12b.0.2 The middle class needs to satisfy a one-generation version of "3.
+
+514
+00:48:19.625 --> 00:48:25.275
+How to Maintain Position," i.e., "Without accidents, what's the maximum extent of coasting?
+
+515
+00:48:25.275 --> 00:48:30.662
+6.12b.1 The correct answer to coasting is: university professor
+
+516
+00:48:30.662 --> 00:48:36.387
+6.12b.1.0 The rough answer to this question is: be a professional
+
+517
+00:48:36.387 --> 00:48:42.350
+Not responsible for serving dishes, not directly facing the difference the world would have without you
+
+518
+00:48:42.350 --> 00:48:49.425
+6.12b.1.1 In 2504, professionals are accountable for their professional actions
+
+519
+00:48:49.425 --> 00:48:58.800
+Train drivers can't derail, doctors can't have medical malpractice, auditors can't sign incorrectly, high school teachers can't have mass student academic failure
+
+520
+00:48:58.800 --> 00:49:07.525
+6.12b.1.2 Only for university professors — no one stands opposite the gate of truth evaluating you, no one says you've messed up
+
+521
+00:49:07.525 --> 00:49:12.387
+a，As is well known, auditors cannot audit whether auditors are diligent.
+
+522
+00:49:12.387 --> 00:49:17.362
+But only university professors can evaluate university professors
+
+523
+00:49:17.524 --> 00:49:29.799
+6.12b.2 The first principle of how to coast is that humanity's exploration of the future is the one thing that cannot be measured by certainty, and thus society is very tolerant of its cost-effectiveness ratio
+
+524
+00:49:29.749 --> 00:49:35.836
+6.12b.2.1 Looking up at the stars is a fundamental part of human dignity
+
+525
+00:49:35.836 --> 00:49:41.086
+6.12b.2.2 If you want to coast, you can make good use of this
+
+526
+00:49:41.086 --> 00:49:44.961
+6.12b.3 Coasting has three enemies
+
+527
+00:49:44.961 --> 00:49:50.636
+6.12b.3.1 Yourself can't have problems, e.g., "can't get sick
+
+528
+00:49:50.788 --> 00:49:58.913
+6.12b.3.2 Work responsibilities can't have problems, e.g., "even if the boss signed off, you can't sign carelessly
+
+529
+00:49:58.863 --> 00:50:05.813
+6.12b.3.3 Get along well with peers/environment, e.g., "can't become unemployable
+
+530
+00:50:05.813 --> 00:50:12.538
+6.12b.3.4 University professors don't have the first two problems, only the third
+
+531
+00:50:12.538 --> 00:50:16.300
+a，You yourself can of course still have various problems
+
+532
+00:50:16.300 --> 00:50:23.375
+b，The tenure system, two extra holidays per year, plus almost no business trips — very friendly to health and family
+
+533
+00:50:23.375 --> 00:50:29.600
+6.12b.4 If you happen to not be a university professor, the logic is similar
+
+534
+00:50:29.600 --> 00:50:33.763
+6.12b.4.1 Take care of yourself
+
+535
+00:50:33.763 --> 00:50:37.713
+6.12b.4.2 Sign fewer things
+
+536
+00:50:37.713 --> 00:50:41.275
+a，Foreigners have a saying: old money doesn't sign
+
+537
+00:50:41.275 --> 00:50:45.750
+b，This has a direct corollary: old money doesn't work for others
+
+538
+00:50:45.750 --> 00:50:50.575
+The business isn't yours, yet you're required to sign and take responsibility
+
+539
+00:50:50.575 --> 00:50:54.875
+Risk and reward are completely asymmetric — better not to do it
+
+540
+00:50:54.875 --> 00:50:59.413
+6.15 How to Maintain Excellence (Without Serving Dishes)
+
+541
+00:50:59.413 --> 00:51:02.725
+6.15.1 An example
+
+542
+00:51:02.725 --> 00:51:10.438
+A: Honestly, students at strong schools only need to do one thing: seriously attend every on-campus training and coach lecture
+
+543
+00:51:10.438 --> 00:51:16.538
+R: Exactly, this is the unbeatable method for maintaining excellence — same for everything else.
+
+544
+00:51:16.538 --> 00:51:19.425
+First make sure you're on a winning Team
+
+545
+00:51:19.425 --> 00:51:24.838
+R: You may not have been born into one — accumulate strength / seize opportunities)
+
+546
+00:51:24.838 --> 00:51:27.600
+A: Then you just need to keep up
+
+547
+00:51:27.600 --> 00:51:30.313
+6.16 How to Win
+
+548
+00:51:30.313 --> 00:51:37.238
+6.16.1 "Winning" means defeating others or proving yourself for a purpose not intrinsic to The Idea
+
+549
+00:51:37.238 --> 00:51:46.425
+6.16.1.1 Solving a competition problem, winning a championship, getting a company retention offer, being the first to catch a fish...
+
+550
+00:51:46.425 --> 00:51:55.363
+6.16.1.2 Since "winning" is not an intrinsic requirement of a long-term goal, it's more in the psychological category of self-proof
+
+551
+00:51:55.363 --> 00:52:00.813
+a，Objective impact certainly exists, but it's not fundamental in the long term
+
+552
+00:52:00.813 --> 00:52:07.375
+Getting retained this time has nothing to do with getting retained next time — the problem hasn't substantively improved
+
+553
+00:52:07.375 --> 00:52:12.850
+b，If the exploration comes from The Idea, then even failed exploration has meaning.
+
+554
+00:52:12.850 --> 00:52:17.738
+Thus there's no winning or losing — every outcome is part of rapid trial and error
+
+555
+00:52:17.738 --> 00:52:22.950
+6.16.2 Winning has no necessary connection with "serving dishes
+
+556
+00:52:22.950 --> 00:52:31.400
+6.16.3 To make winning align as much as possible with the direction of serving dishes, you need a goal that transcends the trophy itself
+
+557
+00:52:31.400 --> 00:52:37.163
+6.16.3.1 Focusing on the trophy inevitably distorts your actions
+
+558
+00:52:37.163 --> 00:52:45.913
+6.16.3.2 A higher goal that transcends the trophy will make you think about problems from first principles and seek solutions fundamentally
+
+559
+00:52:45.913 --> 00:52:52.838
+a，Here lies a contradiction: a competition is of a specific time and place, constrained by competition requirements
+
+560
+00:52:52.838 --> 00:52:57.900
+b，But on the other hand, competition gives you extra motivation and drive
+
+561
+00:52:57.900 --> 00:53:01.838
+A massive number of world records are set at the Olympics
+
+562
+00:53:01.838 --> 00:53:08.475
+c，Generally speaking, the ultimate winners achieve results/content that transcend the competition itself
+
+563
+00:53:08.475 --> 00:53:11.863
+They face the same choices and constraints you do.
+
+564
+00:53:11.863 --> 00:53:16.488
+Winners must have done something extra right, distinguishing themselves
+
+565
+00:53:16.488 --> 00:53:21.588
+Partial "fundamental problem-solving" is also far better than pursuing the trophy
+
+566
+00:53:21.588 --> 00:53:28.225
+6.16.4 Sufficient competitiveness (wanting to win badly enough) is a scarce quality
+
+567
+00:53:28.225 --> 00:53:34.825
+6.16.4.1 Winners often appear to do twice as much as average players, but in reality
+
+568
+00:53:34.825 --> 00:53:43.613
+a，They put in an extra e的负一次方 of effort; on this basis, they fully leverage rules and competitiveness to gain another e的负一次方; finally, add about 10% luck.
+
+569
+00:53:43.613 --> 00:53:45.950
+Together that's 2x
+
+570
+00:53:45.950 --> 00:53:53.113
+6.16.4.2 The above makes it so that, statistically, winner / winner mentality is real
+
+571
+00:53:53.113 --> 00:53:55.950
+a，Winners keep winning — be a winner
+
+572
+00:53:55.950 --> 00:54:04.888
+6.16.5 When winning is realized as a result, you'll feel physically and mentally gratified — use this confidence and drive to build The Idea
+
+573
+00:54:04.888 --> 00:54:12.613
+a，If it happens not to materialize, since you've fully pursued fundamental solutions, you're also one step closer to serving dishes
+
+574
+00:54:12.613 --> 00:54:16.675
+How to Do Extras" Appendix: On the "Zi-Yang Telegram
+
+575
+00:54:16.675 --> 00:54:23.788
+6.17 Read for Inspiration — posing the question: "Zi-Yang Telegram" recovery: How to write a petition
+
+576
+00:54:23.956 --> 00:54:33.931
+6.17.0 A reader of "0." raised the point: "When I read the 'Zi-Yang Telegram,' I can't get 'How to Write a Petition' — I can only get 'How to Liberate the Country.
+
+577
+00:54:33.881 --> 00:54:36.631
+Let me introduce this example
+
+578
+00:54:36.631 --> 00:54:40.943
+6.17.1 Background of the "Zi-Yang Telegram
+
+579
+00:54:40.943 --> 00:54:48.531
+6.17.1.1 The first principle of conquering the world is that you must have a corner of the world, a stable rear
+
+580
+00:54:48.531 --> 00:54:56.268
+6.17.1.2 Across twenty-six histories, founding rulers mostly started from the northwest or the northeast
+
+581
+00:54:56.428 --> 00:55:10.528
+6.17.1.3 Without a secure rear, starting from a transportation hub surrounded by enemies on all sides, defeating every surrounding enemy in a circle, winning every battle, and ultimately unifying — this has never happened even once
+
+582
+00:55:10.478 --> 00:55:16.953
+a，The closest to this achievement was Xiang Yu, who started from Pengcheng/Xuzhou and lost only one battle
+
+583
+00:55:16.953 --> 00:55:21.465
+6.17.2 When did Chiang Kai-shek lose the mainland?
+
+584
+00:55:21.465 --> 00:55:29.603
+6.17.2.1 From first principles, unifying China before and after WWII required starting from the north.
+
+585
+00:55:29.603 --> 00:55:35.578
+Because the Soviet Union was in the north, and the USSR was close while America was far
+
+586
+00:55:35.578 --> 00:55:41.840
+a，Throughout the entire Liberation War, America had nuclear weapons and the Soviet Union didn't.
+
+587
+00:55:41.840 --> 00:55:48.353
+Yet America had many things to attend to (like East and West Germany), and we were still the ultimate victors
+
+588
+00:55:48.353 --> 00:55:55.528
+b，Why did the New Three People's Principles need to ally with Russia, the Communist Party, and support farmers and workers?
+
+589
+00:55:55.528 --> 00:56:03.965
+Only after the Soviets provided money to build the Whampoa Military Academy did Sun Yat-sen begin to have military and mobilization strength
+
+590
+00:56:03.965 --> 00:56:08.903
+Before that, relying on one warlord to fight another warlord never succeeded
+
+591
+00:56:08.903 --> 00:56:16.603
+6.17.2.2 Strategically, Chiang Kai-shek lost at the April 12 incident — he didn't stand on the Soviet side
+
+592
+00:56:16.603 --> 00:56:24.828
+6.17.2.2 Militarily, he lost in 1946, not in 1948 / the Three Major Campaigns
+
+593
+00:56:24.828 --> 00:56:31.865
+a，He pushed 101 all the way north of the North Manchuria Railway, but failed to completely destroy 101
+
+594
+00:56:31.865 --> 00:56:36.653
+b，Every step we advance, all the people and resources behind us are ours.
+
+595
+00:56:36.653 --> 00:56:39.103
+But if we retreat one step?
+
+596
+00:56:39.103 --> 00:56:42.640
+Behind us is the Soviet Union — invincible.
+
+597
+00:56:42.640 --> 00:56:46.740
+So after several campaigns, our victory is inevitable
+
+598
+00:56:46.740 --> 00:56:56.353
+6.17.2.3 The Chairman understood this logic clearly: hold the south as long as possible, wait for the northeast to develop, then sweep south of the Pass
+
+599
+00:56:56.353 --> 00:57:03.440
+6.17.2.4 Su Yu and the Chairman hadn't seen each other for seventeen years before the "Zi-Yang Telegram
+
+600
+00:57:03.440 --> 00:57:07.503
+6.17.3 Before the "Zi-Yang Telegram
+
+601
+00:57:07.503 --> 00:57:26.528
+6.17.3.1 The Chairman ordered Su Yu to take three columns deep into enemy territory south of the Yangtze, with main strategic objectives including: pinning down enemy forces to divert them back, disrupting KMT-controlled area conscription mobilization, eating from the enemy's rear, and disrupting the KMT-controlled economy
+
+602
+00:57:26.528 --> 00:57:32.365
+6.17.3.2 The "Zi-Yang Telegram" was the reply-petition to this order
+
+603
+00:57:32.365 --> 00:57:37.790
+6.17.4 Text of the Zi-Yang Telegram: "How to Write a Petition
+
+604
+00:57:37.790 --> 00:57:42.765
+6.17.4.1 Stand from the other person's perspective
+
+605
+00:57:42.765 --> 00:57:52.028
+a，The "Zi-Yang Telegram" is titled "Opinions on Future Operations and Military Construction" — it discusses how to fight in the Central Plains from the Chairman's perspective
+
+606
+00:57:52.028 --> 00:57:55.303
+Su Yu fully knew how this battle should be fought.
+
+607
+00:57:55.303 --> 00:58:01.140
+After the "Zi-Yang Telegram" was accepted, there was immediately a follow-up "Mao-Qiao Telegram
+
+608
+00:58:01.140 --> 00:58:08.953
+That telegram stated clearly how Su Yu wanted to fight: "Three armies, dividing and uniting, fighting a major battle in the Central Plains
+
+609
+00:58:08.953 --> 00:58:16.403
+b，But arguing from Su Yu's perspective is not persuasive — both he and the Chairman might be right, and subordinates obey superiors
+
+610
+00:58:16.403 --> 00:58:21.453
+c，You must argue from the Chairman's perspective, to make him change his mindset
+
+611
+00:58:21.453 --> 00:58:26.590
+6.17.4.2 No attitude, no emotion, all reason
+
+612
+00:58:26.590 --> 00:58:28.465
+a，Reason 1
+
+613
+00:58:28.465 --> 00:58:33.478
+Our advantage lies in our strong mass base; we should fight where we have mass support.
+
+614
+00:58:33.478 --> 00:58:38.453
+If we go behind enemy lines to fight, we'll compete with the people for food.
+
+615
+00:58:38.453 --> 00:58:43.453
+The pinning effect on the enemy is limited, and this battle might not be winnable
+
+616
+00:58:43.453 --> 00:58:45.340
+b，Reason 2
+
+617
+00:58:45.340 --> 00:58:50.415
+The enemy is already very clear on how to defend — they've built many fortresses.
+
+618
+00:58:50.415 --> 00:58:53.240
+Take WWII as an example.
+
+619
+00:58:53.240 --> 00:59:00.115
+A defensive line can be broken through, but a fortified city (like Stalingrad) can hold — it cannot be taken down
+
+620
+00:59:00.115 --> 00:59:02.178
+c，Reason 3
+
+621
+00:59:02.178 --> 00:59:06.853
+We still need industry; conditions behind enemy lines are not mature
+
+622
+00:59:06.853 --> 00:59:12.065
+6.4.4.3 Boldly state your view, without demanding authority
+
+623
+00:59:12.065 --> 00:59:15.565
+a，"These humble observations are boldly submitted.
+
+624
+00:59:15.565 --> 00:59:18.828
+Whether appropriate, I await your judgment.
+
+625
+00:59:18.828 --> 00:59:23.278
+b，"Whether these humble observations are appropriate, please instruct.
+
+626
+00:59:23.278 --> 00:59:27.640
+If considered feasible, then please have Liu and Deng command jointly.
+
+627
+00:59:27.796 --> 00:59:32.733
+6.17.5 The effect and outcome of the "Zi-Yang Telegram
+
+628
+00:59:32.683 --> 00:59:41.896
+6.17.5.1 The prerequisite for the "Zi-Yang Telegram" to work was that the Chairman actually trusted a comrade he hadn't seen in 17 years
+
+629
+00:59:42.052 --> 00:59:46.864
+6.17.5.2 He and Chen Yi finally met the Chairman.
+
+630
+00:59:46.814 --> 00:59:51.627
+The Chairman said, "I'll give you 8 months, fight several annihilation battles.
+
+631
+00:59:51.627 --> 01:00:01.539
+Thereafter he commanded the Eastern Henan Campaign; KMT forces fully supported each other, and Su Yu, fighting one against three, won the true turning point of the Liberation War
+
+632
+01:00:01.539 --> 01:00:07.977
+6.17.5.3 After the Eastern Henan Campaign victory, everyone was convinced.
+
+633
+01:00:07.977 --> 01:00:11.714
+Su Yu gained command of the Eastern China Field Army.
+
+634
+01:00:11.714 --> 01:00:21.764
+The subsequent Huaihai Campaign commanded 600,000 PLA troops to annihilate 800,000 KMT troops, with the latter hardly reinforcing each other anymore
+
+635
+01:00:21.764 --> 01:00:26.477
+How to Do Extras" Appendix: "How to Be a Division Commander · Excerpt
+
+636
+01:00:26.477 --> 01:00:30.652
+Original text by 101, with formatting edits.
+
+637
+01:00:30.652 --> 01:00:35.402
+The 5hows series uses the Chinese name "How to xx" as a tribute
+
+638
+01:00:35.402 --> 01:00:38.927
+6.18 How to Be a Division Commander
+
+639
+01:00:38.927 --> 01:00:46.589
+6.18.1 Be diligent — those who aren't diligent cannot get things done well, and cannot be good military commanders
+
+640
+01:00:46.589 --> 01:00:53.052
+6.18.1.1 Things you should do yourself, you must personally oversee and personally handle
+
+641
+01:00:53.052 --> 01:00:57.439
+For example, if there's a hill you should go up and see, then climb it...
+
+642
+01:00:57.439 --> 01:01:02.752
+Avoid laziness at all costs, because laziness brings danger, brings failure...
+
+643
+01:01:02.752 --> 01:01:14.039
+6.18.1.2 Opportunism and battlefield defeats often result from lack of mental preparation, lack of organizational preparation, work not done thoroughly — the result of laziness
+
+644
+01:01:14.039 --> 01:01:20.989
+Therefore, commanders of all ranks must be diligent; seeking idle convenience harbors the root of making mistakes...
+
+645
+01:01:20.989 --> 01:01:25.227
+6.18.2 Understand your superior's intent.
+
+646
+01:01:25.227 --> 01:01:33.002
+Truly understand, truly internalize, truly recognize the role and position of your assigned mission in the overall campaign and battle
+
+647
+01:01:33.002 --> 01:01:41.664
+6.18.2.1 ...A commander's great courage is built on high revolutionary consciousness and correct understanding of superior intent
+
+648
+01:01:41.664 --> 01:01:45.977
+6.18.3 Conduct investigation and research
+
+649
+01:01:45.977 --> 01:01:50.539
+6.18.3.1 Ponder daily, without interruption...
+
+650
+01:01:50.539 --> 01:02:00.939
+Doing this cannot be seen as repetition — it is actually not repetition, but a process of continuous deepening and improvement, an indispensable means for obtaining correct understanding...
+
+651
+01:02:00.939 --> 01:02:05.864
+Especially regarding enemy intelligence, it must be thoroughly understood...
+
+652
+01:02:05.864 --> 01:02:10.064
+Investigation and research also includes reading more books...
+
+653
+01:02:10.064 --> 01:02:13.302
+6.18.4 Have a living map.
+
+654
+01:02:13.302 --> 01:02:18.364
+Commanders and staff must be familiar with maps, must read maps frequently
+
+655
+01:02:18.364 --> 01:02:26.277
+6.18.4.1 Thoroughly studying maps can produce insights, produce wisdom, produce methods, produce confidence...
+
+656
+01:02:26.277 --> 01:02:30.464
+6.18.5 Think through all aspects thoroughly
+
+657
+01:02:30.464 --> 01:02:42.139
+6.18.5.1 For every campaign and battle organization, let everyone raise various possible problems, let everyone find answers, and find answers starting from the worst and most severe scenarios...
+
+658
+01:02:42.139 --> 01:02:46.289
+6.18.6 Issue decisive orders promptly
+
+659
+01:02:46.289 --> 01:02:55.527
+6.18.6.1 ...Generally speaking, having about 70% confidence is already quite good — then you must fight resolutely, fight boldly
+
+660
+01:02:55.527 --> 01:03:02.452
+6.18.6.2 Insufficient conditions must be compensated by fully leveraging human factors...
+
+661
+01:03:02.452 --> 01:03:09.627
+Using subjective effort to create conditions, transforming adventurism into creativity, achieving victory...
+
+662
+01:03:09.627 --> 01:03:14.302
+6.18.7 Have a very good and united leadership team
+
+663
+01:03:14.302 --> 01:03:29.264
+6.18.7.1 The leadership team must have unified thinking, coordinated and synchronized actions, act with thunder-like decisiveness, have the spirit of revolutionary heroism, be diligent, and do everything possible to get things done and complete missions
+
+664
+01:03:29.264 --> 01:03:33.164
+6.18.8 Have a very good combat style
+
+665
+01:03:33.164 --> 01:03:37.452
+6.18.8.1 In pursuit, run to catch up...
+
+666
+01:03:37.452 --> 01:03:43.327
+Those who can't walk should chase with crutches; even if you have to crawl or roll, keep pursuing forward...
+
+667
+01:03:43.327 --> 01:03:48.564
+6.18.9 Value politics, personally do political work
+
+668
+01:03:48.564 --> 01:03:57.552
+6.18.9.1 ...Work must be done dynamically — that is, get all Party and Youth League members' revolutionary enthusiasm fully fired up
+
+669
+01:03:57.552 --> 01:04:02.689
+How to Do Anything" Appendix: "6.19 How to Play Jade Room Mahjong
+
+670
+01:04:02.689 --> 01:04:08.477
+by Bilibili creator @Shuilangu, notes by Shuzhimi@RynW1988
+
+671
+01:04:08.477 --> 01:04:12.014
+6.19.2 How to Play Jade Room
+
+672
+01:04:12.014 --> 01:04:14.989
+6.19.1 Offense
+
+673
+01:04:14.989 --> 01:04:23.702
+6.19.1.1 Only the disadvantaged need to aim for a win; with above 75% probability, you ultimately won't win
+
+674
+01:04:23.860 --> 01:04:31.685
+6.19.1.2 Full tile efficiency for the first six draws; when disadvantaged, bravely go full tile efficiency
+
+675
+01:04:31.635 --> 01:04:40.797
+6.19.1.3 Every discard must have a reason; pay attention to your hand's yaku, lean toward 0 and dora, lean toward three-suit mixed sequences
+
+676
+01:04:40.797 --> 01:04:43.847
+6.19.2 Non-offense
+
+677
+01:04:43.847 --> 01:04:51.435
+6.19.2.0 Both the fairness of the gamble and the necessity of the gamble must be satisfied before you can attack
+
+678
+01:04:51.435 --> 01:04:56.047
+East round: focus on score; South round: focus on placement
+
+679
+01:04:56.047 --> 01:04:59.560
+6.19.2.1 Advantage
+
+680
+01:04:59.716 --> 01:05:04.128
+a，The sole purpose of an advantage round is to pass the dealer button
+
+681
+01:05:04.078 --> 01:05:07.966
+b，Speed-attack before someone declares riichi against you
+
+682
+01:05:07.966 --> 01:05:12.328
+c，Prepare early for being riichi'd against / keep safe tiles
+
+683
+01:05:12.328 --> 01:05:18.328
+d，Judge who is folding; discard safe tiles from the direct seat first, keep three-way safe tiles
+
+684
+01:05:18.328 --> 01:05:24.878
+e，Discard middle tiles that are safe against the riichi player, encouraging other players to battle each other
+
+685
+01:05:24.878 --> 01:05:28.416
+6.19.2.2 Flush hands
+
+686
+01:05:28.416 --> 01:05:33.291
+a，The second strongest yaku after riichi — both offensive and defensive
+
+687
+01:05:33.291 --> 01:05:39.291
+b，Find two han to complete a mangan; conversely, if you can see a mangan, don't go for a flush
+
+688
+01:05:39.291 --> 01:05:43.041
+c，Cannot flush in a close-score duel — you'll be crushed
+
+689
+01:05:43.041 --> 01:05:46.666
+6.19.2.3 Open hands
+
+690
+01:05:46.666 --> 01:05:53.028
+a，Open hands trade speed for difficulty; closed hands need no reason, but open hands must have a reason
+
+691
+01:05:53.028 --> 01:05:56.591
+Two open calls makes defense very difficult
+
+692
+01:05:56.591 --> 01:05:59.978
+b，Scientific open rate is around 1/3
+
+693
+01:05:59.978 --> 01:06:04.116
+c，Can open in the early rounds if you have scoring potential
+
+694
+01:06:04.116 --> 01:06:08.103
+d，Can open when chasing 3rd place going into South 4
+
+695
+01:06:08.103 --> 01:06:11.616
+6.19.2.4 Not winning
+
+696
+01:06:11.616 --> 01:06:13.278
+a，Crushing
+
+697
+01:06:13.278 --> 01:06:20.466
+Passing the dealer doesn't require you to win — just need the dealer not to win, or no one wins but the dealer is not in tenpai
+
+698
+01:06:20.466 --> 01:06:28.441
+Given your advantage, someone will definitely attack; suppress the dealer (especially if the dealer is your lower seat), encourage others
+
+699
+01:06:28.441 --> 01:06:32.728
+Primarily defending against the dealer is also to your benefit
+
+700
+01:06:32.728 --> 01:06:34.616
+b，Spectating
+
+701
+01:06:34.616 --> 01:06:37.728
+South 4's default option is spectating
+
+702
+01:06:37.728 --> 01:06:41.803
+Risk is 2nd place; 2nd place will also gain points
+
+703
+01:06:41.803 --> 01:06:43.816
+c，Telegraphing
+
+704
+01:06:43.816 --> 01:06:49.078
+The core of telegraphing is dora distribution — don't telegraph into firing range
+
+705
+01:06:49.078 --> 01:06:54.141
+1st place telegraph: discard dora + demonstrate speed and pressure
+
+706
+01:06:54.141 --> 01:06:59.703
+3rd place telegraph: discard middle tiles to help the non-4th lower seat accelerate
+
+707
+01:06:59.703 --> 01:07:03.478
+6.19.2.5 Game conditions
+
+708
+01:07:03.478 --> 01:07:07.628
+a，Two-stage decision: necessity and fairness of the gamble
+
+709
+01:07:07.628 --> 01:07:10.878
+Is it necessary: accept the best case?
+
+710
+01:07:10.878 --> 01:07:13.228
+Accept the worst case?
+
+711
+01:07:13.228 --> 01:07:15.778
+If both, then don't enter
+
+712
+01:07:15.778 --> 01:07:19.328
+What are the gains and losses: what's the benefit?
+
+713
+01:07:19.328 --> 01:07:21.191
+What's the loss?
+
+714
+01:07:21.191 --> 01:07:23.228
+Is this bet fair?
+
+715
+01:07:23.228 --> 01:07:28.091
+b，Game condition 到 offense / spectating / crushing / telegraphing
+
+716
+01:07:28.091 --> 01:07:31.453
+Offense = tile efficiency + value
+
+717
+01:07:31.453 --> 01:07:34.003
+Crushing = copy machine
+
+718
+01:07:34.003 --> 01:07:37.628
+Telegraphing = discarding dangerous tiles
+
+719
+01:07:37.628 --> 01:07:40.316
+Spectating = full fold
+
+720
+01:07:40.316 --> 01:07:48.066
+c，Reading tiles requires all four players to be rational — it's illusion; game conditions / tile efficiency are physical technique
+
+721
+01:07:48.066 --> 01:07:52.416
+6.19.2.6 The Grandma (Dora Rush)
+
+722
+01:07:52.416 --> 01:08:00.266
+a，Welcoming: with dora 2 in hand, chase full tile efficiency + low information, chase pinfu/tanyao, don't be greedy
+
+723
+01:08:00.266 --> 01:08:04.966
+b，Chasing grandma: always in mind — lean toward 0, lean toward d
+
+724
+01:08:04.966 --> 01:08:10.016
+c，Wait selection: indicator tiles remaining high in the wall 到 high ryanmen
+
+725
+01:08:10.016 --> 01:08:19.903
+d，Loan: working-class mangan = riichi + self-draw + dora1 + ura1; with 1w point difference, can take a loan with riichi to bet on uradora
+
+726
+01:08:19.903 --> 01:08:26.553
+e，Countering grandma: when others are grandma'ing, do more crushing and telegraphing, don't attack or spectate
+
+727
+01:08:26.553 --> 01:08:32.591
+f，Mindset: the tile wall is truly random; the essence of grandma is confidence and attention
+
+728
+01:08:32.591 --> 01:08:36.041
+6.19.3 Cause and Effect
+
+729
+01:08:36.041 --> 01:08:42.166
+6.19.3.0 Reading people is far more accurate and valuable than reading tiles
+
+730
+01:08:42.166 --> 01:08:45.641
+6.19.3.1 Gamblers
+
+731
+01:08:45.641 --> 01:08:54.053
+Jade Room has no rank matching; 2/3 are Hou-1 players who ranked up from positive win rates — frantically farming "dragon fruit" is the source of pt
+
+732
+01:08:54.053 --> 01:08:59.828
+In fact, due to uneven skill levels, Jade Room requires maintaining sufficient aggression
+
+733
+01:08:59.828 --> 01:09:01.878
+Identification:
+
+734
+01:09:01.878 --> 01:09:08.916
+Draws/wins reveal opponents' wait choices; if you encounter a "one-han-extra" gambler, you can exploit / EP
+
+735
+01:09:08.916 --> 01:09:13.678
+Riichi dora tanki, pon honor pair tanki, not dama with mangan
+
+736
+01:09:13.678 --> 01:09:19.841
+Good shape = immediate riichi: gamblers can't get off; good shape means riichi, double win rate
+
+737
+01:09:19.841 --> 01:09:30.078
+Polarized offense-defense: reduce bluff — can't scare them; bad shape should dama, bad shape riichi easily gets rushed by gamblers discarding dangerous tiles then big-hand reversal
+
+738
+01:09:30.078 --> 01:09:39.441
+Incite and lateral shift: gamblers can't get off; spectate more, telegraph more — they'll shift laterally themselves; win or lose, you're not eating fourth
+
+739
+01:09:39.441 --> 01:09:45.491
+Don't gamble yourself: gamblers are the source of most pt; protect them, don't gamble yourself
+
+740
+01:09:45.652 --> 01:09:49.102
+6.19.3.2 Ninjas
+
+741
+01:09:49.052 --> 01:09:55.064
+a，Three-low identification: low win rate, low deal-in rate, low open rate — ninja confirmed
+
+742
+01:09:55.064 --> 01:10:01.777
+Many people go gamble 到 ninja; no one goes ninja 到 gamble, so data-confirmed ninja is definitely ninja
+
+743
+01:10:01.777 --> 01:10:05.552
+Gambler data is not certain — they may have reformed
+
+744
+01:10:05.552 --> 01:10:12.539
+b，Mangan identification: mangan certain but not riichi / three-suit 3900 — ninja confirmed
+
+745
+01:10:12.539 --> 01:10:19.227
+c，Don't head-to-head: when ojou-sama opens, I get off; head-to-head with ninja has no gambling necessity
+
+746
+01:10:19.396 --> 01:10:27.458
+d，Orthodox play wins: ninja scores less than you; as long as you don't head-to-head, orthodox / GTO probability dominates
+
+747
+01:10:27.408 --> 01:10:36.958
+e，Righteous one-han: ninja is slower than you, so camouflage three-suit, open chinitsu, kanchan riichi, one-han speed attack, chihou and after-attachments
+
+748
+01:10:36.958 --> 01:10:39.058
+f，Seeds of doubt:
+
+749
+01:10:39.058 --> 01:10:42.046
+Garbage data is the best protection
+
+750
+01:10:42.046 --> 01:10:47.871
+Always-riichi + dama in key rounds, using small hands to mask big-hand kill intent
+
+751
+01:10:47.871 --> 01:10:55.508
+Anti-defense-pattern riichi / designed wait, luring out ninja's relatively safe tiles — hundred shots hundred hits*
+
+752
+01:10:55.508 --> 01:10:58.996
+6.19.3.3 Five-away
+
+753
+01:10:58.996 --> 01:11:04.008
+a，Four/five-away garbage hands cannot follow tile efficiency — you won't win
+
+754
+01:11:04.008 --> 01:11:12.133
+b，Garbage hand straight flush: bluff and crush, positive return guaranteed (good hand straight flush: build camouflage discard river)
+
