@@ -290,26 +290,26 @@ const hasAudio = existsSync(audioPath);
           <div class="chapter-header__info">
             <div class="chapter-header__title-row">
               <h1 class="chapter-header__title">{locale === 'en' && chapter.titleEn ? chapter.titleEn : chapter.title}</h1>
-            </div>
-            {hasAudio && (
-              <div class="chapter-audio-player" id="audio-player-wrap">
-                <audio id="chapter-audio" src={`/audio${audioFile}`} preload="none"></audio>
-                <button id="audio-play-btn" class="audio-play-btn" aria-label="Play/Pause">
-                  <span class="audio-icon audio-icon--play">▶</span>
-                  <span class="audio-icon audio-icon--pause" style="display:none">⏸</span>
-                </button>
-                <div class="audio-info">
-                  <span class="audio-label">{locale === 'zh' ? '🎧 听全文' : '🎧 Listen'}</span>
-                  <div class="audio-progress-wrap">
-                    <div class="audio-progress-bar">
-                      <div class="audio-progress-fill" id="audio-progress-fill"></div>
+              {hasAudio && (
+                <div class="chapter-audio-player" id="audio-player-wrap">
+                  <audio id="chapter-audio" src={`/audio${audioFile}`} preload="none"></audio>
+                  <button id="audio-play-btn" class="audio-play-btn" aria-label="Play/Pause">
+                    <span class="audio-icon audio-icon--play">▶</span>
+                    <span class="audio-icon audio-icon--pause" style="display:none">⏸</span>
+                  </button>
+                  <div class="audio-info">
+                    <span class="audio-label">{locale === 'zh' ? '🎧 听全文' : '🎧 Listen'}</span>
+                    <div class="audio-progress-wrap">
+                      <div class="audio-progress-bar">
+                        <div class="audio-progress-fill" id="audio-progress-fill"></div>
+                      </div>
+                      <span class="audio-time" id="audio-time">0:00 / --:--</span>
                     </div>
-                    <span class="audio-time" id="audio-time">0:00 / --:--</span>
                   </div>
+                  <button id="audio-speed-btn" class="audio-speed-btn" title="Speed">1×</button>
                 </div>
-                <button id="audio-speed-btn" class="audio-speed-btn" title="Speed">1×</button>
-              </div>
-            )}
+              )}
+            </div>
             <p class="chapter-header__subtitle">{chapter.subtitle}</p>
             <p class="chapter-header__desc">{locale === 'en' && chapter.descriptionEn ? chapter.descriptionEn : chapter.description}</p>
             <div class="chapter-header__meta">
@@ -935,6 +935,10 @@ const hasAudio = existsSync(audioPath);
 
   /* Title row */
   .chapter-header__title-row {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
     margin-bottom: 0;
   }
   .chapter-header__title-row .chapter-header__title {
@@ -943,91 +947,86 @@ const hasAudio = existsSync(audioPath);
 
   /* Audio Player */
   .chapter-audio-player {
-    display: flex;
+    display: inline-flex;
     align-items: center;
-    gap: 12px;
-    margin-top: 16px;
-    padding: 12px 18px;
-    background: rgba(0, 0, 0, 0.45);
-    border-radius: 14px;
-    backdrop-filter: blur(12px);
-    border: 1px solid rgba(255,255,255,0.35);
-    max-width: 520px;
+    gap: 10px;
+    padding: 6px 14px;
+    background: var(--ch-color, #333);
+    border-radius: 20px;
+    border: 1px solid rgba(255,255,255,0.15);
+    vertical-align: middle;
   }
   .audio-play-btn {
     flex-shrink: 0;
-    width: 40px;
-    height: 40px;
+    width: 28px;
+    height: 28px;
     border-radius: 50%;
-    background: #fff;
+    background: rgba(255,255,255,0.9);
     color: var(--ch-color, #333);
     border: none;
     cursor: pointer;
-    font-size: 15px;
+    font-size: 11px;
     display: flex;
     align-items: center;
     justify-content: center;
     transition: transform 0.15s, background 0.15s;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.3);
   }
   .audio-play-btn:hover {
     background: #fff;
-    transform: scale(1.08);
+    transform: scale(1.1);
   }
   .audio-info {
-    flex: 1;
-    min-width: 0;
     display: flex;
-    flex-direction: column;
-    gap: 5px;
+    align-items: center;
+    gap: 8px;
+    min-width: 0;
   }
   .audio-label {
-    font-size: 13px;
-    color: #fff;
+    font-size: 12px;
+    color: rgba(255,255,255,0.95);
     font-weight: 600;
-    letter-spacing: 0.02em;
+    white-space: nowrap;
   }
   .audio-progress-wrap {
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 6px;
   }
   .audio-progress-bar {
-    flex: 1;
-    height: 5px;
-    background: rgba(255,255,255,0.4);
-    border-radius: 3px;
+    width: 80px;
+    height: 4px;
+    background: rgba(255,255,255,0.3);
+    border-radius: 2px;
     cursor: pointer;
     overflow: hidden;
   }
   .audio-progress-fill {
     height: 100%;
     width: 0%;
-    background: #fff;
-    border-radius: 3px;
+    background: rgba(255,255,255,0.85);
+    border-radius: 2px;
     transition: width 0.5s linear;
   }
   .audio-time {
-    font-size: 12px;
-    color: rgba(255,255,255,0.95);
+    font-size: 11px;
+    color: rgba(255,255,255,0.85);
     white-space: nowrap;
     font-variant-numeric: tabular-nums;
-    font-weight: 500;
   }
   .audio-speed-btn {
     flex-shrink: 0;
-    padding: 5px 10px;
-    border-radius: 8px;
-    background: rgba(255,255,255,0.25);
-    color: #fff;
-    border: 1px solid rgba(255,255,255,0.4);
-    font-size: 12px;
+    padding: 2px 7px;
+    border-radius: 10px;
+    background: rgba(255,255,255,0.2);
+    color: rgba(255,255,255,0.9);
+    border: 1px solid rgba(255,255,255,0.25);
+    font-size: 11px;
     font-weight: 600;
     cursor: pointer;
     transition: background 0.15s;
   }
   .audio-speed-btn:hover {
-    background: rgba(255,255,255,0.4);
+    background: rgba(255,255,255,0.35);
   }
 
   /* Audio reading highlight */
