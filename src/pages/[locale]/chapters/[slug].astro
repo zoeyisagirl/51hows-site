@@ -266,6 +266,11 @@ function findHeadingId(headingText: string, pageNum: string): string | undefined
   const entry = tocEntries.find(e => e.title === plainTitle && e.pageNum === pageNum);
   return entry?.id;
 }
+
+// Check if audio file exists for this chapter
+const audioFile = `/${chapter.id}-${locale}.mp3`;
+const audioPath = join(process.cwd(), 'public', 'audio', `${chapter.id}-${locale}.mp3`);
+const hasAudio = existsSync(audioPath);
 ---
 
 <Layout title={locale === 'en' && chapter.titleEn ? chapter.titleEn : chapter.title} locale={locale} t={t}>
@@ -291,6 +296,25 @@ function findHeadingId(headingText: string, pageNum: string): string | undefined
               <span class="meta-badge">{t.chapterDetail.pagesLabel.replace('{count}', String(pages.length))}</span>
               <span class="meta-badge">{chapter.type === 'extra' ? t.chapterDetail.extraChapter : chapter.type === 'intro' ? t.chapterDetail.introChapter : t.chapterDetail.mainSeries}</span>
             </div>
+            {hasAudio && (
+              <div class="chapter-audio-player" id="audio-player-wrap">
+                <audio id="chapter-audio" src={`/audio${audioFile}`} preload="none"></audio>
+                <button id="audio-play-btn" class="audio-play-btn" aria-label="Play/Pause">
+                  <span class="audio-icon audio-icon--play">▶</span>
+                  <span class="audio-icon audio-icon--pause" style="display:none">⏸</span>
+                </button>
+                <div class="audio-info">
+                  <span class="audio-label">{locale === 'zh' ? '🎧 听书' : '🎧 Listen'}</span>
+                  <div class="audio-progress-wrap">
+                    <div class="audio-progress-bar">
+                      <div class="audio-progress-fill" id="audio-progress-fill"></div>
+                    </div>
+                    <span class="audio-time" id="audio-time">0:00 / --:--</span>
+                  </div>
+                </div>
+                <button id="audio-speed-btn" class="audio-speed-btn" title="Speed">1×</button>
+              </div>
+            )}
           </div>
         </div>
         <div class="chapter-header__tags">
@@ -906,4 +930,152 @@ function findHeadingId(headingText: string, pageNum: string): string | undefined
       gap: 6px;
     }
   }
+
+  /* Audio Player */
+  .chapter-audio-player {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 16px;
+    padding: 10px 16px;
+    background: rgba(255,255,255,0.12);
+    border-radius: 12px;
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(255,255,255,0.2);
+    max-width: 480px;
+  }
+  .audio-play-btn {
+    flex-shrink: 0;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.9);
+    color: var(--ch-color, #333);
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.15s, background 0.15s;
+  }
+  .audio-play-btn:hover {
+    background: #fff;
+    transform: scale(1.08);
+  }
+  .audio-info {
+    flex: 1;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  .audio-label {
+    font-size: 12px;
+    color: rgba(255,255,255,0.85);
+    font-weight: 500;
+    letter-spacing: 0.02em;
+  }
+  .audio-progress-wrap {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .audio-progress-bar {
+    flex: 1;
+    height: 4px;
+    background: rgba(255,255,255,0.25);
+    border-radius: 2px;
+    cursor: pointer;
+    overflow: hidden;
+  }
+  .audio-progress-fill {
+    height: 100%;
+    width: 0%;
+    background: rgba(255,255,255,0.9);
+    border-radius: 2px;
+    transition: width 0.5s linear;
+  }
+  .audio-time {
+    font-size: 11px;
+    color: rgba(255,255,255,0.7);
+    white-space: nowrap;
+    font-variant-numeric: tabular-nums;
+  }
+  .audio-speed-btn {
+    flex-shrink: 0;
+    padding: 4px 8px;
+    border-radius: 6px;
+    background: rgba(255,255,255,0.15);
+    color: rgba(255,255,255,0.9);
+    border: 1px solid rgba(255,255,255,0.2);
+    font-size: 12px;
+    cursor: pointer;
+    transition: background 0.15s;
+  }
+  .audio-speed-btn:hover {
+    background: rgba(255,255,255,0.25);
+  }
 </style>
+
+<script>
+  const audio = document.getElementById('chapter-audio') as HTMLAudioElement | null;
+  const playBtn = document.getElementById('audio-play-btn');
+  const progressFill = document.getElementById('audio-progress-fill');
+  const timeEl = document.getElementById('audio-time');
+  const speedBtn = document.getElementById('audio-speed-btn');
+
+  if (audio && playBtn) {
+    const iconPlay = playBtn.querySelector('.audio-icon--play') as HTMLElement;
+    const iconPause = playBtn.querySelector('.audio-icon--pause') as HTMLElement;
+    const speeds = [1, 1.25, 1.5, 1.75, 2];
+    let speedIdx = 0;
+
+    function formatTime(s: number) {
+      const m = Math.floor(s / 60);
+      const sec = Math.floor(s % 60).toString().padStart(2, '0');
+      return `${m}:${sec}`;
+    }
+
+    playBtn.addEventListener('click', () => {
+      if (audio.paused) {
+        audio.play();
+        iconPlay.style.display = 'none';
+        iconPause.style.display = '';
+      } else {
+        audio.pause();
+        iconPlay.style.display = '';
+        iconPause.style.display = 'none';
+      }
+    });
+
+    audio.addEventListener('timeupdate', () => {
+      if (!audio.duration) return;
+      const pct = (audio.currentTime / audio.duration) * 100;
+      if (progressFill) progressFill.style.width = pct + '%';
+      if (timeEl) timeEl.textContent = `${formatTime(audio.currentTime)} / ${formatTime(audio.duration)}`;
+    });
+
+    audio.addEventListener('ended', () => {
+      iconPlay.style.display = '';
+      iconPause.style.display = 'none';
+      if (progressFill) progressFill.style.width = '0%';
+    });
+
+    // Click on progress bar to seek
+    const progressBar = document.querySelector('.audio-progress-bar') as HTMLElement | null;
+    progressBar?.addEventListener('click', (e: MouseEvent) => {
+      const rect = progressBar.getBoundingClientRect();
+      const ratio = (e.clientX - rect.left) / rect.width;
+      if (audio.duration) audio.currentTime = ratio * audio.duration;
+    });
+
+    // Speed control
+    speedBtn?.addEventListener('click', () => {
+      speedIdx = (speedIdx + 1) % speeds.length;
+      const s = speeds[speedIdx];
+      audio.playbackRate = s;
+      speedBtn.textContent = s === 1 ? '1×' : `${s}×`;
+    });
+  }
+</script>
