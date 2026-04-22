@@ -293,20 +293,22 @@ const hasAudio = existsSync(audioPath);
               {hasAudio && (
                 <div class="chapter-audio-player" id="audio-player-wrap">
                   <audio id="chapter-audio" src={`/audio${audioFile}`} preload="none"></audio>
-                  <button id="audio-play-btn" class="audio-play-btn" aria-label="Play/Pause">
-                    <span class="audio-icon audio-icon--play">▶</span>
-                    <span class="audio-icon audio-icon--pause" style="display:none">⏸</span>
+                  <button id="audio-toggle-btn" class="audio-toggle-btn" aria-label="Listen">
+                    <span class="audio-toggle-label">{locale === 'zh' ? '🎧 听全文' : '🎧 Listen'}</span>
                   </button>
-                  <div class="audio-info">
-                    <span class="audio-label">{locale === 'zh' ? '🎧 听全文' : '🎧 Listen'}</span>
+                  <div class="audio-controls" id="audio-controls" style="display:none">
+                    <button id="audio-play-btn" class="audio-play-btn" aria-label="Play/Pause">
+                      <span class="audio-icon audio-icon--play">▶</span>
+                      <span class="audio-icon audio-icon--pause" style="display:none">⏸</span>
+                    </button>
                     <div class="audio-progress-wrap">
                       <div class="audio-progress-bar">
                         <div class="audio-progress-fill" id="audio-progress-fill"></div>
                       </div>
                       <span class="audio-time" id="audio-time">0:00 / --:--</span>
                     </div>
+                    <button id="audio-speed-btn" class="audio-speed-btn" title="Speed">1×</button>
                   </div>
-                  <button id="audio-speed-btn" class="audio-speed-btn" title="Speed">1×</button>
                 </div>
               )}
             </div>
@@ -949,43 +951,56 @@ const hasAudio = existsSync(audioPath);
   .chapter-audio-player {
     display: inline-flex;
     align-items: center;
-    gap: 10px;
-    padding: 5px 14px 5px 6px;
+    gap: 8px;
+    padding: 4px 12px 4px 4px;
     background: rgba(255,255,255,0.9);
-    border-radius: 20px;
-    border: 1.5px solid rgba(0,0,0,0.15);
+    border-radius: 8px;
+    border: 1px solid rgba(0,0,0,0.12);
     vertical-align: middle;
+    transition: all 0.25s ease;
+  }
+  .audio-toggle-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    padding: 3px 8px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: background 0.15s;
+  }
+  .audio-toggle-btn:hover {
+    background: rgba(0,0,0,0.06);
+  }
+  .audio-toggle-label {
+    font-size: 13px;
+    color: var(--ch-color, #333);
+    font-weight: 600;
+    white-space: nowrap;
+  }
+  .audio-controls {
+    display: flex;
+    align-items: center;
+    gap: 8px;
   }
   .audio-play-btn {
     flex-shrink: 0;
-    width: 28px;
-    height: 28px;
+    width: 26px;
+    height: 26px;
     border-radius: 50%;
     background: var(--ch-color, #333);
     color: #fff;
     border: none;
     cursor: pointer;
-    font-size: 11px;
+    font-size: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
     transition: transform 0.15s, background 0.15s;
   }
   .audio-play-btn:hover {
-    background: var(--ch-color, #333);
     transform: scale(1.1);
-  }
-  .audio-info {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    min-width: 0;
-  }
-  .audio-label {
-    font-size: 12px;
-    color: var(--ch-color, #333);
-    font-weight: 600;
-    white-space: nowrap;
   }
   .audio-progress-wrap {
     display: flex;
@@ -995,7 +1010,7 @@ const hasAudio = existsSync(audioPath);
   .audio-progress-bar {
     width: 140px;
     height: 4px;
-    background: rgba(0,0,0,0.15);
+    background: rgba(0,0,0,0.12);
     border-radius: 2px;
     cursor: pointer;
     overflow: hidden;
@@ -1009,24 +1024,24 @@ const hasAudio = existsSync(audioPath);
   }
   .audio-time {
     font-size: 11px;
-    color: rgba(0,0,0,0.6);
+    color: rgba(0,0,0,0.55);
     white-space: nowrap;
     font-variant-numeric: tabular-nums;
   }
   .audio-speed-btn {
     flex-shrink: 0;
-    padding: 2px 7px;
-    border-radius: 10px;
-    background: rgba(0,0,0,0.08);
+    padding: 2px 6px;
+    border-radius: 6px;
+    background: rgba(0,0,0,0.06);
     color: var(--ch-color, #333);
-    border: 1px solid rgba(0,0,0,0.15);
+    border: 1px solid rgba(0,0,0,0.1);
     font-size: 11px;
     font-weight: 600;
     cursor: pointer;
     transition: background 0.15s;
   }
   .audio-speed-btn:hover {
-    background: rgba(0,0,0,0.15);
+    background: rgba(0,0,0,0.12);
   }
 
   /* Audio reading highlight */
@@ -1228,6 +1243,17 @@ const hasAudio = existsSync(audioPath);
       }
     }
     // ─────────────────────────────────────────────────────────────────────
+
+    // Toggle: click "🎧 听全文" to expand controls
+    const toggleBtn = document.getElementById('audio-toggle-btn');
+    const controlsEl = document.getElementById('audio-controls');
+    let controlsVisible = false;
+    if (toggleBtn && controlsEl) {
+      toggleBtn.addEventListener('click', () => {
+        controlsVisible = !controlsVisible;
+        controlsEl.style.display = controlsVisible ? 'flex' : 'none';
+      });
+    }
 
     playBtn.addEventListener('click', () => {
       if (audio.paused) {
