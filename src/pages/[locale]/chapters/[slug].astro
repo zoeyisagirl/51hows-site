@@ -1089,9 +1089,11 @@ const hasAudio = existsSync(audioPath);
      * Build segments: assign each VTT cue to its DOM element,
      * then aggregate cues per element to get [start, end] ranges.
      *
-     * Key insight: walk VTT cues in order (they match audio order),
-     * and for each cue, find which DOM node contains its text.
-     * A DOM node's time range = first matched cue's start → last matched cue's end.
+     * Strategy: VTT cues are short sentences; DOM nodes are full paragraphs.
+     * Each cue's text should be a substring of some DOM node's text.
+     * We use a sliding window approach: walk through cues in order,
+     * and for each cue, check if its text appears inside the current
+     * (or next few) DOM node(s).
      */
     function buildSegments() {
       const container = document.querySelector('.chapter-content');
@@ -1103,7 +1105,7 @@ const hasAudio = existsSync(audioPath);
 
       if (nodes.length === 0) return;
 
-      // Pre-normalize all DOM node texts for matching
+      // Pre-normalize all DOM node texts
       const nodeNorms = nodes.map(el => normalize((el.textContent || '').trim()));
 
       // For each node, store matched cue indices
@@ -1113,27 +1115,32 @@ const hasAudio = existsSync(audioPath);
 
       for (let ci = 0; ci < vttCues.length; ci++) {
         const cueNorm = normalize(vttCues[ci].text);
-        if (cueNorm.length < 2) continue;
+        if (cueNorm.length < 3) continue; // skip very short cues
 
-        // Try to find which node this cue belongs to
-        // Walk nodeIdx forward, but allow small look-back
-        const searchStart = Math.max(0, nodeIdx - 1);
+        // Search: does this cue's text appear inside any DOM node?
+        // Start from current nodeIdx, look ahead up to 5 nodes
+        const searchEnd = Math.min(nodes.length, nodeIdx + 6);
 
         let matchedNode = -1;
-        for (let ni = searchStart; ni < nodes.length; ni++) {
+
+        for (let ni = nodeIdx; ni < searchEnd; ni++) {
           const nn = nodeNorms[ni];
-          // Check: cue text is a substring of node text, OR node text starts with cue text
-          if (nn.length >= cueNorm.length && nn.includes(cueNorm)) {
+
+          // Check if cue is a substring of the node (cue ⊂ node)
+          if (nn.includes(cueNorm)) {
             matchedNode = ni;
             break;
           }
-          // Also check: node text starts with cue text (cue might be beginning of paragraph)
-          if (nn.length >= cueNorm.length && nn.startsWith(cueNorm)) {
+
+          // Check if node is a substring of the cue (node ⊂ cue, e.g. short headings)
+          if (cueNorm.includes(nn) && nn.length >= 4) {
             matchedNode = ni;
             break;
           }
-          // Reverse: cue text starts with node text (short heading)
-          if (cueNorm.length >= nn.length && cueNorm.startsWith(nn)) {
+
+          // Fuzzy: check if the first 8+ chars of the cue match somewhere in the node
+          const prefixLen = Math.min(8, cueNorm.length);
+          if (prefixLen >= 4 && nn.includes(cueNorm.slice(0, prefixLen))) {
             matchedNode = ni;
             break;
           }
@@ -1159,14 +1166,14 @@ const hasAudio = existsSync(audioPath);
         });
       }
 
-      // Ensure segments don't overlap (end of one = start of next)
+      // Ensure segments don't overlap
       for (let i = 0; i < segments.length - 1; i++) {
         if (segments[i].end > segments[i + 1].start) {
           segments[i].end = segments[i + 1].start;
         }
       }
 
-      console.log(`[Audio] Built ${segments.length} segments from ${vttCues.length} VTT cues`);
+      console.log(`[Audio] Built ${segments.length} segments from ${vttCues.length} VTT cues, matched ${[...nodeCueMap.values()].reduce((a,b)=>a+b.length,0)} cues`);
     }
 
     function highlightAt(t: number) {
