@@ -267,10 +267,8 @@ function findHeadingId(headingText: string, pageNum: string): string | undefined
   return entry?.id;
 }
 
-// Check if audio file exists for this chapter
+// Audio: always render player for all chapters, JS will probe & hide if mp3 missing
 const audioFile = `/${chapter.id}-${locale}.mp3`;
-const audioPath = join(process.cwd(), 'public', 'audio', `${chapter.id}-${locale}.mp3`);
-const hasAudio = existsSync(audioPath);
 ---
 
 <Layout title={locale === 'en' && chapter.titleEn ? chapter.titleEn : chapter.title} locale={locale} t={t}>
@@ -290,27 +288,25 @@ const hasAudio = existsSync(audioPath);
           <div class="chapter-header__info">
             <div class="chapter-header__title-row">
               <h1 class="chapter-header__title">{locale === 'en' && chapter.titleEn ? chapter.titleEn : chapter.title}</h1>
-              {hasAudio && (
-                <div class="chapter-audio-player" id="audio-player-wrap">
-                  <audio id="chapter-audio" src={`/audio${audioFile}`} preload="none"></audio>
-                  <button id="audio-toggle-btn" class="audio-toggle-btn" aria-label="Listen">
-                    <span class="audio-toggle-label">{locale === 'zh' ? '🎧 听全文' : '🎧 Listen'}</span>
+              <div class="chapter-audio-player" id="audio-player-wrap" style="display:none">
+                <audio id="chapter-audio" src={`/audio${audioFile}`} preload="none"></audio>
+                <button id="audio-toggle-btn" class="audio-toggle-btn" aria-label="Listen">
+                  <span class="audio-toggle-label">{locale === 'zh' ? '🎧 听全文' : '🎧 Listen'}</span>
+                </button>
+                <div class="audio-controls" id="audio-controls" style="display:none">
+                  <button id="audio-play-btn" class="audio-play-btn" aria-label="Play/Pause">
+                    <span class="audio-icon audio-icon--play">▶</span>
+                    <span class="audio-icon audio-icon--pause" style="display:none">⏸</span>
                   </button>
-                  <div class="audio-controls" id="audio-controls" style="display:none">
-                    <button id="audio-play-btn" class="audio-play-btn" aria-label="Play/Pause">
-                      <span class="audio-icon audio-icon--play">▶</span>
-                      <span class="audio-icon audio-icon--pause" style="display:none">⏸</span>
-                    </button>
-                    <div class="audio-progress-wrap">
-                      <div class="audio-progress-bar">
-                        <div class="audio-progress-fill" id="audio-progress-fill"></div>
-                      </div>
-                      <span class="audio-time" id="audio-time">0:00 / --:--</span>
+                  <div class="audio-progress-wrap">
+                    <div class="audio-progress-bar">
+                      <div class="audio-progress-fill" id="audio-progress-fill"></div>
                     </div>
-                    <button id="audio-speed-btn" class="audio-speed-btn" title="Speed">1×</button>
+                    <span class="audio-time" id="audio-time">0:00 / --:--</span>
                   </div>
+                  <button id="audio-speed-btn" class="audio-speed-btn" title="Speed">1×</button>
                 </div>
-              )}
+              </div>
             </div>
             <p class="chapter-header__subtitle">{chapter.subtitle}</p>
             <p class="chapter-header__desc">{locale === 'en' && chapter.descriptionEn ? chapter.descriptionEn : chapter.description}</p>
@@ -1243,6 +1239,14 @@ const hasAudio = existsSync(audioPath);
       }
     }
     // ─────────────────────────────────────────────────────────────────────
+
+    // Probe audio file existence, show player if mp3 exists
+    const playerWrap = document.getElementById('audio-player-wrap');
+    if (playerWrap && audio) {
+      fetch(audio.src, { method: 'HEAD' }).then(r => {
+        if (r.ok) playerWrap.style.display = '';
+      }).catch(() => {});
+    }
 
     // Toggle: click "🎧 听全文" to expand controls
     const toggleBtn = document.getElementById('audio-toggle-btn');
