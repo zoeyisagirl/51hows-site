@@ -950,10 +950,10 @@ const hasAudio = existsSync(audioPath);
     display: inline-flex;
     align-items: center;
     gap: 10px;
-    padding: 6px 14px;
-    background: var(--ch-color, #333);
+    padding: 5px 14px 5px 6px;
+    background: transparent;
     border-radius: 20px;
-    border: 1px solid rgba(255,255,255,0.15);
+    border: 1.5px solid rgba(255,255,255,0.5);
     vertical-align: middle;
   }
   .audio-play-btn {
@@ -993,7 +993,7 @@ const hasAudio = existsSync(audioPath);
     gap: 6px;
   }
   .audio-progress-bar {
-    width: 80px;
+    width: 140px;
     height: 4px;
     background: rgba(255,255,255,0.3);
     border-radius: 2px;
