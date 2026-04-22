@@ -1086,8 +1086,12 @@ const hasAudio = existsSync(audioPath);
     }
 
     /**
-     * Build segments: map each DOM element to a [start, end] time range
-     * by matching its text against the VTT cues.
+     * Build segments: assign each VTT cue to its DOM element,
+     * then aggregate cues per element to get [start, end] ranges.
+     *
+     * Key insight: walk VTT cues in order (they match audio order),
+     * and for each cue, find which DOM node contains its text.
+     * A DOM node's time range = first matched cue's start → last matched cue's end.
      */
     function buildSegments() {
       const container = document.querySelector('.chapter-content');
@@ -1097,45 +1101,72 @@ const hasAudio = existsSync(audioPath);
         container.querySelectorAll('h2, h3, h4, p')
       ).filter(el => (el.textContent || '').trim().length > 3);
 
-      // For each DOM node, find which VTT cues cover its text
-      // Strategy: for each node, take first 12 non-ws chars and find the cue that contains them
-      segments = [];
-      let cueIdx = 0; // walk cues forward to avoid O(n²)
+      if (nodes.length === 0) return;
 
-      for (const el of nodes) {
-        const rawText = (el.textContent || '').trim();
-        const normEl = normalize(rawText).slice(0, 12);
-        if (normEl.length < 2) continue;
+      // Pre-normalize all DOM node texts for matching
+      const nodeNorms = nodes.map(el => normalize((el.textContent || '').trim()));
 
-        // Search from cueIdx forward (with a small look-behind for safety)
-        let bestCue = -1;
-        const searchFrom = Math.max(0, cueIdx - 2);
-        for (let i = searchFrom; i < vttCues.length; i++) {
-          if (normalize(vttCues[i].text).includes(normEl) ||
-              normalize(vttCues[i].text).startsWith(normEl.slice(0, 6))) {
-            bestCue = i;
-            cueIdx = i; // advance pointer
+      // For each node, store matched cue indices
+      const nodeCueMap = new Map<Element, number[]>();
+
+      let nodeIdx = 0;
+
+      for (let ci = 0; ci < vttCues.length; ci++) {
+        const cueNorm = normalize(vttCues[ci].text);
+        if (cueNorm.length < 2) continue;
+
+        // Try to find which node this cue belongs to
+        // Walk nodeIdx forward, but allow small look-back
+        const searchStart = Math.max(0, nodeIdx - 1);
+
+        let matchedNode = -1;
+        for (let ni = searchStart; ni < nodes.length; ni++) {
+          const nn = nodeNorms[ni];
+          // Check: cue text is a substring of node text, OR node text starts with cue text
+          if (nn.length >= cueNorm.length && nn.includes(cueNorm)) {
+            matchedNode = ni;
+            break;
+          }
+          // Also check: node text starts with cue text (cue might be beginning of paragraph)
+          if (nn.length >= cueNorm.length && nn.startsWith(cueNorm)) {
+            matchedNode = ni;
+            break;
+          }
+          // Reverse: cue text starts with node text (short heading)
+          if (cueNorm.length >= nn.length && cueNorm.startsWith(nn)) {
+            matchedNode = ni;
             break;
           }
         }
 
-        if (bestCue >= 0) {
-          // Extend end time: find next cue that belongs to next element
-          const endCue = Math.min(bestCue + 3, vttCues.length - 1);
-          segments.push({
-            el,
-            start: vttCues[bestCue].start,
-            end: vttCues[endCue].end,
-          });
+        if (matchedNode >= 0) {
+          nodeIdx = matchedNode; // advance
+          const el = nodes[matchedNode];
+          if (!nodeCueMap.has(el)) nodeCueMap.set(el, []);
+          nodeCueMap.get(el)!.push(ci);
         }
       }
 
-      // Fill gaps: ensure each segment ends at the next segment's start
+      // Build segments from matched cues
+      segments = [];
+      for (const el of nodes) {
+        const cueIndices = nodeCueMap.get(el);
+        if (!cueIndices || cueIndices.length === 0) continue;
+        segments.push({
+          el,
+          start: vttCues[cueIndices[0]].start,
+          end: vttCues[cueIndices[cueIndices.length - 1]].end,
+        });
+      }
+
+      // Ensure segments don't overlap (end of one = start of next)
       for (let i = 0; i < segments.length - 1; i++) {
         if (segments[i].end > segments[i + 1].start) {
           segments[i].end = segments[i + 1].start;
         }
       }
+
+      console.log(`[Audio] Built ${segments.length} segments from ${vttCues.length} VTT cues`);
     }
 
     function highlightAt(t: number) {
