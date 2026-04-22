@@ -290,28 +290,16 @@ const hasAudio = existsSync(audioPath);
           <div class="chapter-header__info">
             <div class="chapter-header__title-row">
               <h1 class="chapter-header__title">{locale === 'en' && chapter.titleEn ? chapter.titleEn : chapter.title}</h1>
-              {hasAudio && (
-                <button id="audio-toggle-btn" class="audio-toggle-btn" aria-label="Toggle Audio">
-                  🎧 <span class="audio-toggle-label">{locale === 'zh' ? '听书' : 'Listen'}</span>
-                </button>
-              )}
-            </div>
-            <p class="chapter-header__subtitle">{chapter.subtitle}</p>
-            <p class="chapter-header__desc">{locale === 'en' && chapter.descriptionEn ? chapter.descriptionEn : chapter.description}</p>
-            <div class="chapter-header__meta">
-              <span class="meta-badge">{chapter.publishDate}</span>
-              <span class="meta-badge">{t.chapterDetail.pagesLabel.replace('{count}', String(pages.length))}</span>
-              <span class="meta-badge">{chapter.type === 'extra' ? t.chapterDetail.extraChapter : chapter.type === 'intro' ? t.chapterDetail.introChapter : t.chapterDetail.mainSeries}</span>
             </div>
             {hasAudio && (
-              <div class="chapter-audio-player" id="audio-player-wrap" style="display:none;">
+              <div class="chapter-audio-player" id="audio-player-wrap">
                 <audio id="chapter-audio" src={`/audio${audioFile}`} preload="none"></audio>
                 <button id="audio-play-btn" class="audio-play-btn" aria-label="Play/Pause">
                   <span class="audio-icon audio-icon--play">▶</span>
                   <span class="audio-icon audio-icon--pause" style="display:none">⏸</span>
                 </button>
                 <div class="audio-info">
-                  <span class="audio-label">{locale === 'zh' ? '🎧 听书' : '🎧 Listen'}</span>
+                  <span class="audio-label">{locale === 'zh' ? '🎧 听全文' : '🎧 Listen'}</span>
                   <div class="audio-progress-wrap">
                     <div class="audio-progress-bar">
                       <div class="audio-progress-fill" id="audio-progress-fill"></div>
@@ -322,6 +310,13 @@ const hasAudio = existsSync(audioPath);
                 <button id="audio-speed-btn" class="audio-speed-btn" title="Speed">1×</button>
               </div>
             )}
+            <p class="chapter-header__subtitle">{chapter.subtitle}</p>
+            <p class="chapter-header__desc">{locale === 'en' && chapter.descriptionEn ? chapter.descriptionEn : chapter.description}</p>
+            <div class="chapter-header__meta">
+              <span class="meta-badge">{chapter.publishDate}</span>
+              <span class="meta-badge">{t.chapterDetail.pagesLabel.replace('{count}', String(pages.length))}</span>
+              <span class="meta-badge">{chapter.type === 'extra' ? t.chapterDetail.extraChapter : chapter.type === 'intro' ? t.chapterDetail.introChapter : t.chapterDetail.mainSeries}</span>
+            </div>
           </div>
         </div>
         <div class="chapter-header__tags">
@@ -938,43 +933,12 @@ const hasAudio = existsSync(audioPath);
     }
   }
 
-  /* Title row with audio button */
+  /* Title row */
   .chapter-header__title-row {
-    display: flex;
-    align-items: center;
-    gap: 16px;
-    flex-wrap: wrap;
+    margin-bottom: 0;
   }
   .chapter-header__title-row .chapter-header__title {
     margin-bottom: 0;
-  }
-  .audio-toggle-btn {
-    display: inline-flex;
-    align-items: center;
-    gap: 4px;
-    padding: 6px 16px;
-    border-radius: 20px;
-    background: rgba(255,255,255,0.15);
-    color: rgba(255,255,255,0.9);
-    border: 1px solid rgba(255,255,255,0.3);
-    font-size: 14px;
-    font-weight: 500;
-    cursor: pointer;
-    transition: all 0.2s;
-    backdrop-filter: blur(8px);
-    white-space: nowrap;
-  }
-  .audio-toggle-btn:hover {
-    background: rgba(255,255,255,0.25);
-    border-color: rgba(255,255,255,0.5);
-  }
-  .audio-toggle-btn.active {
-    background: rgba(255,255,255,0.9);
-    color: var(--ch-color, #333);
-    border-color: transparent;
-  }
-  .audio-toggle-label {
-    letter-spacing: 0.02em;
   }
 
   /* Audio Player */
@@ -983,27 +947,28 @@ const hasAudio = existsSync(audioPath);
     align-items: center;
     gap: 12px;
     margin-top: 16px;
-    padding: 10px 16px;
-    background: rgba(255,255,255,0.12);
-    border-radius: 12px;
-    backdrop-filter: blur(8px);
-    border: 1px solid rgba(255,255,255,0.2);
-    max-width: 480px;
+    padding: 12px 18px;
+    background: rgba(0, 0, 0, 0.45);
+    border-radius: 14px;
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255,255,255,0.35);
+    max-width: 520px;
   }
   .audio-play-btn {
     flex-shrink: 0;
-    width: 36px;
-    height: 36px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
-    background: rgba(255,255,255,0.9);
+    background: #fff;
     color: var(--ch-color, #333);
     border: none;
     cursor: pointer;
-    font-size: 14px;
+    font-size: 15px;
     display: flex;
     align-items: center;
     justify-content: center;
     transition: transform 0.15s, background 0.15s;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.3);
   }
   .audio-play-btn:hover {
     background: #fff;
@@ -1014,12 +979,12 @@ const hasAudio = existsSync(audioPath);
     min-width: 0;
     display: flex;
     flex-direction: column;
-    gap: 4px;
+    gap: 5px;
   }
   .audio-label {
-    font-size: 12px;
-    color: rgba(255,255,255,0.85);
-    font-weight: 500;
+    font-size: 13px;
+    color: #fff;
+    font-weight: 600;
     letter-spacing: 0.02em;
   }
   .audio-progress-wrap {
@@ -1029,38 +994,40 @@ const hasAudio = existsSync(audioPath);
   }
   .audio-progress-bar {
     flex: 1;
-    height: 4px;
-    background: rgba(255,255,255,0.25);
-    border-radius: 2px;
+    height: 5px;
+    background: rgba(255,255,255,0.4);
+    border-radius: 3px;
     cursor: pointer;
     overflow: hidden;
   }
   .audio-progress-fill {
     height: 100%;
     width: 0%;
-    background: rgba(255,255,255,0.9);
-    border-radius: 2px;
+    background: #fff;
+    border-radius: 3px;
     transition: width 0.5s linear;
   }
   .audio-time {
-    font-size: 11px;
-    color: rgba(255,255,255,0.7);
+    font-size: 12px;
+    color: rgba(255,255,255,0.95);
     white-space: nowrap;
     font-variant-numeric: tabular-nums;
+    font-weight: 500;
   }
   .audio-speed-btn {
     flex-shrink: 0;
-    padding: 4px 8px;
-    border-radius: 6px;
-    background: rgba(255,255,255,0.15);
-    color: rgba(255,255,255,0.9);
-    border: 1px solid rgba(255,255,255,0.2);
+    padding: 5px 10px;
+    border-radius: 8px;
+    background: rgba(255,255,255,0.25);
+    color: #fff;
+    border: 1px solid rgba(255,255,255,0.4);
     font-size: 12px;
+    font-weight: 600;
     cursor: pointer;
     transition: background 0.15s;
   }
   .audio-speed-btn:hover {
-    background: rgba(255,255,255,0.25);
+    background: rgba(255,255,255,0.4);
   }
 
   /* Audio reading highlight */
@@ -1265,23 +1232,6 @@ const hasAudio = existsSync(audioPath);
       }
     }
     // ─────────────────────────────────────────────────────────────────────
-
-    // Toggle audio player visibility
-    const toggleBtn = document.getElementById('audio-toggle-btn');
-    const playerWrap = document.getElementById('audio-player-wrap');
-    if (toggleBtn && playerWrap) {
-      toggleBtn.addEventListener('click', () => {
-        const isVisible = playerWrap.style.display !== 'none';
-        if (isVisible) {
-          playerWrap.style.display = 'none';
-          toggleBtn.classList.remove('active');
-          if (!audio.paused) audio.pause();
-        } else {
-          playerWrap.style.display = 'flex';
-          toggleBtn.classList.add('active');
-        }
-      });
-    }
 
     playBtn.addEventListener('click', () => {
       if (audio.paused) {
