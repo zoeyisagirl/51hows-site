@@ -1016,6 +1016,15 @@ const hasAudio = existsSync(audioPath);
   .audio-speed-btn:hover {
     background: rgba(255,255,255,0.25);
   }
+
+  /* Audio reading highlight */
+  .audio-reading {
+    background: rgba(255, 230, 100, 0.35) !important;
+    border-radius: 4px;
+    transition: background 0.4s ease;
+    outline: 2px solid rgba(255, 200, 50, 0.5);
+    outline-offset: 2px;
+  }
 </style>
 
 <script>
@@ -1037,8 +1046,64 @@ const hasAudio = existsSync(audioPath);
       return `${m}:${sec}`;
     }
 
+    // ── Reading highlight ─────────────────────────────────────────────────
+    // Collect all readable block elements (headings + paragraphs) in order
+    type SegInfo = { el: Element; start: number; end: number };
+    const CHARS_PER_SEC = 7.2; // measured from edge-tts output
+    let segments: SegInfo[] = [];
+    let lastHighlighted: Element | null = null;
+
+    function buildSegments() {
+      const container = document.querySelector('.chapter-content');
+      if (!container) return;
+      // Select headings and paragraphs (skip empty nodes)
+      const nodes = Array.from(
+        container.querySelectorAll('h2, h3, h4, p.content-paragraph')
+      ).filter(el => (el.textContent || '').trim().length > 0);
+
+      let cursor = 0;
+      segments = nodes.map(el => {
+        const text = (el.textContent || '').replace(/\s/g, '');
+        const len = text.length;
+        const duration = Math.max(len / CHARS_PER_SEC, 0.5);
+        const seg: SegInfo = { el, start: cursor, end: cursor + duration };
+        cursor += duration;
+        return seg;
+      });
+    }
+
+    function highlightAt(t: number) {
+      // Binary search for current segment
+      let lo = 0, hi = segments.length - 1, found = -1;
+      while (lo <= hi) {
+        const mid = (lo + hi) >> 1;
+        if (segments[mid].end < t) { lo = mid + 1; }
+        else if (segments[mid].start > t) { hi = mid - 1; }
+        else { found = mid; break; }
+      }
+      const target = found >= 0 ? segments[found].el : null;
+      if (target === lastHighlighted) return;
+      if (lastHighlighted) lastHighlighted.classList.remove('audio-reading');
+      if (target) {
+        target.classList.add('audio-reading');
+        // Smooth scroll into view only if out of viewport
+        const rect = target.getBoundingClientRect();
+        if (rect.top < 80 || rect.bottom > window.innerHeight - 40) {
+          target.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }
+      }
+      lastHighlighted = target;
+    }
+
+    function clearHighlight() {
+      if (lastHighlighted) lastHighlighted.classList.remove('audio-reading');
+      lastHighlighted = null;
+    }
+    // ─────────────────────────────────────────────────────────────────────
+
     playBtn.addEventListener('click', () => {
       if (audio.paused) {
+        if (segments.length === 0) buildSegments();
         audio.play();
         iconPlay.style.display = 'none';
         iconPause.style.display = '';
@@ -1054,12 +1119,24 @@ const hasAudio = existsSync(audioPath);
       const pct = (audio.currentTime / audio.duration) * 100;
       if (progressFill) progressFill.style.width = pct + '%';
       if (timeEl) timeEl.textContent = `${formatTime(audio.currentTime)} / ${formatTime(audio.duration)}`;
+      // Update highlight
+      if (segments.length > 0) highlightAt(audio.currentTime);
     });
 
     audio.addEventListener('ended', () => {
       iconPlay.style.display = '';
       iconPause.style.display = 'none';
       if (progressFill) progressFill.style.width = '0%';
+      clearHighlight();
+    });
+
+    audio.addEventListener('pause', () => {
+      // Keep highlight visible on pause (don't clear)
+    });
+
+    // Rebuild segments on seek (in case user jumps)
+    audio.addEventListener('seeked', () => {
+      if (segments.length > 0) highlightAt(audio.currentTime);
     });
 
     // Click on progress bar to seek
