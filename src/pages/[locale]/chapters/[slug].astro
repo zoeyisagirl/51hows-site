@@ -1046,30 +1046,96 @@ const hasAudio = existsSync(audioPath);
       return `${m}:${sec}`;
     }
 
-    // ── Reading highlight ─────────────────────────────────────────────────
-    // Collect all readable block elements (headings + paragraphs) in order
+    // ── Reading highlight (VTT-driven) ────────────────────────────────────
+    type VttCue = { start: number; end: number; text: string };
     type SegInfo = { el: Element; start: number; end: number };
-    const CHARS_PER_SEC = 7.2; // measured from edge-tts output
+    let vttCues: VttCue[] = [];
     let segments: SegInfo[] = [];
     let lastHighlighted: Element | null = null;
+    let vttLoaded = false;
 
+    /** Parse WebVTT timestamp (HH:MM:SS.mmm) to seconds */
+    function parseVttTs(ts: string): number {
+      const parts = ts.trim().split(':');
+      if (parts.length === 3) {
+        return parseInt(parts[0]) * 3600 + parseInt(parts[1]) * 60 + parseFloat(parts[2]);
+      }
+      return parseInt(parts[0]) * 60 + parseFloat(parts[1]);
+    }
+
+    /** Parse a VTT file text into an array of cues */
+    function parseVtt(text: string): VttCue[] {
+      const cues: VttCue[] = [];
+      const blocks = text.split(/\n\n+/);
+      for (const block of blocks) {
+        const lines = block.trim().split('\n');
+        const tsLine = lines.find(l => l.includes('-->'));
+        if (!tsLine) continue;
+        const [startStr, endStr] = tsLine.split('-->').map(s => s.trim());
+        const cueText = lines.slice(lines.indexOf(tsLine) + 1).join(' ').trim();
+        if (cueText) {
+          cues.push({ start: parseVttTs(startStr), end: parseVttTs(endStr), text: cueText });
+        }
+      }
+      return cues;
+    }
+
+    /** Normalize text: remove whitespace + punctuation for fuzzy matching */
+    function normalize(s: string): string {
+      return s.replace(/[\s\u3000\u00a0，。！？、,.!?:：；;""''「」【】\-—]/g, '').toLowerCase();
+    }
+
+    /**
+     * Build segments: map each DOM element to a [start, end] time range
+     * by matching its text against the VTT cues.
+     */
     function buildSegments() {
       const container = document.querySelector('.chapter-content');
-      if (!container) return;
-      // Select headings and paragraphs (skip empty nodes)
-      const nodes = Array.from(
-        container.querySelectorAll('h2, h3, h4, p.content-paragraph')
-      ).filter(el => (el.textContent || '').trim().length > 0);
+      if (!container || vttCues.length === 0) return;
 
-      let cursor = 0;
-      segments = nodes.map(el => {
-        const text = (el.textContent || '').replace(/\s/g, '');
-        const len = text.length;
-        const duration = Math.max(len / CHARS_PER_SEC, 0.5);
-        const seg: SegInfo = { el, start: cursor, end: cursor + duration };
-        cursor += duration;
-        return seg;
-      });
+      const nodes = Array.from(
+        container.querySelectorAll('h2, h3, h4, p')
+      ).filter(el => (el.textContent || '').trim().length > 3);
+
+      // For each DOM node, find which VTT cues cover its text
+      // Strategy: for each node, take first 12 non-ws chars and find the cue that contains them
+      segments = [];
+      let cueIdx = 0; // walk cues forward to avoid O(n²)
+
+      for (const el of nodes) {
+        const rawText = (el.textContent || '').trim();
+        const normEl = normalize(rawText).slice(0, 12);
+        if (normEl.length < 2) continue;
+
+        // Search from cueIdx forward (with a small look-behind for safety)
+        let bestCue = -1;
+        const searchFrom = Math.max(0, cueIdx - 2);
+        for (let i = searchFrom; i < vttCues.length; i++) {
+          if (normalize(vttCues[i].text).includes(normEl) ||
+              normalize(vttCues[i].text).startsWith(normEl.slice(0, 6))) {
+            bestCue = i;
+            cueIdx = i; // advance pointer
+            break;
+          }
+        }
+
+        if (bestCue >= 0) {
+          // Extend end time: find next cue that belongs to next element
+          const endCue = Math.min(bestCue + 3, vttCues.length - 1);
+          segments.push({
+            el,
+            start: vttCues[bestCue].start,
+            end: vttCues[endCue].end,
+          });
+        }
+      }
+
+      // Fill gaps: ensure each segment ends at the next segment's start
+      for (let i = 0; i < segments.length - 1; i++) {
+        if (segments[i].end > segments[i + 1].start) {
+          segments[i].end = segments[i + 1].start;
+        }
+      }
     }
 
     function highlightAt(t: number) {
@@ -1086,7 +1152,6 @@ const hasAudio = existsSync(audioPath);
       if (lastHighlighted) lastHighlighted.classList.remove('audio-reading');
       if (target) {
         target.classList.add('audio-reading');
-        // Smooth scroll into view only if out of viewport
         const rect = target.getBoundingClientRect();
         if (rect.top < 80 || rect.bottom > window.innerHeight - 40) {
           target.scrollIntoView({ behavior: 'smooth', block: 'center' });
@@ -1099,11 +1164,28 @@ const hasAudio = existsSync(audioPath);
       if (lastHighlighted) lastHighlighted.classList.remove('audio-reading');
       lastHighlighted = null;
     }
+
+    /** Load VTT file and build segments (called once on first play) */
+    async function loadVttAndBuild(vttUrl: string) {
+      if (vttLoaded) return;
+      vttLoaded = true;
+      try {
+        const res = await fetch(vttUrl);
+        if (!res.ok) return;
+        const text = await res.text();
+        vttCues = parseVtt(text);
+        buildSegments();
+      } catch (e) {
+        console.warn('VTT load failed, highlight disabled', e);
+      }
+    }
     // ─────────────────────────────────────────────────────────────────────
 
     playBtn.addEventListener('click', () => {
       if (audio.paused) {
-        if (segments.length === 0) buildSegments();
+        // Load VTT on first play
+        const vttUrl = (audio as HTMLAudioElement).src.replace('.mp3', '.vtt');
+        if (!vttLoaded) loadVttAndBuild(vttUrl);
         audio.play();
         iconPlay.style.display = 'none';
         iconPause.style.display = '';
