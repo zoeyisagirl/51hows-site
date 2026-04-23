@@ -6,9 +6,10 @@ interface Props extends HTMLAttributes<'div'> {
   title?: string;
   locale?: Locale;
   t?: Translations;
+  disableLangSwitch?: boolean;
 }
 
-const { title, locale = 'zh', t, class: className, ...rest } = Astro.props;
+const { title, locale = 'zh', t, disableLangSwitch = false, class: className, ...rest } = Astro.props;
 
 // Auto-get dictionary if not provided
 const dict = t ?? getDictionary(locale);
@@ -48,7 +49,11 @@ const langHref = `/${targetLocale}${currentPath}`;
           <a href={`/${locale}/concepts`} class="nav__link">{dict.nav.concepts}</a>
           <a href={`/${locale}/articles`} class="nav__link">{dict.nav.articles}</a>
           <a href={`/${locale}/about`} class="nav__link">{dict.nav.about}</a>
-          <a href={langHref} class="nav__link nav__link--lang">{dict.nav.switchLang}</a>
+          {disableLangSwitch ? (
+            <span class="nav__link nav__link--lang nav__link--lang-disabled">{dict.nav.switchLang}</span>
+          ) : (
+            <a href={langHref} class="nav__link nav__link--lang">{dict.nav.switchLang}</a>
+          )}
         </div>
         <button class="nav__hamburger" id="hamburger" aria-label={dict.nav.menu}>
           <span></span><span></span><span></span>
@@ -204,6 +209,12 @@ const langHref = `/${targetLocale}${currentPath}`;
   .nav__link--lang:hover {
     opacity: 1;
     background: rgba(99,102,241,0.08);
+  }
+
+  .nav__link--lang-disabled {
+    opacity: 0.3;
+    cursor: not-allowed;
+    pointer-events: none;
   }
 
   .nav__hamburger {

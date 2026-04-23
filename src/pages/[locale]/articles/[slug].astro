@@ -15,7 +15,8 @@ export function getStaticPaths() {
 }
 
 const { article, locale } = Astro.props;
-const t = getDictionary(locale);
+// Articles are Chinese-only, always use zh dictionary
+const t = getDictionary('zh');
 
 // Read markdown content (Chinese only, no English version)
 const contentDir = join(process.cwd(), 'src/content/articles');
@@ -120,7 +121,7 @@ const prev = idx > 0 ? articles[idx - 1] : null;
 const next = idx < articles.length - 1 ? articles[idx + 1] : null;
 ---
 
-<Layout title={article.title} locale={locale} t={t}>
+<Layout title={article.title} locale={locale} t={t} disableLangSwitch={true}>
   <div class="article-page">
     <!-- Article header -->
     <div class="article-header" style={`--art-color: ${article.color};`}>
