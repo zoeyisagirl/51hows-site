@@ -6,7 +6,10 @@ export default {
     graph: '知识图谱',
     chapters: '开始阅读',
     concepts: '核心概念',
-    articles: '可遥笔记',
+    others: '他山之玉',
+    keyao: '可遥笔记',
+    jiangning: '江宁织造',
+    douban: '豆瓣书单',
     about: '关于',
     menu: '菜单',
     switchLang: 'EN',
@@ -172,6 +175,25 @@ export default {
     tocTitle: '目录',
     prevArticle: '← 上一篇',
     nextArticle: '下一篇 →',
+  },
+
+  // ====== 江宁织造页 ======
+  jiangningPage: {
+    sectionTitle: '他山之玉',
+    heading: '江宁织造',
+    description: '文章即将上线，敬请期待。',
+    authorLabel: '作者',
+    authorName: '江宁织造',
+    authorSource: '微信公众号：江宁织造',
+    comingSoon: '内容筹备中，即将上线',
+  },
+
+  // ====== 豆瓣书单页 ======
+  doubanPage: {
+    sectionTitle: '他山之玉',
+    heading: '豆瓣书单',
+    description: '精选书单推荐，涵盖投资、思维、教育等领域。',
+    comingSoon: '内容筹备中，即将上线',
   },
 
   // ====== 页脚 ======

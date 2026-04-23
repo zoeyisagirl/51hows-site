@@ -6,7 +6,10 @@ export default {
     graph: 'Graph',
     chapters: 'Read',
     concepts: 'Concepts',
-    articles: 'Keyao Notes',
+    others: 'Others',
+    keyao: 'Keyao Notes',
+    jiangning: 'Jiangning',
+    douban: 'Douban Books',
     about: 'About',
     menu: 'Menu',
     switchLang: '中',
@@ -172,6 +175,25 @@ export default {
     tocTitle: 'Table of Contents',
     prevArticle: '← Previous',
     nextArticle: 'Next →',
+  },
+
+  // ====== Jiangning Page ======
+  jiangningPage: {
+    sectionTitle: 'Others',
+    heading: 'Jiangning',
+    description: 'Articles coming soon.',
+    authorLabel: 'Author',
+    authorName: 'Jiangning',
+    authorSource: 'WeChat: 江宁织造',
+    comingSoon: 'Coming soon',
+  },
+
+  // ====== Douban Page ======
+  doubanPage: {
+    sectionTitle: 'Others',
+    heading: 'Douban Books',
+    description: 'Curated book recommendations covering investing, thinking, education and more.',
+    comingSoon: 'Coming soon',
   },
 
   // ====== Footer ======

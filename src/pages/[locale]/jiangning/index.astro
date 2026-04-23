@@ -1,0 +1,96 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import { getDictionary, type Locale } from '../../../i18n';
+
+export function getStaticPaths() {
+  return [{ params: { locale: 'zh' } }, { params: { locale: 'en' } }];
+}
+
+const { locale } = Astro.params as { locale: Locale };
+const t = getDictionary('zh');
+---
+
+<Layout title={t.jiangningPage.heading} locale={locale} t={t} disableLangSwitch={true}>
+  <div class="container" style="padding-top:48px; padding-bottom:80px;">
+    <div class="page-header">
+      <p class="section-title">{t.jiangningPage.sectionTitle}</p>
+      <h1 class="section-heading">{t.jiangningPage.heading}</h1>
+      <p class="page-desc">{t.jiangningPage.description}</p>
+      <div class="author-card">
+        <span class="author-card__label">{t.jiangningPage.authorLabel}</span>
+        <span class="author-card__name">{t.jiangningPage.authorName}</span>
+        <span class="author-card__sep">·</span>
+        <span class="author-card__source">{t.jiangningPage.authorSource}</span>
+      </div>
+    </div>
+
+    <div class="coming-soon">
+      <div class="coming-soon__icon">📖</div>
+      <p class="coming-soon__text">{t.jiangningPage.comingSoon}</p>
+    </div>
+  </div>
+</Layout>
+
+<style>
+  .page-header {
+    margin-bottom: 48px;
+  }
+
+  .page-desc {
+    color: var(--color-text-secondary);
+    font-size: 16px;
+    margin-top: 12px;
+    max-width: 600px;
+    line-height: 1.7;
+  }
+
+  .author-card {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 20px;
+    padding: 8px 16px;
+    background: var(--color-border-subtle);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+    font-size: 14px;
+  }
+
+  .author-card__label {
+    color: var(--color-text-muted);
+    font-weight: 500;
+  }
+
+  .author-card__name {
+    color: var(--color-text);
+    font-weight: 600;
+  }
+
+  .author-card__sep {
+    color: var(--color-border);
+  }
+
+  .author-card__source {
+    color: var(--color-text-secondary);
+  }
+
+  .coming-soon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 24px;
+    text-align: center;
+  }
+
+  .coming-soon__icon {
+    font-size: 48px;
+    margin-bottom: 16px;
+  }
+
+  .coming-soon__text {
+    font-size: 16px;
+    color: var(--color-text-muted);
+    font-weight: 500;
+  }
+</style>
