@@ -6,6 +6,7 @@ export default {
     graph: 'Graph',
     chapters: 'Read',
     concepts: 'Concepts',
+    articles: 'Keyao Notes',
     about: 'About',
     menu: 'Menu',
     switchLang: '中',
@@ -152,6 +153,25 @@ export default {
     sourceAuthorValue: 'Shuzhimi@RynW1988',
     sourceWrittenValue: 'April 2025',
     sourceUpdatedValue: 'March 2026 (Chapter 7 started)',
+  },
+
+  // ====== Articles List Page ======
+  articlesPage: {
+    sectionTitle: 'Value Investing',
+    heading: 'Keyao Notes',
+    description: 'A 90-year intellectual history of value investing. From Graham\'s Security Analysis (1934) to Baillie Gifford\'s reflections (2025) — 45 investors, 1,000+ primary documents, 49,010 insights.',
+    authorLabel: 'Author',
+    authorName: 'Wu Keyao',
+    authorSource: 'WeChat: 可遥笔记',
+  },
+
+  // ====== Article Detail Page ======
+  articleDetail: {
+    breadcrumbHome: 'Home',
+    breadcrumbArticles: 'Keyao Notes',
+    tocTitle: 'Table of Contents',
+    prevArticle: '← Previous',
+    nextArticle: 'Next →',
   },
 
   // ====== Footer ======

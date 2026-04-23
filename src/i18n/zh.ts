@@ -6,6 +6,7 @@ export default {
     graph: '知识图谱',
     chapters: '开始阅读',
     concepts: '核心概念',
+    articles: '可遥笔记',
     about: '关于',
     menu: '菜单',
     switchLang: 'EN',
@@ -152,6 +153,25 @@ export default {
     sourceAuthorValue: '数之谜@RynW1988',
     sourceWrittenValue: '2025年4月',
     sourceUpdatedValue: '2026年3月（第7篇开笔）',
+  },
+
+  // ====== 文章列表页 ======
+  articlesPage: {
+    sectionTitle: '价值投资',
+    heading: '可遥笔记',
+    description: '价值投资九十年思想史系列。从格雷厄姆1934年的《证券分析》到柏基2025年的反思，覆盖45位投资人、1000+份一手文档、49010条洞见。',
+    authorLabel: '作者',
+    authorName: '邬可遥',
+    authorSource: '微信公众号：可遥笔记',
+  },
+
+  // ====== 文章详情页 ======
+  articleDetail: {
+    breadcrumbHome: '首页',
+    breadcrumbArticles: '可遥笔记',
+    tocTitle: '目录',
+    prevArticle: '← 上一篇',
+    nextArticle: '下一篇 →',
   },
 
   // ====== 页脚 ======

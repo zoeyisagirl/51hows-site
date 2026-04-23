@@ -1,0 +1,243 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import { articles } from '../../../data/articles';
+import { getDictionary, type Locale } from '../../../i18n';
+
+export function getStaticPaths() {
+  return [{ params: { locale: 'zh' } }, { params: { locale: 'en' } }];
+}
+
+const { locale } = Astro.params as { locale: Locale };
+const t = getDictionary(locale);
+
+// Group articles by subtitle category
+const categoryMap: Record<string, typeof articles> = {};
+const categoryOrder = ['缘起', '核心概念', '深度分析', '大师人物志', '案例分析'];
+for (const a of articles) {
+  if (!categoryMap[a.subtitle]) categoryMap[a.subtitle] = [];
+  categoryMap[a.subtitle].push(a);
+}
+const sortedCategories = Object.keys(categoryMap).sort(
+  (a, b) => categoryOrder.indexOf(a) - categoryOrder.indexOf(b)
+);
+---
+
+<Layout title={t.articlesPage.heading} locale={locale} t={t}>
+  <div class="container" style="padding-top:48px; padding-bottom:80px;">
+    <div class="page-header">
+      <p class="section-title">{t.articlesPage.sectionTitle}</p>
+      <h1 class="section-heading">{t.articlesPage.heading}</h1>
+      <p class="page-desc">{t.articlesPage.description}</p>
+      <div class="author-card">
+        <span class="author-card__label">{t.articlesPage.authorLabel}</span>
+        <span class="author-card__name">{t.articlesPage.authorName}</span>
+        <span class="author-card__sep">·</span>
+        <span class="author-card__source">{t.articlesPage.authorSource}</span>
+      </div>
+    </div>
+
+    {sortedCategories.map(category => (
+      <div class="article-section">
+        <h2 class="article-category">{category}</h2>
+        <div class="articles-list">
+          {categoryMap[category].map(a => (
+            <a href={`/${locale}/articles/${a.slug}`} class="article-card" style={`--art-color: ${a.color};`}>
+              <div class="article-card__num">{a.number}</div>
+              <div class="article-card__body">
+                <h3 class="article-card__title">{a.title}</h3>
+                <p class="article-card__desc">{a.description}</p>
+                <div class="article-card__meta">
+                  <span class="meta-badge">{a.publishDate}</span>
+                  {a.tags.slice(0, 3).map(tag => (
+                    <span class="meta-badge meta-badge--tag">{tag}</span>
+                  ))}
+                </div>
+              </div>
+              <div class="article-card__arrow">→</div>
+            </a>
+          ))}
+        </div>
+      </div>
+    ))}
+  </div>
+</Layout>
+
+<style>
+  .page-header {
+    margin-bottom: 48px;
+  }
+
+  .page-desc {
+    color: var(--color-text-secondary);
+    font-size: 16px;
+    margin-top: 12px;
+    max-width: 600px;
+    line-height: 1.7;
+  }
+
+  .author-card {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 20px;
+    padding: 8px 16px;
+    background: var(--color-border-subtle);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+    font-size: 14px;
+  }
+
+  .author-card__label {
+    color: var(--color-text-muted);
+    font-weight: 500;
+  }
+
+  .author-card__name {
+    color: var(--color-text);
+    font-weight: 600;
+  }
+
+  .author-card__sep {
+    color: var(--color-border);
+  }
+
+  .author-card__source {
+    color: var(--color-text-secondary);
+  }
+
+  .article-section {
+    margin-bottom: 48px;
+  }
+
+  .article-category {
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--color-text-muted);
+    margin-bottom: 16px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  .articles-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    max-width: 800px;
+  }
+
+  .article-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 24px;
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-lg);
+    text-decoration: none;
+    color: inherit;
+    transition: all 0.2s;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .article-card::before {
+    content: '';
+    position: absolute;
+    left: 0; top: 0; bottom: 0;
+    width: 4px;
+    background: var(--art-color);
+    opacity: 0;
+    transition: opacity 0.2s;
+  }
+
+  .article-card:hover {
+    transform: translateX(4px);
+    box-shadow: var(--shadow-md);
+    border-color: var(--art-color);
+  }
+
+  .article-card:hover::before { opacity: 1; }
+
+  .article-card__num {
+    flex-shrink: 0;
+    width: 44px;
+    height: 44px;
+    border-radius: 12px;
+    background: var(--art-color);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: -1px;
+  }
+
+  .article-card__body { flex: 1; min-width: 0; }
+
+  .article-card__title {
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: -0.3px;
+    margin-bottom: 6px;
+    line-height: 1.4;
+  }
+
+  .article-card__desc {
+    font-size: 14px;
+    color: var(--color-text-secondary);
+    line-height: 1.7;
+    margin-bottom: 12px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .article-card__meta {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+  }
+
+  .meta-badge {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 100px;
+    font-size: 12px;
+    font-weight: 500;
+    background: var(--color-border-subtle);
+    color: var(--color-text-secondary);
+    border: 1px solid var(--color-border);
+  }
+
+  .meta-badge--tag {
+    background: transparent;
+    color: var(--color-text-muted);
+    border-color: var(--color-border);
+  }
+
+  .article-card__arrow {
+    flex-shrink: 0;
+    font-size: 20px;
+    color: var(--color-text-muted);
+    align-self: center;
+    transition: transform 0.2s;
+  }
+
+  .article-card:hover .article-card__arrow {
+    transform: translateX(4px);
+  }
+
+  @media (max-width: 768px) {
+    .article-card {
+      flex-direction: column;
+      gap: 12px;
+    }
+    .article-card__arrow {
+      display: none;
+    }
+  }
+</style>
