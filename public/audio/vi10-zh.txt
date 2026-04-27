@@ -1,0 +1,104 @@
+【10】内在价值：一个永远无法精确却必须追问的数字。
+
+【第10篇·核心概念】。
+
+1934年，本杰明·格雷厄姆 (Benjamin Graham) 和大卫·多德 (David Dodd) 在哥伦比亚大学的教室里完成了 《证券分析》的书稿。那年，道琼斯指数仍徘徊在1929年峰值的四分之一附近，数以千计的美国企业以低于其清算价值的价格在交易所挂牌——也就是说，买下全部股票再关门卖掉资产，你能拿回的钱比你付出的多。格雷厄姆和多德面对的问题不是 「股票该怎么定价」，而是一个更基本的困惑：如果市场价格可以荒谬到这种程度，那么一家企业 「真正值多少钱」这个问题，到底由谁来回答?
+他们给出的答案是一个后来统治了价值投资近一个世纪的概念：内在价值 (intrinsic
+value)。
+
+这个词的含义看似直白：一家企业基于其自身经济特征所」应该 「具有的价值，独立于市场先生当天愿意出的价格。但恰恰是这种直白制造了一个巨大的陷阱：几乎每一个投资者都声称自己在追寻内在价值，但他们对」什么构成内在价值」、 「如何计算它」、 「它是一个精确数字还是一个模糊区间」这些根本性问题的回答，彼此之间差异之大，几乎可以构成不同的投资信仰。
+格雷厄姆自己在 《聪明的投资者》中给出过一个关于风险的定义，而这个定义恰好揭示了内在价值为什么重要。他说，真正的风险不是股价下跌，而是你为一只证券支付了远超其内在价值的价格。 「真正的投资者不会仅仅因为持仓的市场价格下跌就蒙受损失我们把' 风险' 这个概念仅仅适用于那些通过实际卖出而实现的亏损、或者由公司基本面严重恶化所导致的价值丧失又或者，更常见的情形是，投资者相对于证券的内在价值支付了过高的价格。」
+
+" The bona fide investor does not lose money merely because the market price of his holdings declines; hence the fact that a decline may occur does not mean that he is running a true risk of loss. · · we apply the concept of risk solely to a loss of value which either is realized through actual sale, or is caused by a significant deterioration in the company ' s position—or, more frequently perhaps , is the result of the payment of an excessive price in relation to the intrinsic worth of the security. "
+
+本杰明·格雷厄姆 (Benjamin Graham)，《聪明的投资者》
+
+这段话把内在价值从一个抽象概念变成了投资者的生死线。价格波动不是风险，为价值100块的东西付了200块才是。而要判断你是否付了200块，你得先知道那东西值100块。问题是你怎么知道?
+
+格雷厄姆那个年代，计算内在价值的方式带着浓厚的资产清算色彩。看资产负债表，算净营运资本，比较市值与有形资产的差额。这套方法在大萧条后的美国市场极其有效遍地都是股价低于清算价值的公司。但它回避了一个问题：一家持续赚钱、不打算清算的企业，它的价值难道不应该取决于未来能赚多少钱，而不是今天资产负债表上有什么?
+巴菲特 (Warren Buffett) 和芒格 (Charlie Munger) 后来把这个问题回答得异常清晰。在伯克希尔·哈撒韦的年度股东大会上，巴菲特曾用一段话把内在价值的本质一锤定音。他说，你要做的事情就是看一家企业从现在到世界末日之间能产生多少现金，然后用一个合适的利率折现回来，再以远低于这个数字的价格买入。 「无论钱是来自银行、互联网公司还是砖头公司，钱花起来都是一样的。」
+
+what you ' re trying to do is look at all the cash a business will produce between now and judgment day, and discount it back at a rate that ' s appropriate, and then buy it a lot cheaper than that. And , whether the money comes from a bank , whether it comes from an internet company, or whether it comes from a brick company, the money all spends the same. "
+
+沃伦·巴菲特与查理·芒格，伯克希尔·哈撒韦年度股东大会
+
+这段话在理论上无懈可击。但它的操作难度是地狱级的。 「从现在到世界末日之间能产生多少现金」这句话包含了无穷多个变量：营收增速、利润率走势、资本开支需求、竞争格局变化、管理层资本配置能力、宏观经济环境、税率变动、技术颠覆的可能性 …每一个变量的微小偏差，经过几十年的复合之后，都会导致截然不同的结论。格雷厄姆早就发出过警告：你预期的增长率越高、预测的时间越长，结果对最轻微的误差就越敏感。
+这就是内在价值这个概念最核心的张力所在：它在逻辑上是唯一正确的估值方式——一项资产的价值等于它未来全部现金流的折现值。但在实践中，它永远无法被精确计算。你得到的不是一个数字，而是一个在一系列假设下的模糊估计。假设变了，数字就变了。这让很多人放弃了追问，转而用市盈率、市净率这些更容易比较的指标来做「估值」但正如阿斯瓦斯·达莫达兰 (Aswath Damodaran) 所指出的，所有估值方法归根到底只有四种路径：基于资产的估值、基于现金流折现的内在估值、基于可比定价的相对估值、以及基于期权定价的估值。 「企业或资产的估值可以通过四种方式之一进行：基于资产的方法，估算企业当前拥有的资产价值; 内在估值方法，通过折现现金流来得出股权或企业的价值; 定价方法，基于可比资产的市场定价来决定应付多少; 以及期权定价方法，使用或有索取权估值。」
+
+" Firms or assets can be valued in one of four ways: asset- based valuation approaches where you estimate what the assets owned by a firm are worth currently, intrinsic valuation approaches that discount cash flows to arrive at a value of equity or the firm , pricing approaches that base how much to pay for an asset based on how comparable assets are priced, and option pricing approaches that use contingent claim valuation. "
+
+阿斯瓦斯·达莫达兰 (Aswath Damodaran)，《投资估值》
+
+四种路径中，只有第二种折现现金流试图回答 「这个东西本身值多少」这个问题。其余三种要么依赖于市场对其他资产的定价 (相对估值)，要么基于静态的资产负债表快照，要么处理的是高度不确定的非线性收益结构。大多数投资者日常使用的市盈率比较法，本质上属于第三种定价，而不是估值。你在说的是 「市场给类似公司定了什么价 」，而不是 「这家公司本身值多少」。这两个问题的答案可以重合，也可以相差十万八千里。
+
+对内在价值最富洞察力的分歧，发生在格雷厄姆和他的一位最重要的同代人之间。
+
+菲利普·费雪 (Philip Fisher) 一生只写过极少量的文字，但他对投资的理解与格雷厄姆形成了一种深刻的对照。费雪承认格雷厄姆的方法是有效的，但他自己走的是一条完全不同的路。他说，格雷厄姆的方法是 「找到那些现在就被严重低估的股票，买下它们，无论未来内在价值是否增长，你最终都能赚钱」而他自己的方法则是 「选择那些未来内在价值会大幅增长的公司，只要你不在买入时落入高估的陷阱，你最终会赚到钱而且是很多钱。」
+
+" There is a second method so ably expounded by the late Benjamin Graham … This is to find stocks that are so undervalued right now that if you buy them today you will in time make money, whether they increase in intrinsic value in the future or not. MY method is quite different. It is how to select situations that will increase so much in intrinsic value in the future so that, so long as you do not fall into the trap of the two-tier market period and pay too much for them at the time of purchase, you will in time make money, and lots of it. "
+
+菲利普·费雪 (Philip Fisher)，《菲利普·费雪文集》
+
+这段话揭示了内在价值概念内部一条不易察觉的断层线：内在价值是一个静态量还是一个动态量?
+格雷厄姆倾向于把它当作一个在买入那一刻就可以大致锁定的数字。你算出净资产、算出当前盈利能力，用一个保守的倍数得到一个估值区间，然后在市场价格远低于这个区间时买入。你赚的钱来自于 「差距的收窄」——市场终将认识到你所认识到的价值。
+费雪的视角完全不同。他不那么关心买入那一刻的折扣，他关心的是这家企业未来十年、二十年内在价值能增长多少。一家年复合增长15%的企业，即使你在买入时只获得了很小的折扣，十年后它的内在价值将是今天的四倍时间本身为你创造了安全空间。
+巴菲特后来说自己是 「85%的格雷厄姆加15%的费雪 」，但他的实际投资轨迹从早期的雪茄烟蒂到后来的喜诗糖果、可口可乐、苹果清楚地表明，费雪的影响随时间不断加深。内在价值在巴菲特的框架里，从一个静态的资产负债表数字，逐渐演变成一个由未来自由现金流的增长路径所决定的动态轨迹。
+格雷厄姆的后继者们为了调和这个张力，发展出了一个中间概念：盈利能力价值（Earnings Power Value，EPV）. 这个方法的核心假设是：假定企业既不增长也不萎
+
+缩，以当前的盈利能力永续经营，它值多少钱? 「传统的格雷厄姆和多德盈利假设是：盈利水平和投资者为这些盈利所要求的回报率即资本成本在无限期的未来保持不变。它们假设企业既不增长也不萎缩 …这个格雷厄姆和多德式定义的好处在于，通过搁置增长问题，它极大地简化了对当前盈利的价值计算。」
+
+" The traditional Graham and Dodd earnings assumptions are that earnings levels and the return investors require to justify an investment in those earnings—the cost of capital—are constant for the indefinite future. They assume that a business neither grows nor shrinks… part of the benefit of this Graham and Dodd definition of earnings power is that by deferring issues of growth , it greatly simplifies calculation of the value of today ' s earnings. "
+
+沃伦·巴菲特 (此处引自格林沃尔德对格雷厄姆- 多德框架的阐释)，《价值投资》
+
+EPV是一种刻意的自我约束。它承认增长的估算极不可靠，所以干脆先不算增长，只看当前的赚钱能力能支撑多少价值。如果不考虑增长就已经足够便宜，那增长就是免费赠品。如果必须依赖高增长假设才能证明当前价格合理，你就站在了一块危险的地面上。
+
+但有一种更隐蔽的危险，是内在价值的估算被锚定在一个错误的叙事上。
+
+比尔·阿克曼 (Bill Ackman) 在Valeant制药上的惨痛教训，是这种危险的经典注脚。阿克曼在买入时认为，以Valeant当时的资产来看，买入价代表了 「对公司现有资产价值的适度折扣 」，同时由于管理层会继续以高回报率进行收购，他预期的内在价值远高于当时的股价。 「回头看，之前的管理层在公司最大的一笔收购中严重多付了钱。」
+
+" when we acquired Valeant, we viewed our purchase price as representing a modest discount to the value of the company ' s existing assets, but a large discount to intrinsic value in light of our expectation that management would continue to be able to invest capital in new transactions on terms that would create significant long-term value … In retrospect, it appears that prior management substantially overpaid for the company ' s largest acquisition. "
+
+比尔·阿克曼 (Bill Ackman)，潘兴广场致投资者信
+
+阿克曼的错误不在于折现现金流模型的数学，而在于模型的输入假设。他的内在价值估算建立在 「管理层将持续以高回报率配置资本」这个前提之上。当这个前提崩塌——管理层在最大一笔并购中严重多付了钱——整个价值框架就像地基被抽走的大楼一样垮塌了。内在价值的计算是」 garbage in , garbage out 「的如果你对企业未来现金流的判断建立在对管理层能力的盲目信任之上，那你得到的不是内在价值，而是一个自我欺骗的数字。
+霍华德·马克斯 (Howard Marks) 对这种危险有着清醒的认识。他提出过一个看似简单却极具穿透力的观察：即使是最好的公司，其股票也可能变得过于昂贵，而且事实上，它们往往是最容易被高估的股票。」1968年我刚入行时，' 漂亮五十 ' 中的公司运
+
+用着计算机 (IBM) 和干式复印 (施乐) 这样的现代奇迹同样被认为会超越其他所有公司，对竞争和经济周期免疫，因而获得了史无前例的估值倍数。在接下来的五年里，这些公司的股东几乎损失了全部投资。」
+
+" Even the best companies ' stocks can become overpriced , and in fact they ' re often the stocks most likely to do so . when I first entered the business in 1968, the companies of the Nifty Fifty - deploying modern wonders like computing (IBM) and dry copying (xerox) - were likewise expected to outgrow the rest and prove impervious to competition and economic cycles, and thus were awarded unprecedented multiples. In the next five years, their stockholders lost almost all their money. "
+
+霍华德·马克斯 (Howard Marks)，橡树资本备忘录
+
+马克斯的洞察触及了内在价值概念最容易被误用的地方。 IBM和施乐确实是伟大的企业，它们的内在价值确实在增长。但投资者为它们支付的价格不仅反映了真实的内在价值，还叠加了关于无限增长的浪漫叙事。当现实无法匹配叙事不是企业变差了，只是增速放缓了价格从叙事锚点回归内在价值的过程，足以摧毁十年的财富。
+这就引出了一个微妙但关键的区分：高估值不等于昂贵，低估值也不等于便宜。特里·史密斯 (Terry Smith) 对此说得很直接。他指出自己的投资组合中的公司 「在基本面上远好于任一指数的平均水平，估值也比平均水平高 」，但 「高估值并不等同于昂贵，正如低估值也不等同于便宜。」
+
+" our portfolio consists of companies that are fundamentally a lot better than the average of those in either index and are valued more highly than the average FTSE 100 company and a bit higher than the average S&P 500 company but with significantly higher quality. It is wise to bear in mind that, despite the rather sloppy shorthand used by many commentators, highly rated does not equate to expensive any more than lowly rated equates to cheap. "
+
+特里·史密斯 (Terry Smith)，《投资于增长》
+
+一家年赚20亿、年增长15%、几乎不需要额外资本投入的企业，和一家年赚20亿但处于衰退行业、每年需要投入巨额资本维持现有产能的企业，它们的内在价值天差地别即使当前的盈利数字看上去模一样。用同一个市盈率去比较这两家公司，就好像用身高去比较一个篮球运动员和一个举重运动员你测量的维度跟你关心的能力根本不匹配。
+
+理解了这些张力，我们可以回头审视内在价值这个概念在投资实践中真正扮演的角色。它不是一个公式，不是一个你可以用Excel算到小数点后两位的数字。它是一种思维框架——一种迫使你回答——「我为什么认为这个东西值这么多」的纪律。
+
+弗朗索瓦·罗尚 (François Rochon) 在他的年度致合伙人信中写过一段话，把内在价值的长期锚定效应说得异常清楚。他说，「没有任何危机无论是经济的、地缘政治的还是社会性的——能够削弱本杰明·格雷厄姆的基本投资方法哪怕分毫。将近一个世纪前的1934年，格雷厄姆和多德出版了 《证券分析》。两位作者指出，投资股票市场本质上是获取企业的部分所有权，而一家企业的内在价值最终会在长期内反映在它的股价上。」
+
+" No crises, whether economic, geopolitical , or social , have managed to undermine Benjamin Graham ' s fundamental investment approach by one iota. Almost a century ago , in 1934, Ben Graham and David Dodd published a book called security Analysis. The authors stipulated that investing in the stock market is first and foremost about acquiring fractional ownership in businesses and that a business ' intrinsic value will eventually be reflected in a company ' s stock price over the long term . "
+
+弗朗索瓦·罗尚 (François Rochon)，吉弗尼资本致合伙人年信
+
+「最终会反映」 这四个字是整个价值投资信仰体系的拱顶石。市场在短期内是投票机，由情绪、叙事和资金流驱动; 在长期内是称重机，由自由现金流和资本回报率决定。内在价值是那台称重机上的读数。你可能无法精确知道读数是多少，但你相信那台秤是存在的，而且时间会让它说话。
+莫尼什·帕伯莱 (Mohnish Pabrai) 用格雷厄姆的三大支柱来概括这个信仰。 「一、第八章市场先生的类比。让股市为你服务. … 二、股票是企业的一部分。永远不要忘记你买的是一家企业，其内在价值取决于进出的现金流。三、第二十章安全边际。确保你买入企业的价格远低于你保守估计的价值。」
+
+" 1. Chapter 8 —The Mr. Market analogy. Make the stock market serve you… 2. A stock is a piece of a business. Never forget that you are buying a business which has an underlying value based on how much cash goes in and out. 3. Chapter 20 —Margin of safety. Make sure that you are buying a business for way less than you think it is conservatively worth. "
+
+莫尼什·帕伯莱 (Mohnish Pabrai)，《丹多投资者》
+
+三条支柱环环相扣：市场先生告诉你价格会偏离价值、企业所有权思维告诉你价值由现金流决定、安全边际告诉你在估值不精确的前提下如何行动。内在价值是这三条支柱交汇的那个点它是你用来判断市场先生报价是否疯狂的参照系，是你用来理解自己到底拥有什么的思维锚点，也是安全边际的起算基准。没有对内在价值的独立判断，前两条支柱就是空谈，第三条支柱就无从度量。
+
+但我们必须对这个概念保持一种健康的不安。
+
+内在价值最大的诱惑是让人产生一种虚假的确定感。你建了一个折现现金流模型，用了 「保守」的假设，得到了一个数字，于是觉得自己知道了真相。但模型的每一个输入都是猜测，增长率是猜测，折现率是猜测，终值的假设更是猜测中的猜测。把一连串猜测放进一个精密的数学框架里，你得到的不是真理，而是一种经过包装的主观判断。
+格雷厄姆比任何人都更早意识到了这一点，所以他才会说安全边际的功能是 「使投资者不必对未来做出精确的预测」。他是在用另一种方式告诉你：你算不准内在价值，没有人算得准。但你不需要算准。你需要的是一种思维习惯——在每一次投资决策中追问 「如果我错了会怎样」，然后确保即使你错了，损失也是可以承受的。
+内在价值不是一个答案。它是一个问题个你必须持续追问、永远无法完美回答、但一旦停止追问就注定会犯大错的问题。从1934年格雷厄姆和多德在哥伦比亚大学的教室里开始提问，到今天全球数以万计的投资者在各自的电子表格上反复修改假设，这个问题从未被解决过，也不应该被解决。它的力量恰恰在于它的不可解：正因为内在价值不能被精确计算，投资才不会退化为一道算术题; 正因为它必须被持续追问，投资者才不得不保持谦逊、保持好奇、保持对自身无知的清醒。
+那台称重机一直在那里。你看不清刻度，但你知道它存在。这就够了。
