@@ -195,4 +195,17 @@ export const articles: Article[] = [
     author: '邬可遥',
     source: '可遥笔记',
   },
+  {
+    id: 'vi15',
+    number: 15,
+    title: '护城河的宽度与寿命：一场关于持久性的漫长争论',
+    subtitle: '核心概念',
+    description: '护城河不是一种状态，而是一种动态。它在不断被侵蚀，也在不断被修筑。你看到的不是一张照片，而是一部电影。',
+    publishDate: '2026-05-24',
+    slug: 'vi15',
+    color: '#0284c7',
+    tags: ['护城河', '竞争优势期', '均值回归', 'CAP', '莫布森'],
+    author: '邬可遥',
+    source: '可遥笔记',
+  },
 ];
