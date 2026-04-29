@@ -42,6 +42,12 @@ const categoryColors: Record<string, string> = {
             <span class="author-card__source">{list.source}</span>
           </div>
           <p class="booklist__desc">{list.description}</p>
+          <div class="download-card">
+            <span class="download-card__icon">📎</span>
+            <a class="download-card__link" href="https://pan.baidu.com/s/1BXRPZ7SmAXRydbnkqA2XWQ" target="_blank" rel="noopener noreferrer">网盘资源</a>
+            <span class="download-card__sep">·</span>
+            <span class="download-card__code">提取码：19zV</span>
+          </div>
           <div class="category-legend">
             {allCategories.map(cat => (
               <span class="category-tag" style={`--cat-color: ${categoryColors[cat] || '#6b7280'};`}>
@@ -140,6 +146,44 @@ const categoryColors: Record<string, string> = {
     flex-wrap: wrap;
     gap: 8px;
     margin-top: 16px;
+  }
+
+  .download-card {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 16px;
+    padding: 8px 16px;
+    background: var(--color-border-subtle);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+    font-size: 13px;
+  }
+
+  .download-card__icon {
+    font-size: 15px;
+  }
+
+  .download-card__link {
+    color: var(--color-link, #0ea5e9);
+    font-weight: 600;
+    text-decoration: none;
+    transition: opacity 0.2s;
+  }
+
+  .download-card__link:hover {
+    opacity: 0.8;
+    text-decoration: underline;
+  }
+
+  .download-card__sep {
+    color: var(--color-border);
+  }
+
+  .download-card__code {
+    color: var(--color-text-secondary);
+    font-family: monospace;
+    letter-spacing: 0.5px;
   }
 
   .category-tag {
