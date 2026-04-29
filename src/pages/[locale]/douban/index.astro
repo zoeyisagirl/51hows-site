@@ -28,24 +28,19 @@ const categoryColors: Record<string, string> = {
     <div class="page-header">
       <p class="section-title">{t.doubanPage.sectionTitle}</p>
       <h1 class="section-heading">{t.doubanPage.heading}</h1>
-      <p class="page-desc">{t.doubanPage.description}</p>
+      <p class="page-desc">
+        {t.doubanPage.description}
+        <span class="download-inline">
+          <span class="download-inline__sep">·</span>
+          <a class="download-inline__link" href="https://pan.baidu.com/s/1BXRPZ7SmAXRydbnkqA2XWQ" target="_blank" rel="noopener noreferrer">📎 网盘资源</a>
+          <span class="download-inline__code">提取码 19zV</span>
+        </span>
+      </p>
     </div>
 
     {doubanBookLists.map(list => (
       <div class="booklist">
         <div class="booklist__header">
-          <div class="author-card">
-            <span class="author-card__label">来源</span>
-            <span class="author-card__name">{list.author}</span>
-            <span class="author-card__sep">·</span>
-            <span class="author-card__source">{list.source}</span>
-          </div>
-          <div class="download-card">
-            <span class="download-card__icon">📎</span>
-            <a class="download-card__link" href="https://pan.baidu.com/s/1BXRPZ7SmAXRydbnkqA2XWQ" target="_blank" rel="noopener noreferrer">网盘资源</a>
-            <span class="download-card__sep">·</span>
-            <span class="download-card__code">提取码：19zV</span>
-          </div>
           <div class="category-legend">
             {allCategories.map(cat => (
               <span class="category-tag" style={`--cat-color: ${categoryColors[cat] || '#6b7280'};`}>
@@ -83,8 +78,37 @@ const categoryColors: Record<string, string> = {
     color: var(--color-text-secondary);
     font-size: 16px;
     margin-top: 12px;
-    max-width: 600px;
+    max-width: 640px;
     line-height: 1.7;
+  }
+
+  .download-inline {
+    white-space: nowrap;
+  }
+
+  .download-inline__sep {
+    margin: 0 6px;
+    color: var(--color-border);
+  }
+
+  .download-inline__link {
+    color: var(--color-link, #0ea5e9);
+    font-weight: 600;
+    text-decoration: none;
+    transition: opacity 0.2s;
+  }
+
+  .download-inline__link:hover {
+    opacity: 0.8;
+    text-decoration: underline;
+  }
+
+  .download-inline__code {
+    margin-left: 4px;
+    color: var(--color-text-muted);
+    font-size: 13px;
+    font-family: monospace;
+    letter-spacing: 0.5px;
   }
 
   .booklist {
@@ -95,93 +119,11 @@ const categoryColors: Record<string, string> = {
     margin-bottom: 32px;
   }
 
-  .booklist__title {
-    font-size: 24px;
-    font-weight: 700;
-    color: var(--color-text);
-    margin-bottom: 16px;
-  }
-
-  .booklist__desc {
-    color: var(--color-text-secondary);
-    font-size: 15px;
-    line-height: 1.7;
-    margin-top: 16px;
-    max-width: 640px;
-  }
-
-  .author-card {
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
-    padding: 6px 14px;
-    background: var(--color-border-subtle);
-    border: 1px solid var(--color-border);
-    border-radius: var(--radius-md);
-    font-size: 13px;
-  }
-
-  .author-card__label {
-    color: var(--color-text-muted);
-    font-weight: 500;
-  }
-
-  .author-card__name {
-    color: var(--color-text);
-    font-weight: 600;
-  }
-
-  .author-card__sep {
-    color: var(--color-border);
-  }
-
-  .author-card__source {
-    color: var(--color-text-secondary);
-  }
-
   .category-legend {
     display: flex;
     flex-wrap: wrap;
     gap: 8px;
     margin-top: 16px;
-  }
-
-  .download-card {
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
-    margin-top: 16px;
-    padding: 8px 16px;
-    background: var(--color-border-subtle);
-    border: 1px solid var(--color-border);
-    border-radius: var(--radius-md);
-    font-size: 13px;
-  }
-
-  .download-card__icon {
-    font-size: 15px;
-  }
-
-  .download-card__link {
-    color: var(--color-link, #0ea5e9);
-    font-weight: 600;
-    text-decoration: none;
-    transition: opacity 0.2s;
-  }
-
-  .download-card__link:hover {
-    opacity: 0.8;
-    text-decoration: underline;
-  }
-
-  .download-card__sep {
-    color: var(--color-border);
-  }
-
-  .download-card__code {
-    color: var(--color-text-secondary);
-    font-family: monospace;
-    letter-spacing: 0.5px;
   }
 
   .category-tag {
