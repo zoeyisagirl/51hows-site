@@ -193,7 +193,6 @@ export default {
     sectionTitle: '他山之玉',
     heading: '豆瓣书单',
     description: 'ym 在 14 年的豆瓣书单',
-    comingSoon: '内容筹备中，即将上线',
   },
 
   // ====== 页脚 ======

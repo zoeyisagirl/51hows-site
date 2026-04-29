@@ -192,8 +192,7 @@ export default {
   doubanPage: {
     sectionTitle: 'Others',
     heading: 'Douban Books',
-    description: 'Curated book recommendations covering investing, thinking, education and more.',
-    comingSoon: 'Coming soon',
+    description: "ym's Douban booklist from 2014",
   },
 
   // ====== Footer ======

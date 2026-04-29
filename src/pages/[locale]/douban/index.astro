@@ -1,5 +1,6 @@
 ---
 import Layout from '../../../layouts/Layout.astro';
+import { doubanBookLists } from '../../../data/douban-books';
 import { getDictionary, type Locale } from '../../../i18n';
 
 export function getStaticPaths() {
@@ -8,6 +9,18 @@ export function getStaticPaths() {
 
 const { locale } = Astro.params as { locale: Locale };
 const t = getDictionary('zh');
+
+// 统计所有分类
+const allCategories = [...new Set(doubanBookLists.flatMap(list => list.books.map(b => b.category)))];
+
+// 获取分类对应的色标
+const categoryColors: Record<string, string> = {
+  '商业': '#0ea5e9',
+  '个人成长': '#10b981',
+  '文学': '#f59e0b',
+  '技术': '#8b5cf6',
+  '其他': '#6b7280',
+};
 ---
 
 <Layout title={t.doubanPage.heading} locale={locale} t={t} disableLangSwitch={true}>
@@ -18,10 +31,42 @@ const t = getDictionary('zh');
       <p class="page-desc">{t.doubanPage.description}</p>
     </div>
 
-    <div class="coming-soon">
-      <div class="coming-soon__icon">📚</div>
-      <p class="coming-soon__text">{t.doubanPage.comingSoon}</p>
-    </div>
+    {doubanBookLists.map(list => (
+      <div class="booklist">
+        <div class="booklist__header">
+          <h2 class="booklist__title">{list.title}</h2>
+          <div class="author-card">
+            <span class="author-card__label">来源</span>
+            <span class="author-card__name">{list.author}</span>
+            <span class="author-card__sep">·</span>
+            <span class="author-card__source">{list.source}</span>
+          </div>
+          <p class="booklist__desc">{list.description}</p>
+          <div class="category-legend">
+            {allCategories.map(cat => (
+              <span class="category-tag" style={`--cat-color: ${categoryColors[cat] || '#6b7280'};`}>
+                {cat}
+              </span>
+            ))}
+          </div>
+        </div>
+
+        <div class="books-grid">
+          {list.books.map((book, i) => (
+            <div class="book-card" style={`--cat-color: ${categoryColors[book.category] || '#6b7280'};`}>
+              <span class="book-card__num">{i + 1}</span>
+              <div class="book-card__body">
+                <h3 class="book-card__title">{book.title}</h3>
+                <p class="book-card__author">{book.author}</p>
+              </div>
+              <span class="book-card__category">{book.category}</span>
+            </div>
+          ))}
+        </div>
+
+        <p class="booklist__count">共 {list.books.length} 本</p>
+      </div>
+    ))}
   </div>
 </Layout>
 
@@ -38,23 +83,163 @@ const t = getDictionary('zh');
     line-height: 1.7;
   }
 
-  .coming-soon {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 80px 24px;
-    text-align: center;
+  .booklist {
+    margin-bottom: 64px;
   }
 
-  .coming-soon__icon {
-    font-size: 48px;
+  .booklist__header {
+    margin-bottom: 32px;
+  }
+
+  .booklist__title {
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--color-text);
     margin-bottom: 16px;
   }
 
-  .coming-soon__text {
-    font-size: 16px;
+  .booklist__desc {
+    color: var(--color-text-secondary);
+    font-size: 15px;
+    line-height: 1.7;
+    margin-top: 16px;
+    max-width: 640px;
+  }
+
+  .author-card {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 6px 14px;
+    background: var(--color-border-subtle);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+    font-size: 13px;
+  }
+
+  .author-card__label {
     color: var(--color-text-muted);
     font-weight: 500;
+  }
+
+  .author-card__name {
+    color: var(--color-text);
+    font-weight: 600;
+  }
+
+  .author-card__sep {
+    color: var(--color-border);
+  }
+
+  .author-card__source {
+    color: var(--color-text-secondary);
+  }
+
+  .category-legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 16px;
+  }
+
+  .category-tag {
+    display: inline-block;
+    padding: 2px 10px;
+    border-radius: 100px;
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--cat-color);
+    border: 1px solid var(--cat-color);
+    background: transparent;
+  }
+
+  .books-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .book-card {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 16px 20px;
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+    border-left: 3px solid var(--cat-color);
+    transition: border-color 0.2s, box-shadow 0.2s;
+  }
+
+  .book-card:hover {
+    border-color: var(--cat-color);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  }
+
+  .book-card__num {
+    flex-shrink: 0;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: var(--color-border-subtle);
+    color: var(--color-text-muted);
+    font-size: 13px;
+    font-weight: 600;
+  }
+
+  .book-card__body {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .book-card__title {
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--color-text);
+    line-height: 1.4;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .book-card__author {
+    font-size: 13px;
+    color: var(--color-text-secondary);
+    margin-top: 2px;
+  }
+
+  .book-card__category {
+    flex-shrink: 0;
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--cat-color);
+    padding: 2px 10px;
+    border-radius: 100px;
+    background: color-mix(in srgb, var(--cat-color) 10%, transparent);
+  }
+
+  .booklist__count {
+    margin-top: 20px;
+    font-size: 14px;
+    color: var(--color-text-muted);
+    text-align: right;
+  }
+
+  @media (max-width: 640px) {
+    .book-card {
+      padding: 12px 14px;
+      gap: 10px;
+    }
+
+    .book-card__category {
+      display: none;
+    }
+
+    .booklist__title {
+      font-size: 20px;
+    }
   }
 </style>
