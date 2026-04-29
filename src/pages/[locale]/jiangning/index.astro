@@ -34,7 +34,8 @@ const t = getDictionary('zh');
             <p class="post-card__desc">{post.description}</p>
             <div class="post-card__meta">
               <span class="meta-badge">{post.publishDate}</span>
-              <span class="meta-badge meta-badge--source">{post.author}</span>
+              <span class="meta-badge meta-badge--author">{post.author}</span>
+              <span class="meta-badge meta-badge--source">{post.source}</span>
               {post.tags.slice(0, 3).map(tag => (
                 <span class="meta-badge meta-badge--tag">{tag}</span>
               ))}
@@ -187,6 +188,13 @@ const t = getDictionary('zh');
     background: transparent;
     color: var(--color-text-muted);
     border-color: var(--color-border);
+  }
+
+  .meta-badge--author {
+    color: var(--color-text);
+    border-color: var(--color-border);
+    background: var(--color-surface);
+    font-weight: 600;
   }
 
   .meta-badge--source {
