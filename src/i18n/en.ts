@@ -183,8 +183,8 @@ export default {
     heading: 'Jiangning',
     description: 'Articles coming soon.',
     authorLabel: 'Author',
-    authorName: 'Jiangning',
-    authorSource: 'WeChat: 江宁织造',
+    authorName: 'Jīnduī Jiǎnbào',
+    authorSource: 'WeChat: 锦堆剪报',
     comingSoon: 'Coming soon',
   },
 

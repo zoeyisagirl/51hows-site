@@ -8,7 +8,7 @@ export default {
     concepts: '核心概念',
     others: '他山之玉',
     keyao: '可遥笔记',
-    jiangning: '江宁织造',
+    jiangning: '锦堆剪报',
     douban: '豆瓣书单',
     about: '关于',
     menu: '菜单',
@@ -177,10 +177,10 @@ export default {
     nextArticle: '下一篇 →',
   },
 
-  // ====== 江宁织造页 ======
+  // ====== 锦堆剪报页 ======
   jiangningPage: {
     sectionTitle: '他山之玉',
-    heading: '江宁织造',
+    heading: '锦堆剪报',
     description: '来自不同公众号的精选文章，多元视角，他山之玉，可以攻玉。',
     authorLabel: '来源',
     authorName: '多位作者',
