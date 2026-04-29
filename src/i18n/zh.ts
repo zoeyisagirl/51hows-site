@@ -192,7 +192,7 @@ export default {
   doubanPage: {
     sectionTitle: '他山之玉',
     heading: '豆瓣书单',
-    description: '精选书单推荐，涵盖投资、思维、教育等领域。',
+    description: 'ym 在 14 年的豆瓣书单',
     comingSoon: '内容筹备中，即将上线',
   },
 
