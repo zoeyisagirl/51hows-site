@@ -234,4 +234,17 @@ export const articles: Article[] = [
     author: '邬可遥',
     source: '可遥笔记',
   },
+  {
+    id: 'vi18',
+    number: 18,
+    title: '资本的诅咒：能源与资源行业的周期、幻觉与生存法则',
+    subtitle: '深度分析',
+    description: '大宗商品行业不是一个奖励远见的行业，它是一个惩罚贪婪、奖励耐心的行业。你能投资的唯一类型是成本曲线上最左端的那一小撮企业。',
+    publishDate: '2026-06-14',
+    slug: 'vi18',
+    color: '#92400e',
+    tags: ['资本周期', '能源', '大宗商品', '页岩油', '巴菲特'],
+    author: '邬可遥',
+    source: '可遥笔记',
+  },
 ];
