@@ -128,6 +128,22 @@ export const chapters: Chapter[] = [
     color: '#ec4899',
     tags: ['番外', 'Anything', '二流技术', '实用指南'],
   },
+  {
+    id: 'how7',
+    number: 7,
+    title: '怎样 Anything 2026 版',
+    titleEn: 'How to Do Anything — 2026 Edition',
+    subtitle: 'How to do anything · 2026 edition',
+    description: '2026 年的新番外。AI 重塑一切的时代，二流技术也在升级——用新工具、新思路重新回答那些老问题。',
+    descriptionEn: 'The new extra chapter for 2026. In an era where AI reshapes everything, even second-tier techniques get an upgrade — revisiting old questions with new tools and new thinking.',
+    publishDate: '2026-03-13',
+    type: 'extra',
+    pages: 0,
+    status: 'available',
+    slug: 'how7',
+    color: '#0ea5e9',
+    tags: ['番外', 'Anything', '2026', 'AI时代', '新工具'],
+  },
 
 ];
 
