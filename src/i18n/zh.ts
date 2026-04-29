@@ -181,10 +181,10 @@ export default {
   jiangningPage: {
     sectionTitle: '他山之玉',
     heading: '江宁织造',
-    description: '文章即将上线，敬请期待。',
-    authorLabel: '作者',
-    authorName: '江宁织造',
-    authorSource: '微信公众号：江宁织造',
+    description: '来自不同公众号的精选文章，多元视角，他山之玉，可以攻玉。',
+    authorLabel: '来源',
+    authorName: '多位作者',
+    authorSource: '精选公众号文章',
     comingSoon: '内容筹备中，即将上线',
   },
 
