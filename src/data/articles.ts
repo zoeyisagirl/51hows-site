@@ -182,4 +182,17 @@ export const articles: Article[] = [
     author: '邬可遥',
     source: '可遥笔记',
   },
+  {
+    id: 'vi14',
+    number: 14,
+    title: '卡尼曼与芒格：投资错误的心理学地图',
+    subtitle: '深度分析',
+    description: '三条路径，一个结论：投资中最危险的对手不是市场，不是宏观经济，不是竞争对手——是投资者自己那台运转不息却系统性出错的认知机器。',
+    publishDate: '2026-05-17',
+    slug: 'vi14',
+    color: '#0f766e',
+    tags: ['卡尼曼', '芒格', '行为金融学', '认知偏误', '系统一系统二'],
+    author: '邬可遥',
+    source: '可遥笔记',
+  },
 ];
