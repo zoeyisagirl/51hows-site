@@ -9,6 +9,7 @@ export default {
     others: '他山之玉',
     keyao: '可遥笔记',
     jiangning: '锦堆剪报',
+    jiangningOrig: '江宁织造',
     douban: '豆瓣书单',
     about: '关于',
     menu: '菜单',
@@ -193,6 +194,14 @@ export default {
     sectionTitle: '他山之玉',
     heading: '豆瓣书单',
     description: 'ym 在 14 年的豆瓣书单',
+  },
+
+  // ====== 江宁织造页 ======
+  jiangningOrigPage: {
+    sectionTitle: '他山之玉',
+    heading: '江宁织造',
+    description: '内容筹备中',
+    comingSoon: '即将上线',
   },
 
   // ====== 页脚 ======

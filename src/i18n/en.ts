@@ -9,6 +9,7 @@ export default {
     others: 'Others',
     keyao: 'Keyao Notes',
     jiangning: 'Jiangning',
+    jiangningOrig: 'Jiangning Weaving',
     douban: 'Douban Books',
     about: 'About',
     menu: 'Menu',
@@ -193,6 +194,14 @@ export default {
     sectionTitle: 'Others',
     heading: 'Douban Books',
     description: "ym's Douban booklist from 2014",
+  },
+
+  // ====== Jiangning Orig Page ======
+  jiangningOrigPage: {
+    sectionTitle: 'Others',
+    heading: 'Jiangning Weaving',
+    description: 'Coming soon',
+    comingSoon: 'Coming soon',
   },
 
   // ====== Footer ======
