@@ -34,14 +34,12 @@ const categoryColors: Record<string, string> = {
     {doubanBookLists.map(list => (
       <div class="booklist">
         <div class="booklist__header">
-          <h2 class="booklist__title">{list.title}</h2>
           <div class="author-card">
             <span class="author-card__label">来源</span>
             <span class="author-card__name">{list.author}</span>
             <span class="author-card__sep">·</span>
             <span class="author-card__source">{list.source}</span>
           </div>
-          <p class="booklist__desc">{list.description}</p>
           <div class="download-card">
             <span class="download-card__icon">📎</span>
             <a class="download-card__link" href="https://pan.baidu.com/s/1BXRPZ7SmAXRydbnkqA2XWQ" target="_blank" rel="noopener noreferrer">网盘资源</a>
