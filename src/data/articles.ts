@@ -208,4 +208,17 @@ export const articles: Article[] = [
     author: '邬可遥',
     source: '可遥笔记',
   },
+  {
+    id: 'vi16',
+    number: 16,
+    title: '能力圈：一道你必须自己画的边界',
+    subtitle: '核心概念',
+    description: '能力圈不是一个投资策略，而是一条认知边界。它回答的不是"应该买什么"，而是一个更前置、更根本的问题：你有资格对什么东西下判断？',
+    publishDate: '2026-05-31',
+    slug: 'vi16',
+    color: '#7c3aed',
+    tags: ['能力圈', '巴菲特', '芒格', '帕伯莱', '段永平'],
+    author: '邬可遥',
+    source: '可遥笔记',
+  },
 ];
